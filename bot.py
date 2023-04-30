@@ -12,11 +12,11 @@ class General(app_commands.Group):
     @app_commands.command(name='help', description="This is the Help Command")
     async def tiannahelp(self, interaction: discord.Interaction):
         helpembed = discord.Embed(title="TiannaBot")
-        helpembed.add_field(name='', value='This bot displays information for Berwick Saga (and TearRing Saga soon)', inline=False)
-        avaiable_commands = '/bws unit [name] : Get BWS unit data\n' +\
-                            '/bws item [name] : Get BWS item data : NYI\n' + \
-                            '/trs unit [name] : Get TRS unit data : NYI'
-        helpembed.add_field(name='Avaiable Commands: (WIP)', value=avaiable_commands, inline=False)
+        helpembed.add_field(name='', value='This bot displays information for Berwick Saga and TearRing Saga', inline=False)
+        avaiable_commands = '/bws unit [name] : Get BWS unit data\n' + \
+                            '/bws item [name] : Get BWS item data\n' + \
+                            '/trs unit [name] : Get TRS unit data'
+        helpembed.add_field(name='Avaiable Commands:', value=avaiable_commands, inline=False)
         await interaction.response.send_message(embed=helpembed)
 
 
@@ -34,7 +34,11 @@ class Berwick(app_commands.Group):
 
     @app_commands.command(name='item', description='Get Berwick Saga item data')
     async def item(self, interaction: discord.Interaction, item: str):
-        await interaction.response.send_message(f"Item: {item}. This is not implemented yet!")
+        await bws.item(interaction, item)
+
+    @item.autocomplete('item')
+    async def item_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return bws.get_item_name_choices(current)
 
 
 bot.tree.add_command(Berwick(name='bws', description='Berwick Data'))
@@ -44,11 +48,11 @@ class TearRing(app_commands.Group):
 
     @app_commands.command(name='unit', description='Get TearRing Saga unit data')
     async def unit(self, interaction: discord.Interaction, unit: str):
-        await interaction.response.send_message(f"Unit: {unit}. " f"This is not implemented yet!")
+        await trs.unit(interaction, unit)
 
     @unit.autocomplete('unit')
     async def unit_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
-        return trs.get_unit_name_list(current)
+        return trs.get_unit_name_choices(current)
 
 
 bot.tree.add_command(TearRing(name='trs', description='TearRing Data'))

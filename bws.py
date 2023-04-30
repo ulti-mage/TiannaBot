@@ -3,6 +3,7 @@ from discord import app_commands
 import json
 
 bws_unit_data_file = 'bws/unitdata.json'
+bws_item_data_file = 'bws/itemdata.json'
 
 
 class UnitButton(discord.ui.View):
@@ -179,4 +180,62 @@ def get_unit_requirement_embed(unit_json: json):
     if unit_json['misc']['prf']:
         preferentials += unit_json['misc']['prf']
         embed.add_field(name='Preferentials', value=preferentials, inline=False)
+    return embed
+
+
+async def item(interaction: discord.Interaction, name: str):
+    with open(bws_item_data_file, 'r') as f:
+        item_json = json.load(f)
+        if name in item_json:
+            embed = get_item_stats_embed(item_json[name])
+            await interaction.response.send_message(embed=embed)
+        else:
+            await interaction.response.send_message('That item does not exist', ephemeral=True)
+
+
+def get_item_name_choices(ctx: str) -> list[app_commands.Choice]:
+    with open(bws_item_data_file, 'r') as f:
+        item_json = list(json.load(f).keys())
+        choices = []
+        for name in item_json:
+            if (ctx.lower() in name.lower()) and (len(choices) < 25):
+                choices.append(app_commands.Choice(name=name, value=name))
+    return choices
+
+
+def get_item_stats_embed(item_json: json):
+    embed = discord.Embed(title=item_json['name'])
+    stats = ''
+    for value in item_json:
+        match value:
+            case 'might':
+                stats += 'Mt ' + item_json['might'] + ' | '
+            case 'def':
+                stats += 'Def ' + str(item_json['def']) + ' | '
+            case 'hit':
+                stats += 'Hit ' + str(item_json['hit'] * 10) + ' | '
+            case 'weight':
+                stats += 'Wt ' + str(item_json['weight']) + ' | '
+            case 'rank':
+                stats += 'Rank ' + str(item_json['rank']) + ' | '
+            case 'range':
+                stats += 'Rng ' + item_json['range'] + ' | '
+    stats = stats[:-3] + '\n'
+    for value in item_json:
+        match value:
+            case 'durability':
+                stats += 'Durability ' + item_json['durability'] + ' | '
+            case 'usecount':
+                stats += 'Uses ' + str(item_json['usecount']) + ' | '
+            case 'cost':
+                stats += 'Cost ' + str(item_json['cost']) + ' D. | '
+            case 'prf':
+                stats += item_json['prf'] + ' Prf | '
+    stats = stats[:-3]
+    embed.add_field(name='', value=stats, inline=False)
+    for value in item_json:
+        match value:
+            case 'effect':
+                effect = item_json['effect']
+                embed.add_field(name='Notes:', value=effect, inline=False)
     return embed

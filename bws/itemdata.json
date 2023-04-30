@@ -1,0 +1,3044 @@
+{
+   "Bronze Sword": {
+         "name": "Bronze Sword",
+         "might": "6",
+         "hit": 5,
+         "weight": 5,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "cost": 400
+      },
+   "Shortsword": {
+         "name": "Shortsword",
+         "might": "4",
+         "hit": 6,
+         "weight": 3,
+         "rank": 1,
+         "range": "0",
+         "durability": "C",
+         "cost": 600
+      },
+   "Scimitar": {
+         "name": "Scimitar",
+         "might": "9",
+         "hit": 5,
+         "weight": 4,
+         "rank": 2,
+         "range": "0",
+         "durability": "C",
+         "cost": 700
+      },
+   "Longsword": {
+         "name": "Longsword",
+         "might": "9",
+         "hit": 6,
+         "weight": 5,
+         "rank": 2,
+         "range": "0",
+         "durability": "C",
+         "cost": 1200
+      },
+   "Wind Edge": {
+         "name": "Wind Edge",
+         "might": "6",
+         "hit": 5,
+         "weight": 5,
+         "rank": 4,
+         "range": "0",
+         "durability": "C",
+         "cost": 1800,
+         "effect": "Wind damage +5"
+      },
+   "Broadsword": {
+         "name": "Broadsword",
+         "might": "11",
+         "hit": 6,
+         "weight": 6,
+         "rank": 5,
+         "range": "0",
+         "durability": "C",
+         "cost": 2000,
+         "effect": "Critical +6%"
+      },
+   "Scimitar+": {
+         "name": "Scimitar+",
+         "might": "7",
+         "hit": 4,
+         "weight": 7,
+         "rank": 6,
+         "range": "0",
+         "durability": "E",
+         "cost": 1000,
+         "effect": "+1 strikes"
+      },
+   "Killing Edge": {
+         "name": "Killing Edge",
+         "might": "10",
+         "hit": 6,
+         "weight": 5,
+         "rank": 6,
+         "range": "0",
+         "durability": "C",
+         "cost": 2400,
+         "effect": "Critical +18%"
+      },
+   "Saber": {
+         "name": "Saber",
+         "might": "8",
+         "hit": 6,
+         "weight": 3,
+         "rank": 7,
+         "range": "0",
+         "durability": "C",
+         "cost": 1200,
+         "effect": "Critical +7%"
+      },
+   "Altium Sword": {
+         "name": "Altium Sword",
+         "might": "10",
+         "hit": 5,
+         "weight": 7,
+         "rank": 8,
+         "range": "0",
+         "durability": "A",
+         "cost": 2000
+      },
+   "Levin Sword": {
+         "name": "Levin Sword",
+         "might": "5",
+         "hit": 4,
+         "weight": 5,
+         "rank": 8,
+         "range": "0",
+         "durability": "D",
+         "cost": 3000,
+         "effect": "Thunder damage +9"
+      },
+   "Rapier": {
+         "name": "Rapier",
+         "might": "7",
+         "hit": 7,
+         "weight": 3,
+         "rank": 7,
+         "range": "0",
+         "durability": "C",
+         "cost": 3200,
+         "effect": "Critical +12%, negates shields"
+      },
+   "Albatross": {
+         "name": "Albatross",
+         "might": "12",
+         "hit": 4,
+         "weight": 12,
+         "rank": 12,
+         "range": "0",
+         "durability": "C",
+         "cost": 1000,
+         "effect": "Critical +33%, 50% chance of damaging self"
+      },
+   "Holy Sword": {
+         "name": "Holy Sword",
+         "might": "10",
+         "hit": 5,
+         "weight": 5,
+         "rank": 13,
+         "range": "0",
+         "durability": "C",
+         "cost": 3700,
+         "effect": "Light damage +7, Dark resistance +3"
+      },
+   "Mithril Sword": {
+         "name": "Mithril Sword",
+         "might": "13",
+         "hit": 6,
+         "weight": 4,
+         "rank": 14,
+         "range": "0",
+         "durability": "B",
+         "cost": 4500
+      },
+   "Knight Sword": {
+         "name": "Knight Sword",
+         "might": "8",
+         "hit": 5,
+         "weight": 6,
+         "rank": 15,
+         "range": "0",
+         "durability": "B",
+         "cost": 4800,
+         "effect": "+1 strikes"
+      },
+   "Estoc": {
+         "name": "Estoc",
+         "might": "3",
+         "hit": 8,
+         "weight": 2,
+         "rank": 10,
+         "range": "0",
+         "durability": "B",
+         "cost": 5000,
+         "effect": "x2 strikes, negates shields"
+      },
+   "Grimhild": {
+         "name": "Grimhild",
+         "might": "14",
+         "hit": 8,
+         "weight": 7,
+         "rank": 5,
+         "range": "0",
+         "durability": "C",
+         "cost": 5300,
+         "effect": "Critical +24%"
+      },
+   "Harperia": {
+         "name": "Harperia",
+         "might": "9",
+         "hit": 7,
+         "weight": 3,
+         "rank": 2,
+         "range": "0",
+         "durability": "B",
+         "cost": 6200,
+         "effect": "+1 strikes, Critical +18%"
+      },
+   "Flame Sword": {
+         "name": "Flame Sword",
+         "might": "8",
+         "hit": 5,
+         "weight": 4,
+         "rank": 7,
+         "range": "0",
+         "durability": "C",
+         "cost": 6200,
+         "effect": "Fire damage +7"
+      },
+   "Infernal Edge": {
+         "name": "Infernal Edge",
+         "might": "6",
+         "hit": 6,
+         "weight": 4,
+         "rank": 3,
+         "range": "0",
+         "durability": "C",
+         "cost": 7400,
+         "effect": "Fire damage +10"
+      },
+   "Colichemarde": {
+         "name": "Colichemarde",
+         "might": "7",
+         "hit": 7,
+         "weight": 4,
+         "rank": 7,
+         "range": "0",
+         "durability": "C",
+         "cost": 7600,
+         "effect": "x2 strikes, Critical +12%, negates shields"
+      },
+   "Cutlass": {
+         "name": "Cutlass",
+         "might": "8",
+         "hit": 6,
+         "weight": 3,
+         "rank": 20,
+         "range": "0",
+         "durability": "B",
+         "prf": "Faye",
+         "effect": "+1 strikes, Critical +12%"
+      },
+   "Cutlass+": {
+         "name": "Cutlass+",
+         "might": "12",
+         "hit": 6,
+         "weight": 4,
+         "rank": 20,
+         "range": "0",
+         "durability": "B",
+         "prf": "Faramir",
+         "effect": "+1 strikes, Critical +18%"
+      },
+   "Raze Etoile": {
+         "name": "Raze Etoile",
+         "might": "13",
+         "hit": 5,
+         "weight": 3,
+         "rank": 30,
+         "range": "0",
+         "durability": "D",
+         "prf": "Initial owner",
+         "effect": "Absorbs damage dealt"
+      },
+   "Lady Sword": {
+         "name": "Lady Sword",
+         "might": "10",
+         "hit": 8,
+         "weight": 3,
+         "range": "0",
+         "durability": "D",
+         "cost": 3800,
+         "prf": "Females",
+         "effect": "Critical +33%"
+      },
+   "Gram": {
+         "name": "Gram",
+         "might": "13",
+         "hit": 8,
+         "weight": 4,
+         "range": "0",
+         "durability": "B",
+         "prf": "Reese",
+         "effect": "+1 strikes, Critical +18%, functions as a Miracle Charm"
+      },
+   "Nothung": {
+         "name": "Nothung",
+         "might": "15",
+         "hit": 6,
+         "weight": 5,
+         "range": "0",
+         "durability": "C",
+         "prf": "Reese",
+         "effect": "Light damage +15, Dark resistance +15, recovers all durability every Chapter"
+      },
+   "Verian Sword": {
+         "name": "Verian Sword",
+         "might": "8",
+         "hit": 6,
+         "weight": 4,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "cost": 800
+      },
+   "Old Imperial Sword": {
+         "name": "Old Imperial Sword",
+         "might": "7",
+         "hit": 4,
+         "weight": 8,
+         "rank": 1,
+         "range": "0",
+         "durability": "F",
+         "cost": 300,
+         "effect": "Unused"
+      },
+   "Imperial Sword": {
+         "name": "Imperial Sword",
+         "might": "9",
+         "hit": 5,
+         "weight": 6,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "cost": 600
+      },
+   "Vajra": {
+         "name": "Vajra",
+         "might": "8",
+         "hit": 5,
+         "weight": 10,
+         "rank": 30,
+         "range": "0",
+         "durability": "S",
+         "effect": "Critical +3%, reduces damage taken by 66%"
+      },
+   "Vritra": {
+         "name": "Vritra",
+         "might": "16",
+         "hit": 8,
+         "weight": 5,
+         "range": "0",
+         "durability": "S",
+         "prf": "Faye",
+         "effect": "Critical +18%, negates the damage-reducing effect of Vajra, functions as a Miracle Charm"
+      },
+   "Bastard Sword": {
+         "name": "Bastard Sword",
+         "might": "16",
+         "hit": 5,
+         "weight": 8,
+         "rank": 7,
+         "range": "0",
+         "durability": "B",
+         "cost": 2800
+      },
+   "Zanbato": {
+         "name": "Zanbato",
+         "might": "15",
+         "hit": 3,
+         "weight": 18,
+         "rank": 12,
+         "range": "0",
+         "durability": "F",
+         "cost": 1200,
+         "effect": "Ignores rider's defense and shields when calculating damage to horses"
+      },
+   "Shamshir": {
+         "name": "Shamshir",
+         "might": "14",
+         "hit": 5,
+         "weight": 7,
+         "rank": 12,
+         "range": "0",
+         "durability": "C",
+         "cost": 3000,
+         "effect": "Critical +3%"
+      },
+   "Greatsword": {
+         "name": "Greatsword",
+         "might": "21",
+         "hit": 4,
+         "weight": 10,
+         "rank": 18,
+         "range": "0",
+         "durability": "B",
+         "cost": 3900
+      },
+   "Adrasteia": {
+         "name": "Adrasteia",
+         "might": "20",
+         "hit": 6,
+         "weight": 9,
+         "rank": 8,
+         "range": "0",
+         "durability": "B",
+         "cost": 4700,
+         "effect": "Defense +1"
+      },
+   "Zweihander": {
+         "name": "Zweihander",
+         "might": "17",
+         "hit": 5,
+         "weight": 9,
+         "rank": 20,
+         "range": "0",
+         "durability": "B",
+         "prf": "Marcel",
+         "effect": "+1 strikes"
+      },
+   "Balmung": {
+         "name": "Balmung",
+         "might": "16",
+         "hit": 7,
+         "weight": 8,
+         "rank": 30,
+         "range": "0",
+         "durability": "B",
+         "prf": "Kramer",
+         "effect": "Critical +12%, provides Parry skill, Rank 1 if not given to Kramer"
+      },
+   "Brymranger": {
+         "name": "Brymranger",
+         "might": "16",
+         "hit": 5,
+         "weight": 9,
+         "rank": 30,
+         "range": "0",
+         "durability": "A",
+         "prf": "Sherpa",
+         "effect": "+2 strikes, Avoid -50"
+      },
+   "Iron Club": {
+         "name": "Iron Club",
+         "might": "2",
+         "hit": 5,
+         "weight": 2,
+         "rank": 1,
+         "range": "0",
+         "durability": "E",
+         "cost": 300
+      },
+   "Holy Mace": {
+         "name": "Holy Mace",
+         "might": "7",
+         "hit": 5,
+         "weight": 4,
+         "rank": 1,
+         "range": "0",
+         "durability": "C",
+         "cost": 1000,
+         "effect": "Light damage +3"
+      },
+   "Dark Mace": {
+         "name": "Dark Mace",
+         "might": "9",
+         "hit": 5,
+         "weight": 4,
+         "rank": 6,
+         "range": "0",
+         "durability": "E",
+         "cost": 800,
+         "effect": "Dark damage +7"
+      },
+   "Poison Mace": {
+         "name": "Poison Mace",
+         "might": "7",
+         "hit": 5,
+         "weight": 4,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "effect": "33% to inflict poison on hit, becomes Holy Mace if taken"
+      },
+   "Dagger": {
+         "name": "Dagger",
+         "might": "1+\u03B1",
+         "hit": 6,
+         "weight": 1,
+         "rank": 1,
+         "range": "0",
+         "durability": "C",
+         "cost": 600,
+         "effect": "Critical +3%"
+      },
+   "Letter Opener": {
+         "name": "Letter Opener",
+         "might": "0+\u03B1",
+         "hit": 6,
+         "weight": 1,
+         "rank": 1,
+         "range": "0",
+         "durability": "E",
+         "cost": 300,
+         "effect": "Critical +3%"
+      },
+   "Bolt Knife": {
+         "name": "Bolt Knife",
+         "might": "1+\u03B1",
+         "hit": 6,
+         "weight": 1,
+         "rank": 3,
+         "range": "0",
+         "durability": "E",
+         "cost": 800,
+         "effect": "Thunder damage +3, Injury +33%"
+      },
+   "Dart": {
+         "name": "Dart",
+         "might": "1+\u03B1",
+         "hit": 5,
+         "weight": 1,
+         "rank": 4,
+         "range": "1",
+         "usecount": 6,
+         "cost": 300,
+         "effect": "Critical +3%"
+      },
+   "Air Knife": {
+         "name": "Air Knife",
+         "might": "1+\u03B1",
+         "hit": 6,
+         "weight": 1,
+         "rank": 5,
+         "range": "0",
+         "durability": "E",
+         "cost": 500,
+         "effect": "Wind damage +2"
+      },
+   "Thief's Knife": {
+         "name": "Thief's Knife",
+         "might": "1+\u03B1",
+         "hit": 4,
+         "weight": 1,
+         "rank": 1,
+         "range": "0",
+         "durability": "E",
+         "cost": 1400,
+         "effect": "Mug(+) activation rate +15%"
+      },
+   "Seax": {
+         "name": "Seax",
+         "might": "3+\u03B1",
+         "hit": 5,
+         "weight": 3,
+         "rank": 5,
+         "range": "0",
+         "durability": "C",
+         "cost": 1500,
+         "effect": "Critical +3%"
+      },
+   "Carnwenhau": {
+         "name": "Carnwenhau",
+         "might": "2+\u03B1",
+         "hit": 7,
+         "weight": 1,
+         "rank": 1,
+         "range": "0",
+         "durability": "C",
+         "cost": 2400,
+         "effect": "+1 strikes, Defense +3, Critical +5%"
+      },
+   "Stun Knife": {
+         "name": "Stun Knife",
+         "might": "1+\u03B1",
+         "hit": 5,
+         "weight": 2,
+         "rank": 3,
+         "range": "0",
+         "durability": "D",
+         "cost": 2600,
+         "effect": "33% chance to disarm enemy on hit"
+      },
+   "Killer Knife": {
+         "name": "Killer Knife",
+         "might": "1+\u03B1",
+         "hit": 8,
+         "weight": 2,
+         "rank": 3,
+         "range": "0",
+         "durability": "C",
+         "cost": 3200,
+         "effect": "Critical +18%"
+      },
+   "Blood Knife": {
+         "name": "Blood Knife",
+         "might": "0+\u03B1",
+         "hit": 6,
+         "weight": 2,
+         "rank": 8,
+         "range": "0",
+         "durability": "F",
+         "cost": 500,
+         "effect": "Dark damage +3, absorbs damage dealt"
+      },
+   "Vespa": {
+         "name": "Vespa",
+         "might": "1+\u03B1",
+         "hit": 6,
+         "weight": 2,
+         "rank": 8,
+         "range": "0",
+         "durability": "D",
+         "cost": 1600,
+         "effect": "Critical +9%"
+      },
+   "Tempest Knife": {
+         "name": "Tempest Knife",
+         "might": "1+\u03B1",
+         "hit": 6,
+         "weight": 1,
+         "rank": 5,
+         "range": "0",
+         "durability": "D",
+         "cost": 4800,
+         "effect": "Wind damage +8"
+      },
+   "Shieldknife": {
+         "name": "Shieldknife",
+         "might": "0+\u03B1",
+         "hit": 4,
+         "weight": 1,
+         "rank": 9,
+         "range": "0",
+         "durability": "D",
+         "cost": 5000,
+         "effect": "Critical +33%, reduces damage taken by half"
+      },
+   "Crotalus": {
+         "name": "Crotalus",
+         "might": "1+\u03B1",
+         "hit": 5,
+         "weight": 2,
+         "rank": 3,
+         "range": "0",
+         "durability": "B",
+         "cost": 6000,
+         "effect": "x2 strikes, Critical +6%"
+      },
+   "Magic Knife": {
+         "name": "Magic Knife",
+         "might": "1+\u03B1",
+         "hit": 1,
+         "weight": 1,
+         "rank": 2,
+         "range": "0",
+         "durability": "E",
+         "cost": 6600,
+         "effect": "Magic +6"
+      },
+   "Main Gauche": {
+         "name": "Main Gauche",
+         "might": "0+\u03B1",
+         "hit": 4,
+         "weight": 1,
+         "rank": 10,
+         "range": "0",
+         "durability": "C",
+         "cost": 3000,
+         "effect": "provides Parry skill"
+      },
+   "Throwing Knife": {
+         "name": "Throwing Knife",
+         "might": "1+\u03B1",
+         "hit": 5,
+         "weight": 2,
+         "rank": 11,
+         "range": "0-1",
+         "durability": "D",
+         "cost": 1200,
+         "effect": "Critical +3%"
+      },
+   "Swordbreaker": {
+         "name": "Swordbreaker",
+         "might": "0+\u03B1",
+         "hit": 5,
+         "weight": 2,
+         "rank": 12,
+         "range": "0",
+         "durability": "D",
+         "cost": 2400,
+         "effect": "33% chance to break enemy's sword on hit"
+      },
+   "Poison Knife": {
+         "name": "Poison Knife",
+         "might": "1+\u03B1",
+         "hit": 6,
+         "weight": 1,
+         "rank": 1,
+         "range": "0",
+         "durability": "C",
+         "effect": "66% chance to inflict poison on hit, becomes Dagger if taken"
+      },
+   "Sleep Knife": {
+         "name": "Sleep Knife",
+         "might": "1+\u03B1",
+         "hit": 5,
+         "weight": 2,
+         "rank": 6,
+         "range": "0",
+         "durability": "F",
+         "effect": "20% chance to inflict sleep on hit, becomes Dagger if taken"
+      },
+   "Assassin's Knife": {
+         "name": "Assassin's Knife",
+         "might": "1+\u03B1",
+         "hit": 9,
+         "weight": 1,
+         "range": "0",
+         "durability": "F",
+         "cost": 500,
+         "prf": "Assassins",
+         "effect": "Critical +80%"
+      },
+   "Slim Spear": {
+         "name": "Slim Spear",
+         "might": "5+1H",
+         "hit": 5,
+         "weight": 5,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "cost": 500
+      },
+   "Iron Spear": {
+         "name": "Iron Spear",
+         "might": "8+1H",
+         "hit": 6,
+         "weight": 6,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "cost": 1000
+      },
+   "Pilum": {
+         "name": "Pilum",
+         "might": "12",
+         "hit": 5,
+         "weight": 8,
+         "rank": 1,
+         "range": "1",
+         "usecount": 6,
+         "cost": 300
+      },
+   "Steel Spear": {
+         "name": "Steel Spear",
+         "might": "10+1H",
+         "hit": 5,
+         "weight": 7,
+         "rank": 4,
+         "range": "0",
+         "durability": "C",
+         "cost": 1800
+      },
+   "Harpoon": {
+         "name": "Harpoon",
+         "might": "9",
+         "hit": 5,
+         "weight": 10,
+         "rank": 4,
+         "range": "0",
+         "durability": "F",
+         "cost": 500,
+         "effect": "Injury +12%"
+      },
+   "Prototype Spear": {
+         "name": "Prototype Spear",
+         "might": "12+1H",
+         "hit": 6,
+         "weight": 7,
+         "rank": 6,
+         "range": "0",
+         "durability": "D",
+         "cost": 1500
+      },
+   "Killer Spear": {
+         "name": "Killer Spear",
+         "might": "8+1H",
+         "hit": 6,
+         "weight": 7,
+         "rank": 7,
+         "range": "0",
+         "durability": "D",
+         "cost": 2000,
+         "effect": "Critical +18%"
+      },
+   "Pike": {
+         "name": "Pike",
+         "might": "6+2H",
+         "hit": 4,
+         "weight": 8,
+         "rank": 7,
+         "range": "0",
+         "durability": "C",
+         "cost": 2400,
+         "effect": "Dismounted only"
+      },
+   "Longspear": {
+         "name": "Longspear",
+         "might": "12+1H",
+         "hit": 4,
+         "weight": 8,
+         "rank": 8,
+         "range": "0",
+         "durability": "B",
+         "cost": 2400
+      },
+   "Verutum": {
+         "name": "Verutum",
+         "might": "11",
+         "hit": 5,
+         "weight": 8,
+         "rank": 10,
+         "range": "1",
+         "usecount": 20,
+         "cost": 1000
+      },
+   "Doru": {
+         "name": "Doru",
+         "might": "13",
+         "hit": 4,
+         "weight": 9,
+         "rank": 12,
+         "range": "0",
+         "durability": "D",
+         "cost": 1400,
+         "effect": "For each adjacent ally equipping a Doru, Accuracy +5 and Defense +1"
+      },
+   "Mithril Spear": {
+         "name": "Mithril Spear",
+         "might": "13+1H",
+         "hit": 5,
+         "weight": 6,
+         "rank": 13,
+         "range": "0",
+         "durability": "B",
+         "cost": 3600
+      },
+   "Wind Spear": {
+         "name": "Wind Spear",
+         "might": "10+1H",
+         "hit": 5,
+         "weight": 6,
+         "rank": 13,
+         "range": "0",
+         "durability": "C",
+         "cost": 3800,
+         "effect": "Wind damage +8"
+      },
+   "Euthyphro": {
+         "name": "Euthyphro",
+         "might": "7+1H",
+         "hit": 7,
+         "weight": 6,
+         "rank": 3,
+         "range": "0",
+         "durability": "C",
+         "cost": 4700,
+         "effect": "Thunder damage +5"
+      },
+   "Javelin": {
+         "name": "Javelin",
+         "might": "17",
+         "hit": 5,
+         "weight": 8,
+         "rank": 15,
+         "range": "1",
+         "usecount": 6,
+         "cost": 600
+      },
+   "Partisan": {
+         "name": "Partisan",
+         "might": "22",
+         "hit": 3,
+         "weight": 10,
+         "rank": 16,
+         "range": "0",
+         "durability": "C",
+         "cost": 5000,
+         "effect": "Defense +3, Cripple +1%"
+      },
+   "Angon": {
+         "name": "Angon",
+         "might": "13",
+         "hit": 6,
+         "weight": 6,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "C",
+         "cost": 5500,
+         "effect": "Critical +9%"
+      },
+   "Brionac": {
+         "name": "Brionac",
+         "might": "12+1H",
+         "hit": 5,
+         "weight": 8,
+         "rank": 8,
+         "range": "0",
+         "durability": "C",
+         "cost": 7400,
+         "effect": "Dark resistance +5"
+      },
+   "Swift Spear": {
+         "name": "Swift Spear",
+         "might": "12+1H",
+         "hit": 5,
+         "weight": 10,
+         "rank": 19,
+         "range": "0",
+         "durability": "B",
+         "cost": 8000,
+         "effect": "+1 strikes"
+      },
+   "Fauchard": {
+         "name": "Fauchard",
+         "might": "13",
+         "hit": 5,
+         "weight": 7,
+         "rank": 30,
+         "range": "0",
+         "durability": "B",
+         "prf": "Alvina",
+         "effect": "x2 strikes"
+      },
+   "Verian Spear": {
+         "name": "Verian Spear",
+         "might": "8+1H",
+         "hit": 5,
+         "weight": 7,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "cost": 900
+      },
+   "Old Imperial Spear": {
+         "name": "Old Imperial Spear",
+         "might": "6+1H",
+         "hit": 4,
+         "weight": 12,
+         "rank": 1,
+         "range": "0",
+         "durability": "F",
+         "cost": 400
+      },
+   "Imperial Spear": {
+         "name": "Imperial Spear",
+         "might": "9+1H",
+         "hit": 4,
+         "weight": 8,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "cost": 800
+      },
+   "Iron Lance": {
+         "name": "Iron Lance",
+         "might": "5+3H",
+         "hit": 4,
+         "weight": 17,
+         "rank": 3,
+         "range": "0",
+         "durability": "D",
+         "cost": 2000,
+         "effect": "Mounted only, cannot counter or be countered"
+      },
+   "Oxtongue": {
+         "name": "Oxtongue",
+         "might": "2+4H",
+         "hit": 4,
+         "weight": 20,
+         "rank": 6,
+         "range": "0",
+         "durability": "D",
+         "cost": 2800,
+         "effect": "Mounted only, cannot counter or be countered"
+      },
+   "Xyston": {
+         "name": "Xyston",
+         "might": "5+3H",
+         "hit": 5,
+         "weight": 15,
+         "rank": 10,
+         "range": "0",
+         "durability": "D",
+         "cost": 4000,
+         "effect": "Mounted only, cannot counter or be countered"
+      },
+   "Greatlance": {
+         "name": "Greatlance",
+         "might": "1+5H",
+         "hit": 5,
+         "weight": 16,
+         "rank": 3,
+         "range": "0",
+         "durability": "B",
+         "cost": 4500,
+         "effect": "Mounted only, cannot counter or be countered"
+      },
+   "Drakelance": {
+         "name": "Drakelance",
+         "might": "5+4H",
+         "hit": 6,
+         "weight": 18,
+         "rank": 20,
+         "range": "0",
+         "durability": "C",
+         "cost": 6800,
+         "effect": "Mounted only, cannot counter or be countered"
+      },
+   "Pitchfork": {
+         "name": "Pitchfork",
+         "might": "6",
+         "hit": 4,
+         "weight": 7,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "cost": 200
+      },
+   "Military Fork": {
+         "name": "Military Fork",
+         "might": "11",
+         "hit": 4,
+         "weight": 9,
+         "rank": 2,
+         "range": "0",
+         "durability": "D",
+         "cost": 600
+      },
+   "Firebrand": {
+         "name": "Firebrand",
+         "might": "7",
+         "hit": 4,
+         "weight": 9,
+         "rank": 3,
+         "range": "0",
+         "durability": "E",
+         "cost": 400,
+         "effect": "Fire damage +5"
+      },
+   "Gore Fork": {
+         "name": "Gore Fork",
+         "might": "8",
+         "hit": 5,
+         "weight": 8,
+         "rank": 8,
+         "range": "0",
+         "durability": "C",
+         "cost": 2400,
+         "effect": "+1 strikes, Cripple +8%"
+      },
+   "Log Splitter": {
+         "name": "Log Splitter",
+         "might": "11",
+         "hit": 4,
+         "weight": 8,
+         "rank": 1,
+         "range": "0",
+         "durability": "C",
+         "cost": 400
+      },
+   "Pickaxe": {
+         "name": "Pickaxe",
+         "might": "4",
+         "hit": 2,
+         "weight": 4,
+         "rank": 1,
+         "range": "0",
+         "durability": "F",
+         "cost": 100
+      },
+   "Battle Saw": {
+         "name": "Battle Saw",
+         "might": "9",
+         "hit": 6,
+         "weight": 7,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "cost": 400
+      },
+   "Hand Axe": {
+         "name": "Hand Axe",
+         "might": "8",
+         "hit": 4,
+         "weight": 7,
+         "rank": 1,
+         "range": "1",
+         "usecount": 6,
+         "cost": 150
+      },
+   "Barbaric Axe": {
+         "name": "Barbaric Axe",
+         "might": "20",
+         "hit": 2,
+         "weight": 20,
+         "rank": 1,
+         "range": "0",
+         "durability": "E",
+         "cost": 500
+      },
+   "Crooked Axe": {
+         "name": "Crooked Axe",
+         "might": "30",
+         "hit": 1,
+         "weight": 15,
+         "rank": 1,
+         "range": "0",
+         "durability": "E",
+         "cost": 800,
+         "effect": "12.5% chance of damaging self"
+      },
+   "Iron Axe": {
+         "name": "Iron Axe",
+         "might": "10",
+         "hit": 5,
+         "weight": 6,
+         "rank": 2,
+         "range": "0",
+         "durability": "D",
+         "cost": 600
+      },
+   "Bandit Axe": {
+         "name": "Bandit Axe",
+         "might": "12",
+         "hit": 3,
+         "weight": 12,
+         "rank": 2,
+         "range": "0",
+         "durability": "B",
+         "cost": 400
+      },
+   "Francisca": {
+         "name": "Francisca",
+         "might": "10",
+         "hit": 4,
+         "weight": 8,
+         "rank": 3,
+         "range": "1",
+         "usecount": 6,
+         "cost": 300
+      },
+   "Battleaxe": {
+         "name": "Battleaxe",
+         "might": "14",
+         "hit": 4,
+         "weight": 10,
+         "rank": 5,
+         "range": "0",
+         "durability": "B",
+         "cost": 1200
+      },
+   "Broadaxe": {
+         "name": "Broadaxe",
+         "might": "12",
+         "hit": 5,
+         "weight": 8,
+         "rank": 7,
+         "range": "0",
+         "durability": "C",
+         "cost": 1500,
+         "effect": "Critical +6%"
+      },
+   "Volcano Axe": {
+         "name": "Volcano Axe",
+         "might": "5",
+         "hit": 3,
+         "weight": 10,
+         "rank": 8,
+         "range": "0",
+         "durability": "E",
+         "cost": 600,
+         "effect": "Fire damage +6"
+      },
+   "Glacier Axe": {
+         "name": "Glacier Axe",
+         "might": "5",
+         "hit": 3,
+         "weight": 10,
+         "rank": 8,
+         "range": "0",
+         "durability": "E",
+         "cost": 600,
+         "effect": "Wind damage +6"
+      },
+   "Nimbus Axe": {
+         "name": "Nimbus Axe",
+         "might": "5",
+         "hit": 3,
+         "weight": 10,
+         "rank": 8,
+         "range": "0",
+         "durability": "E",
+         "cost": 600,
+         "effect": "Thunder damage +6"
+      },
+   "Dark Axe": {
+         "name": "Dark Axe",
+         "might": "7",
+         "hit": 3,
+         "weight": 12,
+         "rank": 8,
+         "range": "0",
+         "durability": "E",
+         "cost": 500,
+         "effect": "Dark damage +5"
+      },
+   "War Pick": {
+         "name": "War Pick",
+         "might": "10",
+         "hit": 5,
+         "weight": 7,
+         "rank": 9,
+         "range": "0",
+         "durability": "D",
+         "cost": 1800,
+         "effect": "Negates shields"
+      },
+   "Hatchet": {
+         "name": "Hatchet",
+         "might": "9",
+         "hit": 5,
+         "weight": 6,
+         "rank": 9,
+         "range": "1",
+         "usecount": 6,
+         "cost": 600,
+         "effect": "Critical +6%"
+      },
+   "Breaker Axe": {
+         "name": "Breaker Axe",
+         "might": "13",
+         "hit": 3,
+         "weight": 15,
+         "rank": 13,
+         "range": "0",
+         "durability": "E",
+         "cost": 1800,
+         "effect": "Destroys shields on hit"
+      },
+   "Poleax": {
+         "name": "Poleax",
+         "might": "12",
+         "hit": 3,
+         "weight": 12,
+         "rank": 15,
+         "range": "0",
+         "durability": "E",
+         "cost": 1600,
+         "effect": "Kills horses"
+      },
+   "Tomahawk": {
+         "name": "Tomahawk",
+         "might": "10",
+         "hit": 4,
+         "weight": 9,
+         "rank": 15,
+         "range": "0-1",
+         "durability": "D",
+         "cost": 2000
+      },
+   "Bolt Axe": {
+         "name": "Bolt Axe",
+         "might": "9",
+         "hit": 5,
+         "weight": 7,
+         "rank": 12,
+         "range": "0",
+         "durability": "D",
+         "cost": 2400,
+         "effect": "Thunder damage +7"
+      },
+   "Killer Axe": {
+         "name": "Killer Axe",
+         "might": "9",
+         "hit": 6,
+         "weight": 6,
+         "rank": 15,
+         "range": "0",
+         "durability": "C",
+         "cost": 2600,
+         "effect": "Critical +12%"
+      },
+   "Hammer": {
+         "name": "Hammer",
+         "might": "15",
+         "hit": 4,
+         "weight": 14,
+         "rank": 18,
+         "range": "0",
+         "durability": "D",
+         "cost": 2000,
+         "effect": "Negates defenses of Armor classes"
+      },
+   "Greataxe": {
+         "name": "Greataxe",
+         "might": "24",
+         "hit": 4,
+         "weight": 16,
+         "rank": 19,
+         "range": "0",
+         "durability": "C",
+         "cost": 3000
+      },
+   "Tabarzin": {
+         "name": "Tabarzin",
+         "might": "12",
+         "hit": 5,
+         "weight": 8,
+         "rank": 7,
+         "range": "0",
+         "durability": "B",
+         "cost": 3800,
+         "effect": "x2 strikes, Critical +6%"
+      },
+   "Mithril Axe": {
+         "name": "Mithril Axe",
+         "might": "17",
+         "hit": 5,
+         "weight": 8,
+         "rank": 11,
+         "range": "0",
+         "durability": "B",
+         "cost": 4000
+      },
+   "Gullveig": {
+         "name": "Gullveig",
+         "might": "12",
+         "hit": 5,
+         "weight": 10,
+         "rank": 2,
+         "range": "0-1",
+         "durability": "B",
+         "cost": 4500
+      },
+   "Mjöllnir": {
+         "name": "Mjöllnir",
+         "might": "9",
+         "hit": 6,
+         "weight": 9,
+         "rank": 5,
+         "range": "0",
+         "durability": "C",
+         "cost": 4800,
+         "effect": "Thunder damage +9"
+      },
+   "Shieldaxe": {
+         "name": "Shieldaxe",
+         "might": "10",
+         "hit": 3,
+         "weight": 12,
+         "rank": 20,
+         "range": "0",
+         "durability": "C",
+         "cost": 2400,
+         "effect": "33% chance of increasing Defense +10"
+      },
+   "Pulverizer": {
+         "name": "Pulverizer",
+         "might": "40",
+         "hit": 1,
+         "weight": 20,
+         "rank": 1,
+         "range": "0",
+         "durability": "B"
+      },
+   "Königswolf": {
+         "name": "Königswolf",
+         "might": "20",
+         "hit": 6,
+         "weight": 8,
+         "rank": 25,
+         "range": "0",
+         "durability": "B",
+         "effect": "+2 strikes"
+      },
+   "Bhuj": {
+         "name": "Bhuj",
+         "might": "11",
+         "hit": 5,
+         "weight": 10,
+         "rank": 30,
+         "range": "0",
+         "durability": "B",
+         "prf": "Dean",
+         "effect": "+1 strikes, Critical +6%"
+      },
+   "Gigas Axe": {
+         "name": "Gigas Axe",
+         "might": "19",
+         "hit": 3,
+         "weight": 15,
+         "range": "0",
+         "durability": "D",
+         "cost": 3200,
+         "prf": "Gigas Knights",
+         "effect": "Defense +20"
+      },
+   "Verian Axe": {
+         "name": "Verian Axe",
+         "might": "10",
+         "hit": 5,
+         "weight": 8,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "cost": 800
+      },
+   "Old Imperial Axe": {
+         "name": "Old Imperial Axe",
+         "might": "8",
+         "hit": 4,
+         "weight": 13,
+         "rank": 1,
+         "range": "0",
+         "durability": "F",
+         "cost": 300
+      },
+   "Imperial Axe": {
+         "name": "Imperial Axe",
+         "might": "13",
+         "hit": 4,
+         "weight": 10,
+         "rank": 1,
+         "range": "0",
+         "durability": "D",
+         "cost": 600
+      },
+   "Bronze Bow": {
+         "name": "Bronze Bow",
+         "might": "1",
+         "hit": 4,
+         "weight": 7,
+         "rank": 1,
+         "range": "1-2",
+         "durability": "D",
+         "cost": 300
+      },
+   "Iron Bow": {
+         "name": "Iron Bow",
+         "might": "1",
+         "hit": 5,
+         "weight": 3,
+         "rank": 1,
+         "range": "1-2",
+         "durability": "D",
+         "cost": 600
+      },
+   "Shortbow": {
+         "name": "Shortbow",
+         "might": "3",
+         "hit": 4,
+         "weight": 4,
+         "rank": 1,
+         "range": "1-2",
+         "durability": "B",
+         "cost": 800
+      },
+   "Swift Bow": {
+         "name": "Swift Bow",
+         "might": "1",
+         "hit": 4,
+         "weight": 4,
+         "rank": 3,
+         "range": "1-2",
+         "durability": "D",
+         "cost": 600,
+         "effect": "+1 strikes"
+      },
+   "Longbow": {
+         "name": "Longbow",
+         "might": "5",
+         "hit": 5,
+         "weight": 7,
+         "rank": 4,
+         "range": "1-2",
+         "durability": "C",
+         "cost": 1200
+      },
+   "Triple-Fire Bow": {
+         "name": "Triple-Fire Bow",
+         "might": "1",
+         "hit": 2,
+         "weight": 10,
+         "rank": 7,
+         "range": "1-2",
+         "durability": "F",
+         "cost": 1000,
+         "effect": "x3 strikes"
+      },
+   "Composite Bow": {
+         "name": "Composite Bow",
+         "might": "7",
+         "hit": 5,
+         "weight": 8,
+         "rank": 8,
+         "range": "1-2",
+         "durability": "B",
+         "cost": 2600
+      },
+   "Apollyon": {
+         "name": "Apollyon",
+         "might": "5",
+         "hit": 6,
+         "weight": 5,
+         "rank": 10,
+         "range": "1-2",
+         "durability": "C",
+         "cost": 2800
+      },
+   "Strongbow": {
+         "name": "Strongbow",
+         "might": "9",
+         "hit": 4,
+         "weight": 9,
+         "rank": 12,
+         "range": "1-2",
+         "durability": "B",
+         "cost": 3000
+      },
+   "Greatbow": {
+         "name": "Greatbow",
+         "might": "11",
+         "hit": 4,
+         "weight": 10,
+         "rank": 17,
+         "range": "1-2",
+         "durability": "B",
+         "cost": 4000
+      },
+   "Killer Bow": {
+         "name": "Killer Bow",
+         "might": "8",
+         "hit": 6,
+         "weight": 6,
+         "rank": 15,
+         "range": "1-2",
+         "durability": "C",
+         "cost": 4400,
+         "effect": "Critical +6%"
+      },
+   "Apeiron": {
+         "name": "Apeiron",
+         "might": "8",
+         "hit": 5,
+         "weight": 7,
+         "rank": 4,
+         "range": "1-2",
+         "durability": "C",
+         "cost": 4500,
+         "effect": "Cripple rate x2"
+      },
+   "Rossweisse": {
+         "name": "Rossweisse",
+         "might": "10",
+         "hit": 7,
+         "weight": 5,
+         "rank": 8,
+         "range": "1-2",
+         "durability": "B",
+         "cost": 6000,
+         "effect": "Magic +5"
+      },
+   "Pascanion": {
+         "name": "Pascanion",
+         "might": "10",
+         "hit": 9,
+         "weight": 7,
+         "rank": 30,
+         "range": "1-2",
+         "durability": "B",
+         "prf": "Esteban",
+         "effect": "Defense +6, Avoid +18%, Fire damage +10, (50 - Bow Skill)% chance of damage to self"
+      },
+   "Serenia Bow": {
+         "name": "Serenia Bow",
+         "might": "9",
+         "hit": 7,
+         "weight": 3,
+         "range": "1-3",
+         "durability": "C",
+         "prf": "Lynette",
+         "effect": "Critical +12%"
+      },
+   "Verian Bow": {
+         "name": "Verian Bow",
+         "might": "5",
+         "hit": 4,
+         "weight": 7,
+         "rank": 1,
+         "range": "1-2",
+         "durability": "D",
+         "cost": 600
+      },
+   "Old Imperial Bow": {
+         "name": "Old Imperial Bow",
+         "might": "3",
+         "hit": 4,
+         "weight": 10,
+         "rank": 1,
+         "range": "1-2",
+         "durability": "F",
+         "cost": 400
+      },
+   "Imperial Bow": {
+         "name": "Imperial Bow",
+         "might": "4",
+         "hit": 4,
+         "weight": 6,
+         "rank": 1,
+         "range": "1-2",
+         "durability": "D",
+         "cost": 600
+      },
+   "Bowgun": {
+         "name": "Bowgun",
+         "might": "6",
+         "hit": 5,
+         "weight": 11,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "D",
+         "cost": 500
+      },
+   "Iron Crossbow": {
+         "name": "Iron Crossbow",
+         "might": "10",
+         "hit": 7,
+         "weight": 8,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "C",
+         "cost": 1000
+      },
+   "Gastraphetes": {
+         "name": "Gastraphetes",
+         "might": "14",
+         "hit": 6,
+         "weight": 14,
+         "rank": 4,
+         "range": "0-1",
+         "durability": "B",
+         "cost": 2000
+      },
+   "Heavy Crossbow": {
+         "name": "Heavy Crossbow",
+         "might": "17",
+         "hit": 5,
+         "weight": 18,
+         "rank": 11,
+         "range": "0-1",
+         "durability": "C",
+         "cost": 2800
+      },
+   "Brave Crossbow": {
+         "name": "Brave Crossbow",
+         "might": "12",
+         "hit": 5,
+         "weight": 18,
+         "rank": 8,
+         "range": "0-1",
+         "durability": "B",
+         "cost": 3000,
+         "effect": "x2 strikes"
+      },
+   "Chu-ko-nu": {
+         "name": "Chu-ko-nu",
+         "might": "8",
+         "hit": 4,
+         "weight": 20,
+         "rank": 13,
+         "range": "0-1",
+         "durability": "B",
+         "cost": 3200,
+         "effect": "x4 strikes"
+      },
+   "Arbalest": {
+         "name": "Arbalest",
+         "might": "22",
+         "hit": 4,
+         "weight": 20,
+         "rank": 16,
+         "range": "0-1",
+         "durability": "C",
+         "cost": 3600
+      },
+   "Killer Crossbow": {
+         "name": "Killer Crossbow",
+         "might": "16",
+         "hit": 8,
+         "weight": 8,
+         "rank": 15,
+         "range": "0-1",
+         "durability": "D",
+         "cost": 3900,
+         "effect": "Critical +18%"
+      },
+   "Ollerus": {
+         "name": "Ollerus",
+         "might": "13",
+         "hit": 6,
+         "weight": 14,
+         "rank": 4,
+         "range": "0-2",
+         "durability": "C",
+         "cost": 5000,
+         "effect": "Absorbs damage dealt"
+      },
+   "Rapid Crossbow": {
+         "name": "Rapid Crossbow",
+         "might": "12",
+         "hit": 5,
+         "weight": 20,
+         "rank": 13,
+         "range": "0-1",
+         "durability": "A",
+         "cost": 8000,
+         "effect": "x4 strikes"
+      },
+   "Hawkeye": {
+         "name": "Hawkeye",
+         "might": "20",
+         "hit": 7,
+         "weight": 13,
+         "rank": 30,
+         "range": "0-1",
+         "durability": "D",
+         "prf": "Christine",
+         "effect": "Critical +9%"
+      },
+   "Verian Crossbow": {
+         "name": "Verian Crossbow",
+         "might": "12",
+         "hit": 5,
+         "weight": 14,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "D",
+         "cost": 800
+      },
+   "Old Imperial Crossbow": {
+         "name": "Old Imperial Crossbow",
+         "might": "9",
+         "hit": 4,
+         "weight": 18,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "F",
+         "cost": 400
+      },
+   "Imperial Crossbow": {
+         "name": "Imperial Crossbow",
+         "might": "13",
+         "hit": 5,
+         "weight": 15,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "D",
+         "cost": 800
+      },
+   "Old Ballista": {
+         "name": "Old Ballista",
+         "might": "10",
+         "hit": 4,
+         "weight": 20,
+         "rank": 1,
+         "range": "3-7",
+         "durability": "F",
+         "cost": 1600
+      },
+   "Bronze Ballista": {
+         "name": "Bronze Ballista",
+         "might": "10",
+         "hit": 6,
+         "weight": 20,
+         "rank": 1,
+         "range": "3-7",
+         "durability": "C",
+         "cost": 3200
+      },
+   "Iron Ballista": {
+         "name": "Iron Ballista",
+         "might": "15",
+         "hit": 6,
+         "weight": 20,
+         "rank": 6,
+         "range": "3-7",
+         "durability": "C",
+         "cost": 3800
+      },
+   "Steel Ballista": {
+         "name": "Steel Ballista",
+         "might": "18",
+         "hit": 5,
+         "weight": 20,
+         "rank": 15,
+         "range": "3-7",
+         "durability": "C",
+         "cost": 4400
+      },
+   "Prototype Espringal": {
+         "name": "Prototype Espringal",
+         "might": "10",
+         "hit": 8,
+         "weight": 20,
+         "rank": 10,
+         "range": "3-7",
+         "durability": "F"
+      },
+   "Espringal": {
+         "name": "Espringal",
+         "might": "21",
+         "hit": 8,
+         "weight": 20,
+         "rank": 15,
+         "range": "3-7",
+         "durability": "B",
+         "cost": 5000
+      },
+   "Prototype Scorpio": {
+         "name": "Prototype Scorpio",
+         "might": "11",
+         "hit": 5,
+         "weight": 15,
+         "rank": 1,
+         "range": "2-4",
+         "durability": "D",
+         "effect": "Adds Overwatch skill"
+      },
+   "Scorpio": {
+         "name": "Scorpio",
+         "might": "11",
+         "hit": 7,
+         "weight": 15,
+         "rank": 1,
+         "range": "2-4",
+         "durability": "C",
+         "cost": 4800,
+         "effect": "Adds Overwatch skill"
+      },
+   "Wooden Arrow": {
+         "name": "Wooden Arrow",
+         "might": "1",
+         "usecount": 20,
+         "cost": 100
+      },
+   "Stone Arrow": {
+         "name": "Stone Arrow",
+         "might": "3",
+         "usecount": 20,
+         "cost": 200
+      },
+   "Bronze Arrow": {
+         "name": "Bronze Arrow",
+         "might": "5",
+         "usecount": 20,
+         "cost": 300
+      },
+   "Bronze Arrow+": {
+         "name": "Bronze Arrow+",
+         "might": "5",
+         "usecount": 20,
+         "cost": 450,
+         "effect": "Accuracy +10%"
+      },
+   "Iron Arrow": {
+         "name": "Iron Arrow",
+         "might": "8",
+         "usecount": 20,
+         "cost": 500
+      },
+   "Iron Arrow+": {
+         "name": "Iron Arrow+",
+         "might": "8",
+         "usecount": 20,
+         "cost": 750,
+         "effect": "Accuracy +10%"
+      },
+   "Steel Arrow": {
+         "name": "Steel Arrow",
+         "might": "11",
+         "usecount": 20,
+         "cost": 1000
+      },
+   "Steel Arrow+": {
+         "name": "Steel Arrow+",
+         "might": "11",
+         "usecount": 20,
+         "cost": 1500,
+         "effect": "Accuracy +10%"
+      },
+   "Mithril Arrow": {
+         "name": "Mithril Arrow",
+         "might": "14",
+         "usecount": 20,
+         "cost": 1600
+      },
+   "Imperial Arrow": {
+         "name": "Imperial Arrow",
+         "might": "7",
+         "usecount": 10,
+         "cost": 200
+      },
+   "Imperial Arrow+": {
+         "name": "Imperial Arrow+",
+         "might": "7",
+         "usecount": 10,
+         "cost": 300,
+         "effect": "Accuracy +10%"
+      },
+   "Sniper Arrow": {
+         "name": "Sniper Arrow",
+         "might": "5",
+         "usecount": 10,
+         "cost": 1200,
+         "effect": "Accuracy +50%"
+      },
+   "Ember Arrow": {
+         "name": "Ember Arrow",
+         "might": "3",
+         "usecount": 20,
+         "cost": 500,
+         "effect": "Fire damage +1"
+      },
+   "Freeze Arrow": {
+         "name": "Freeze Arrow",
+         "might": "3",
+         "usecount": 20,
+         "cost": 500,
+         "effect": "Wind damage +1"
+      },
+   "Raijin Arrow": {
+         "name": "Raijin Arrow",
+         "might": "5",
+         "usecount": 20,
+         "cost": 2000,
+         "effect": "Thunder damage +7"
+      },
+   "Killer Arrow": {
+         "name": "Killer Arrow",
+         "might": "1",
+         "usecount": 20,
+         "cost": 1800,
+         "effect": "Critical +33%"
+      },
+   "Bodkin Arrow": {
+         "name": "Bodkin Arrow",
+         "might": "1",
+         "usecount": 20,
+         "cost": 1800,
+         "effect": "Negates shields"
+      },
+   "Broadhead Arrow": {
+         "name": "Broadhead Arrow",
+         "might": "1",
+         "usecount": 10,
+         "cost": 1500,
+         "effect": "Kills horses"
+      },
+   "Breaker Arrow": {
+         "name": "Breaker Arrow",
+         "might": "1",
+         "usecount": 10,
+         "cost": 2000,
+         "effect": "Destroys shields"
+      },
+   "Poison Arrow": {
+         "name": "Poison Arrow",
+         "might": "1",
+         "usecount": 10,
+         "effect": "Inflicts poison, becomes Wood Arrow if taken"
+      },
+   "Sleep Arrow": {
+         "name": "Sleep Arrow",
+         "might": "1",
+         "usecount": 10,
+         "effect": "Inflicts sleep, becomes Wood Arrow if taken"
+      },
+   "Old Ballista Bolt": {
+         "name": "Old Ballista Bolt",
+         "might": "8",
+         "usecount": 20,
+         "cost": 800,
+         "effect": "Used by ballistae"
+      },
+   "Standard Bolt": {
+         "name": "Standard Bolt",
+         "might": "15",
+         "usecount": 20,
+         "cost": 2000,
+         "effect": "Used by ballistae"
+      },
+   "New-Type Bolt": {
+         "name": "New-Type Bolt",
+         "might": "18",
+         "usecount": 10,
+         "cost": 2200,
+         "effect": "Used by ballistae"
+      },
+   "Fire": {
+         "name": "Fire",
+         "might": "12",
+         "hit": 8,
+         "rank": 1,
+         "range": "0-1",
+         "usecount": 20,
+         "cost": 1000
+      },
+   "Hellfire": {
+         "name": "Hellfire",
+         "might": "20",
+         "hit": 7,
+         "rank": 6,
+         "range": "0-1",
+         "usecount": 14,
+         "cost": 2100
+      },
+   "Earthblaze": {
+         "name": "Earthblaze",
+         "might": "20",
+         "hit": 6,
+         "rank": 10,
+         "range": "1-2",
+         "usecount": 18,
+         "cost": 5400
+      },
+   "Pallas Leia": {
+         "name": "Pallas Leia",
+         "might": "32",
+         "hit": 9,
+         "range": "0-1",
+         "usecount": 10,
+         "prf": "Enid",
+         "effect": "Recovers 2 MP when advancing to the next chapter"
+      },
+   "Flametongue": {
+         "name": "Flametongue",
+         "might": "21",
+         "hit": 10,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "S",
+         "effect": "Fire Dragons only, ignores user's Mag"
+      },
+   "Blazetongue": {
+         "name": "Blazetongue",
+         "might": "28",
+         "hit": 10,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "S",
+         "effect": "Fire Dragons only, ignores user's Mag"
+      },
+   "Airblade": {
+         "name": "Airblade",
+         "might": "3",
+         "hit": 7,
+         "rank": 1,
+         "range": "0-1",
+         "usecount": 40,
+         "cost": 1200,
+         "effect": "2 consecutive hits"
+      },
+   "Windstorm": {
+         "name": "Windstorm",
+         "might": "3",
+         "hit": 6,
+         "rank": 8,
+         "range": "0-1",
+         "usecount": 60,
+         "cost": 2400,
+         "effect": "3 consecutive hits"
+      },
+   "Blizzard": {
+         "name": "Blizzard",
+         "might": "8",
+         "hit": 7,
+         "rank": 3,
+         "range": "0-1",
+         "usecount": 15,
+         "cost": 4500,
+         "effect": "Injury +30%"
+      },
+   "Pallas Riana": {
+         "name": "Pallas Riana",
+         "might": "3",
+         "hit": 6,
+         "range": "1-2",
+         "usecount": 40,
+         "prf": "Aegina",
+         "effect": "4 consecutive hits, recovers 8 MP when advancing to the next chapter"
+      },
+   "Sandstorm": {
+         "name": "Sandstorm",
+         "might": "9",
+         "hit": 10,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "S",
+         "effect": "Wyverns only, Critical +3%, 3 consecutive hits, ignores user's Mag"
+      },
+   "Windtongue": {
+         "name": "Windtongue",
+         "might": "18",
+         "hit": 10,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "S",
+         "effect": "Wyverns only, Critical +6%, ignores user's Mag"
+      },
+   "Icetongue": {
+         "name": "Icetongue",
+         "might": "22",
+         "hit": 10,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "S",
+         "effect": "Snow Dragons only, 33% chance of inflicting sleep, ignores user's Mag"
+      },
+   "Thunder": {
+         "name": "Thunder",
+         "might": "8",
+         "hit": 6,
+         "rank": 2,
+         "range": "1-2",
+         "usecount": 20,
+         "cost": 1500,
+         "effect": "Critical +3%"
+      },
+   "Dire Thunder": {
+         "name": "Dire Thunder",
+         "might": "8",
+         "hit": 6,
+         "rank": 2,
+         "range": "1-2",
+         "usecount": 30,
+         "cost": 4500,
+         "effect": "Critical +3%, Attack number +1"
+      },
+   "Lightning": {
+         "name": "Lightning",
+         "might": "10",
+         "hit": 7,
+         "rank": 7,
+         "range": "0-1",
+         "usecount": 15,
+         "cost": 3000,
+         "effect": "Cripple rate x2"
+      },
+   "Pallas Serenia": {
+         "name": "Pallas Serenia",
+         "might": "24",
+         "hit": 9,
+         "range": "0-2",
+         "usecount": 10,
+         "prf": "Lynette",
+         "effect": "Recovers 2 MP when advancing to the next chapter"
+      },
+   "Stormtongue": {
+         "name": "Stormtongue",
+         "might": "25",
+         "hit": 12,
+         "rank": 1,
+         "range": "0-1",
+         "durability": "S",
+         "effect": "Thunder Dragons only, Cripple rate x2, ignores user's Mag"
+      },
+   "Holy": {
+         "name": "Holy",
+         "might": "1",
+         "hit": 7,
+         "rank": 3,
+         "range": "0-1",
+         "usecount": 10,
+         "cost": 3600,
+         "effect": "Attacks first in combat, leaves enemy with minimum of 1 HP"
+      },
+   "Starlight": {
+         "name": "Starlight",
+         "might": "23",
+         "hit": 6,
+         "range": "0-1",
+         "usecount": 10,
+         "prf": "Oracles",
+         "effect": "Recovers 2 MP when advancing to the next chapter"
+      },
+   "Soothe": {
+         "name": "Soothe",
+         "rank": 1,
+         "range": "1",
+         "usecount": 20,
+         "cost": 600,
+         "effect": "Heals an adjacent ally for (Mag/2+3) HP"
+      },
+   "Heal": {
+         "name": "Heal",
+         "rank": 1,
+         "range": "1",
+         "usecount": 20,
+         "cost": 1200,
+         "effect": "Heals an adjacent ally for (Mag+3)x[1+(Light Skill/100)] HP"
+      },
+   "Mend": {
+         "name": "Mend",
+         "rank": 5,
+         "range": "1",
+         "usecount": 20,
+         "cost": 2000,
+         "effect": "Heals an adjacent ally for (Mag+10)x[1+(Light Skill/100)] HP"
+      },
+   "Physic": {
+         "name": "Physic",
+         "rank": 7,
+         "range": "1-3",
+         "usecount": 15,
+         "cost": 3000,
+         "effect": "Heals one ally within three hexes for (Mag+3)x[1+(Light Skill/100)] HP"
+      },
+   "Fortify": {
+         "name": "Fortify",
+         "rank": 18,
+         "range": "1-3",
+         "usecount": 30,
+         "cost": 6000,
+         "effect": "Heals all allies within three hexes for (Mag+3)x[1+(Light Skill/100)] HP; costs 1 MP per 8 units healed, rounded up"
+      },
+   "Return": {
+         "name": "Return",
+         "rank": 10,
+         "range": "1",
+         "usecount": 6,
+         "cost": 3000,
+         "effect": "Allows an ally to escape the map"
+      },
+   "Awaken": {
+         "name": "Awaken",
+         "rank": 9,
+         "range": "1",
+         "usecount": 12,
+         "cost": 2400,
+         "effect": "Cures sleep status"
+      },
+   "Pacify": {
+         "name": "Pacify",
+         "rank": 11,
+         "range": "1",
+         "usecount": 12,
+         "cost": 3000,
+         "effect": "Cures berserk status"
+      },
+   "Detoxify": {
+         "name": "Detoxify",
+         "rank": 13,
+         "range": "1",
+         "usecount": 12,
+         "cost": 2400,
+         "effect": "Cures poison status"
+      },
+   "Rehabilitate": {
+         "name": "Rehabilitate",
+         "rank": 30,
+         "range": "1",
+         "usecount": 12,
+         "prf": "Izerna",
+         "effect": "Cures injured and crippled statuses"
+      },
+   "Nosferatu": {
+         "name": "Nosferatu",
+         "might": "15",
+         "hit": 5,
+         "rank": 3,
+         "range": "0-1",
+         "usecount": 20,
+         "cost": 1200,
+         "effect": "Restores HP equal to damage done"
+      },
+   "Nosferatu+": {
+         "name": "Nosferatu+",
+         "might": "15",
+         "hit": 5,
+         "rank": 3,
+         "range": "0-1",
+         "durability": "S",
+         "effect": "Restores HP equal to damage done"
+      },
+   "Scylla": {
+         "name": "Scylla",
+         "might": "3",
+         "hit": 8,
+         "rank": 4,
+         "range": "0-2",
+         "usecount": 20,
+         "cost": 1600,
+         "effect": "Adds enemy's level to attack power"
+      },
+   "Swarm": {
+         "name": "Swarm",
+         "might": "10",
+         "hit": 6,
+         "rank": 4,
+         "range": "1-3",
+         "usecount": 20,
+         "cost": 800,
+         "effect": "33% chance of inflicting poison"
+      },
+   "Tumahann": {
+         "name": "Tumahann",
+         "might": "13",
+         "hit": 7,
+         "rank": 6,
+         "range": "0-2",
+         "usecount": 16,
+         "cost": 1600,
+         "effect": "Takes away Exp equal to damage done, can cause leveling down"
+      },
+   "Kishar's Wrath": {
+         "name": "Kishar's Wrath",
+         "might": "15",
+         "hit": 3,
+         "rank": 12,
+         "range": "1-3",
+         "usecount": 8,
+         "cost": 1600,
+         "effect": "Cannot counter or be countered, no effect on flying foes"
+      },
+   "Wormwood": {
+         "name": "Wormwood",
+         "might": "16",
+         "hit": 4,
+         "rank": 18,
+         "range": "All",
+         "usecount": 8,
+         "cost": 2400,
+         "effect": "Cannot counter or be countered, leaves enemy with minimum of 1 HP"
+      },
+   "Darkmend": {
+         "name": "Darkmend",
+         "rank": 3,
+         "range": "1-5",
+         "usecount": 20,
+         "cost": 1000,
+         "effect": "Heals one ally within five hexes for (Mag+10)x[1+(Dark Skill/100)] HP"
+      },
+   "Sleep": {
+         "name": "Sleep",
+         "rank": 7,
+         "range": "1-3",
+         "usecount": 12,
+         "cost": 1200,
+         "effect": "Inflicts sleep on an enemy with lower Mag for 2-5 turns"
+      },
+   "Berserk": {
+         "name": "Berserk",
+         "rank": 12,
+         "range": "1-5",
+         "usecount": 20,
+         "cost": 2000,
+         "effect": "Inflicts berserk on an enemy with lower Mag for 1-3 turns"
+      },
+   "Leather S Shield": {
+         "name": "Leather S Shield",
+         "def": 1,
+         "hit": 4,
+         "weight": 2,
+         "rank": 1,
+         "durability": "D",
+         "cost": 300
+      },
+   "Buckler": {
+         "name": "Buckler",
+         "def": 3,
+         "hit": 4,
+         "weight": 3,
+         "rank": 1,
+         "durability": "D",
+         "cost": 800
+      },
+   "Prototype S Shield": {
+         "name": "Prototype S Shield",
+         "def": 4,
+         "hit": 5,
+         "weight": 4,
+         "rank": 4,
+         "durability": "D",
+         "cost": 800
+      },
+   "Aspis": {
+         "name": "Aspis",
+         "def": 5,
+         "hit": 4,
+         "weight": 4,
+         "rank": 4,
+         "durability": "B",
+         "cost": 1600
+      },
+   "Round Shield": {
+         "name": "Round Shield",
+         "def": 5,
+         "hit": 5,
+         "weight": 4,
+         "rank": 7,
+         "durability": "C",
+         "cost": 2200
+      },
+   "Fire Shield": {
+         "name": "Fire Shield",
+         "def": 5,
+         "hit": 4,
+         "weight": 4,
+         "rank": 10,
+         "durability": "D",
+         "cost": 2200,
+         "effect": "Fire resistance +5, unused"
+      },
+   "Wind Shield": {
+         "name": "Wind Shield",
+         "def": 5,
+         "hit": 4,
+         "weight": 4,
+         "rank": 10,
+         "durability": "D",
+         "cost": 2200,
+         "effect": "Wind resistance +5"
+      },
+   "Thunder Shield": {
+         "name": "Thunder Shield",
+         "def": 5,
+         "hit": 4,
+         "weight": 4,
+         "rank": 10,
+         "durability": "D",
+         "cost": 2200,
+         "effect": "Thunder resistance +5, unused"
+      },
+   "Holy Shield": {
+         "name": "Holy Shield",
+         "def": 5,
+         "hit": 4,
+         "weight": 4,
+         "rank": 10,
+         "durability": "D",
+         "cost": 2200,
+         "effect": "Light resistance +5, unused"
+      },
+   "Darkness Shield": {
+         "name": "Darkness Shield",
+         "def": 5,
+         "hit": 4,
+         "weight": 4,
+         "rank": 10,
+         "durability": "D",
+         "cost": 2200,
+         "effect": "Dark resistance +5"
+      },
+   "Metal Shield": {
+         "name": "Metal Shield",
+         "def": 6,
+         "hit": 4,
+         "weight": 6,
+         "rank": 10,
+         "durability": "A",
+         "cost": 2600
+      },
+   "Mithril Shield": {
+         "name": "Mithril Shield",
+         "def": 7,
+         "hit": 4,
+         "weight": 4,
+         "rank": 15,
+         "durability": "B",
+         "cost": 3200
+      },
+   "Aiantos": {
+         "name": "Aiantos",
+         "def": 7,
+         "hit": 4,
+         "weight": 4,
+         "rank": 6,
+         "durability": "C",
+         "cost": 6000,
+         "effect": "100% accuracy against bows, crossbows, and ballistae"
+      },
+   "Shining Shield": {
+         "name": "Shining Shield",
+         "def": 7,
+         "hit": 5,
+         "weight": 3,
+         "rank": 20,
+         "durability": "C",
+         "cost": 8000,
+         "effect": "66% chance of nullifying dark magic"
+      },
+   "Vollenden": {
+         "name": "Vollenden",
+         "def": 8,
+         "hit": 8,
+         "weight": 5,
+         "rank": 1,
+         "durability": "A",
+         "cost": 10000,
+         "effect": "Mag +3, does 8 Light damage when blocking"
+      },
+   "Lady Shield": {
+         "name": "Lady Shield",
+         "def": 6,
+         "hit": 5,
+         "weight": 2,
+         "durability": "C",
+         "cost": 3000,
+         "prf": "Females"
+      },
+   "Perseid": {
+         "name": "Perseid",
+         "def": 7,
+         "hit": 5,
+         "weight": 2,
+         "durability": "B",
+         "prf": "Reese"
+      },
+   "Verian S Shield": {
+         "name": "Verian S Shield",
+         "def": 4,
+         "hit": 3,
+         "weight": 4,
+         "rank": 1,
+         "durability": "D",
+         "cost": 600
+      },
+   "Old Imperial Round Shield": {
+         "name": "Old Imperial S Shield",
+         "def": 3,
+         "hit": 3,
+         "weight": 6,
+         "rank": 1,
+         "durability": "F",
+         "cost": 200
+      },
+   "Imp. Soldier S Shield": {
+         "name": "Imp. Soldier S Shield",
+         "def": 4,
+         "hit": 3,
+         "weight": 4,
+         "rank": 1,
+         "durability": "E",
+         "cost": 400
+      },
+   "Imp. Soldier S Shield+": {
+         "name": "Imp. Soldier S Shield+",
+         "def": 4,
+         "hit": 4,
+         "weight": 4,
+         "rank": 1,
+         "durability": "E",
+         "cost": 800
+      },
+   "Imp. Officer S Shield": {
+         "name": "Imp. Officer S Shield",
+         "def": 5,
+         "hit": 4,
+         "weight": 5,
+         "rank": 5,
+         "durability": "E",
+         "cost": 800
+      },
+   "Imp. Knight S Shield": {
+         "name": "Imp. Knight S Shield",
+         "def": 7,
+         "hit": 4,
+         "weight": 6,
+         "rank": 10,
+         "durability": "E",
+         "cost": 1200
+      },
+   "Leather M. Shield": {
+         "name": "Leather M. Shield",
+         "def": 4,
+         "hit": 4,
+         "weight": 5,
+         "rank": 1,
+         "durability": "D",
+         "cost": 600
+      },
+   "Kiteshield": {
+         "name": "Kiteshield",
+         "def": 9,
+         "hit": 4,
+         "weight": 7,
+         "rank": 4,
+         "durability": "D",
+         "cost": 1200
+      },
+   "Square Shield": {
+         "name": "Square Shield",
+         "def": 10,
+         "hit": 4,
+         "weight": 10,
+         "rank": 9,
+         "durability": "B",
+         "cost": 2200
+      },
+   "Knight Shield": {
+         "name": "Knight Shield",
+         "def": 12,
+         "hit": 4,
+         "weight": 8,
+         "rank": 12,
+         "durability": "C",
+         "cost": 2800
+      },
+   "Flame Shield": {
+         "name": "Flame Shield",
+         "def": 10,
+         "hit": 4,
+         "weight": 8,
+         "rank": 15,
+         "durability": "D",
+         "cost": 3000,
+         "effect": "Fire resistance +10, unused"
+      },
+   "Gale Shield": {
+         "name": "Gale Shield",
+         "def": 10,
+         "hit": 4,
+         "weight": 8,
+         "rank": 15,
+         "durability": "D",
+         "cost": 3000,
+         "effect": "Wind resistance +10, unused"
+      },
+   "Thundercloud Shield": {
+         "name": "Thundercloud Shield",
+         "def": 10,
+         "hit": 4,
+         "weight": 8,
+         "rank": 15,
+         "durability": "D",
+         "cost": 3000,
+         "effect": "Thunder resistance +10, unused"
+      },
+   "Glittering Shield": {
+         "name": "Glittering Shield",
+         "def": 10,
+         "hit": 4,
+         "weight": 8,
+         "rank": 15,
+         "durability": "D",
+         "cost": 3000,
+         "effect": "Light resistance +10, unused"
+      },
+   "Void Shield": {
+         "name": "Void Shield",
+         "def": 10,
+         "hit": 4,
+         "weight": 8,
+         "rank": 15,
+         "durability": "D",
+         "cost": 3000,
+         "effect": "Dark resistance +10, unused"
+      },
+   "Limit Shield": {
+         "name": "Limit Shield",
+         "def": 11,
+         "hit": 5,
+         "weight": 7,
+         "rank": 15,
+         "durability": "C",
+         "cost": 3200
+      },
+   "Hestia": {
+         "name": "Hestia",
+         "def": 10,
+         "hit": 5,
+         "weight": 8,
+         "rank": 11,
+         "durability": "B",
+         "cost": 8000,
+         "effect": "Fire resistance +7, does 7 Fire damage when blocking"
+      },
+   "Dracoshield": {
+         "name": "Dracoshield",
+         "def": 14,
+         "hit": 4,
+         "weight": 7,
+         "rank": 10,
+         "durability": "A",
+         "cost": 8600
+      },
+   "Paladin Shield": {
+         "name": "Paladin Shield",
+         "def": 13,
+         "hit": 4,
+         "weight": 8,
+         "rank": 20,
+         "durability": "C",
+         "cost": 3800,
+         "prf": "Paladins",
+         "effect": "Mag +3"
+      },
+   "Black Shield": {
+         "name": "Black Shield",
+         "def": 13,
+         "hit": 4,
+         "weight": 9,
+         "rank": 20,
+         "durability": "C",
+         "cost": 6000,
+         "prf": "Black Knights",
+         "effect": "When blocking, 33% chance of damaging enemy instead"
+      },
+   "Verian M Shield": {
+         "name": "Verian M Shield",
+         "def": 7,
+         "hit": 4,
+         "weight": 6,
+         "rank": 1,
+         "durability": "D",
+         "cost": 800
+      },
+   "Imp. Soldier M Shield": {
+         "name": "Imp. Soldier M Shield",
+         "def": 7,
+         "hit": 4,
+         "weight": 6,
+         "rank": 1,
+         "durability": "E",
+         "cost": 500
+      },
+   "Imp. Soldier M Shield+": {
+         "name": "Imp. Soldier M Shield+",
+         "def": 7,
+         "hit": 5,
+         "weight": 6,
+         "rank": 1,
+         "durability": "E",
+         "cost": 1000
+      },
+   "Imp. Officer M Shield": {
+         "name": "Imp. Officer M Shield",
+         "def": 9,
+         "hit": 4,
+         "weight": 8,
+         "rank": 5,
+         "durability": "E",
+         "cost": 1000
+      },
+   "Imp. Knight M Shield": {
+         "name": "Imp. Knight M Shield",
+         "def": 11,
+         "hit": 4,
+         "weight": 9,
+         "rank": 10,
+         "durability": "E",
+         "cost": 1500
+      },
+   "Leather L. Shield": {
+         "name": "Leather L. Shield",
+         "def": 8,
+         "hit": 4,
+         "weight": 8,
+         "rank": 1,
+         "durability": "D",
+         "cost": 800
+      },
+   "Wide Shield": {
+         "name": "Wide Shield",
+         "def": 14,
+         "hit": 5,
+         "weight": 11,
+         "rank": 5,
+         "durability": "D",
+         "cost": 2000
+      },
+   "Iron Shield": {
+         "name": "Iron Shield",
+         "def": 16,
+         "hit": 4,
+         "weight": 14,
+         "rank": 10,
+         "durability": "B",
+         "cost": 2400
+      },
+   "Greatshield": {
+         "name": "Greatshield",
+         "def": 19,
+         "hit": 4,
+         "weight": 16,
+         "rank": 15,
+         "durability": "C",
+         "cost": 2800
+      },
+   "Fujin Shield": {
+         "name": "Fujin Shield",
+         "def": 15,
+         "hit": 4,
+         "weight": 10,
+         "rank": 16,
+         "durability": "D",
+         "cost": 3400,
+         "effect": "Fire resistance +15"
+      },
+   "Kojin Shield": {
+         "name": "Kojin Shield",
+         "def": 15,
+         "hit": 4,
+         "weight": 10,
+         "rank": 16,
+         "durability": "D",
+         "cost": 3400,
+         "effect": "Wind resistance +15"
+      },
+   "Raijin Shield": {
+         "name": "Raijin Shield",
+         "def": 15,
+         "hit": 4,
+         "weight": 10,
+         "rank": 16,
+         "durability": "D",
+         "cost": 3400,
+         "effect": "Thunder resistance +15"
+      },
+   "Amaterasu Shield": {
+         "name": "Amaterasu Shield",
+         "def": 15,
+         "hit": 4,
+         "weight": 10,
+         "rank": 16,
+         "durability": "D",
+         "cost": 8000,
+         "effect": "Fire resistance +18, Wind resistance +18, Thunder resistance +18, Light resistance +18"
+      },
+   "General Shield": {
+         "name": "General Shield",
+         "def": 20,
+         "hit": 5,
+         "weight": 15,
+         "rank": 20,
+         "durability": "D",
+         "cost": 3800,
+         "prf": "Generals",
+         "effect": "Mag +3"
+      },
+   "Verian L Shield": {
+         "name": "Verian L Shield",
+         "def": 14,
+         "hit": 4,
+         "weight": 9,
+         "rank": 1,
+         "durability": "E",
+         "cost": 900
+      },
+   "Imp. Soldier L Shield": {
+         "name": "Imp. Soldier L Shield",
+         "def": 15,
+         "hit": 4,
+         "weight": 10,
+         "rank": 1,
+         "durability": "E",
+         "cost": 600
+      },
+   "Imp, Soldier L Shield+": {
+         "name": "Imp, Soldier L Shield+",
+         "def": 14,
+         "hit": 5,
+         "weight": 10,
+         "rank": 1,
+         "durability": "E",
+         "cost": 1200
+      },
+   "Imp. Officer L Shield": {
+         "name": "Imp. Officer L Shield",
+         "def": 16,
+         "hit": 4,
+         "weight": 13,
+         "rank": 5,
+         "durability": "E",
+         "cost": 1200
+      },
+   "Imp. Knight L Shield": {
+         "name": "Imp. Knight L Shield",
+         "def": 18,
+         "hit": 4,
+         "weight": 15,
+         "rank": 10,
+         "durability": "E",
+         "cost": 1800
+      },
+   "Muscle Brace": {
+         "name": "Muscle Brace",
+         "cost": 3600,
+         "effect": "Strength +1"
+      },
+   "Guard Brace": {
+         "name": "Guard Brace",
+         "cost": 3600,
+         "effect": "Defense +1"
+      },
+   "Feather Brace": {
+         "name": "Feather Brace",
+         "cost": 3600,
+         "effect": "Speed +1"
+      },
+   "Spirit Brace": {
+         "name": "Spirit Brace",
+         "cost": 3600,
+         "effect": "Mag +1"
+      },
+   "Eagle Brace": {
+         "name": "Eagle Brace",
+         "cost": 3600,
+         "effect": "Accuracy +5"
+      },
+   "Giant's Brace": {
+         "name": "Giant's Brace",
+         "cost": 3600,
+         "effect": "Strength +2, Speed -2"
+      },
+   "Phoenix Brace": {
+         "name": "Phoenix Brace",
+         "cost": 3600,
+         "effect": "Defense +2, Strength -2"
+      },
+   "Pegasus Brace": {
+         "name": "Pegasus Brace",
+         "cost": 3600,
+         "effect": "Speed +2, Strength -2"
+      },
+   "Blessed Brace": {
+         "name": "Blessed Brace",
+         "cost": 3600,
+         "effect": "Mag +2, Speed -2"
+      },
+   "Tiger Brace": {
+         "name": "Tiger Brace",
+         "cost": 3600,
+         "effect": "Accuracy +10, Avoid -10"
+      },
+   "Divine Brace": {
+         "name": "Divine Brace",
+         "cost": 3600,
+         "effect": "Mag +3, Defense -2, Speed -2"
+      },
+   "Gambler's Brace": {
+         "name": "Gambler's Brace",
+         "cost": 3600,
+         "effect": "Strength +2, Defense +2, Accuracy -10, Avoid -10"
+      },
+   "Peerless Brace": {
+         "name": "Peerless Brace",
+         "cost": 36000,
+         "effect": "Strength +1, Defense +1, Speed +1, Mag +1, Accuracy +5, Avoid +5"
+      },
+   "Health Charm": {
+         "name": "Health Charm",
+         "effect": "Recovers 1-5 HP per turn"
+      },
+   "Thief's Charm": {
+         "name": "Thief's Charm",
+         "effect": "Mug activation rate +15%"
+      },
+   "Fortune Charm": {
+         "name": "Fortune Charm",
+         "effect": "50% chance of negating fatal attacks (but breaks after the battle)"
+      },
+   "Miracle Charm": {
+         "name": "Miracle Charm",
+         "effect": "Negates fatal attacks (but breaks after the battle)"
+      },
+   "Dusk Charm": {
+         "name": "Dusk Charm",
+         "effect": "Avoid +17"
+      },
+   "Dawn Charm": {
+         "name": "Dawn Charm",
+         "effect": "Accuracy +17"
+      },
+   "Vanish Charm": {
+         "name": "Vanish Charm",
+         "effect": "Adds Hide skill"
+      },
+   "Flame Ring": {
+         "name": "Flame Ring",
+         "cost": 3000,
+         "effect": "(unused) Fire resistance +10, Wind resistance -10"
+      },
+   "Wind Ring": {
+         "name": "Wind Ring",
+         "cost": 3000,
+         "effect": "Wind resistance +10, Thunder resistance -10"
+      },
+   "Thunder Ring": {
+         "name": "Thunder Ring",
+         "cost": 3000,
+         "effect": "Thunder resistance +10, Fire resistance -10"
+      },
+   "Light Ring": {
+         "name": "Light Ring",
+         "cost": 3600,
+         "effect": "Dark resistance +10, Avoid -10"
+      },
+   "Dark Ring": {
+         "name": "Dark Ring",
+         "effect": "Defense +15, Light resistance -10"
+      },
+   "Djinn Ring": {
+         "name": "Djinn Ring",
+         "effect": "Mag +10, Defense -10"
+      },
+   "Lullaby Lyre": {
+         "name": "Lullaby Lyre",
+         "effect": "In battle, automatically inflicts sleep"
+      },
+   "Broken Lyre": {
+         "name": "Broken Lyre",
+         "effect": "Broken Sleep Harp, cannot be used"
+      },
+   "Fire Scale": {
+         "name": "Fire Scale",
+         "effect": "Fire resistance +30, Wind resistance -8, does 5 Fire damage when hit, Critical vulnerability +12%"
+      },
+   "Ice Scale": {
+         "name": "Ice Scale",
+         "cost": 4800,
+         "effect": "Wind resistance +30, Thunder resistance +10, Fire resistance -10, Critical vulnerability +12%"
+      },
+   "Wyvern Scale": {
+         "name": "Wyvern Scale",
+         "effect": "Wind resistance +20, Fire resistance +5, Thunder resistance -5, Critical vulnerability +18%"
+      },
+   "Thunder Scale": {
+         "name": "Thunder Scale",
+         "effect": "(unused) Thunder resistance +30, Wind resistance +8, Fire resistance +5, does 6 Thunder damage when hit, Critical vulnerability +12%"
+      },
+   "Thor Scale": {
+         "name": "Thor Scale",
+         "effect": "Thunder resistance +30, Wind resistance +15, Fire resistance +10, does 7 Thunder damage when hit, Critical vulnerability +6%"
+      }
+}
