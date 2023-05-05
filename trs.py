@@ -29,7 +29,7 @@ def get_unit_name_choices(ctx: str) -> list[app_commands.Choice]:
 
 
 def get_unit_stats_embed(unit_json: json) -> discord.Embed:
-    embed = discord.Embed(title=unit_json['name'])
+    embed = discord.Embed(title=unit_json['name'], color=0x8a428a)
     embed.add_field(name='', value=unit_json['job'], inline=False)
     embed.add_field(name='Bases', value=unit_json['Bases'], inline=False)
     embed.add_field(name='Growths', value=unit_json['Growths'], inline=False)

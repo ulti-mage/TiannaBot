@@ -1,0 +1,442 @@
+{
+   "Commander": {
+      "name": "Commander",
+      "type": "Always",
+      "description": "+10 Hit to allies within 3 hexes. (Stacks.)"
+   },
+   "Charisma": {
+      "name": "Charisma",
+      "type": "Always",
+      "description": "+3 Hit to allies within 5 hexes. (Stacks.)"
+   },
+   "Supporter": {
+      "name": "Supporter",
+      "type": "Always",
+      "description": "+20 Hit and +4 Crit if an ally with the Support skill is within 3 hexes. (Doesn't stack.)"
+   },
+   "Protector": {
+      "name": "Protector",
+      "type": "Always",
+      "description": "+5 Def to allies within 3 hexes."
+   },
+   "Resistor": {
+      "name": "Resistor",
+      "type": "Always",
+      "description": "+5 Magic Def to allies within 3 hexes."
+   },
+   "Our Bond": {
+      "name": "Our Bond",
+      "type": "Always",
+      "description": "Grants Reese 100 Crit while adjacent."
+   },
+   "Canto": {
+      "name": "Canto",
+      "type": "Command (move)",
+      "description": "After attacking, can use remaining movement to move again, but not if damaged in battle. Limited to Wait command after moving."
+   },
+   "Hurry": {
+      "name": "Hurry",
+      "type": "Command (move)",
+      "description": "Move an additional space, but limited to Wait command after moving."
+   },
+   "Celerity": {
+      "name": "Celerity",
+      "type": "Always",
+      "description": "Mov +1."
+   },
+   "Lethargy": {
+      "name": "Lethargy",
+      "type": "Always",
+      "description": "Mov -1. (Invisible. Movement is listed as normal.)"
+   },
+   "Slow Start": {
+      "name": "Slow Start",
+      "type": "Always",
+      "description": "Mov -1. Lost at Level 15. (Invisible. Movement is listed as reduced.)"
+   },
+   "Swimmer": {
+      "name": "Swimmer",
+      "type": "Always",
+      "description": "Can move across Shoal, River, and Water terrain with movement cost 1."
+   },
+   "Climber": {
+      "name": "Climber",
+      "type": "Always",
+      "description": "Avo is not reduced to 0 while on Cliff terrain."
+   },
+   "Camouflage": {
+      "name": "Camouflage",
+      "type": "Always",
+      "description": "Avo bonus from terrain is multiplied by 1.5."
+   },
+   "Huntsman": {
+      "name": "Huntsman",
+      "type": "Always",
+      "description": "Ignores enemy Avo bonus from forest terrain while using a bow or crossbow."
+   },
+   "Search": {
+      "name": "Search",
+      "type": "Command (terrain)",
+      "description": "In specific locations, find items.\nIf an enemy is guarding the item, fight them for 5 rounds. If the battle is lost, no Exp or item is gained. (Grants 16 Exp for battles, 8 Exp otherwise.)"
+   },
+   "Locktouch": {
+      "name": "Locktouch",
+      "type": "Command (terrain)",
+      "description": "Open a door or chest. (Grants 8 Exp.)"
+   },
+   "Hide": {
+      "name": "Hide",
+      "type": "Always",
+      "description": "When on certain terrain, disappear from enemy view. Canceled if an enemy is adjacent, or if an enemy with the skill Watchful is within 3 hexes."
+   },
+   "Obfuscation": {
+      "name": "Obfuscation",
+      "type": "Always",
+      "description": "Hides all statistical information. Canceled if an enemy is adjacent, or if an enemy with the skill Watchful is within 3 hexes."
+   },
+   "Watchful": {
+      "name": "Watchful",
+      "type": "Always",
+      "description": "Cancels the skills Hide and Obfuscation within 3 hexes."
+   },
+   "Scotopic": {
+      "name": "Scotopic",
+      "type": "Always",
+      "description": "Fog-of-War vision range +1."
+   },
+   "Expert": {
+      "name": "Expert",
+      "type": "Always",
+      "description": "Failure rate for using equipment is calculated as if Level were +7."
+   },
+   "Limited": {
+      "name": "Limited",
+      "type": "Always",
+      "description": "Can only use equipment that is Rank 3 or lower. Unit will automatically fail to use Rank 4 or higher equipment."
+   },
+   "Prepared": {
+      "name": "Prepared",
+      "type": "Always",
+      "description": "When attacked, automatically changes equipped weapon to be able to counterattack."
+   },
+   "Versatile": {
+      "name": "Versatile",
+      "type": "Always",
+      "description": "After using a non-attacking spell, reverts to previous equipment."
+   },
+   "Blade": {
+      "name": "Blade",
+      "type": "Always",
+      "description": "Can equip blades."
+   },
+   "Lance": {
+      "name": "Lance",
+      "type": "Always",
+      "description": "Can equip lances."
+   },
+   "Fork": {
+      "name": "Fork",
+      "type": "Always",
+      "description": "Can equip forks."
+   },
+   "Robbery": {
+      "name": "Robbery",
+      "type": "Always",
+      "chance": "25%",
+      "description": "When defeating an enemy at range 0-1, randomly steals an item. Cannot steal rare items or items with Rank higher than Level. Can only activate up to 3 times per map."
+   },
+   "Despoil": {
+      "name": "Despoil",
+      "type": "Always",
+      "description": "When defeating an enemy at range 0-1, get a small amount of gold depending on enemy level."
+   },
+   "Armsthrift": {
+      "name": "Armsthrift",
+      "type": "Always",
+      "chance": "20%",
+      "description": "Randomly prevents weapon durability from decreasing when used."
+   },
+   "Mug": {
+      "name": "Mug",
+      "type": "Always",
+      "description": "When hitting an enemy at range 0, randomly steals an unequipped item. Cannot steal rare items."
+   },
+   "Mug+": {
+      "name": "Mug+",
+      "type": "Always",
+      "description": "When hitting an enemy at range 0, randomly steals any item. Cannot steal rare tems. Against enemies with Robust and after activating at least 2 times in one map, effect becomes that of ordinary Mug."
+   },
+   "Steal": {
+      "name": "Steal",
+      "type": "Command (enemy)",
+      "description": "Steal an unequipped weapon or item from an adjacent enemy. (Grants 8 Exp.) Cannot steal rare items. Only usable in place of moving. Can only be used up to 3 times per map."
+   },
+   "Pursuit": {
+      "name": "Pursuit",
+      "type": "Always",
+      "description": "When this unit's AS exceeds enemy's AS by 5 or more, +1 number of strikes."
+   },
+   "Adept": {
+      "name": "Adept",
+      "type": "Always",
+      "chance": "(Weapon Skill/2 + AS)%",
+      "description": "When AS is 5 or more, may randomly add an additional attack."
+   },
+   "Double-Shot": {
+      "name": "Double-Shot",
+      "type": "Command (attack)",
+      "description": "Attack with a bow with -5 Hit and x2 number of strikes. Cooldown of 4 turns."
+   },
+   "Triple-Shot": {
+      "name": "Triple-Shot",
+      "type": "Command (attack)",
+      "description": "Attack with a bow with x3 number of strikes; Hit -5 for the first attack, normal Hit for the second attack, Hit +5 for the third attack. Cooldown of 5 turns."
+   },
+   "Astra": {
+      "name": "Astra",
+      "type": "Command (attack)",
+      "description": "Attack with a sword with x5 number of strikes. Cooldown of 7 turns."
+   },
+   "Deathmatch": {
+      "name": "Deathmatch",
+      "type": "Command (attack)",
+      "description": "Attack an enemy with 5 times the normal rounds of combat. Enemy must be able to counterattack. Both fighters can counterattack even if they take damage."
+   },
+   "Aim": {
+      "name": "Aim",
+      "type": "Command (attack)",
+      "description": "Attack with a bow, crossbow, or ballista with Hit +33. Only usable in place of moving."
+   },
+   "Sunder": {
+      "name": "Sunder",
+      "type": "Command (attack)",
+      "description": "Attack with Crit +25. Only usable in place of moving."
+   },
+   "Crit": {
+      "name": "Crit",
+      "type": "Always",
+      "description": "Adds Level to Crit."
+   },
+   "Desperation": {
+      "name": "Desperation",
+      "type": "Command (attack)",
+      "description": "Attack an enemy with Hit +22. Enemy must be able to counterattack. Increases enemy Hit to 100 and reduces own Def (except shields) to 0. Both fighters can counterattack even if they take damage."
+   },
+   "Focus Chant": {
+      "name": "Focus Chant",
+      "type": "Command (attack)",
+      "description": "Attack with magic with Hit +30 and Mt +10-30%. Cooldown of 7 turns."
+   },
+   "Deadeye": {
+      "name": "Deadeye",
+      "type": "Command (attack)",
+      "description": "Attack with a bow with range +1 and Hit -15. Only usable in place of moving."
+   },
+   "Windsweep": {
+      "name": "Windsweep",
+      "type": "Command (attack)",
+      "description": "Attack while preventing the enemy from counterattacking. Only usable in place of moving."
+   },
+   "Pulverize": {
+      "name": "Pulverize",
+      "type": "Command (attack)",
+      "description": "Attack with Def reduced to 0 and Atk doubled on first strike. Only usable in place of moving."
+   },
+   "Mercy": {
+      "name": "Mercy",
+      "type": "Command (attack)",
+      "description": "Attack an enemy who has more than 1 HP remaining. If the enemy would be killed, their HP is instead reduced to 1."
+   },
+   "Throw": {
+      "name": "Throw",
+      "type": "Command (attack)",
+      "description": "Attacks with a range 1 weapon with Hit +10. Switches back to previously equipped weapon after combat."
+   },
+   "One-Two": {
+      "name": "One-Two",
+      "type": "Command (attack)",
+      "description": "Functions as Attack command, available immediately after attacking. Cooldown of 6 turns."
+   },
+   "Vantage": {
+      "name": "Vantage",
+      "type": "Always",
+      "description": "When attacked at range 0 while both being able to counterattack and having a higher AS than the enemy, attacks first instead."
+   },
+   "Iaido": {
+      "name": "Iaido",
+      "type": "Always",
+      "chance": "(Weapon Skill/2+40)%",
+      "description": "After avoiding an attack while a sword is equipped and able to counterattack, may boost Hit +33 and Crit +3 on counterattack."
+   },
+   "Vengeful": {
+      "name": "Vengeful",
+      "type": "Always",
+      "chance": "(3xDamage taken)%",
+      "description": "When attacked and damaged while an axe is equipped and able to counterattack, may counterattacks with Hit x2 and enemy damage added to Mt."
+   },
+   "Counter": {
+      "name": "Counter",
+      "type": "Always",
+      "description": "When attacked and able to counterattack, counterattack even if damaged by the attack."
+   },
+   "Shieldfaire": {
+      "name": "Shieldfaire",
+      "type": "Always",
+      "description": "Increases Shield Rate +18. (If shield rate would've been insufficient without the skill, displays a message in battle.)"
+   },
+   "Fortune": {
+      "name": "Fortune",
+      "type": "Always",
+      "description": "Sets enemy Crit rate to 0."
+   },
+   "Swordbane": {
+      "name": "Swordbane",
+      "type": "Always",
+      "chance": "~67%",
+      "description": "When an enemy would hit with a sword, blade, or mace, randomly avoids attack."
+   },
+   "Spearbane": {
+      "name": "Spearbane",
+      "type": "Always",
+      "chance": "~67%",
+      "description": "When an enemy would hit with a spear, lance, or fork, randomly avoids attack."
+   },
+   "Axebane": {
+      "name": "Axebane",
+      "type": "Always",
+      "chance": "~67%",
+      "description": "When an enemy would hit with an axe, randomly avoids attack."
+   },
+   "Arrowbane": {
+      "name": "Arrowbane",
+      "type": "Always",
+      "chance": "~67%",
+      "description": "When an enemy would hit with a bow, crossbow, or ballista, randomly avoids attack."
+   },
+   "Magicbane": {
+      "name": "Magicbane",
+      "type": "Always",
+      "chance": "~67%",
+      "description": "When an enemy would hit with any magic, randomly avoids attack. Immune to Sleep and Berserk spells."
+   },
+   "Miracle": {
+      "name": "Miracle",
+      "type": "Always",
+      "chance": "100 - (Enemy Hit -10)%",
+      "description": "When an enemy would hit for fatal damage, randomly avoids attack."
+   },
+   "Parry": {
+      "name": "Parry",
+      "type": "Always",
+      "chance": "(Weapon Skill/2+5)%",
+      "description": "When equipping a physical weapon and would be hit by a physical weapon, randomly avoids damage at the cost of weapon durability."
+   },
+   "Evasion": {
+      "name": "Evasion",
+      "type": "Command (self)",
+      "description": "Increases Avo +50 until next action is taken. Only usable before moving. Cooldown of 5 turns."
+   },
+   "Flourish": {
+      "name": "Flourish",
+      "type": "Command (attack)",
+      "description": "Halves attack power but increases injury rate +33. Every 4 turns only."
+   },
+   "Maim": {
+      "name": "Maim",
+      "type": "Always",
+      "chance": "(Weapon Skill/2+5)%",
+      "description": "When attacking an enemy, randomly doubles cripple rate. Can only activate up to 5 times per map."
+   },
+   "Knock Away": {
+      "name": "Knock Away",
+      "type": "Always",
+      "chance": "(Weapon Skill/2+30)%",
+      "description": "When hitting an enemy, randomly unequips their shield."
+   },
+   "Provoke": {
+      "name": "Provoke",
+      "type": "Command (enemy)",
+      "description": "Enemy within 5 hexes gains Fury status against user, and will attempt to attack them if possible. Only usable before moving."
+   },
+   "Battle Cry": {
+      "name": "Battle Cry",
+      "type": "Command (self)",
+      "description": "Gains Mt +3 and Hit +10 for next battle. Effect is cumulative up to six times. Only usable before moving."
+   },
+   "Overwatch": {
+      "name": "Overwatch",
+      "type": "Command (self)",
+      "description": "Gains Overwatch status. Until next turn, automatically attacks one enemy entering range of equipped weapon; if they take damage, their turn ends. Only usable before moving and while equipped with a bow, crossbow, or ballista. Status goes away if damage is taken."
+   },
+   "Axe Guard": {
+      "name": "Axe Guard",
+      "type": "Command (self)",
+      "chance": "(Weapon Skill+25)%",
+      "description": "Gains Axe Def status. Until next action, randomly blocks attacks using equipped axe as a shield, with Def bonus equal to axe's Mt. Costs weapon durability for each block. Cannot counterattack while in effect. Only usable before moving and while equipping an axe."
+   },
+   "Robust": {
+      "name": "Robust",
+      "type": "Always",
+      "description": "Immune to Injured and Crippled statuses."
+   },
+   "Robust+": {
+      "name": "Robust+",
+      "type": "Always",
+      "description": "Immune to Injured and Crippled statuses. Not displayed."
+   },
+   "Vulnerable": {
+      "name": "Vulnerable",
+      "type": "Always",
+      "description": "Increases rate of receiving Crippled status. Not displayed."
+   },
+   "Hateful": {
+      "name": "Hateful",
+      "type": "Always",
+      "description": "When attacked, gains Fury status against attacker, and will attempt to attack them if possible. Not displayed."
+   },
+   "Horse-Lover": {
+      "name": "Horse-Lover",
+      "type": "Always",
+      "description": "When advancing to the next chapter, restores 20 HP to horse in possession."
+   },
+   "Swap Horse": {
+      "name": "Swap Horse",
+      "type": "Command (ally)",
+      "description": "Switches horses with an adjacent ally. Requires both characters to be able to ride horses, but does not require both characters to possess a horse."
+   },
+   "Blessing": {
+      "name": "Blessing",
+      "type": "Always",
+      "description": "At the start of each turn, heals 0-3 HP to all allies within 3 hexes."
+   },
+   "Imbue": {
+      "name": "Imbue",
+      "type": "Command (self)",
+      "description": "Recovers (Mag+3) HP. Only usable before moving and every 4 turns."
+   },
+   "Silence": {
+      "name": "Silence",
+      "type": "Command (self)",
+      "description": "Prevents use of all dark magic for 3 turns. Only usable before moving and every 10 turns."
+   },
+   "Paragon": {
+      "name": "Paragon",
+      "type": "Always",
+      "description": "Gains Exp x1.2 while Level is 10 or less."
+   },
+   "Guard": {
+      "name": "Guard",
+      "type": "Command (ally)",
+      "description": "Protects an adjacent ally, entering combat in place of them if they are attacked and preventing them from being captured until either character uses a command other than Wait. Def and Avo are halved while in effect; shields are unaffected."
+   },
+   "Return": {
+      "name": "Return",
+      "type": "Command (self)",
+      "description": "Leaves the map."
+   },
+   "Convert": {
+      "name": "Convert",
+      "type": "Command (self)",
+      "description": "Class changes to Raze Monk or back to starting class. Cannot gain Exp or weapon skill while a Raze Monk."
+   }
+}

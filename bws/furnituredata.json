@@ -1,0 +1,66 @@
+{
+  "Art: Hope": {
+    "name": "Art: Hope",
+    "description": "Grants Reese +3% Avoid",
+    "cost": 14500
+  },
+  "Bird Statue": {
+    "name": "Bird Statue",
+    "description": "Grants Reese +13% Accuracy against an enemy in forest terrain",
+    "cost": 17000
+  },
+  "Big Rug": {
+    "name": "Big Rug",
+    "description": "  Grants Reese +10% Adept rate",
+    "cost": 19000
+  },
+  "Art: Revival": {
+    "name": "Art: Revival",
+    "description": "Grants Reese hidden Armsthrift",
+    "cost": 22000
+  },
+  "Sword Mount": {
+    "name": "Sword Mount",
+    "description": "Grants Reese +10% (?) sword growth rate",
+    "cost": 23000
+  },
+  "Porcelain Vase": {
+    "name": "Porcelain Vase",
+    "description": "Increases female mercenaries' Happiness by 1.0 rather than 0.5 when hired",
+    "cost": 25000
+  },
+  "Deer Mount": {
+    "name": "Deer Mount",
+    "description": "Grants Reese +3% Critical avoid",
+    "cost": 26000
+  },
+  "Coat of Arms": {
+    "name": "Coat of Arms",
+    "description": "Grants Reese +10% Shield accuracy",
+    "cost": 27500
+  },
+  "Coffers": {
+    "name": "Coffers",
+    "description": "Each chapter, can be opened for 5% chance of Elixir,\n15% chance of Concoction, or 80% chance of Vulnerary.\nFirst time, contains SPD Potion.",
+    "cost": 30000
+  },
+  "Luxury Bed": {
+    "name": "Luxury Bed",
+    "description": "Grants Reese +10% HP growth rate",
+    "cost": 32000
+  },
+  "Treasure Chest": {
+    "name": "Treasure Chest",
+    "description": "  Each chapter, can be opened for 20% chance of Treasure,\n30% chance of a Gold Coin, or 50% chance of a Silver Coin.\nFirst time, contains Shieldknife.\nAlso has a 1/32768 chance of containing one of the 7 Charms.",
+    "cost": 36000
+  },
+  "Tapestry": {
+    "name": "Tapestry",
+    "description": "Increases the radius of Reese's Commander skill from 3 to 4 hexes",
+    "cost": 45000
+  },
+  "Maiden Statue": {
+    "name": "Maiden Statue",
+    "description": "Grants Reese hidden Miracle, Obtained via a Ch-10 Main citizen request"
+  }
+}

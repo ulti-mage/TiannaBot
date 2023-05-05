@@ -4,6 +4,9 @@ import json
 
 bws_unit_data_file = 'bws/unitdata.json'
 bws_item_data_file = 'bws/itemdata.json'
+bws_skill_data_file = 'bws/skilldata.json'
+bws_furniture_data_file = 'bws/furnituredata.json'
+bws_food_data_file = 'bws/fooddata.json'
 
 
 class UnitButton(discord.ui.View):
@@ -24,20 +27,22 @@ class UnitButton(discord.ui.View):
             name = interaction.message.embeds[0].to_dict()["title"].lower()
             embed = get_unit_stats_embed(unit_json[name])
             embed.set_thumbnail(url='attachment://' + unit_json[name]['portrait'])
-            button_promo = [x for x in self.children if x.label == 'Requirements'][0]
-            button_promo.disabled = False
+            for i in self.children:
+                if i.label != 'Stats':
+                    i.disabled = False
             button.disabled = True
             await interaction.response.edit_message(embed=embed, view=self)
 
-    @discord.ui.button(label='Requirements', style=discord.ButtonStyle.blurple)
-    async def promotion(self, interaction: discord.Interaction, button: discord.ui.Button):
+    @discord.ui.button(label='Other', style=discord.ButtonStyle.blurple)
+    async def other(self, interaction: discord.Interaction, button: discord.ui.Button):
         with open(bws_unit_data_file, 'r') as f:
             unit_json = json.load(f)
             name = interaction.message.embeds[0].to_dict()["title"].lower()
             embed = get_unit_requirement_embed(unit_json[name])
             embed.set_thumbnail(url='attachment://' + unit_json[name]['portrait'])
-            button_stats = [x for x in self.children if x.label == 'Stats'][0]
-            button_stats.disabled = False
+            for i in self.children:
+                if i.label != 'Other':
+                    i.disabled = False
             button.disabled = True
             await interaction.response.edit_message(embed=embed, view=self)
 
@@ -45,14 +50,17 @@ class UnitButton(discord.ui.View):
 async def unit(interaction: discord.Interaction, name: str):
     with open(bws_unit_data_file, 'r') as f:
         unit_json = json.load(f)
-        name = name.lower()
         view = UnitButton(interaction)
-        if name in unit_json:
-            embed = get_unit_stats_embed(unit_json[name])
-            portrait = discord.File('bws/images/' + unit_json[name]['portrait'], filename=unit_json[name]['portrait'])
-            embed.set_thumbnail(url='attachment://' + unit_json[name]['portrait'])
-            await interaction.response.send_message(embed=embed, file=portrait, view=view)
-        else:
+        found = False
+        for k in unit_json:
+            if k.lower().startswith(name.lower()):
+                embed = get_unit_stats_embed(unit_json[k])
+                portrait = discord.File('bws/images/' + unit_json[k]['portrait'], filename=unit_json[k]['portrait'])
+                embed.set_thumbnail(url='attachment://' + unit_json[k]['portrait'])
+                await interaction.response.send_message(embed=embed, file=portrait, view=view)
+                found = True
+                break
+        if not found:
             await interaction.response.send_message('That unit does not exist', ephemeral=True)
 
 
@@ -67,7 +75,7 @@ def get_unit_name_choices(ctx: str) -> list[app_commands.Choice]:
 
 
 def get_unit_stats_embed(unit_json: json) -> discord.Embed:
-    embed = discord.Embed(title=unit_json['name'])
+    embed = discord.Embed(title=unit_json['name'], color=0x8a428a)
     embed.add_field(name='', value='Lvl ' + unit_json['lvl'] + ' ' + unit_json['class'], inline=False)
     bases = ''
     for base in unit_json['base']:
@@ -99,19 +107,20 @@ def get_unit_stats_embed(unit_json: json) -> discord.Embed:
         embed.add_field(name='Growths', value=growths, inline=False)
         if unit_json['promo']:
             promotion = '**' + unit_json['promo']['promo'] + '**\n'
+            promotionwrank = ''
             for stat in unit_json['promo']['bonus']:
                 match stat:
                     case 'hp':
                         promotion += 'HP +' + str(unit_json['promo']['bonus'][stat]) + ' | '
                     case _:
                         promotion += stat.title() + ' +' + str(unit_json['promo']['bonus'][stat]) + ' | '
-            promotion = promotion[:-3] + '\n'
+            promotion = promotion[:-3]
             for weapon in unit_json['promo']['weapon']:
-                promotion += weapon + ' ' + \
+                promotionwrank += weapon + ' ' + \
                              unit_json['promo']['weapon'][weapon]['base'] + ' ' + \
                              '(' + unit_json['promo']['weapon'][weapon]['growth'] + '%) | '
-            promotion = promotion[:-3]
-            embed.add_field(name='Promotion', value=promotion, inline=False)
+            promotionwrank = promotionwrank[:-3]
+            embed.add_field(name='Promotion', value=promotion + '\n' + promotionwrank, inline=False)
         skills_text = ''
         for skill in unit_json['skill']:
             skills_text += skill + '\n'
@@ -167,7 +176,7 @@ def get_unit_stats_embed(unit_json: json) -> discord.Embed:
 
 
 def get_unit_requirement_embed(unit_json: json):
-    embed = discord.Embed(title=str(unit_json['name']))
+    embed = discord.Embed(title=unit_json['name'], color=0x8a428a)
     recruitment = ''
     if unit_json['misc']['recruit']:
         recruitment += unit_json['misc']['recruit']
@@ -186,10 +195,14 @@ def get_unit_requirement_embed(unit_json: json):
 async def item(interaction: discord.Interaction, name: str):
     with open(bws_item_data_file, 'r') as f:
         item_json = json.load(f)
-        if name in item_json:
-            embed = get_item_stats_embed(item_json[name])
-            await interaction.response.send_message(embed=embed)
-        else:
+        found = False
+        for k in item_json:
+            if k.lower().startswith(name.lower()):
+                embed = get_item_stats_embed(item_json[k])
+                await interaction.response.send_message(embed=embed)
+                found = True
+                break
+        if not found:
             await interaction.response.send_message('That item does not exist', ephemeral=True)
 
 
@@ -204,7 +217,7 @@ def get_item_name_choices(ctx: str) -> list[app_commands.Choice]:
 
 
 def get_item_stats_embed(item_json: json):
-    embed = discord.Embed(title=item_json['name'])
+    embed = discord.Embed(title=item_json['name'], color=0x8a428a)
     stats = ''
     for value in item_json:
         match value:
@@ -238,4 +251,181 @@ def get_item_stats_embed(item_json: json):
             case 'effect':
                 effect = item_json['effect']
                 embed.add_field(name='Notes:', value=effect, inline=False)
+    return embed
+
+
+async def skill(interaction: discord.Interaction, name: str):
+    with open(bws_skill_data_file, 'r') as f:
+        skill_json = json.load(f)
+        found = False
+        for k in skill_json:
+            if k.lower().startswith(name.lower()):
+                embed = get_skill_data_embed(skill_json[k])
+                await interaction.response.send_message(embed=embed)
+                found = True
+                break
+        if not found:
+            await interaction.response.send_message('That skill does not exist', ephemeral=True)
+
+
+def get_skill_name_choices(ctx: str) -> list[app_commands.Choice]:
+    with open(bws_skill_data_file, 'r') as f:
+        skill_json = list(json.load(f).keys())
+        choices = []
+        for name in skill_json:
+            if (ctx.lower() in name.lower()) and (len(choices) < 25):
+                choices.append(app_commands.Choice(name=name, value=name))
+    return choices
+
+
+def get_skill_data_embed(skill_json: json) -> discord.Embed:
+    embed = discord.Embed(title=skill_json['name'], color=0x8a428a)
+    info = ''
+    for value in skill_json:
+        match value:
+            case 'type':
+                info += '**Type: **' + skill_json['type']
+            case 'chance':
+                info += '\n**Chance: **' + skill_json['chance']
+    embed.add_field(name='', value=info, inline=False)
+    embed.add_field(name='', value=skill_json['description'], inline=False)
+    return embed
+
+
+async def furniture(interaction: discord.Interaction, name: str):
+    with open(bws_furniture_data_file, 'r') as f:
+        furniture_json = json.load(f)
+        found = False
+        if name == 'explain':
+            embed = discord.Embed(color=0x8a428a)
+            image = discord.File('bws/images/explain.png', filename='explain.png')
+            embed.set_image(url='attachment://' + 'explain.png')
+            await interaction.response.send_message(embed=embed, file=image)
+        for k in furniture_json:
+            if k.lower().startswith(name.lower()):
+                embed = get_furniture_data_embed(furniture_json[k])
+                await interaction.response.send_message(embed=embed)
+                found = True
+                break
+        if not found:
+            await interaction.response.send_message('That furniture does not exist', ephemeral=True)
+
+
+def get_furniture_name_choices(ctx: str) -> list[app_commands.Choice]:
+    with open(bws_furniture_data_file, 'r') as f:
+        furniture_json = list(json.load(f).keys())
+        choices = []
+        for name in furniture_json:
+            if (ctx.lower() in name.lower()) and (len(choices) < 25):
+                choices.append(app_commands.Choice(name=name, value=name))
+    return choices
+
+
+def get_furniture_data_embed(furniture_json: json) -> discord.Embed:
+    embed = discord.Embed(title=furniture_json['name'], color=0x8a428a)
+    embed.add_field(name='', value=furniture_json['description'], inline=False)
+    for value in furniture_json:
+        match value:
+            case 'cost':
+                embed.add_field(name='', value='Cost: ' + str(furniture_json['cost']) + ' D.', inline=False)
+    return embed
+
+
+class FoodButton(discord.ui.View):
+    def __init__(self, ctx):
+        super().__init__(timeout=180)
+        self.ctx = ctx
+
+    async def on_timeout(self) -> None:
+        message = await self.ctx.original_response()
+        for i in self.children:
+            i.disabled = True
+        await message.edit(view=self)
+
+    @discord.ui.button(label='Liked', style=discord.ButtonStyle.blurple, disabled=True)
+    async def liked(self, interaction: discord.Interaction, button: discord.ui.Button):
+        with open(bws_food_data_file, 'r') as f:
+            food_json = json.load(f)
+            name = interaction.message.embeds[0].to_dict()["title"].lower()
+            embed = get_food_liked_embed(food_json[name.title()])
+            for x in self.children:
+                if x.label != 'Liked':
+                    x.disabled = False
+            button.disabled = True
+            await interaction.response.edit_message(embed=embed, view=self)
+
+    @discord.ui.button(label='Neutral', style=discord.ButtonStyle.blurple)
+    async def neutral(self, interaction: discord.Interaction, button: discord.ui.Button):
+        with open(bws_food_data_file, 'r') as f:
+            food_json = json.load(f)
+            name = interaction.message.embeds[0].to_dict()["title"].lower()
+            embed = get_food_neutral_embed(food_json[name.title()])
+            for x in self.children:
+                if x.label != 'Neutral':
+                    x.disabled = False
+            button.disabled = True
+            await interaction.response.edit_message(embed=embed, view=self)
+
+    @discord.ui.button(label='Disliked', style=discord.ButtonStyle.blurple)
+    async def disliked(self, interaction: discord.Interaction, button: discord.ui.Button):
+        with open(bws_food_data_file, 'r') as f:
+            food_json = json.load(f)
+            name = interaction.message.embeds[0].to_dict()["title"].lower()
+            embed = get_food_disliked_embed(food_json[name.title()])
+            for x in self.children:
+                if x.label != 'Disliked':
+                    x.disabled = False
+            button.disabled = True
+            await interaction.response.edit_message(embed=embed, view=self)
+
+
+async def food(interaction: discord.Interaction, name: str):
+    with open(bws_food_data_file, 'r') as f:
+        food_json = json.load(f)
+        view = FoodButton(interaction)
+        found = False
+        for k in food_json:
+            if k.lower().startswith(name.lower()):
+                embed = get_food_liked_embed(food_json[k])
+                await interaction.response.send_message(embed=embed, view=view)
+                found = True
+                break
+        if not found:
+            await interaction.response.send_message('That food does not exist', ephemeral=True)
+
+
+def get_food_name_choices(ctx: str) -> list[app_commands.Choice]:
+    with open(bws_food_data_file, 'r') as f:
+        food_json = list(json.load(f).keys())
+        choices = []
+        for name in food_json:
+            if (ctx.lower() in name.lower()) and (len(choices) < 25):
+                choices.append(app_commands.Choice(name=name, value=name))
+    return choices
+
+
+def get_food_liked_embed(food_json: json) -> discord.Embed:
+    embed = discord.Embed(title=food_json['name'], color=0x8a428a)
+    embed.add_field(name='Bonus', value=food_json['likedbonus'], inline=False)
+    embed.add_field(name='Rank', value=food_json['rank'], inline=True)
+    embed.add_field(name='Price', value=str(food_json['price']) + ' D.', inline=True)
+    embed.add_field(name='Liked by:', value=food_json['likedunits'], inline=False)
+    return embed
+
+
+def get_food_neutral_embed(food_json: json) -> discord.Embed:
+    embed = discord.Embed(title=food_json['name'], color=0x8a428a)
+    embed.add_field(name='Bonus', value=food_json['neutralbonus'], inline=False)
+    embed.add_field(name='Rank', value=food_json['rank'], inline=True)
+    embed.add_field(name='Price', value=str(food_json['price']) + ' D.', inline=True)
+    embed.add_field(name='Indifferent:', value=food_json['neutralunits'], inline=False)
+    return embed
+
+
+def get_food_disliked_embed(food_json: json) -> discord.Embed:
+    embed = discord.Embed(title=food_json['name'], color=0x8a428a)
+    embed.add_field(name='Bonus', value=food_json['dislikedbonus'], inline=False)
+    embed.add_field(name='Rank', value=food_json['rank'], inline=True)
+    embed.add_field(name='Price', value=str(food_json['price']) + ' D.', inline=True)
+    embed.add_field(name='Disliked by:', value=food_json['dislikedunits'], inline=False)
     return embed

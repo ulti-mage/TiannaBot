@@ -643,8 +643,8 @@
          "cost": 6000,
          "effect": "x2 strikes, Critical +6%"
       },
-   "Magic Knife": {
-         "name": "Magic Knife",
+   "Kris Knife": {
+         "name": "Kris Knife",
          "might": "1+\u03B1",
          "hit": 1,
          "weight": 1,
@@ -3040,5 +3040,105 @@
    "Thor Scale": {
          "name": "Thor Scale",
          "effect": "Thunder resistance +30, Wind resistance +15, Fire resistance +10, does 7 Thunder damage when hit, Critical vulnerability +6%"
+      },
+   "Vulnerary": {
+         "name": "Vulnerary",
+         "cost": 500,
+         "effect": "Heals 20 HP"
+      },
+   "Concoction": {
+         "name": "Concoction",
+         "cost": 1000,
+         "effect": "Heals 40 HP"
+      },
+   "Elixir": {
+         "name": "Elixir",
+         "cost": 2000,
+         "effect": "Heals all HP"
+      },
+   "Painkiller": {
+         "name": "Painkiller",
+         "cost": 4000,
+         "effect": "Cures an adjacent ally's Crippled status"
+      },
+   "Tonic": {
+         "name": "Tonic",
+         "cost": 800,
+         "effect": "Cures an adjacent ally's Sleep status"
+      },
+   "Sedative": {
+         "name": "Sedative",
+         "cost": 1500,
+         "effect": "Cures an adjacent ally's Berserk status"
+      },
+   "Antitoxin": {
+         "name": "Antitoxin",
+         "cost": 500,
+         "effect": "Cures Poison status"
+      },
+   "HP Potion": {
+         "name": "HP Potion",
+         "cost": 2000,
+         "effect": "Grants +3 Max HP when used"
+      },
+   "STR Potion": {
+         "name": "STR Potion",
+         "cost": 2400,
+         "effect": "Grants +2 Str when used"
+      },
+   "SPD Potion": {
+         "name": "SPD Potion",
+         "cost": 2200,
+         "effect": "Grants +2 Spd when used"
+      },
+   "DEF Potion": {
+         "name": "DEF Potion",
+         "cost": 3000,
+         "effect": "Grants +2 Def when used"
+      },
+   "MAG Potion": {
+         "name": "MAG Potion",
+         "cost": 4000,
+         "effect": "Grants +1 Mag when used"
+      },
+   "Escapestone": {
+         "name": "Escapestone",
+         "cost": 2400,
+         "effect": "Use to escape the map"
+      },
+   "Vanishstone": {
+         "name": "Vanishstone",
+         "cost": 3000,
+         "effect": "Use to become hidden until spotted"
+      },
+   "Repairstone": {
+         "name": "Repairstone",
+         "cost": 8000,
+         "effect": "Repairs weapons and shields; consumes uses depending on weapon's Repair cost and remaining durability"
+      },
+   "Armsthrift Guide": {
+         "name": "Elixir",
+         "effect": "Grants Armsthrift when used"
+      },
+   "Bag": {
+         "name": "Bag",
+         "cost": 4000,
+         "effect": "Can carry up to eight additional items"
+      },
+   "Treasure": {
+         "name": "Treasure",
+         "effect": "Sells for 5000 D."
+      },
+   "Gold Coin": {
+         "name": "Gold Coin",
+         "effect": "Grants 1000 D. when aquired"
+      },
+   "Silver Coin": {
+         "name": "Silver Coin",
+         "effect": "Grants 250 D. when aquired"
+      },
+   "Tulsa Circlet": {
+         "name": "Tulsa Circlet",
+         "effect": "Reese only, grants Fortune"
       }
 }
