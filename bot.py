@@ -15,6 +15,10 @@ class General(app_commands.Group):
         helpembed.add_field(name='', value='This bot displays information for Berwick Saga and TearRing Saga.\n\n'
                                            'It only supports slash commands and you can see all avaiable ones '
                                            'by typing `/`.', inline=False)
+        links = '[GitHub](https://github.com/ulti-mage/TiannaBot)\n' \
+                '[Discord](https://discord.gg/g5r3qdYfFj)\n' \
+                '[Bot Invite Link](https://discord.com/api/oauth2/authorize?client_id=1099678821084581919&permissions=274878220288&scope=bot)'
+        helpembed.add_field(name='Links:', value=links, inline=False)
         await interaction.response.send_message(embed=helpembed)
 
 
