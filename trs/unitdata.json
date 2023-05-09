@@ -218,7 +218,7 @@
     "leonie": {
         "name": "Leonie",
         "job": "Lv. 3 Archer",
-        "Bases": "HP 21 | Str 6 | Skl 6 | Spd 8 | Def 3 | Mag 0 | Lck 5 | Mst 6 | Mov 4",
+        "Bases": "HP 21 | Str 6 | Skl 8 | Spd 10 | Def 3 | Mag 0 | Lck 5 | Mst 6 | Mov 4",
         "Growths": "HP 55% | Str 40% | Skl 30% | Spd 55% | Def 18% | Mag 10% | Lck 35% | Mst 40% | Mov 10%",
         "Promotion": "Sniper\nHP +4 | Str +3 | Skl +1 | Spd +1 | Def +3 | Mag +0 | Mst +1 | Mov +1",
         "Skills": "Flurry \nUrbanite (Promotion)\nParagon (Lv. 9)\nLuna (Lv. 19)\nAdept (Lv. 34)",
