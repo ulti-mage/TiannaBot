@@ -47,9 +47,9 @@
       "name": "Raquel Omelette",
       "rank": "A",
       "price": 800,
-      "likedbonus": "All phys. weapon skills +12",
-      "neutralbonus": "All phys. weapon skills +6",
-      "dislikedbonus": "All phys. weapon skills +3",
+      "likedbonus": "All skills +12",
+      "neutralbonus": "All skills +6",
+      "dislikedbonus": "All skills +3",
       "likedunits": "Reese, Adel, Sherlock, Volo, Ruby, Arthur, Czene, Kramer, Faye, Clifford, Esteban, Aegina, Sherpa, Marcel, Alvina",
       "neutralunits": "Ward, Leon, Elbert, Christine, Dean, Izerna, Axel, Sylvis, Faramir, Saphira, Daoud, Larentia, Thaddy, Enid, Perceval, Burroughs, Paramythis",
       "dislikedunits": "Derrick, Owen"

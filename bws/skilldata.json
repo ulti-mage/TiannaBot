@@ -143,7 +143,7 @@
       "name": "Robbery",
       "type": "Always",
       "chance": "25%",
-      "description": "When defeating an enemy at range 0-1, randomly steals an item. Cannot steal rare items or items with Rank higher than Level. Can only activate up to 3 times per map."
+      "description": "When defeating an enemy at range 0-1, randomly steals an item. Cannot steal rare items, limited items or items with Rank higher than Level. Can only activate up to 3 times per map."
    },
    "Despoil": {
       "name": "Despoil",
@@ -169,7 +169,7 @@
    "Steal": {
       "name": "Steal",
       "type": "Command (enemy)",
-      "description": "Steal an unequipped weapon or item from an adjacent enemy. (Grants 8 Exp.) Cannot steal rare items. Only usable in place of moving. Can only be used up to 3 times per map."
+      "description": "Steal an unequipped weapon or item from an adjacent enemy. (Grants 8 Exp.) Cannot steal rare items or limited items. Only usable in place of moving. Can only be used up to 3 times per map."
    },
    "Pursuit": {
       "name": "Pursuit",
