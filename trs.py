@@ -70,9 +70,12 @@ def get_class_json(ctx: str) -> json:
     with open(trs_class_data_file, 'r') as f:
         class_json = json.load(f)
         for k in class_json:
+<<<<<<< HEAD
             if class_json[k]['name'].lower() == ctx.lower():
                 return class_json[k]
         for k in class_json:
+=======
+>>>>>>> c22e8a2df6f70b934ddba2bb3399f2bb8870f81b
             if (k == ctx) or (class_json[k]['name'].lower().startswith(ctx.lower())):
                 return class_json[k]
         return None
