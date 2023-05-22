@@ -285,12 +285,23 @@ def get_unit_level_embed(unit_json: json, personal: bool, base_class: json, alte
                         stats += stat.title() + ' **12** | '
                     else:
                         stats += stat.title() + ' ' + str(val) + ' | '
-                elif personal and val >= 15:
-                    stats += stat.title() + ' **15** | '
-                elif not personal and val >= base_class['base'][stat] + 15:
-                    stats += stat.title() + ' **' + str(base_class['base'][stat] + 15) + '** | '
                 else:
-                    stats += stat.title() + ' ' + str(val) + ' | '
+                    if personal:
+                        if val >= 15:
+                            stats += stat.title() + ' **15** | '
+                        else:
+                            stats += stat.title() + ' **' + str(val) + '** | '
+                    else:
+                        if promoted:
+                            if val >= promo_class['base'][stat] + 15:
+                                stats += stat.title() + ' **' + str(promo_class['base'][stat] + 15) + '** | '
+                            else:
+                                stats += stat.title() + ' ' + str(val) + ' | '
+                        else:
+                            if val >= base_class['base'][stat] + 15:
+                                stats += stat.title() + ' **' + str(base_class['base'][stat] + 15) + '** | '
+                            else:
+                                stats += stat.title() + ' ' + str(val) + ' | '
     stats = stats[:-3]
     embed.add_field(name='Stats', value=stats, inline=False)
     return embed
