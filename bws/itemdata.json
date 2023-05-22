@@ -497,8 +497,7 @@
          "rank": 1,
          "range": "0",
          "durability": "E",
-         "cost": 300,
-         "effect": "Critical +3%"
+         "cost": 300
       },
    "Bolt Knife": {
          "name": "Bolt Knife",

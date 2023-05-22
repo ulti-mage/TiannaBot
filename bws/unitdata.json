@@ -59,7 +59,7 @@
         },
         "portrait": "reese.png",
         "class": "Lord",
-        "lvl": "1"
+        "lvl": 1
     },
     "ward": {
         "name": "Ward",
@@ -109,7 +109,7 @@
         },
         "portrait": "ward.png",
         "class": "Veteran Knight",
-        "lvl": "22"
+        "lvl": 22
     },
     "leon": {
         "name": "Leon",
@@ -167,7 +167,7 @@
         },
         "portrait": "leon.png",
         "class": "Spear Knight",
-        "lvl": "1"
+        "lvl": 1
     },
     "adel": {
         "name": "Adel",
@@ -226,7 +226,7 @@
         },
         "portrait": "adel.png",
         "class": "Spear Knight",
-        "lvl": "1"
+        "lvl": 1
     },
     "sherlock": {
         "name": "Sherlock",
@@ -279,7 +279,7 @@
         },
         "portrait": "sherlock.png",
         "class": "Horseman",
-        "lvl": "3"
+        "lvl": 3
     },
     "elbert": {
         "name": "Elbert",
@@ -344,7 +344,7 @@
         },
         "portrait": "elbert.png",
         "class": "Cavalier",
-        "lvl": "4"
+        "lvl": 4
     },
     "christine": {
         "name": "Christine",
@@ -407,7 +407,7 @@
         },
         "portrait": "christine.png",
         "class": "Lady Knight",
-        "lvl": "1"
+        "lvl": 1
     },
     "dean": {
         "name": "Dean",
@@ -461,7 +461,7 @@
         },
         "portrait": "dean.png",
         "class": "Axefighter",
-        "lvl": "4"
+        "lvl": 4
     },
     "izerna": {
         "name": "Izerna",
@@ -511,7 +511,7 @@
         },
         "portrait": "izerna.png",
         "class": "Cleric",
-        "lvl": "1"
+        "lvl": 1
     },
     "volo": {
         "name": "Volo",
@@ -556,7 +556,7 @@
         },
         "portrait": "volo.png",
         "class": "Swordfighter",
-        "lvl": "13"
+        "lvl": 13
     },
     "axel": {
         "name": "Axel",
@@ -600,7 +600,7 @@
         },
         "portrait": "axel.png",
         "class": "Pirate",
-        "lvl": "5"
+        "lvl": 5
     },
     "sylvis": {
         "name": "Sylvis",
@@ -650,7 +650,7 @@
         },
         "portrait": "sylvis.png",
         "class": "Sniper",
-        "lvl": "3"
+        "lvl": 3
     },
     "ruby": {
         "name": "Ruby",
@@ -717,7 +717,7 @@
         },
         "portrait": "ruby.png",
         "class": "Chevali\u00e8re",
-        "lvl": "1"
+        "lvl": 1
     },
     "arthur": {
         "name": "Arthur",
@@ -783,7 +783,7 @@
         },
         "portrait": "arthur.png",
         "class": "Sword Knight",
-        "lvl": "2"
+        "lvl": 2
     },
     "czene": {
         "name": "Czene",
@@ -838,7 +838,7 @@
         },
         "portrait": "czene.png",
         "class": "Thief",
-        "lvl": "1"
+        "lvl": 1
     },
     "kramer": {
         "name": "Kramer",
@@ -891,7 +891,7 @@
         },
         "portrait": "kramer.png",
         "class": "Mercenary",
-        "lvl": "3"
+        "lvl": 3
     },
     "faye": {
         "name": "Faye",
@@ -947,7 +947,7 @@
         },
         "portrait": "faye.png",
         "class": "Myrmidon",
-        "lvl": "1"
+        "lvl": 1
     },
     "derrick": {
         "name": "Derrick",
@@ -993,7 +993,7 @@
         },
         "portrait": "derrick.png",
         "class": "Armor Knight",
-        "lvl": "3",
+        "lvl": 3,
         "ALT_NAME": ["150", "150d"]
     },
     "clifford": {
@@ -1049,7 +1049,7 @@
         },
         "portrait": "clifford.png",
         "class": "Duke Knight",
-        "lvl": "20"
+        "lvl": 20
     },
     "faramir": {
         "name": "Faramir",
@@ -1099,7 +1099,7 @@
         },
         "portrait": "faramir.png",
         "class": "Ranger",
-        "lvl": "10"
+        "lvl": 10
     },
     "esteban": {
         "name": "Esteban",
@@ -1163,7 +1163,7 @@
         },
         "portrait": "esteban.png",
         "class": "Hunter",
-        "lvl": "2"
+        "lvl": 2
     },
     "aegina": {
         "name": "Aegina",
@@ -1216,7 +1216,7 @@
         },
         "portrait": "aegina.png",
         "class": "Wind Mage",
-        "lvl": "1"
+        "lvl": 1
     },
     "sherpa": {
         "name": "Sherpa",
@@ -1261,7 +1261,7 @@
         },
         "portrait": "sherpa.png",
         "class": "Highlander",
-        "lvl": "14"
+        "lvl": 14
     },
     "saphira": {
         "name": "Saphira",
@@ -1314,7 +1314,7 @@
         },
         "portrait": "saphira.png",
         "class": "Acolyte",
-        "lvl": "1"
+        "lvl": 1
     },
     "owen": {
         "name": "Owen",
@@ -1370,7 +1370,7 @@
         },
         "portrait": "owen.png",
         "class": "Bishop",
-        "lvl": "12"
+        "lvl": 12
     },
     "daoud": {
         "name": "Daoud",
@@ -1426,7 +1426,7 @@
         },
         "portrait": "daoud.png",
         "class": "Axe Soldier",
-        "lvl": "6"
+        "lvl": 6
     },
     "larentia": {
         "name": "Larentia",
@@ -1479,7 +1479,7 @@
         },
         "portrait": "larentia.png",
         "class": "Wyvern Knight",
-        "lvl": "5"
+        "lvl": 5
     },
     "thaddy": {
         "name": "Thaddy",
@@ -1526,7 +1526,7 @@
         },
         "portrait": "thaddy.png",
         "class": "Burglar",
-        "lvl": "2"
+        "lvl": 2
     },
     "marcel": {
         "name": "Marcel",
@@ -1574,7 +1574,7 @@
         },
         "portrait": "marcel.png",
         "class": "Guardian",
-        "lvl": "5"
+        "lvl": 5
     },
     "enid": {
         "name": "Enid",
@@ -1634,7 +1634,7 @@
         },
         "portrait": "enid.png",
         "class": "Fencer",
-        "lvl": "1"
+        "lvl": 1
     },
     "perceval": {
         "name": "Perceval",
@@ -1689,7 +1689,7 @@
         },
         "portrait": "perceval.png",
         "class": "Thunder Mage",
-        "lvl": "4"
+        "lvl": 4
     },
     "burroughs": {
         "name": "Burroughs",
@@ -1732,7 +1732,7 @@
         },
         "portrait": "burroughs.png",
         "class": "Ballistician",
-        "lvl": "4"
+        "lvl": 4
     },
     "alvina": {
         "name": "Alvina",
@@ -1789,7 +1789,7 @@
         },
         "portrait": "alvina.png",
         "class": "Paladin",
-        "lvl": "12"
+        "lvl": 12
     },
     "paramythis": {
         "name": "Paramythis",
@@ -1840,7 +1840,7 @@
         },
         "portrait": "paramythis.png",
         "class": "Shining Knight",
-        "lvl": "16"
+        "lvl": 16
     },
     "lynette": {
         "name": "Lynette",
@@ -1889,7 +1889,7 @@
         },
         "portrait": "lynette.png",
         "class": "Chosen One",
-        "lvl": "17"
+        "lvl": 17
     },
     "vester": {
         "name": "Vester",
@@ -1935,6 +1935,6 @@
         },
         "portrait": "vester.png",
         "class": "Duke Knight",
-        "lvl": "26"
+        "lvl": 26
     }
 }

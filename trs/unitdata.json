@@ -1,640 +1,2438 @@
 {
-    "alfred": {
-        "name": "Alfred",
-        "job": "Lv. 35 Sage",
-        "Bases": "HP 38 | Str 0 | Skl 22 | Spd 18 | Def 9 | Mag 19 | Lck 8 | Mst 20 | Mov 5",
-        "Growths": "HP 75% | Str 0% | Skl 30% | Spd 30% | Def 15% | Mag 30% | Lck 30% | Mst 30% | Mov 0%",
-        "Skills": "Warp",
-        "Weapons": "Thunder\nWind\nFire\nLight",
-        "portrait": "alfred.png"
+  "runan": {
+    "name": "Runan",
+    "base": {
+      "hp": 2,
+      "str": 1,
+      "skl": 1,
+      "spd": 3,
+      "def": 0,
+      "mag": 0,
+      "luck": 4,
+      "mst": 2,
+      "move": 0
     },
-    "alicia": {
-        "name": "Alicia",
-        "job": "Lv. 3 Mage",
-        "Bases": "HP 20 | Str 0 | Skl 7 | Spd 7 | Def 3 | Mag 7 | Lck 5 | Mst 7 | Mov 4",
-        "Growths": "HP 35% | Str 0% | Skl 30% | Spd 25% | Def 11% | Mag 25% | Lck 40% | Mst 40% | Mov 0%",
-        "Promotion": "Sage\nHP +2 | Str +0 | Skl +3 | Spd +4 | Def +2 | Mag +3 | Mst +2 | Mov +1\n+Fire, Light",
-        "Skills": "Flurry (Lv. 16)\nAdept (Lv. 32)",
-        "Weapons": "Wind\nThunder",
-        "portrait": "alicia.png"
+    "growth": {
+      "hp": 60,
+      "str": 30,
+      "skl": 30,
+      "spd": 30,
+      "def": 25,
+      "mag": 15,
+      "luck": 30,
+      "mst": 40,
+      "move": 0
     },
-    "arkis": {
-        "name": "Arkis",
-        "job": "Lv. 2 Cavalier",
-        "Bases": "HP 22 | Str 5 | Skl 6 | Spd 7 | Def 4 | Mag 0 | Lck 3 | Mst 3 | Mov 7",
-        "Growths": "HP 60% | Str 25% | Skl 25% | Spd 30% | Def 22% | Mag 5% | Lck 35% | Mst 35% | Mov 0%",
-        "Promotion": "Bronze Paladin\nHP +3 | Str +2 | Skl +2 | Spd +1 | Def +2 | Mag +0 | Mst +3 | Mov +0\n+Lances when dismounted",
-        "Skills": "Lethality (Lv. 16)\nAdept (Lv. 25)\nCanto (Lv. 38)",
-        "Weapons": "Swords\nLances (Mounted)",
-        "portrait": "arkis.png"
+    "skill": [
+      "Urbanite",
+      "Adept (Lv. 7)",
+      "Draco (Lv. 15)",
+      "Nihil (Lv. 35)",
+      "Adept (Promotion)",
+      "Charisma (Promotion)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "runan.png",
+    "class": "lord",
+    "lvl": 2,
+    "promo": {
+      "promo": "greatlord"
+      }
+  },
+  "kreiss": {
+    "name": "Kreiss",
+    "base": {
+      "hp": 4,
+      "str": 3,
+      "skl": 2,
+      "spd": 2,
+      "def": 2,
+      "mag": 0,
+      "luck": 4,
+      "mst": 4,
+      "move": 0
     },
-    "attrom": {
-        "name": "Attrom",
-        "job": "Lv. 3 Mercenary",
-        "Bases": "HP 24 | Str 6 | Skl 7 | Spd 9 | Def 4 | Mag 0 | Lck 5 | Mst 6 | Mov 5",
-        "Growths": "HP 70% | Str 40% | Skl 50% | Spd 45% | Def 20% | Mag 5% | Lck 20% | Mst 30% | Mov 0%",
-        "Promotion": "Hero\nHP +3 | Str +3 | Skl +3 | Spd +2 | Def +2 | Mag +0 | Mst +2 | Mov +1",
-        "Skills": "Sol (Lv. 15 Mercenary)\nLethality (Lv. 26)",
-        "Weapons": "Swords",
-        "portrait": "attrom.png"
+    "growth": {
+      "hp": 65,
+      "str": 30,
+      "skl": 30,
+      "spd": 20,
+      "def": 25,
+      "mag": 5,
+      "luck": 20,
+      "mst": 30,
+      "move": 0
     },
-    "bartz": {
-        "name": "Bartz",
-        "job": "Lv. 3 Fighter",
-        "Bases": "HP 28 | Str 9 | Skl 6 | Spd 10 | Def 5 | Mag 0 | Lck 1 | Mst 8 | Mov 5",
-        "Growths": "HP 90% | Str 30% | Skl 15% | Spd 35% | Def 18% | Mag 0% | Lck 15% | Mst 15% | Mov 0%",
-        "Promotion": "Warrior\nHP +3 | Str +2 | Skl +2 | Spd +2 | Def +1 | Mag +0 | Mst +2 | Mov +1",
-        "Skills": "Mountaineer\nFlurry (Lv. 15)",
-        "Weapons": "Axes",
-        "portrait": "bartz.png",
-        "ALT_NAME": [
-            "Barts"
-        ]
-    },
-    "billford": {
-        "name": "Billford",
-        "job": "Lv. 8 Armor Knight",
-        "Bases": "HP 35 | Str 9 | Skl 8 | Spd 6 | Def 12 | Mag 0 | Lck 5 | Mst 12 | Mov 3",
-        "Growths": "HP 90% | Str 35% | Skl 30% | Spd 35% | Def 30% | Mag 5% | Lck 35% | Mst 20% | Mov 5%",
-        "Promotion": "General\nHP +2 | Str +2 | Skl +3 | Spd +2 | Def +1 | Mag +0 | Mst +2 | Mov +1",
-        "Skills": "Wrath\nPavise\nNihil (Lv. 26)\nAdept (Lv. 32)\nFlurry (Lv. 38)",
-        "Weapons": "Swords",
-        "portrait": "billford.png"
-    },
-    "bud": {
-        "name": "Bud",
-        "job": "Lv. 2 Thief",
-        "Bases": "HP 18 | Str 1 | Skl 6 | Spd 16 | Def 0 | Mag 6 | Lck 8 | Mst 4 | Mov 5",
-        "Growths": "HP 40% | Str 15% | Skl 30% | Spd 45% | Def 13% | Mag 35% | Lck 55% | Mst 40% | Mov 0%",
-        "Skills": "Steal\nLocktouch\nForester\nParagon (Lv. 10)\nAstra (Lv. 40)",
-        "Weapons": "Swords",
-        "portrait": "bud.png"
-    },
-    "enteh": {
-        "name": "Enteh",
-        "job": "Lv. 2 Shaman",
-        "Bases": "HP 15 | Str 0 | Skl 5 | Spd 8 | Def 1 | Mag 7 | Lck 7 | Mst 7 | Mov 4",
-        "Growths": "HP 30% | Str 0% | Skl 20% | Spd 25% | Def 5% | Mag 30% | Lck 30% | Mst 50% | Mov 0%",
-        "Skills": "Summon (Lv. 30)",
-        "Weapons": "Staves",
-        "portrait": "enteh.png"
-    },
-    "esther": {
-        "name": "Esther",
-        "job": "Lv. 2 Cavalier",
-        "Bases": "HP 21 | Str 4 | Skl 4 | Spd 4 | Def 4 | Mag 0 | Lck 5 | Mst 3 | Mov 7",
-        "Growths": "HP 50% | Str 30% | Skl 30% | Spd 35% | Def 18% | Mag 15% | Lck 45% | Mst 25% | Mov 0%",
-        "Promotion": "Silver Paladin\nHP +3 | Str +3 | Skl +4 | Spd +4 | Def +3 | Mag +0 | Mst +3 | Mov +1",
-        "Skills": "Urbanite\nWrath (Lv. 14)\nParagon (Lv. 20)\nVantage (Lv. 28)",
-        "Weapons": "Swords\nLances (Mounted)",
-        "portrait": "esther.png",
-        "ALT_NAME": [
-            "Estelle"
-        ]
-    },
-    "ezekiel": {
-        "name": "Ezekiel",
-        "job": "Lv. 4 Axe Soldier",
-        "Bases": "HP 27 | Str 8 | Skl 6 | Spd 7 | Def 7 | Mag 0 | Lck 3 | Mst 8 | Mov 4",
-        "Growths": "HP 75% | Str 25% | Skl 25% | Spd 20% | Def 28% | Mag 5% | Lck 25% | Mst 30% | Mov 0%",
-        "Promotion": "Sergeant\nHP +2 | Str +2 | Skl +2 | Spd +2 | Def +1 | Mag +0 | Mst +1 | Mov +1\n+Swords, Lances",
-        "Skills": "Lethality\nUrbanite\nMountaineer (Lv. 12)\nGrassrunner (Lv. 18)\nFrontiersman (Lv. 24)",
-        "Weapons": "Axes",
-        "portrait": "ezekiel.png"
-    },
-    "frau": {
-        "name": "Frau",
-        "job": "Lv. 1 Pegasus Knight",
-        "Bases": "HP 24 | Str 7 | Skl 5 | Spd 11 | Def 5 | Mag 8 | Lck 8 | Mst 5 | Mov 7",
-        "Growths": "HP 50% | Str 25% | Skl 40% | Spd 45% | Def 20% | Mag 25% | Lck 40% | Mst 35% | Mov 0%",
-        "Promotion": "Wyvern Knight\nHP +5 | Str +3 | Skl +3 | Spd -1 | Def +4 | Mag -6 | Mst +2 | Mov +0",
-        "Skills": "Canto\nAdept (Lv. 12)\nSlayer (Lv. 25)",
-        "Weapons": "Swords\nLances (Mounted)",
-        "portrait": "frau.png"
-    },
-    "garo": {
-        "name": "Garo",
-        "job": "Lv. 7 Pirate",
-        "Bases": "HP 35 | Str 11 | Skl 4 | Spd 10 | Def 6 | Mag 0 | Lck 1 | Mst 11 | Mov 4",
-        "Growths": "HP 85% | Str 40% | Skl 25% | Spd 30% | Def 20% | Mag 0% | Lck 10% | Mst 30% | Mov 0%",
-        "Skills": "Adept\nSeafarer\nWrath (Lv. 28)\nFlurry (Lv. 29)\nNihil (Lv. 30)\nLethality (Lv. 31)",
-        "Weapons": "Axes",
-        "portrait": "garo.png"
-    },
-    "hagar": {
-        "name": "Hagar",
-        "job": "Lv. 16 Artilleryman",
-        "Bases": "HP 36 | Str 13 | Skl 12 | Spd 9 | Def 17 | Mag 0 | Lck 4 | Mst 7 | Mov 3",
-        "Growths": "HP 55% | Str 35% | Skl 30% | Spd 40% | Def 40% | Mag 5% | Lck 40% | Mst 40% | Mov 0%",
-        "Skills": "Paragon\nAdept\nPavise (Lv. 18)",
-        "Weapons": "Bows",
-        "portrait": "hagar.png",
-        "ALT_NAME": [
-            "Hagaru"
-        ]
-    },
-    "holmes": {
-        "name": "Holmes",
-        "job": "Lv. 6 Privateer",
-        "Bases": "HP 29 | Str 11 | Skl 10 | Spd 11 | Def 7 | Mag 0 | Lck 6 | Mst 10 | Mov 5",
-        "Growths": "HP 65% | Str 30% | Skl 35% | Spd 35% | Def 25% | Mag 10% | Lck 35% | Mst 35% | Mov 0%",
-        "Promotion": "Stealth Hunter\nHP +2 | Str +1 | Skl +1 | Spd +0 | Def +1 | Mag +2 | Mst +0 | Mov +1\n+Swords",
-        "Skills": "Locktouch\nSeafarer\nDraco (Lv. 16)\nAdept (Lv. 32)\nCharisma (Promotion)",
-        "Weapons": "Bows",
-        "portrait": "holmes.png"
-    },
-    "julia": {
-        "name": "Julia",
-        "job": "Lv. 1 Myrmidon",
-        "Bases": "HP 22 | Str 4 | Skl 10 | Spd 11 | Def 3 | Mag 0 | Lck 5 | Mst 8 | Mov 5",
-        "Growths": "HP 50% | Str 25% | Skl 45% | Spd 40% | Def 18% | Mag 10% | Lck 25% | Mst 35% | Mov 0%",
-        "Promotion": "Swordmaster\nHP +2 | Str +3 | Skl +3 | Spd +2 | Def +1 | Mag +0 | Mst +1 | Mov +1",
-        "Skills": "Adept (Lv. 8)\nDraco (Lv. 18)\nSlayer (Lv. 25)\nAstra (Map 30 event, Holmes route)",
-        "Weapons": "Swords",
-        "portrait": "julia.png"
-    },
-    "juni": {
-        "name": "Juni",
-        "job": "Lv. 1 Thief",
-        "Bases": "HP 18 | Str 1 | Skl 7 | Spd 12 | Def 0 | Mag 2 | Lck 7 | Mst 6 | Mov 5",
-        "Growths": "HP 35% | Str 0% | Skl 45% | Spd 40% | Def 5% | Mag 20% | Lck 35% | Mst 25% | Mov 0%",
-        "Skills": "Steal\nLocktouch\nFrontiersman (Lv. 12)\nAdept (Lv. 28)\nCharisma (Lv. 35)",
-        "Weapons": "Swords",
-        "portrait": "juni.png",
-        "ALT_NAME": [
-            "yuni"
-        ]
-    },
-    "kate": {
-        "name": "Kate",
-        "job": "Lv. 2 Lady Knight",
-        "Bases": "HP 22 | Str 6 | Skl 8 | Spd 8 | Def 5 | Mag 0 | Lck 2 | Mst 6 | Mov 4",
-        "Growths": "HP 55% | Str 25% | Skl 35% | Spd 25% | Def 18% | Mag 10% | Lck 25% | Mst 40% | Mov 0%",
-        "Promotion": "Bow Knight\nHP +2 | Str +1 | Skl +1 | Spd +0 | Def +1 | Mag +0 | Mst +1 | Mov +3",
-        "Skills": "Adept\nUrbanite\nTerra (Lv. 18)\nCanto (Lv. 27)",
-        "Weapons": "Swords\nBows",
-        "portrait": "kate.png"
-    },
-    "katri": {
-        "name": "Katri",
-        "job": "Lv. 1 Shaman",
-        "Bases": "HP 17 | Str 0 | Skl 4 | Spd 8 | Def 1 | Mag 7 | Lck 5 | Mst 7 | Mov 4",
-        "Growths": "HP 40% | Str 0% | Skl 10% | Spd 55% | Def 5% | Mag 35% | Lck 40% | Mst 60% | Mov 0%",
-        "Skills": "Summon",
-        "Weapons": "Staves",
-        "portrait": "katri.png"
-    },
-    "kreiss": {
-        "name": "Kreiss",
-        "job": "Lv. 2 Cavalier",
-        "Bases": "HP 24 | Str 7 | Skl 5 | Spd 5 | Def 5 | Mag 0 | Lck 4 | Mst 5 | Mov 7",
-        "Growths": "HP 65% | Str 30% | Skl 30% | Spd 20% | Def 25% | Mag 5% | Lck 20% | Mst 30% | Mov 0%",
-        "Promotion": "Bronze Paladin\nHP +3 | Str +2 | Skl +2 | Spd +1 | Def +2 | Mag +0 | Mst +3 | Mov +0\n+Lances when dismounted",
-        "Skills": "Vantage (Lv. 19)\nLuna (Lv. 25)\nNihil (Lv. 37)",
-        "Weapons": "Swords\nLances (Mounted)",
-        "portrait": "kreiss.png"
-    },
-    "krishna": {
-        "name": "Krishna",
-        "job": "Lv. 1 Myrmidon",
-        "Bases": "HP 20 | Str 3 | Skl 7 | Spd 9 | Def 2 | Mag 6 | Lck 7 | Mst 5 | Mov 5",
-        "Growths": "HP 40% | Str 15% | Skl 15% | Spd 25% | Def 14% | Mag 10% | Lck 25% | Mst 20% | Mov 0%",
-        "Promotion": "Swordmaster\nHP +2 | Str +3 | Skl +3 | Spd +2 | Def +1 | Mag +0 | Mst +1 | Mov +1",
-        "Skills": "Steal\nDraco (Lv. 17)",
-        "Weapons": "Swords",
-        "portrait": "krishna.png",
-        "ALT_NAME": [
-            "Krisheena"
-        ]
-    },
-    "lee": {
-        "name": "Lee",
-        "job": "Lv. 15 Bishop",
-        "Bases": "HP 25 | Str 0 | Skl 9 | Spd 11 | Def 3 | Mag 13 | Lck 3 | Mst 12 | Mov 5",
-        "Growths": "HP 35% | Str 0% | Skl 10% | Spd 10% | Def 5% | Mag 15% | Lck 20% | Mst 10% | Mov 0%",
-        "Weapons": "Fire\nWind\nThunder\nStaves",
-        "portrait": "lee.png"
-    },
-    "leonie": {
-        "name": "Leonie",
-        "job": "Lv. 3 Archer",
-        "Bases": "HP 21 | Str 6 | Skl 8 | Spd 10 | Def 3 | Mag 0 | Lck 5 | Mst 6 | Mov 4",
-        "Growths": "HP 55% | Str 40% | Skl 30% | Spd 55% | Def 18% | Mag 10% | Lck 35% | Mst 40% | Mov 10%",
-        "Promotion": "Sniper\nHP +4 | Str +3 | Skl +1 | Spd +1 | Def +3 | Mag +0 | Mst +1 | Mov +1",
-        "Skills": "Flurry \nUrbanite (Promotion)\nParagon (Lv. 9)\nLuna (Lv. 19)\nAdept (Lv. 34)",
-        "Weapons": "Bows",
-        "portrait": "leonie.png",
-        "ALT_NAME": [
-            "Rennie"
-        ]
-    },
-    "letena": {
-        "name": "Letena",
-        "job": "Lv. 3 Cleric",
-        "Bases": "HP 18 | Str 0 | Skl 10 | Spd 6 | Def 1 | Mag 13 | Lck 12 | Mst 10 | Mov 4",
-        "Growths": "HP 35% | Str 0% | Skl 15% | Spd 40% | Def 5% | Mag 45% | Lck 40% | Mst 40% | Mov 0%",
-        "Skills": "Paragon\nSummon (Lv. 8)",
-        "Weapons": "Staves",
-        "portrait": "leteena.png",
-        "ALT_NAME": [
-            "Lene",
-            "Renee",
-            "Leteena",
-            "Retina"
-        ]
-    },
-    "lina": {
-        "name": "Lina",
-        "job": "Lv. 1 Cavalier",
-        "Bases": "HP 20 | Str 4 | Skl 4 | Spd 7 | Def 3 | Mag 0 | Lck 18 | Mst 2 | Mov 9",
-        "Growths": "HP 40% | Str 10% | Skl 35% | Spd 55% | Def 10% | Mag 40% | Lck 60% | Mst 35% | Mov 10%",
-        "Promotion": "Silver Paladin\nHP +3 | Str +3 | Skl +4 | Spd +4 | Def +3 | Mag +0 | Mst +3 | Mov +1",
-        "Skills": "Paragon \nCanto (Lv. 9)\nVantage (Lv. 18)\nAdept (Lv. 23)",
-        "Weapons": "Swords\nLances (Mounted)",
-        "portrait": "lina.png",
-        "ALT_NAME": ["Rina"]
-    },
-    "lionel": {
-        "name": "Lionel",
-        "job": "Lv. 5 Lance Soldier",
-        "Bases": "HP 26 | Str 8 | Skl 6 | Spd 11 | Def 5 | Mag 0 | Lck 3 | Mst 9 | Mov 5",
-        "Growths": "HP 85% | Str 30% | Skl 30% | Spd 20% | Def 30% | Mag 5% | Lck 45% | Mst 25% | Mov 5%",
-        "Promotion": "Sergeant\nHP +2 | Str +2 | Skl +2 | Spd +2 | Def +1 | Mag +0 | Mst +1 | Mov +1\n+Swords, Axes",
-        "Skills": "Wrath\nUrbanite\nNihil (Lv. 17)\nGladiator (Lv. 21)",
-        "Weapons": "Lances",
-        "portrait": "lionel.png"
-    },
-    "lionheart": {
-        "name": "Lionheart",
-        "job": "Lv. 12 Nomadic Trooper",
-        "Bases": "HP 32 | Str 13 | Skl 12 | Spd 12 | Def 9 | Mag 0 | Lck 4 | Mst 10 | Mov 8",
-        "Growths": "HP 75% | Str 30% | Skl 25% | Spd 20% | Def 25% | Mag 5% | Lck 25% | Mst 25% | Mov 0%",
-        "Skills": "Sol\nAdept\nCanto\nGrassrunner\nSlayer (Lv. 22)",
-        "Weapons": "Bows\nSwords (Mounted)",
-        "portrait": "lionheart.png"
-    },
-    "luca": {
-        "name": "Luca",
-        "job": "Lv. 2 Archer",
-        "Bases": "HP 19 | Str 4 | Skl 5 | Spd 8 | Def 2 | Mag 0 | Lck 1 | Mst 6 | Mov 4",
-        "Growths": "HP 60% | Str 25% | Skl 50% | Spd 40% | Def 15% | Mag 5% | Lck 40% | Mst 25% | Mov 0%",
-        "Promotion": "Sniper\nHP +4 | Str +3 | Skl +1 | Spd +1 | Def +3 | Mag +0 | Mst +1 | Mov +1",
-        "Skills": "Flurry (Lv. 15)\nAdept (Lv. 30)\nUrbanite (Promotion)",
-        "Weapons": "Bows",
-        "portrait": "luca.png",
-        "ALT_NAME": [
-            "Luka",
-            "Ruka"
-        ]
-    },
-    "lyria": {
-        "name": "Lyria",
-        "job": "Lv. 1 Cleric",
-        "Bases": "HP 18 | Str 0 | Skl 2 | Spd 3 | Def 1 | Mag 4 | Lck 12 | Mst 3 | Mov 4",
-        "Growths": "HP 25% | Str 0% | Skl 5% | Spd 35% | Def 5% | Mag 15% | Lck 50% | Mst 15% | Mov 0%",
-        "Skills": "Sing",
-        "Weapons": "Staves",
-        "portrait": "lyria.png"
-    },
-    "maerchen": {
-        "name": "Maerchen",
-        "job": "Lv. 15 Chief",
-        "Bases": "HP 28 | Str 9 | Skl 2 | Spd 4 | Def 4 | Mag 0 | Lck 1 | Mst 6 | Mov 4",
-        "Growths": "HP 10% | Str 5% | Skl 5% | Spd 5% | Def 0% | Mag 0% | Lck 5% | Mst 0% | Mov 0%",
-        "Skills": "Mug\nLocktouch\nSteal",
-        "Weapons": "Swords",
-        "portrait": "maerchen.png",
-        "ALT_NAME": [
-            "marvin",
-            "marco"
-        ]
-    },
-    "martel": {
-        "name": "Martel",
-        "job": "Lv. 3 Pegasus Knight",
-        "Bases": "HP 22 | Str 6 | Skl 7 | Spd 11 | Def 4 | Mag 8 | Lck 5 | Mst 5 | Mov 7",
-        "Growths": "HP 45% | Str 25% | Skl 35% | Spd 30% | Def 20% | Mag 15% | Lck 55% | Mst 35% | Mov 0%",
-        "Promotion": "Wyvern Knight\nHP +5 | Str +3 | Skl +3 | Spd -1 | Def +4 | Mag -6 | Mst +2 | Mov +0",
-        "Skills": "Canto\nVantage\nTerra (Lv. 15)\nAdept (Lv. 25)",
-        "Weapons": "Swords\nLances (Mounted)",
-        "portrait": "martel.png",
-        "ALT_NAME": [
-            "Mahter"
-        ]
-    },
-    "maruj": {
-        "name": "Maruj",
-        "job": "Lv. 1 Mage",
-        "Bases": "HP 20 | Str 0 | Skl 6 | Spd 7 | Def 3 | Mag 6 | Lck 4 | Mst 7 | Mov 4",
-        "Growths": "HP 45% | Str 0% | Skl 30% | Spd 35% | Def 10% | Mag 20% | Lck 35% | Mst 30% | Mov 0%",
-        "Promotion": "Sage\nHP +2 | Str +0 | Skl +3 | Spd +4 | Def +2 | Mag +3 | Mst +2 | Mov +1\n+Fire, Light",
-        "Skills": "Adept (Lv. 19 Mage)\nSol (Lv. 20 Sage)\nFlurry (Lv. 39)",
-        "Weapons": "Wind\nThunder",
-        "portrait": "maruj.png"
-    },
-    "mel": {
-        "name": "Mel",
-        "job": "Lv. 3 Troubadour",
-        "Bases": "HP 22 | Str 2 | Skl 6 | Spd 8 | Def 3 | Mag 6 | Lck 8 | Mst 6 | Mov 7",
-        "Growths": "HP 35% | Str 15% | Skl 20% | Spd 35% | Def 15% | Mag 20% | Lck 15% | Mst 25% | Mov 3%",
-        "Skills": "Canto (Lv. 14)",
-        "Weapons": "Swords\nStaves",
-        "portrait": "mel.png"
-    },
-    "meriel": {
-        "name": "Meriel",
-        "job": "Lv. 1 Mage",
-        "Bases": "HP 19 | Str 0 | Skl 6 | Spd 7 | Def 2 | Mag 7 | Lck 6 | Mst 5 | Mov 4",
-        "Growths": "HP 35% | Str 0% | Skl 35% | Spd 45% | Def 10% | Mag 30% | Lck 30% | Mst 35% | Mov 0%",
-        "Promotion": "Sage\nHP +2 | Str +0 | Skl +3 | Spd +4 | Def +2 | Mag +3 | Mst +2 | Mov +1\n+Wind, Thunder",
-        "Skills": "Wrath (Lv. 15 Mage)\nLuna (Lv. 15 Sage)\nSol (Lv. 30)",
-        "Weapons": "Light\nFire",
-        "portrait": "meriel.png"
-    },
-    "mintz": {
-        "name": "Mintz",
-        "job": "Lv. 9 Black Paladin",
-        "Bases": "HP 32 | Str 11 | Skl 12 | Spd 11 | Def 10 | Mag 0 | Lck 2 | Mst 9 | Mov 8",
-        "Growths": "HP 85% | Str 30% | Skl 25% | Spd 20% | Def 30% | Mag 5% | Lck 20% | Mst 25% | Mov 0%",
-        "Skills": "Wrath\nFlurry (Lv. 20 while Dismounted)",
-        "Weapons": "Swords\nLances (Mounted)",
-        "portrait": "mintz.png"
-    },
-    "narcus": {
-        "name": "Narcus",
-        "job": "Lv. 10 Thief",
-        "Bases": "HP 23 | Str 4 | Skl 9 | Spd 17 | Def 2 | Mag 4 | Lck 7 | Mst 7 | Mov 5",
-        "Growths": "HP 50% | Str 20% | Skl 15% | Spd 25% | Def 15% | Mag 5% | Lck 25% | Mst 25% | Mov 0%",
-        "Skills": "Transform\nLocktouch\nNihil (Lv. 17)\nVantage (Lv. 25)\nAdept (Lv. 31)",
-        "Weapons": "Swords",
-        "portrait": "narcus.png",
-        "ALT_NAME": ["narsus"]
-    },
-    "narron": {
-        "name": "Narron",
-        "job": "Lv. 1 Cavalier",
-        "Bases": "HP 22 | Str 6 | Skl 3 | Spd 5 | Def 4 | Mag 0 | Lck 6 | Mst 5 | Mov 7",
-        "Growths": "HP 60% | Str 35% | Skl 25% | Spd 20% | Def 22% | Mag 15% | Lck 25% | Mst 30% | Mov 0%",
-        "Promotion": "Gold Paladin\nHP +8 | Str +6 | Skl +7 | Spd +7 | Def +5 | Mag +0 | Mst +4 | Mov +1",
-        "Skills": "Paragon \nLethality (Lv. 12 Gold Paladin)\nCanto (Lv. 16)\nAdept (Promotion)\nPavise (Promotion)",
-        "Weapons": "Swords\nLances (Mounted)",
-        "portrait": "narron.png"
-    },
-    "norton": {
-        "name": "Norton",
-        "job": "Lv. 4 Armor Knight",
-        "Bases": "HP 34 | Str 8 | Skl 7 | Spd 4 | Def 12 | Mag 0 | Lck 2 | Mst 6 | Mov 3",
-        "Growths": "HP 75% | Str 40% | Skl 30% | Spd 25% | Def 20% | Mag 0% | Lck 15% | Mst 25% | Mov 0%",
-        "Promotion": "Great Knight\nHP +0 | Str +2 | Skl +0 | Spd +0 | Def +1 | Mag +0 | Mst +1 | Mov +3",
-        "Skills": "Urbanite\nWrath\nPavise (Lv. 12 Great Knight)\nPavise (Lv. 25)",
-        "Weapons": "Swords",
-        "portrait": "norton.png"
-    },
-    "plum": {
-        "name": "Plum",
-        "job": "Lv. 1 Cleric",
-        "Bases": "HP 18 | Str 0 | Skl 2 | Spd 3 | Def 1 | Mag 4 | Lck 6 | Mst 4 | Mov 4",
-        "Growths": "HP 20% | Str 0% | Skl 0% | Spd 20% | Def 0% | Mag 35% | Lck 60% | Mst 20% | Mov 0%",
-        "Skills": "Dance (Map 14 Event)",
-        "Weapons": "Staves",
-        "portrait": "plum.png"
-    },
-    "raffin": {
-        "name": "Raffin",
-        "job": "Lv. 6 Bronze Paladin",
-        "Bases": "HP 27 | Str 8 | Skl 8 | Spd 7 | Def 7 | Mag 0 | Lck 2 | Mst 9 | Mov 8",
-        "Growths": "HP 80% | Str 35% | Skl 40% | Spd 30% | Def 25% | Mag 5% | Lck 20% | Mst 45% | Mov 0%",
-        "Promotion": "Wyvern Knight\nHP +2 | Str +2 | Skl +0 | Spd +2 | Def +2 | Mag +0 | Mst +0 | Mov +0",
-        "Skills": "Canto\nVantage (Lv. 17)\nAdept (Lv. 24)",
-        "Weapons": "Swords\nLances",
-        "portrait": "raffin.png"
-    },
-    "raphael": {
-        "name": "Raphael",
-        "job": "Lv. 25 Royal Knight",
-        "Bases": "HP 41 | Str 17 | Skl 16 | Spd 13 | Def 13 | Mag 2 | Lck 12 | Mst 15 | Mov 7",
-        "Growths": "HP 50% | Str 15% | Skl 20% | Spd 15% | Def 15% | Mag 0% | Lck 30% | Mst 15% | Mov 0%",
-        "Skills": "Wrath\nPavise\nUrbanite\nFlurry (Lv. 32)\nSlayer (Lv. 37)",
-        "Weapons": "Swords\nLances (Mounted)\nAxes (Mounted)\nBows (Mounted)",
-        "portrait": "raphael.png"
-    },
-    "raquel": {
-        "name": "Raquel",
-        "job": "Lv. 11 Sniper",
-        "Bases": "HP 24 | Str 12 | Skl 16 | Spd 16 | Def 7 | Mag 0 | Lck 8 | Mst 16 | Mov 5",
-        "Growths": "HP 40% | Str 20% | Skl 35% | Spd 35% | Def 15% | Mag 25% | Lck 55% | Mst 30% | Mov 0%",
-        "Skills": "Adept\nParagon\nUrbanite\nForester\nMercy (Unlisted)\nSlayer (Lv. 16)\nNihil (Lv. 31)",
-        "Weapons": "Bows",
-        "portrait": "raquel.png"
-    },
-    "rebecca": {
-        "name": "Rebecca",
-        "job": "Lv. 3 Cleric",
-        "Bases": "HP 20 | Str 0 | Skl 4 | Spd 7 | Def 2 | Mag 9 | Lck 7 | Mst 10 | Mov 4",
-        "Growths": "HP 45% | Str 0% | Skl 40% | Spd 45% | Def 10% | Mag 40% | Lck 35% | Mst 40% | Mov 0%",
-        "Skills": "Summon\nParagon (Lv. 16)\nCharisma (Lv. 38)",
-        "Weapons": "Staves",
-        "portrait": "rebecca.png"
-    },
-    "renee": {
-        "name": "Renee",
-        "job": "Lv. 13 Saint",
-        "Bases": "HP 22 | Str 0 | Skl 12 | Spd 12 | Def 4 | Mag 16 | Lck 7 | Mst 17 | Mov 5",
-        "Growths": "HP 30% | Str 0% | Skl 35% | Spd 40% | Def 5% | Mag 30% | Lck 40% | Mst 35% | Mov 0%",
-        "Skills": "Summon\nFrontiersman",
-        "Weapons": "Staves",
-        "portrait": "renee.png"
-    },
-    "rishel": {
-        "name": "Rishel",
-        "job": "Lv. 8 Mage",
-        "Bases": "HP 24 | Str 0 | Skl 10 | Spd 9 | Def 3 | Mag 11 | Lck 3 | Mst 13 | Mov 5",
-        "Growths": "HP 55% | Str 0% | Skl 40% | Spd 35% | Def 20% | Mag 30% | Lck 15% | Mst 30% | Mov 0%",
-        "Promotion": "Sage\nHP +2 | Str +0 | Skl +3 | Spd +4 | Def +2 | Mag +3 | Mst +2 | Mov +1\n+Thunder, Wind, Light",
-        "Skills": "Terra\nVantage\nSlayer (Lv. 15)\nAdept (Lv. 32)",
-        "Weapons": "Fire",
-        "portrait": "rishel.png"
-    },
-    "roger": {
-        "name": "Roger",
-        "job": "Lv. 5 Silver Paladin",
-        "Bases": "HP 29 | Str 10 | Skl 14 | Spd 11 | Def 8 | Mag 0 | Lck 3 | Mst 9 | Mov 8",
-        "Growths": "HP 65% | Str 20% | Skl 20% | Spd 20% | Def 15% | Mag 5% | Lck 25% | Mst 20% | Mov 0%",
-        "Skills": "Vantage\nPavise\nUrbanite\nWrath (Lv. 18)",
-        "Weapons": "Swords\nLances (Mounted)",
-        "portrait": "roger.png"
-    },
-    "runan": {
-        "name": "Runan",
-        "job": "Lv. 2 Lord",
-        "Bases": "HP 22 | Str 6 | Skl 6 | Spd 8 | Def 4 | Mag 0 | Lck 4 | Mst 5 | Mov 5",
-        "Growths": "HP 60% | Str 30% | Skl 30% | Spd 30% | Def 25% | Mag 15% | Lck 30% | Mst 40% | Mov 0%",
-        "Promotion": "Great Lord\nHP +3 | Str +3 | Skl +3 | Spd +3 | Def +3 | Mag +4 | Mst +2 | Mov +1",
-        "Skills": "Urbanite\nAdept (Lv. 7)\nDraco (Lv. 15)\nNihil (Lv. 35)\nAdept (Promotion)\nCharisma (Promotion)",
-        "Weapons": "Swords",
-        "portrait": "runan.png"
-    },
-    "samson": {
-        "name": "Samson",
-        "job": "Lv. 6 Fighter",
-        "Bases": "HP 31 | Str 9 | Skl 10 | Spd 13 | Def 6 | Mag 0 | Lck 4 | Mst 10 | Mov 5",
-        "Growths": "HP 95% | Str 35% | Skl 35% | Spd 40% | Def 25% | Mag 5% | Lck 15% | Mst 35% | Mov 0%",
-        "Promotion": "Warrior\nHP +3 | Str +2 | Skl +2 | Spd +2 | Def +1 | Mag +0 | Mst +2 | Mov +1",
-        "Skills": "Frontiersman\nVantage (Lv. 14)\nNihil (Lv. 20 Fighter)\nAdept (Lv. 29)",
-        "Weapons": "Axes",
-        "portrait": "samson.png"
-    },
-    "san": {
-        "name": "San",
-        "job": "Lv. 2 Cavalier",
-        "Bases": "HP 20 | Str 6 | Skl 5 | Spd 7 | Def 4 | Mag 0 | Lck 5 | Mst 3 | Mov 7",
-        "Growths": "HP 55% | Str 30% | Skl 55% | Spd 35% | Def 24% | Mag 20% | Lck 25% | Mst 40% | Mov 0%",
-        "Promotion": "Black Paladin\nHP +4 | Str +3 | Skl +4 | Spd +4 | Def +4 | Mag +0 | Mst +3 | Mov +1",
-        "Skills": "Canto\nParagon (Lv. 5)\nFlurry (Promotion, Mounted)\nLuna (Lv. 25)\nNihil (Lv. 40)",
-        "Weapons": "Swords\nLances (Mounted)",
-        "portrait": "san.png",
-        "ALT_NAME": [
-            "Sun"
-        ]
-    },
-    "sasha": {
-        "name": "Sasha",
-        "job": "Lv. 1 Princess",
-        "Bases": "HP 18 | Str 2 | Skl 3 | Spd 6 | Def 2 | Mag 2 | Lck 6 | Mst 4 | Mov 4",
-        "Growths": "HP 40% | Str 20% | Skl 30% | Spd 50% | Def 15% | Mag 20% | Lck 40% | Mst 30% | Mov 0%",
-        "Promotion": "Pegasus Knight\nHP +2 | Str +3 | Skl +2 | Spd +4 | Def +1 | Mag +6 | Mst +0 | Mov +3\n+Lances (Mounted)\nWyvern Knight\nHP +5 | Str +3 | Skl +3 | Spd -1 | Def +4 | Mag -6 | Mst +2 | Mov +0",
-        "Skills": "Charisma\nVantage (Lv. 8 Princess)\nParagon (Lv. 10 Princess)\nAdept (Lv. 15)\nCanto (Promotion)",
-        "Weapons": "Swords",
-        "portrait": "sasha.png"
-    },
-    "sennet": {
-        "name": "Sennet",
-        "job": "Lv. 22 Prince",
-        "Bases": "HP 47 | Str 23 | Skl 21 | Spd 20 | Def 20 | Mag 14 | Lck 15 | Mst 20 | Mov 5",
-        "Growths": "HP 80% | Str 55% | Skl 50% | Spd 40% | Def 40% | Mag 0% | Lck 45% | Mst 45% | Mov 0%",
-        "Skills": "Wrath\nTerra\nCharisma",
-        "Weapons": "Swords",
-        "portrait": "sennet.png"
-    },
-    "sharon": {
-        "name": "Sharon",
-        "job": "Lv. 6 Lady Knight",
-        "Bases": "HP 24 | Str 7 | Skl 9 | Spd 10 | Def 6 | Mag 0 | Lck 7 | Mst 8 | Mov 4",
-        "Growths": "HP 55% | Str 25% | Skl 35% | Spd 45% | Def 20% | Mag 10% | Lck 25% | Mst 35% | Mov 0%",
-        "Promotion": "Bow Knight\nHP +2 | Str +1 | Skl +1 | Spd +0 | Def +1 | Mag +0 | Mst +1 | Mov +3",
-        "Skills": "Adept\nUrbanite\nFlurry (Lv. 15)\nCanto (Lv. 32)",
-        "Weapons": "Swords\nBows",
-        "portrait": "sharon.png"
-    },
-    "shigen": {
-        "name": "Shigen",
-        "job": "Lv. 7 Myrmidon",
-        "Bases": "HP 25 | Str 7 | Skl 12 | Spd 14 | Def 5 | Mag 0 | Lck 5 | Mst 10 | Mov 5",
-        "Growths": "HP 60% | Str 30% | Skl 45% | Spd 40% | Def 22% | Mag 5% | Lck 30% | Mst 30% | Mov 0%",
-        "Promotion": "Swordmaster\nHP +2 | Str +3 | Skl +3 | Spd +2 | Def +1 | Mag +0 | Mst +1 | Mov +1",
-        "Skills": "Seafarer\nAdept\nGladiator (Lv. 21)\nDraco (Lv. 28)\nVantage (Lv. 38)",
-        "Weapons": "Swords",
-        "portrait": "shigen.png"
-    },
-    "shirou": {
-        "name": "Shirou",
-        "job": "Lv. 5 Nomad",
-        "Bases": "HP 24 | Str 8 | Skl 8 | Spd 9 | Def 5 | Mag 0 | Lck 3 | Mst 5 | Mov 7",
-        "Growths": "HP 70% | Str 35% | Skl 25% | Spd 35% | Def 22% | Mag 10% | Lck 45% | Mst 35% | Mov 0%",
-        "Promotion": "Nomadic Trooper\nHP +3 | Str +1 | Skl +1 | Spd +1 | Def +2 | Mag +0 | Mst +2 | Mov +0\n+Swords (Mounted)",
-        "Skills": "Grassrunner\nCanto (Lv. 14)\nAdept (Lv. 28)",
-        "Weapons": "Bows",
-        "portrait": "shirou.png"
-    },
-    "sierra": {
-        "name": "Sierra",
-        "job": "Lv. 8 Witch",
-        "Bases": "HP 25 | Str 0 | Skl 7 | Spd 10 | Def 3 | Mag 11 | Lck 3 | Mst 12 | Mov 3",
-        "Growths": "HP 45% | Str 0% | Skl 25% | Spd 20% | Def 15% | Mag 25% | Lck 15% | Mst 25% | Mov 0%",
-        "Skills": "Warp",
-        "Weapons": "Thunder\nWind\nFire\nDark",
-        "portrait": "sierra.png"
-    },
-    "tia": {
-        "name": "Tia",
-        "job": "Lv. 22 Leda Princess",
-        "Bases": "HP 34 | Str 17 | Skl 22 | Spd 25 | Def 13 | Mag 25 | Lck 21 | Mst 20 | Mov 5",
-        "Growths": "HP 65% | Str 50% | Skl 55% | Spd 50% | Def 30% | Mag 65% | Lck 60% | Mst 40% | Mov 0%",
-        "Skills": "Sol\nDraco",
-        "Weapons": "Swords\nFire\nThunder\nWind\nLight",
-        "portrait": "tina.png",
-        "ALT_NAME": [
-            "Tie",
-            "Tina"
-        ]
-    },
-    "tom": {
-        "name": "Tom",
-        "job": "Lv. 3 Artilleryman",
-        "Bases": "HP 30 | Str 10 | Skl 6 | Spd 7 | Def 15 | Mag 0 | Lck 1 | Mst 6 | Mov 3",
-        "Growths": "HP 30% | Str 10% | Skl 35% | Spd 45% | Def 10% | Mag 0% | Lck 20% | Mst 40% | Mov 0%",
-        "Skills": "Adept (Lv. 30)",
-        "Weapons": "Bows",
-        "portrait": "tom.png"
-    },
-    "vega": {
-        "name": "Vega",
-        "job": "Lv. 4 Myrmidon",
-        "Bases": "HP 26 | Str 6 | Skl 13 | Spd 13 | Def 5 | Mag 2 | Lck 5 | Mst 9 | Mov 5",
-        "Growths": "HP 55% | Str 30% | Skl 35% | Spd 35% | Def 20% | Mag 5% | Lck 15% | Mst 35% | Mov 0%",
-        "Promotion": "Swordmaster\nHP +2 | Str +3 | Skl +3 | Spd +2 | Def +1 | Mag +0 | Mst +1 | Mov +1",
-        "Skills": "Sol \nDraco (Lv. 15)\nVantage (Lv. 35)",
-        "Weapons": "Swords",
-        "portrait": "vega.png"
-    },
-    "verna": {
-        "name": "Verna",
-        "job": "Lv. 17 Pegasus Knight",
-        "Bases": "HP 30 | Str 12 | Skl 13 | Spd 17 | Def 8 | Mag 15 | Lck 13 | Mst 13 | Mov 7",
-        "Growths": "HP 55% | Str 25% | Skl 40% | Spd 35% | Def 22% | Mag 22% | Lck 35% | Mst 35% | Mov 0%",
-        "Promotion": "Wyvern Knight\nHP +5 | Str +3 | Skl +3 | Spd -1 | Def +4 | Mag -6 | Mst +2 | Mov +0",
-        "Skills": "Canto\nSlayer",
-        "Weapons": "Swords\nLances (Mounted)",
-        "portrait": "verna.png"
-    },
-    "xeno": {
-        "name": "Xeno",
-        "job": "Lv. 1 Mercenary",
-        "Bases": "HP 24 | Str 6 | Skl 7 | Spd 9 | Def 4 | Mag 0 | Lck 4 | Mst 6 | Mov 5",
-        "Growths": "HP 65% | Str 35% | Skl 50% | Spd 40% | Def 22% | Mag 5% | Lck 30% | Mst 30% | Mov 0%",
-        "Promotion": "Hero\nHP +3 | Str +3 | Skl +3 | Spd +2 | Def +2 | Mag +0 | Mst +2 | Mov +1",
-        "Skills": "Seafarer\nLethality (Lv. 13 Mercenary)\nSlayer (Lv. 20)\nDraco (Lv. 30)",
-        "Weapons": "Swords",
-        "portrait": "xeno.png"
-    },
-    "yoda": {
-        "name": "Yoda",
-        "job": "Lv. 30 Swordmaster",
-        "Bases": "HP 40 | Str 16 | Skl 22 | Spd 21 | Def 8 | Mag 6 | Lck 13 | Mst 18 | Mov 6",
-        "Growths": "HP 40% | Str 15% | Skl 15% | Spd 10% | Def 10% | Mag 0% | Lck 20% | Mst 10% | Mov 0%",
-        "Skills": "Lethality\nAstra\nDraco\nFrontiersman\nSlayer",
-        "Weapons": "Swords",
-        "portrait": "yoda.png"
-    },
-    "zachariah": {
-        "name": "Zachariah",
-        "job": "Lv. 20 General",
-        "Bases": "HP 50 | Str 17 | Skl 14 | Spd 11 | Def 18 | Mag 0 | Lck 6 | Mst 19 | Mov 4",
-        "Growths": "HP 55% | Str 20% | Skl 20% | Spd 20% | Def 15% | Mag 5% | Lck 30% | Mst 15% | Mov 0%",
-        "Skills": "Pavise\nUrbanite",
-        "Weapons": "Swords",
-        "portrait": "zachariah.png"
-    },
-    "zieg": {
-        "name": "Zieg",
-        "job": "Lv. 5 Shadow Knight",
-        "Bases": "HP 31 | Str 13 | Skl 11 | Spd 12 | Def 10 | Mag 8 | Lck 8 | Mst 11 | Mov 7",
-        "Growths": "HP 80% | Str 55% | Skl 55% | Spd 55% | Def 35% | Mag 35% | Lck 30% | Mst 35% | Mov 0%",
-        "Skills": "Nihil\nWrath\nAdept\nParagon\nFrontiersman\nCanto (Lv. 14)",
-        "Weapons": "Lances\nAxes (Mounted)",
-        "portrait": "zieg.png",
-        "ALT_NAME": [
-            "Zeek"
-        ]
+    "skill": [
+      "Vantage (Lv. 19)",
+      "Luna (Lv. 25)",
+      "Nihil (Lv. 37)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ],
+    "portrait": "kreiss.png",
+    "class": "cavalier",
+    "lvl": 2,
+    "promo": {
+      "promo": "bronzepaladin",
+      "weapon": [
+        "Lance (Dismounted)"
+      ]
     }
+  },
+  "arkis": {
+    "name": "Arkis",
+    "base": {
+      "hp": 2,
+      "str": 1,
+      "skl": 3,
+      "spd": 4,
+      "def": 1,
+      "mag": 0,
+      "luck": 3,
+      "mst": 2,
+      "move": 0
+    },
+    "growth": {
+      "hp": 60,
+      "str": 25,
+      "skl": 25,
+      "spd": 30,
+      "def": 22,
+      "mag": 5,
+      "luck": 35,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Lethality (Lv. 16)",
+      "Adept (Lv. 25)",
+      "Canto (Lv. 30)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ],
+    "portrait": "arkis.png",
+    "class": "cavalier",
+    "lvl": 2,
+    "promo": {
+      "promo": "bronzepaladin",
+      "weapon": [
+        "Lance (Dismounted)"
+      ]
+    }
+  },
+  "garo": {
+    "name": "Garo",
+    "base": {
+      "hp": 10,
+      "str": 7,
+      "skl": 3,
+      "spd": 7,
+      "def": 3,
+      "mag": 0,
+      "luck": 1,
+      "mst": 10,
+      "move": 0
+    },
+    "growth": {
+      "hp": 85,
+      "str": 40,
+      "skl": 25,
+      "spd": 30,
+      "def": 20,
+      "mag": 0,
+      "luck": 10,
+      "mst": 30,
+      "move": 0
+    },
+    "skill": [
+      "Adept",
+      "Seafarer",
+      "Wrath (Lv. 28)",
+      "Flurry (Lv. 29)",
+      "Nihil (Lv. 30)",
+      "Lethality (Lv. 31)"
+    ],
+    "weapon": [
+      "Axe"
+    ],
+    "portrait": "garo.png",
+    "class": "pirate",
+    "lvl": 7
+  },
+  "kate": {
+    "name": "Kate",
+    "base": {
+      "hp": 2,
+      "str": 2,
+      "skl": 3,
+      "spd": 3,
+      "def": 2,
+      "mag": 0,
+      "luck": 2,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 55,
+      "str": 25,
+      "skl": 35,
+      "spd": 25,
+      "def": 18,
+      "mag": 10,
+      "luck": 25,
+      "mst": 40,
+      "move": 0
+    },
+    "skill": [
+      "Adept",
+      "Urbanite",
+      "Terra (Lv. 18)",
+      "Canto (Lv. 27)"
+    ],
+    "weapon": [
+      "Sword",
+      "Bow"
+    ],
+    "portrait": "kate.png",
+    "class": "ladyknight",
+    "lvl": 2,
+    "promo": {
+      "promo": "bowknight"
+    }
+  },
+  "sasha": {
+    "name": "Sasha",
+    "base": {
+      "hp": 0,
+      "str": 0,
+      "skl": 1,
+      "spd": 3,
+      "def": 0,
+      "mag": 2,
+      "luck": 6,
+      "mst": 2,
+      "move": 0
+    },
+    "growth": {
+      "hp": 40,
+      "str": 20,
+      "skl": 30,
+      "spd": 50,
+      "def": 15,
+      "mag": 20,
+      "luck": 40,
+      "mst": 30,
+      "move": 0
+    },
+    "skill": [
+      "Charisma",
+      "Vantage (Lv. 8 Princess)",
+      "Paragon (Lv. 10 Princess)",
+      "Adept (Lv. 15)",
+      "Canto (Promotion)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "sasha.png",
+    "class": "princess",
+    "lvl": 1,
+    "promo": {
+      "promo": "pegasusknight",
+      "weapon": [
+        "Lance (Mounted)"
+      ]
+    },
+    "promo2": {
+      "promo": "wyvernknightf"
+    }
+  },
+  "lee": {
+    "name": "Lee",
+    "base": {
+      "hp": 5,
+      "str": 0,
+      "skl": 4,
+      "spd": 4,
+      "def": 0,
+      "mag": 6,
+      "luck": 3,
+      "mst": 7,
+      "move": 0
+    },
+    "growth": {
+      "hp": 35,
+      "str": 0,
+      "skl": 10,
+      "spd": 10,
+      "def": 5,
+      "mag": 15,
+      "luck": 20,
+      "mst": 10,
+      "move": 0
+    },
+    "skill": [],
+    "weapon": [
+      "Fire",
+      "Thunder",
+      "Wind",
+      "Staff"
+    ],
+    "portrait": "lee.png",
+    "class": "bishop",
+    "lvl": 15
+  },
+  "ezekiel": {
+    "name": "Ezekiel",
+    "base": {
+      "hp": 5,
+      "str": 3,
+      "skl": 2,
+      "spd": 3,
+      "def": 2,
+      "mag": 0,
+      "luck": 3,
+      "mst": 5,
+      "move": 0
+    },
+    "growth": {
+      "hp": 75,
+      "str": 25,
+      "skl": 25,
+      "spd": 20,
+      "def": 28,
+      "mag": 5,
+      "luck": 25,
+      "mst": 30,
+      "move": 0
+    },
+    "skill": [
+      "Lethality",
+      "Urbanite",
+      "Mountaineer (Lv. 12)",
+      "Grassrunner (Lv. 18)",
+      "Frontiersman (Lv. 24)"
+    ],
+    "weapon": [
+      "Axe"
+    ],
+    "portrait": "ezekiel.png",
+    "class": "axesoldier",
+    "lvl": 4,
+    "promo": {
+      "promo": "sergeant",
+      "weapon": [
+        "Sword",
+        "Lance"
+      ]
+    }
+  },
+  "narron": {
+    "name": "Narron",
+    "base": {
+      "hp": 2,
+      "str": 2,
+      "skl": 0,
+      "spd": 2,
+      "def": 1,
+      "mag": 0,
+      "luck": 6,
+      "mst": 4,
+      "move": 0
+    },
+    "growth": {
+      "hp": 60,
+      "str": 35,
+      "skl": 25,
+      "spd": 20,
+      "def": 22,
+      "mag": 15,
+      "luck": 25,
+      "mst": 30,
+      "move": 0
+    },
+    "skill": [
+      "Paragon",
+      "Lethality (Lv. 12 Gold Paladin)",
+      "Canto (Lv. 16)",
+      "Adept (Promotion)",
+      "Pavise (Promotion)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ],
+    "portrait": "narron.png",
+    "class": "cavalier",
+    "lvl": 1,
+    "promo": {
+      "promo": "goldpaladin"
+    }
+  },
+  "luca": {
+    "name": "Luca",
+    "base": {
+      "hp": 1,
+      "str": 0,
+      "skl": 0,
+      "spd": 3,
+      "def": 0,
+      "mag": 0,
+      "luck": 1,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 60,
+      "str": 25,
+      "skl": 50,
+      "spd": 40,
+      "def": 15,
+      "mag": 5,
+      "luck": 40,
+      "mst": 25,
+      "move": 0
+    },
+    "skill": [
+      "Flurry (Lv. 15)",
+      "Adept (Lv. 30)",
+      "Urbanite (Promotion)"
+    ],
+    "weapon": [
+      "Bow"
+    ],
+    "portrait": "luca.png",
+    "class": "archer",
+    "lvl": 2,
+    "promo": {
+      "promo": "sniper"
+    }
+  },
+  "raffin": {
+    "name": "Raffin",
+    "base": {
+      "hp": 4,
+      "str": 2,
+      "skl": 3,
+      "spd": 3,
+      "def": 2,
+      "mag": 0,
+      "luck": 2,
+      "mst": 5,
+      "move": 1
+    },
+    "growth": {
+      "hp": 80,
+      "str": 35,
+      "skl": 40,
+      "spd": 30,
+      "def": 25,
+      "mag": 5,
+      "luck": 20,
+      "mst": 45,
+      "move": 0
+    },
+    "skill": [
+      "Canto",
+      "Vantage (Lv. 17)",
+      "Adept (Lv. 24)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance"
+    ],
+    "portrait": "raffin.png",
+    "class": "bronzepaladin",
+    "lvl": 6,
+    "promo": {
+      "promo": "wyvernknightm"
+    }
+  },
+  "esther": {
+    "name": "Esther",
+    "base": {
+      "hp": 1,
+      "str": 0,
+      "skl": 1,
+      "spd": 1,
+      "def": 1,
+      "mag": 0,
+      "luck": 5,
+      "mst": 2,
+      "move": 0
+    },
+    "growth": {
+      "hp": 50,
+      "str": 30,
+      "skl": 30,
+      "spd": 35,
+      "def": 18,
+      "mag": 15,
+      "luck": 45,
+      "mst": 25,
+      "move": 0
+    },
+    "skill": [
+      "Urbanite",
+      "Wrath (Lv. 14)",
+      "Paragon (Lv. 20)",
+      "Vantage (Lv. 28)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ],
+    "portrait": "esther.png",
+    "class": "cavalier",
+    "lvl": 2,
+    "promo": {
+      "promo": "silverpaladin"
+    }
+  },
+  "julia": {
+    "name": "Julia",
+    "base": {
+      "hp": 2,
+      "str": 1,
+      "skl": 3,
+      "spd": 3,
+      "def": 1,
+      "mag": 0,
+      "luck": 5,
+      "mst": 4,
+      "move": 0
+    },
+    "growth": {
+      "hp": 50,
+      "str": 25,
+      "skl": 45,
+      "spd": 40,
+      "def": 18,
+      "mag": 10,
+      "luck": 25,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Adept",
+      "Draco (Lv. 18)",
+      "Slayer (Lv. 25)",
+      "Astra (Map 30 event, Holmes route)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "julia.png",
+    "class": "myrmidon",
+    "lvl": 1,
+    "promo": {
+      "promo": "swordmaster"
+    }
+  },
+  "bartz": {
+    "name": "Bartz",
+    "base": {
+      "hp": 6,
+      "str": 4,
+      "skl": 1,
+      "spd": 4,
+      "def": 2,
+      "mag": 0,
+      "luck": 1,
+      "mst": 5,
+      "move": 0
+    },
+    "growth": {
+      "hp": 90,
+      "str": 30,
+      "skl": 15,
+      "spd": 35,
+      "def": 18,
+      "mag": 0,
+      "luck": 15,
+      "mst": 15,
+      "move": 0
+    },
+    "skill": [
+      "Mountaineer",
+      "Flurry (Lv. 15)"
+    ],
+    "weapon": [
+      "Axe"
+    ],
+    "portrait": "bartz.png",
+    "class": "fighter",
+    "lvl": 3,
+    "promo": {
+      "promo": "warrior"
+    }
+  },
+  "enteh": {
+    "name": "Enteh",
+    "base": {
+      "hp": 0,
+      "str": 0,
+      "skl": 1,
+      "spd": 3,
+      "def": 0,
+      "mag": 2,
+      "luck": 7,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 30,
+      "str": 0,
+      "skl": 20,
+      "spd": 25,
+      "def": 5,
+      "mag": 30,
+      "luck": 30,
+      "mst": 50,
+      "move": 0
+    },
+    "skill": [
+      "Summon (Lv. 30)"
+    ],
+    "weapon": [
+      "Staff"
+    ],
+    "portrait": "enteh.png",
+    "class": "shaman",
+    "lvl": 2
+  },
+  "plum": {
+    "name": "Plum",
+    "base": {
+      "hp": 0,
+      "str": 0,
+      "skl": 0,
+      "spd": 0,
+      "def": 0,
+      "mag": 0,
+      "luck": 6,
+      "mst": 1,
+      "move": 0
+    },
+    "growth": {
+      "hp": 20,
+      "str": 0,
+      "skl": 0,
+      "spd": 20,
+      "def": 0,
+      "mag": 35,
+      "luck": 60,
+      "mst": 20,
+      "move": 0
+    },
+    "skill": [
+      "Dance (Map 14 event)"
+    ],
+    "weapon": [
+      "Staff"
+    ],
+    "portrait": "plum.png",
+    "class": "cleric",
+    "lvl": 1
+  },
+  "raquel": {
+    "name": "Raquel",
+    "base": {
+      "hp": 2,
+      "str": 5,
+      "skl": 10,
+      "spd": 10,
+      "def": 2,
+      "mag": 0,
+      "luck": 8,
+      "mst": 12,
+      "move": 0
+    },
+    "growth": {
+      "hp": 40,
+      "str": 20,
+      "skl": 35,
+      "spd": 35,
+      "def": 15,
+      "mag": 25,
+      "luck": 55,
+      "mst": 30,
+      "move": 0
+    },
+    "skill": [
+      "Adept",
+      "Paragon",
+      "Urbanite",
+      "Forester",
+      "Mercy (Unlisted)",
+      "Slayer (Lv. 16)",
+      "Nihil (Lv. 31)"
+    ],
+    "weapon": [
+      "Bow"
+    ],
+    "portrait": "raquel.png",
+    "class": "sniper",
+    "lvl": 11
+  },
+  "martel": {
+    "name": "Martel",
+    "base": {
+      "hp": 2,
+      "str": 1,
+      "skl": 3,
+      "spd": 4,
+      "def": 1,
+      "mag": 2,
+      "luck": 5,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 45,
+      "str": 25,
+      "skl": 35,
+      "spd": 30,
+      "def": 20,
+      "mag": 15,
+      "luck": 55,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Canto",
+      "Vantage",
+      "Terra (Lv. 15)",
+      "Adept (Lv. 25)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ],
+    "portrait": "martel.png",
+    "class": "pegasusknight",
+    "lvl": 3,
+    "promo": {
+      "promo": "wyvernknightf"
+    }
+  },
+  "vega": {
+    "name": "Vega",
+    "base": {
+      "hp": 6,
+      "str": 3,
+      "skl": 6,
+      "spd": 5,
+      "def": 3,
+      "mag": 2,
+      "luck": 5,
+      "mst": 5,
+      "move": 0
+    },
+    "growth": {
+      "hp": 55,
+      "str": 30,
+      "skl": 35,
+      "spd": 35,
+      "def": 20,
+      "mag": 5,
+      "luck": 15,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Sol",
+      "Draco (Lv. 15)",
+      "Vantage (Lv. 35)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "vega.png",
+    "class": "myrmidon",
+    "lvl": 4,
+    "promo": {
+      "promo": "swordmaster"
+    }
+  },
+  "maruj": {
+    "name": "Maruj",
+    "base": {
+      "hp": 2,
+      "str": 0,
+      "skl": 1,
+      "spd": 3,
+      "def": 1,
+      "mag": 2,
+      "luck": 4,
+      "mst": 4,
+      "move": 0
+    },
+    "growth": {
+      "hp": 45,
+      "str": 0,
+      "skl": 30,
+      "spd": 35,
+      "def": 10,
+      "mag": 20,
+      "luck": 35,
+      "mst": 30,
+      "move": 0
+    },
+    "skill": [
+      "Adept (Lv. 19 Mage)",
+      "Sol (Lv. 20 Sage)",
+      "Flurry (Lv. 39)"
+    ],
+    "weapon": [
+      "Thunder",
+      "Wind"
+    ],
+    "portrait": "maruj.png",
+    "class": "mage",
+    "lvl": 1,
+    "promo": {
+      "promo": "sage",
+      "weapon": [
+        "Fire",
+        "Light"
+      ]
+    }
+  },
+  "zieg": {
+    "name": "Zieg",
+    "base": {
+      "hp": 8,
+      "str": 6,
+      "skl": 6,
+      "spd": 7,
+      "def": 4,
+      "mag": 8,
+      "luck": 8,
+      "mst": 7,
+      "move": 0
+    },
+    "growth": {
+      "hp": 80,
+      "str": 55,
+      "skl": 55,
+      "spd": 55,
+      "def": 35,
+      "mag": 35,
+      "luck": 30,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Nihil",
+      "Wrath",
+      "Adept",
+      "Paragon",
+      "Frontiersman",
+      "Canto (Lv. 14)"
+    ],
+    "weapon": [
+      "Lance",
+      "Axe (Mounted)"
+    ],
+    "portrait": "zieg.png",
+    "class": "shadowknight",
+    "lvl": 5
+  },
+  "mel": {
+    "name": "Mel",
+    "base": {
+      "hp": 4,
+      "str": 0,
+      "skl": 3,
+      "spd": 5,
+      "def": 1,
+      "mag": 3,
+      "luck": 8,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 35,
+      "str": 15,
+      "skl": 20,
+      "spd": 35,
+      "def": 15,
+      "mag": 20,
+      "luck": 15,
+      "mst": 25,
+      "move": 3
+    },
+    "skill": [
+      "Canto (Lv. 14)"
+    ],
+    "weapon": [
+      "Sword",
+      "Staff"
+    ],
+    "portrait": "mel.png",
+    "class": "troubadour",
+    "lvl": 3
+  },
+  "norton": {
+    "name": "Norton",
+    "base": {
+      "hp": 6,
+      "str": 3,
+      "skl": 3,
+      "spd": 2,
+      "def": 3,
+      "mag": 0,
+      "luck": 2,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 75,
+      "str": 40,
+      "skl": 30,
+      "spd": 25,
+      "def": 20,
+      "mag": 0,
+      "luck": 15,
+      "mst": 25,
+      "move": 0
+    },
+    "skill": [
+      "Urbanite",
+      "Wrath",
+      "Pavise (Lv. 12 Great Knight)",
+      "Pavise (Lv. 25)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "norton.png",
+    "class": "armorknight",
+    "lvl": 4,
+    "promo": {
+      "promo": "greatknight"
+    }
+  },
+  "tom": {
+    "name": "Tom",
+    "base": {
+      "hp": 0,
+      "str": 5,
+      "skl": 1,
+      "spd": 2,
+      "def": 0,
+      "mag": 0,
+      "luck": 1,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 30,
+      "str": 10,
+      "skl": 35,
+      "spd": 45,
+      "def": 10,
+      "mag": 0,
+      "luck": 20,
+      "mst": 40,
+      "move": 0
+    },
+    "skill": [
+      "Adept (Lv. 30)"
+    ],
+    "weapon": [
+      "Bow"
+    ],
+    "portrait": "tom.png",
+    "class": "artilleryman",
+    "lvl": 3
+  },
+  "roger": {
+    "name": "Roger",
+    "base": {
+      "hp": 6,
+      "str": 3,
+      "skl": 7,
+      "spd": 4,
+      "def": 2,
+      "mag": 0,
+      "luck": 3,
+      "mst": 5,
+      "move": 0
+    },
+    "growth": {
+      "hp": 65,
+      "str": 20,
+      "skl": 20,
+      "spd": 20,
+      "def": 15,
+      "mag": 5,
+      "luck": 25,
+      "mst": 20,
+      "move": 0
+    },
+    "skill": [
+      "Vantage",
+      "Pavise",
+      "Urbanite",
+      "Wrath (Lv. 18)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ],
+    "portrait": "roger.png",
+    "class": "silverpaladin",
+    "lvl": 5
+  },
+  "katri": {
+    "name": "Katri",
+    "base": {
+      "hp": 2,
+      "str": 0,
+      "skl": 0,
+      "spd": 3,
+      "def": 0,
+      "mag": 2,
+      "luck": 5,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 40,
+      "str": 0,
+      "skl": 10,
+      "spd": 55,
+      "def": 5,
+      "mag": 35,
+      "luck": 40,
+      "mst": 60,
+      "move": 0
+    },
+    "skill": [
+      "Summon"
+    ],
+    "weapon": [
+      "Staff"
+    ],
+    "portrait": "katri.png",
+    "class": "shaman",
+    "lvl": 1
+  },
+  "xeno": {
+    "name": "Xeno",
+    "base": {
+      "hp": 2,
+      "str": 2,
+      "skl": 2,
+      "spd": 4,
+      "def": 1,
+      "mag": 0,
+      "luck": 4,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 65,
+      "str": 35,
+      "skl": 50,
+      "spd": 40,
+      "def": 22,
+      "mag": 5,
+      "luck": 30,
+      "mst": 30,
+      "move": 0
+    },
+    "skill": [
+      "Seafarer",
+      "Lethality (Lv. 13 Mercenary)",
+      "Slayer (Lv. 20)",
+      "Draco (Lv. 30)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "xeno.png",
+    "class": "mercenary",
+    "lvl": 1,
+    "promo": {
+      "promo": "hero"
+    }
+  },
+  "juni": {
+    "name": "Juni",
+    "base": {
+      "hp": 0,
+      "str": 0,
+      "skl": 2,
+      "spd": 2,
+      "def": 0,
+      "mag": 2,
+      "luck": 7,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 35,
+      "str": 0,
+      "skl": 45,
+      "spd": 40,
+      "def": 5,
+      "mag": 20,
+      "luck": 35,
+      "mst": 25,
+      "move": 0
+    },
+    "skill": [
+      "Steal",
+      "Locktouch",
+      "Frontiersman (Lv. 12)",
+      "Adept (Lv. 28)",
+      "Charisma (Lv. 35)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "juni.png",
+    "class": "thief",
+    "lvl": 1
+  },
+  "meriel": {
+    "name": "Meriel",
+    "base": {
+      "hp": 1,
+      "str": 0,
+      "skl": 1,
+      "spd": 3,
+      "def": 0,
+      "mag": 3,
+      "luck": 6,
+      "mst": 2,
+      "move": 0
+    },
+    "growth": {
+      "hp": 35,
+      "str": 0,
+      "skl": 35,
+      "spd": 45,
+      "def": 10,
+      "mag": 30,
+      "luck": 30,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Wrath (Lv. 15 Mage)",
+      "Luna (Lv. 15 Sage)",
+      "Sol (Lv. 30)"
+    ],
+    "weapon": [
+      "Fire",
+      "Light"
+    ],
+    "portrait": "meriel.png",
+    "class": "mage",
+    "lvl": 1,
+    "promo": {
+      "promo": "sage",
+      "weapon": [
+        "Thunder",
+        "Wind"
+      ]
+    }
+  },
+  "sharon": {
+    "name": "Sharon",
+    "base": {
+      "hp": 4,
+      "str": 3,
+      "skl": 4,
+      "spd": 5,
+      "def": 3,
+      "mag": 0,
+      "luck": 7,
+      "mst": 5,
+      "move": 0
+    },
+    "growth": {
+      "hp": 55,
+      "str": 25,
+      "skl": 35,
+      "spd": 45,
+      "def": 20,
+      "mag": 10,
+      "luck": 25,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Adept",
+      "Urbanite",
+      "Flurry (Lv. 15)",
+      "Canto (Lv. 32)"
+    ],
+    "weapon": [
+      "Sword",
+      "Bow"
+    ],
+    "portrait": "sharon.png",
+    "class": "ladyknight",
+    "lvl": 6,
+    "promo": {
+      "promo": "bowknight"
+    }
+  },
+  "billford": {
+    "name": "Billford",
+    "base": {
+      "hp": 7,
+      "str": 4,
+      "skl": 4,
+      "spd": 4,
+      "def": 3,
+      "mag": 0,
+      "luck": 5,
+      "mst": 9,
+      "move": 0
+    },
+    "growth": {
+      "hp": 90,
+      "str": 35,
+      "skl": 30,
+      "spd": 35,
+      "def": 30,
+      "mag": 5,
+      "luck": 35,
+      "mst": 20,
+      "move": 5
+    },
+    "skill": [
+      "Wrath",
+      "Pavise",
+      "Nihil (Lv. 26)",
+      "Adept (Lv. 32)",
+      "Flurry (Lv. 38)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "billford.png",
+    "class": "armorknight",
+    "lvl": 8,
+    "promo": {
+      "promo": "general"
+    }
+  },
+  "holmes": {
+    "name": "Holmes",
+    "base": {
+      "hp": 6,
+      "str": 4,
+      "skl": 3,
+      "spd": 4,
+      "def": 3,
+      "mag": 0,
+      "luck": 6,
+      "mst": 5,
+      "move": 0
+    },
+    "growth": {
+      "hp": 65,
+      "str": 30,
+      "skl": 35,
+      "spd": 35,
+      "def": 25,
+      "mag": 10,
+      "luck": 35,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Locktouch",
+      "Seafarer",
+      "Draco (Lv. 16)",
+      "Adept (Lv. 32)",
+      "Charisma (Promotion)"
+    ],
+    "weapon": [
+      "Bow"
+    ],
+    "portrait": "holmes.png",
+    "class": "privateer",
+    "lvl": 6,
+    "promo": {
+      "promo": "stealthhunter",
+      "weapon": [
+        "Sword"
+      ]
+    }
+  },
+  "shigen": {
+    "name": "Shigen",
+    "base": {
+      "hp": 5,
+      "str": 4,
+      "skl": 5,
+      "spd": 6,
+      "def": 3,
+      "mag": 0,
+      "luck": 5,
+      "mst": 6,
+      "move": 0
+    },
+    "growth": {
+      "hp": 60,
+      "str": 30,
+      "skl": 45,
+      "spd": 40,
+      "def": 22,
+      "mag": 5,
+      "luck": 30,
+      "mst": 30,
+      "move": 0
+    },
+    "skill": [
+      "Seafarer",
+      "Adept",
+      "Gladiator (Lv. 21)",
+      "Draco (Lv. 28)",
+      "Vantage (Lv. 38)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "shigen.png",
+    "class": "myrmidon",
+    "lvl": 7,
+    "promo": {
+      "promo": "swordmaster"
+    }
+  },
+  "alicia": {
+    "name": "Alicia",
+    "base": {
+      "hp": 2,
+      "str": 0,
+      "skl": 2,
+      "spd": 3,
+      "def": 1,
+      "mag": 3,
+      "luck": 5,
+      "mst": 4,
+      "move": 0
+    },
+    "growth": {
+      "hp": 35,
+      "str": 0,
+      "skl": 30,
+      "spd": 25,
+      "def": 11,
+      "mag": 25,
+      "luck": 40,
+      "mst": 40,
+      "move": 0
+    },
+    "skill": [
+      "Flurry (Lv.16)",
+      "Adept (Lv.32)"
+    ],
+    "weapon": [
+      "Thunder",
+      "Wind"
+    ],
+    "portrait": "alicia.png",
+    "class": "mage",
+    "lvl": 3,
+    "promo": {
+      "promo": "sage",
+      "weapon": [
+        "Fire",
+        "Light"
+      ]
+    }
+  },
+  "samson": {
+    "name": "Samson",
+    "base": {
+      "hp": 9,
+      "str": 4,
+      "skl": 5,
+      "spd": 7,
+      "def": 3,
+      "mag": 0,
+      "luck": 4,
+      "mst": 7,
+      "move": 0
+    },
+    "growth": {
+      "hp": 95,
+      "str": 35,
+      "skl": 35,
+      "spd": 40,
+      "def": 25,
+      "mag": 5,
+      "luck": 15,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Frontiersman",
+      "Vantage (Lv. 14)",
+      "Nihil (Lv. 20 Fighter)",
+      "Adept (Lv. 29)"
+    ],
+    "weapon": [
+      "Axe"
+    ],
+    "portrait": "samson.png",
+    "class": "fighter",
+    "lvl": 6,
+    "promo": {
+      "promo": "warrior"
+    }
+  },
+  "lionel": {
+    "name": "Lionel",
+    "base": {
+      "hp": 4,
+      "str": 3,
+      "skl": 2,
+      "spd": 7,
+      "def": 1,
+      "mag": 0,
+      "luck": 3,
+      "mst": 6,
+      "move": 1
+    },
+    "growth": {
+      "hp": 85,
+      "str": 30,
+      "skl": 30,
+      "spd": 20,
+      "def": 30,
+      "mag": 5,
+      "luck": 45,
+      "mst": 25,
+      "move": 5
+    },
+    "skill": [
+      "Wrath",
+      "Urbanite",
+      "Nihil (Lv. 17)",
+      "Gladiator (Lv. 21)"
+    ],
+    "weapon": [
+      "Lance"
+    ],
+    "portrait": "lionel.png",
+    "class": "lancesoldier",
+    "lvl": 5,
+    "promo": {
+      "promo": "sergeant",
+      "weapon": [
+        "Sword",
+        "Axe"
+      ]
+    }
+  },
+  "attrom": {
+    "name": "Attrom",
+    "base": {
+      "hp": 2,
+      "str": 2,
+      "skl": 2,
+      "spd": 4,
+      "def": 1,
+      "mag": 0,
+      "luck": 5,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 70,
+      "str": 40,
+      "skl": 50,
+      "spd": 45,
+      "def": 20,
+      "mag": 5,
+      "luck": 20,
+      "mst": 30,
+      "move": 0
+    },
+    "skill": [
+      "Sol (Lv. 15 Mercenary)",
+      "Lethality (Lv. 26)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "attrom.png",
+    "class": "mercenary",
+    "lvl": 3,
+    "promo": {
+      "promo": "hero"
+    }
+  },
+  "krishna": {
+    "name": "Krishna",
+    "base": {
+      "hp": 0,
+      "str": 0,
+      "skl": 0,
+      "spd": 1,
+      "def": 0,
+      "mag": 6,
+      "luck": 7,
+      "mst": 1,
+      "move": 0
+    },
+    "growth": {
+      "hp": 40,
+      "str": 15,
+      "skl": 15,
+      "spd": 25,
+      "def": 14,
+      "mag": 10,
+      "luck": 25,
+      "mst": 20,
+      "move": 0
+    },
+    "skill": [
+      "Steal",
+      "Draco (Lv. 17)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "krishna.png",
+    "class": "myrmidon",
+    "lvl": 1,
+    "promo": {
+      "promo": "swordmaster"
+    }
+  },
+  "maerchen": {
+    "name": "Maerchen",
+    "base": {
+      "hp": 3,
+      "str": 2,
+      "skl": 0,
+      "spd": 0,
+      "def": 0,
+      "mag": 0,
+      "luck": 1,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 10,
+      "str": 5,
+      "skl": 5,
+      "spd": 5,
+      "def": 0,
+      "mag": 0,
+      "luck": 5,
+      "mst": 0,
+      "move": 0
+    },
+    "skill": [
+      "Mug",
+      "Locktouch",
+      "Steal"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "maerchen.png",
+    "class": "chief",
+    "lvl": 15
+  },
+  "frau": {
+    "name": "Frau",
+    "base": {
+      "hp": 4,
+      "str": 2,
+      "skl": 1,
+      "spd": 4,
+      "def": 2,
+      "mag": 2,
+      "luck": 8,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 50,
+      "str": 25,
+      "skl": 40,
+      "spd": 45,
+      "def": 20,
+      "mag": 25,
+      "luck": 40,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Canto",
+      "Adept (Lv. 12)",
+      "Slayer (Lv. 25)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ],
+    "portrait": "frau.png",
+    "class": "pegasusknight",
+    "lvl": 1,
+    "promo": {
+      "promo": "wyvernknightf"
+    }
+  },
+  "san": {
+    "name": "San",
+    "base": {
+      "hp": 0,
+      "str": 2,
+      "skl": 2,
+      "spd": 4,
+      "def": 1,
+      "mag": 0,
+      "luck": 5,
+      "mst": 2,
+      "move": 0
+    },
+    "growth": {
+      "hp": 55,
+      "str": 30,
+      "skl": 55,
+      "spd": 35,
+      "def": 24,
+      "mag": 20,
+      "luck": 25,
+      "mst": 40,
+      "move": 0
+    },
+    "skill": [
+      "Canto",
+      "Paragon (Lv. 5)",
+      "Flurry (Promotion, Mounted)",
+      "Luna (Lv. 25)",
+      "Nihil (Lv. 40)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ],
+    "portrait": "san.png",
+    "class": "cavalier",
+    "lvl": 2,
+    "promo": {
+      "promo": "blackpaladin"
+    }
+  },
+  "lyria": {
+    "name": "Lyria",
+    "base": {
+      "hp": 0,
+      "str": 0,
+      "skl": 0,
+      "spd": 0,
+      "def": 0,
+      "mag": 0,
+      "luck": 12,
+      "mst": 0,
+      "move": 0
+    },
+    "growth": {
+      "hp": 25,
+      "str": 0,
+      "skl": 5,
+      "spd": 35,
+      "def": 5,
+      "mag": 15,
+      "luck": 50,
+      "mst": 15,
+      "move": 0
+    },
+    "skill": [
+      "Sing"
+    ],
+    "weapon": [
+      "Staff"
+    ],
+    "portrait": "lyria.png",
+    "class": "cleric",
+    "lvl": 1
+  },
+  "mintz": {
+    "name": "Mintz",
+    "base": {
+      "hp": 8,
+      "str": 4,
+      "skl": 5,
+      "spd": 4,
+      "def": 3,
+      "mag": 0,
+      "luck": 2,
+      "mst": 5,
+      "move": 0
+    },
+    "growth": {
+      "hp": 85,
+      "str": 30,
+      "skl": 25,
+      "spd": 20,
+      "def": 30,
+      "mag": 5,
+      "luck": 20,
+      "mst": 25,
+      "move": 0
+    },
+    "skill": [
+      "Wrath",
+      "Flurry (Lv. 20 Dismounted)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ],
+    "portrait": "mintz.png",
+    "class": "blackpaladin",
+    "lvl": 9
+  },
+  "leonie": {
+    "name": "Leonie",
+    "base": {
+      "hp": 3,
+      "str": 2,
+      "skl": 3,
+      "spd": 5,
+      "def": 1,
+      "mag": 0,
+      "luck": 5,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 55,
+      "str": 40,
+      "skl": 30,
+      "spd": 55,
+      "def": 18,
+      "mag": 10,
+      "luck": 35,
+      "mst": 40,
+      "move": 10
+    },
+    "skill": [
+      "Flurry",
+      "Paragon (Lv. 9)",
+      "Luna (Lv. 19)",
+      "Adept (Lv. 34)",
+      "Urbanite (Promotion)"
+    ],
+    "weapon": [
+      "Bow"
+    ],
+    "portrait": "leonie.png",
+    "class": "archer",
+    "lvl": 3,
+    "promo": {
+      "promo": "sniper"
+    }
+  },
+  "shirou": {
+    "name": "Shirou",
+    "base": {
+      "hp": 4,
+      "str": 2,
+      "skl": 3,
+      "spd": 3,
+      "def": 2,
+      "mag": 0,
+      "luck": 3,
+      "mst": 3,
+      "move": 0
+    },
+    "growth": {
+      "hp": 70,
+      "str": 35,
+      "skl": 25,
+      "spd": 35,
+      "def": 22,
+      "mag": 10,
+      "luck": 45,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Grassrunner",
+      "Canto (Lv. 14)",
+      "Adept (Lv. 28)"
+    ],
+    "weapon": [
+      "Bow"
+    ],
+    "portrait": "shirou.png",
+    "class": "nomad",
+    "lvl": 5,
+    "promo": {
+      "promo": "nomadictrooper",
+      "weapon": [
+        "Sword (Mounted)"
+      ]
+    }
+  },
+  "raphael": {
+    "name": "Raphael",
+    "base": {
+      "hp": 16,
+      "str": 7,
+      "skl": 6,
+      "spd": 3,
+      "def": 5,
+      "mag": 2,
+      "luck": 12,
+      "mst": 10,
+      "move": 0
+    },
+    "growth": {
+      "hp": 50,
+      "str": 15,
+      "skl": 20,
+      "spd": 15,
+      "def": 15,
+      "mag": 0,
+      "luck": 30,
+      "mst": 15,
+      "move": 0
+    },
+    "skill": [
+      "Wrath",
+      "Pavise",
+      "Urbanite",
+      "Flurry (Lv. 32)",
+      "Slayer (Lv. 37)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)",
+      "Axe (Mounted)",
+      "Bow (Mounted)"
+    ],
+    "portrait": "raphael.png",
+    "class": "royalknight",
+    "lvl": 25
+  },
+  "lionheart": {
+    "name": "Lionheart",
+    "base": {
+      "hp": 9,
+      "str": 6,
+      "skl": 6,
+      "spd": 5,
+      "def": 4,
+      "mag": 0,
+      "luck": 4,
+      "mst": 6,
+      "move": 0
+    },
+    "growth": {
+      "hp": 75,
+      "str": 30,
+      "skl": 25,
+      "spd": 20,
+      "def": 25,
+      "mag": 5,
+      "luck": 25,
+      "mst": 25,
+      "move": 0
+    },
+    "skill": [
+      "Sol",
+      "Adept",
+      "Canto",
+      "Grassrunner",
+      "Slayer (Lv. 22)"
+    ],
+    "weapon": [
+      "Sword (Mounted)",
+      "Bow"
+    ],
+    "portrait": "lionheart.png",
+    "class": "nomadictrooper",
+    "lvl": 12
+  },
+  "zachariah": {
+    "name": "Zachariah",
+    "base": {
+      "hp": 20,
+      "str": 10,
+      "skl": 7,
+      "spd": 7,
+      "def": 8,
+      "mag": 0,
+      "luck": 6,
+      "mst": 14,
+      "move": 0
+    },
+    "growth": {
+      "hp": 55,
+      "str": 20,
+      "skl": 20,
+      "spd": 20,
+      "def": 15,
+      "mag": 5,
+      "luck": 30,
+      "mst": 15,
+      "move": 0
+    },
+    "skill": [
+      "Pavise",
+      "Urbanite"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "zachariah.png",
+    "class": "general",
+    "lvl": 20
+  },
+  "bud": {
+    "name": "Bud",
+    "base": {
+      "hp": 0,
+      "str": 0,
+      "skl": 1,
+      "spd": 6,
+      "def": 0,
+      "mag": 5,
+      "luck": 6,
+      "mst": 5,
+      "move": 0
+    },
+    "growth": {
+      "hp": 40,
+      "str": 15,
+      "skl": 30,
+      "spd": 45,
+      "def": 13,
+      "mag": 35,
+      "luck": 55,
+      "mst": 40,
+      "move": 0
+    },
+    "skill": [
+      "Steal",
+      "Locktouch",
+      "Forester",
+      "Paragon (Lv. 10)",
+      "Astra (Lv. 40)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "bud.png",
+    "class": "thief",
+    "lvl": 2
+  },
+  "rishel": {
+    "name": "Rishel",
+    "base": {
+      "hp": 6,
+      "str": 0,
+      "skl": 5,
+      "spd": 5,
+      "def": 4,
+      "mag": 7,
+      "luck": 9,
+      "mst": 10,
+      "move": 1
+    },
+    "growth": {
+      "hp": 55,
+      "str": 0,
+      "skl": 40,
+      "spd": 35,
+      "def": 20,
+      "mag": 30,
+      "luck": 15,
+      "mst": 30,
+      "move": 0
+    },
+    "skill": [
+      "Terra",
+      "Vantage",
+      "Slayer (Lv. 15)",
+      "Adept (Lv. 32)"
+    ],
+    "weapon": [
+      "Fire"
+    ],
+    "portrait": "rishel.png",
+    "class": "mage",
+    "lvl": 8,
+    "promo": {
+      "promo": "sage",
+      "weapon": [
+        "Thunder",
+        "Wind",
+        "Light"
+      ]
+    }
+  },
+  "sierra": {
+    "name": "Sierra",
+    "base": {
+      "hp": 5,
+      "str": 0,
+      "skl": 4,
+      "spd": 4,
+      "def": 1,
+      "mag": 6,
+      "luck": 3,
+      "mst": 7,
+      "move": 0
+    },
+    "growth": {
+      "hp": 45,
+      "str": 0,
+      "skl": 25,
+      "spd": 20,
+      "def": 15,
+      "mag": 25,
+      "luck": 15,
+      "mst": 25,
+      "move": 0
+    },
+    "skill": [
+      "Warp"
+    ],
+    "weapon": [
+      "Fire",
+      "Thunder",
+      "Wind",
+      "Dark"
+    ],
+    "portrait": "sierra.png",
+    "class": "witch",
+    "lvl": 8
+  },
+  "rebecca": {
+    "name": "Rebecca",
+    "base": {
+      "hp": 2,
+      "str": 0,
+      "skl": 2,
+      "spd": 4,
+      "def": 1,
+      "mag": 5,
+      "luck": 7,
+      "mst": 7,
+      "move": 0
+    },
+    "growth": {
+      "hp": 45,
+      "str": 0,
+      "skl": 40,
+      "spd": 45,
+      "def": 10,
+      "mag": 40,
+      "luck": 35,
+      "mst": 40,
+      "move": 0
+    },
+    "skill": [
+      "Summon",
+      "Paragon (Lv. 16)",
+      "Charisma (Lv. 38)"
+    ],
+    "weapon": [
+      "Staff"
+    ],
+    "portrait": "rebecca.png",
+    "class": "cleric",
+    "lvl": 3
+  },
+  "letena": {
+    "name": "Letena",
+    "base": {
+      "hp": 0,
+      "str": 0,
+      "skl": 8,
+      "spd": 3,
+      "def": 0,
+      "mag": 9,
+      "luck": 12,
+      "mst": 7,
+      "move": 0
+    },
+    "growth": {
+      "hp": 35,
+      "str": 0,
+      "skl": 15,
+      "spd": 40,
+      "def": 5,
+      "mag": 45,
+      "luck": 40,
+      "mst": 40,
+      "move": 0
+    },
+    "skill": [
+      "Paragon",
+      "Summon (Lv. 8)"
+    ],
+    "weapon": [
+      "Staff"
+    ],
+    "portrait": "leteena.png",
+    "class": "cleric",
+    "lvl": 3
+  },
+  "narcus": {
+    "name": "Narcus",
+    "base": {
+      "hp": 5,
+      "str": 3,
+      "skl": 4,
+      "spd": 7,
+      "def": 2,
+      "mag": 4,
+      "luck": 7,
+      "mst": 4,
+      "move": 0
+    },
+    "growth": {
+      "hp": 50,
+      "str": 20,
+      "skl": 15,
+      "spd": 25,
+      "def": 15,
+      "mag": 5,
+      "luck": 25,
+      "mst": 25,
+      "move": 0
+    },
+    "skill": [
+      "Transform",
+      "Locktouch",
+      "Nihil (Lv. 17)",
+      "Vantage (Lv. 25)",
+      "Adept (Lv. 31)"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "narcus.png",
+    "class": "thief",
+    "lvl": 10
+  },
+  "lina": {
+    "name": "Lina",
+    "base": {
+      "hp": 0,
+      "str": 0,
+      "skl": 1,
+      "spd": 4,
+      "def": 0,
+      "mag": 0,
+      "luck": 18,
+      "mst": 1,
+      "move": 2
+    },
+    "growth": {
+      "hp": 40,
+      "str": 10,
+      "skl": 35,
+      "spd": 55,
+      "def": 10,
+      "mag": 40,
+      "luck": 60,
+      "mst": 35,
+      "move": 10
+    },
+    "skill": [
+      "Paragon",
+      "Canto (Lv. 9)",
+      "Vantage (Lv. 18)",
+      "Adept (Lv. 23)"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ],
+    "portrait": "lina.png",
+    "class": "cavalier",
+    "lvl": 1,
+    "promo": {
+      "promo": "silverpaladin"
+    }
+  },
+  "renee": {
+    "name": "Renee",
+    "base": {
+      "hp": 2,
+      "str": 0,
+      "skl": 7,
+      "spd": 5,
+      "def": 1,
+      "mag": 9,
+      "luck": 7,
+      "mst": 12,
+      "move": 0
+    },
+    "growth": {
+      "hp": 30,
+      "str": 0,
+      "skl": 35,
+      "spd": 40,
+      "def": 5,
+      "mag": 30,
+      "luck": 40,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Summon",
+      "Frontiersman"
+    ],
+    "weapon": [
+      "Staff"
+    ],
+    "portrait": "renee.png",
+    "class": "saint",
+    "lvl": 13
+  },
+  "yoda": {
+    "name": "Yoda",
+    "base": {
+      "hp": 18,
+      "str": 10,
+      "skl": 12,
+      "spd": 11,
+      "def": 5,
+      "mag": 6,
+      "luck": 13,
+      "mst": 13,
+      "move": 0
+    },
+    "growth": {
+      "hp": 40,
+      "str": 15,
+      "skl": 15,
+      "spd": 10,
+      "def": 10,
+      "mag": 0,
+      "luck": 20,
+      "mst": 10,
+      "move": 0
+    },
+    "skill": [
+      "Lethality",
+      "Astra",
+      "Draco",
+      "Frontiersman",
+      "Slayer"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "yoda.png",
+    "class": "swordmaster",
+    "lvl": 30
+  },
+  "hagar": {
+    "name": "Hagar",
+    "base": {
+      "hp": 6,
+      "str": 8,
+      "skl": 7,
+      "spd": 4,
+      "def": 2,
+      "mag": 0,
+      "luck": 4,
+      "mst": 4,
+      "move": 0
+    },
+    "growth": {
+      "hp": 55,
+      "str": 35,
+      "skl": 30,
+      "spd": 40,
+      "def": 40,
+      "mag": 5,
+      "luck": 40,
+      "mst": 40,
+      "move": 0
+    },
+    "skill": [
+      "Paragon",
+      "Adept",
+      "Pavise (Lv. 18)"
+    ],
+    "weapon": [
+      "Bow"
+    ],
+    "portrait": "hagar.png",
+    "class": "artilleryman",
+    "lvl": 16
+  },
+  "verna": {
+    "name": "Verna",
+    "base": {
+      "hp": 10,
+      "str": 7,
+      "skl": 9,
+      "spd": 10,
+      "def": 5,
+      "mag": 9,
+      "luck": 13,
+      "mst": 11,
+      "move": 0
+    },
+    "growth": {
+      "hp": 55,
+      "str": 25,
+      "skl": 40,
+      "spd": 35,
+      "def": 22,
+      "mag": 22,
+      "luck": 35,
+      "mst": 35,
+      "move": 0
+    },
+    "skill": [
+      "Canto",
+      "Slayer"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ],
+    "portrait": "verna.png",
+    "class": "pegasusknight",
+    "lvl": 17,
+    "promo": {
+      "promo": "wyvernknightf"
+    }
+  },
+  "alfred": {
+    "name": "Alfred",
+    "base": {
+      "hp": 18,
+      "str": 0,
+      "skl": 14,
+      "spd": 10,
+      "def": 5,
+      "mag": 12,
+      "luck": 8,
+      "mst": 15,
+      "move": 0
+    },
+    "growth": {
+      "hp": 75,
+      "str": 0,
+      "skl": 30,
+      "spd": 30,
+      "def": 15,
+      "mag": 30,
+      "luck": 30,
+      "mst": 30,
+      "move": 0
+    },
+    "skill": [
+      "Warp"
+    ],
+    "weapon": [
+      "Thunder",
+      "Wind",
+      "Fire",
+      "Light"
+    ],
+    "portrait": "alfred.png",
+    "class": "sage",
+    "lvl": 35
+  },
+  "sennet": {
+    "name": "Sennet",
+    "base": {
+      "hp": 24,
+      "str": 15,
+      "skl": 13,
+      "spd": 12,
+      "def": 13,
+      "mag": 10,
+      "luck": 15,
+      "mst": 15,
+      "move": 0
+    },
+    "growth": {
+      "hp": 80,
+      "str": 55,
+      "skl": 50,
+      "spd": 40,
+      "def": 40,
+      "mag": 0,
+      "luck": 45,
+      "mst": 45,
+      "move": 0
+    },
+    "skill": [
+      "Wrath",
+      "Terra",
+      "Charisma"
+    ],
+    "weapon": [
+      "Sword"
+    ],
+    "portrait": "sennet.png",
+    "class": "prince",
+    "lvl": 22
+  },
+  "tia": {
+    "name": "Tia",
+    "base": {
+      "hp": 14,
+      "str": 9,
+      "skl": 14,
+      "spd": 15,
+      "def": 7,
+      "mag": 15,
+      "luck": 21,
+      "mst": 15,
+      "move": 0
+    },
+    "growth": {
+      "hp": 65,
+      "str": 50,
+      "skl": 55,
+      "spd": 50,
+      "def": 30,
+      "mag": 65,
+      "luck": 60,
+      "mst": 40,
+      "move": 0
+    },
+    "skill": [
+      "Sol",
+      "Draco"
+    ],
+    "weapon": [
+      "Sword",
+      "Fire",
+      "Thunder",
+      "Wind",
+      "Light"
+    ],
+    "portrait": "tia.png",
+    "class": "ledaprincess",
+    "lvl": 22
+  }
 }

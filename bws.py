@@ -47,19 +47,30 @@ class UnitButton(discord.ui.View):
             await interaction.response.edit_message(embed=embed, view=self)
 
 
-async def unit(interaction: discord.Interaction, name: str):
+async def unit(interaction: discord.Interaction, name: str, level: int, promoted: bool):
     with open(bws_unit_data_file, 'r') as f:
         unit_json = json.load(f)
         view = UnitButton(interaction)
         found = False
         for k in unit_json:
             if k.lower().startswith(name.lower()):
-                embed = get_unit_stats_embed(unit_json[k])
-                portrait = discord.File('bws/images/' + unit_json[k]['portrait'], filename=unit_json[k]['portrait'])
-                embed.set_thumbnail(url='attachment://' + unit_json[k]['portrait'])
-                await interaction.response.send_message(embed=embed, file=portrait, view=view)
                 found = True
-                break
+                if level is None and promoted is None:
+                    # just get stats
+                    embed = get_unit_stats_embed(unit_json[k])
+                    portrait = discord.File('bws/images/' + unit_json[k]['portrait'], filename=unit_json[k]['portrait'])
+                    embed.set_thumbnail(url='attachment://' + unit_json[k]['portrait'])
+                    await interaction.response.send_message(embed=embed, file=portrait, view=view)
+                    break
+                else:
+                    # specified level or promoted, get action embed
+                    if level is None:
+                        level = 0
+                    embed = get_unit_level_embed(unit_json[k], level, promoted)
+                    portrait = discord.File('bws/images/' + unit_json[k]['portrait'], filename=unit_json[k]['portrait'])
+                    embed.set_thumbnail(url='attachment://' + unit_json[k]['portrait'])
+                    await interaction.response.send_message(embed=embed, file=portrait)
+                    break
         if not found:
             await interaction.response.send_message('That unit does not exist', ephemeral=True)
 
@@ -76,7 +87,8 @@ def get_unit_name_choices(ctx: str) -> list[app_commands.Choice]:
 
 def get_unit_stats_embed(unit_json: json) -> discord.Embed:
     embed = discord.Embed(title=unit_json['name'], color=0x8a428a)
-    embed.add_field(name='', value='Lvl ' + unit_json['lvl'] + ' ' + unit_json['class'], inline=False)
+    embed.add_field(name='', value='Lvl ' + str(unit_json['lvl']) + ' ' + unit_json['class'], inline=False)
+
     bases = ''
     for base in unit_json['base']:
         match base:
@@ -86,6 +98,7 @@ def get_unit_stats_embed(unit_json: json) -> discord.Embed:
                 bases += base.title() + ' ' + str(unit_json['base'][base]) + ' | '
     bases = bases[:-3]
     embed.add_field(name='Bases', value=bases, inline=False)
+
     if unit_json['growth']:
         growths = ''
         for growth in unit_json['growth']:
@@ -95,6 +108,7 @@ def get_unit_stats_embed(unit_json: json) -> discord.Embed:
                 case _:
                     growths += growth.title() + ' ' + str(unit_json['growth'][growth]) + '% | '
         growths = growths[:-3]
+
         if unit_json['bracket']:
             growths += '\n'
             for stat in unit_json['bracket']:
@@ -105,73 +119,76 @@ def get_unit_stats_embed(unit_json: json) -> discord.Embed:
                         growths += stat.title() + ' ' + unit_json['bracket'][stat] + ' | '
             growths = growths[:-3]
         embed.add_field(name='Growths', value=growths, inline=False)
-        if unit_json['promo']:
-            promotion = '**' + unit_json['promo']['promo'] + '**\n'
-            promotionwrank = ''
-            for stat in unit_json['promo']['bonus']:
-                match stat:
-                    case 'hp':
-                        promotion += 'HP +' + str(unit_json['promo']['bonus'][stat]) + ' | '
-                    case _:
-                        promotion += stat.title() + ' +' + str(unit_json['promo']['bonus'][stat]) + ' | '
-            promotion = promotion[:-3]
-            for weapon in unit_json['promo']['weapon']:
-                promotionwrank += weapon + ' ' + \
-                             unit_json['promo']['weapon'][weapon]['base'] + ' ' + \
-                             '(' + unit_json['promo']['weapon'][weapon]['growth'] + '%) | '
-            promotionwrank = promotionwrank[:-3]
-            embed.add_field(name='Promotion', value=promotion + '\n' + promotionwrank, inline=False)
-        skills_text = ''
-        for skill in unit_json['skill']:
-            skills_text += skill + '\n'
-        embed.add_field(name='Skills', value=skills_text, inline=True)
-        wrank_text = ''
-        for rank in unit_json['rank']:
-            match rank:
-                case 'Sword':
-                    wrank_text += '<:bws_sword:1101227974671470652> Sword ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'Spear':
-                    wrank_text += '<:bws_spear:1101227953548972133> Spear ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'Knife':
-                    wrank_text += '<:bws_knife:1101227906350469141> Knife ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'Axe':
-                    wrank_text += '<:bws_axe:1101227837840687114> Axe ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'Bow':
-                    wrank_text += '<:bws_bow:1101227856077529200> Bow ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'Crossbow':
-                    wrank_text += '<:bws_crossbow:1101227872053624932> Crossbow ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'Fire':
-                    wrank_text += '<:bws_fire:1101227895650799679> Fire ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'Thunder':
-                    wrank_text += '<:bws_thunder:1101227993248043028> Thunder ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'Wind':
-                    wrank_text += '<:bws_wind:1101228008418836540> Wind ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'Light':
-                    wrank_text += '<:bws_light:1101227919239553094> Light ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'Dark':
-                    wrank_text += '<:bws_dark:1101227885588660364> Dark ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'S Shield':
-                    wrank_text += '<:bws_sshield:1101227964269609131> S Shield ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'M Shield':
-                    wrank_text += '<:bws_mshield:1101227941221892207> M Shield ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-                case 'L Shield':
-                    wrank_text += '<:bws_lshield:1101227930861973595> L Shield ' + str(unit_json['rank'][rank]['base']) + \
-                                  ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
-        wrank_text = wrank_text[:-1]
-        embed.add_field(name='Weapon Skills', value=wrank_text, inline=True)
+
+    if unit_json['promo']:
+        promotion = '**' + unit_json['promo']['promo'] + '**\n'
+        promotionwrank = ''
+        for stat in unit_json['promo']['bonus']:
+            match stat:
+                case 'hp':
+                    promotion += 'HP +' + str(unit_json['promo']['bonus'][stat]) + ' | '
+                case _:
+                    promotion += stat.title() + ' +' + str(unit_json['promo']['bonus'][stat]) + ' | '
+        promotion = promotion[:-3]
+        for weapon in unit_json['promo']['weapon']:
+            promotionwrank += weapon + ' ' + \
+                            unit_json['promo']['weapon'][weapon]['base'] + ' ' + \
+                            '(' + unit_json['promo']['weapon'][weapon]['growth'] + '%) | '
+        promotionwrank = promotionwrank[:-3]
+        embed.add_field(name='Promotion', value=promotion + '\n' + promotionwrank, inline=False)
+
+    skills_text = ''
+    for skill in unit_json['skill']:
+        skills_text += skill + '\n'
+    embed.add_field(name='Skills', value=skills_text, inline=True)
+
+    wrank_text = ''
+    for rank in unit_json['rank']:
+        match rank:
+            case 'Sword':
+                wrank_text += '<:bws_sword:1101227974671470652> Sword ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'Spear':
+                wrank_text += '<:bws_spear:1101227953548972133> Spear ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'Knife':
+                wrank_text += '<:bws_knife:1101227906350469141> Knife ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'Axe':
+                wrank_text += '<:bws_axe:1101227837840687114> Axe ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'Bow':
+                wrank_text += '<:bws_bow:1101227856077529200> Bow ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'Crossbow':
+                wrank_text += '<:bws_crossbow:1101227872053624932> Crossbow ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'Fire':
+                wrank_text += '<:bws_fire:1101227895650799679> Fire ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'Thunder':
+                wrank_text += '<:bws_thunder:1101227993248043028> Thunder ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'Wind':
+                wrank_text += '<:bws_wind:1101228008418836540> Wind ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'Light':
+                wrank_text += '<:bws_light:1101227919239553094> Light ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'Dark':
+                wrank_text += '<:bws_dark:1101227885588660364> Dark ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'S Shield':
+                wrank_text += '<:bws_sshield:1101227964269609131> S Shield ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'M Shield':
+                wrank_text += '<:bws_mshield:1101227941221892207> M Shield ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+            case 'L Shield':
+                wrank_text += '<:bws_lshield:1101227930861973595> L Shield ' + str(unit_json['rank'][rank]['base']) + \
+                              ' (' + str(unit_json['rank'][rank]['growth']) + '%) \n'
+    wrank_text = wrank_text[:-1]
+    embed.add_field(name='Weapon Skills', value=wrank_text, inline=True)
     return embed
 
 
@@ -192,16 +209,60 @@ def get_unit_requirement_embed(unit_json: json):
     return embed
 
 
+def get_unit_level_embed(unit_json: json, level: int, promoted: bool):
+    embed = discord.Embed(title=unit_json['name'], color=0x8a428a)
+    level = max(min(level, 30), unit_json['lvl'])
+    levelstr = '**Lvl ' + str(unit_json['lvl']) + '** '
+    if level != unit_json['lvl']:
+        levelstr += '**-> ' + str(level) + '** '
+    levelstr += unit_json['class']
+    if promoted and unit_json['promo']:
+        levelstr += ' -> ' + unit_json['promo']['promo']
+    embed.add_field(name='', value=levelstr, inline=False)
+    lvlinc = level - unit_json['lvl']
+    stats = ''
+    for stat in unit_json['base']:
+        match stat:
+            case 'hp':
+                if unit_json['growth']:
+                    val = (unit_json['growth'][stat] * lvlinc + (unit_json['base'][stat] * 100)) / 100
+                    if promoted and unit_json['promo']:
+                        if stat in unit_json['promo']['bonus']:
+                            val += unit_json['promo']['bonus'][stat]
+                else:
+                    val = unit_json['base'][stat]
+                stats += 'HP ' + str(val) + ' | '
+            case _:
+                if unit_json['growth']:
+                    val = (unit_json['growth'][stat] * lvlinc + (unit_json['base'][stat] * 100)) / 100
+                    if promoted and unit_json['promo']:
+                        if stat in unit_json['promo']['bonus']:
+                            val += unit_json['promo']['bonus'][stat]
+                else:
+                    val = unit_json['base'][stat]
+                stats += stat.title() + ' ' + str(val) + ' | '
+    stats = stats[:-3]
+    embed.add_field(name='Stats', value=stats, inline=False)
+    return embed
+
+
 async def item(interaction: discord.Interaction, name: str):
     with open(bws_item_data_file, 'r') as f:
         item_json = json.load(f)
         found = False
         for k in item_json:
-            if k.lower().startswith(name.lower()):
+            if item_json[k]['name'].lower() == name.lower():
                 embed = get_item_stats_embed(item_json[k])
                 await interaction.response.send_message(embed=embed)
                 found = True
                 break
+        if not found:
+            for k in item_json:
+                if k.lower().startswith(name.lower()):
+                    embed = get_item_stats_embed(item_json[k])
+                    await interaction.response.send_message(embed=embed)
+                    found = True
+                    break
         if not found:
             await interaction.response.send_message('That item does not exist', ephemeral=True)
 
@@ -246,11 +307,9 @@ def get_item_stats_embed(item_json: json):
                 stats += item_json['prf'] + ' Prf | '
     stats = stats[:-3]
     embed.add_field(name='', value=stats, inline=False)
-    for value in item_json:
-        match value:
-            case 'effect':
-                effect = item_json['effect']
-                embed.add_field(name='Notes:', value=effect, inline=False)
+    if 'effect' in item_json:
+        effect = item_json['effect']
+        embed.add_field(name='Notes:', value=effect, inline=False)
     return embed
 
 
@@ -324,10 +383,8 @@ def get_furniture_name_choices(ctx: str) -> list[app_commands.Choice]:
 def get_furniture_data_embed(furniture_json: json) -> discord.Embed:
     embed = discord.Embed(title=furniture_json['name'], color=0x8a428a)
     embed.add_field(name='', value=furniture_json['description'], inline=False)
-    for value in furniture_json:
-        match value:
-            case 'cost':
-                embed.add_field(name='', value='Cost: ' + str(furniture_json['cost']) + ' D.', inline=False)
+    if 'cost' in furniture_json:
+        embed.add_field(name='', value='Cost: ' + str(furniture_json['cost']) + ' D.', inline=False)
     return embed
 
 
