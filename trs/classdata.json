@@ -1,0 +1,1962 @@
+{
+  "lord": {
+    "name": "Lord",
+    "base": {
+      "hp": 20,
+      "str": 5,
+      "skl": 5,
+      "spd": 5,
+      "def": 4,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "greatlord": {
+    "name": "Great Lord",
+    "base": {
+      "hp": 23,
+      "str": 8,
+      "skl": 8,
+      "spd": 8,
+      "def": 7,
+      "mag": 4,
+      "luck": 0,
+      "mst": 5,
+      "move": 6
+    },
+    "skill": [
+      "Adept",
+      "Charisma"
+    ],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "archer": {
+    "name": "Archer",
+    "base": {
+      "hp": 18,
+      "str": 4,
+      "skl": 5,
+      "spd": 5,
+      "def": 2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "sniper": {
+    "name": "Sniper",
+    "base": {
+      "hp": 22,
+      "str": 7,
+      "skl": 6,
+      "spd": 6,
+      "def": 5,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "axesoldier": {
+    "name": "Axe Soldier",
+    "base": {
+      "hp": 22,
+      "str": 5,
+      "skl": 4,
+      "spd": 4,
+      "def": 5,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ]
+  },
+  "lancesoldier": {
+    "name": "Lance Soldier",
+    "base": {
+      "hp": 22,
+      "str": 5,
+      "skl": 4,
+      "spd": 4,
+      "def": 4,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Lance"
+    ]
+  },
+  "sergeant": {
+    "name": "Sergeant",
+    "base": {
+      "hp": 24,
+      "str": 7,
+      "skl": 6,
+      "spd": 6,
+      "def": 6,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Lance",
+      "Axe"
+    ]
+  },
+  "prince": {
+    "name": "Prince",
+    "base": {
+      "hp": 23,
+      "str": 8,
+      "skl": 8,
+      "spd": 8,
+      "def": 7,
+      "mag": 4,
+      "luck": 0,
+      "mst": 5,
+      "move": 5
+    },
+    "skill": [
+      "Charisma"
+    ],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "ledaprincess": {
+    "name": "Leda Princess",
+    "base": {
+      "hp": 20,
+      "str": 6,
+      "skl": 8,
+      "spd": 10,
+      "def": 6,
+      "mag": 10,
+      "luck": 0,
+      "mst": 5,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Fire",
+      "Thunder",
+      "Wind",
+      "Light"
+    ]
+  },
+  "bowman": {
+    "name": "Bowman",
+    "base": {
+      "hp": 20,
+      "str": 4,
+      "skl": 1,
+      "spd": 1,
+      "def": 2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 2,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "spearman": {
+    "name": "Spearman",
+    "base": {
+      "hp": 20,
+      "str": 4,
+      "skl": 1,
+      "spd": 1,
+      "def": 2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 2,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Lance"
+    ]
+  },
+  "shadowlancer": {
+    "name": "Shadow Lancer",
+    "base": {
+      "hp": 25,
+      "str": 6,
+      "skl": 3,
+      "spd": 3,
+      "def": 4,
+      "mag": 0,
+      "luck": 0,
+      "mst": 2,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Lance"
+    ],
+    "drop": "Blessed Lance"
+  },
+  "duke": {
+    "name": "Duke",
+    "base": {
+      "hp": 25,
+      "str": 6,
+      "skl": 4,
+      "spd": 4,
+      "def": 6,
+      "mag": 4,
+      "luck": 0,
+      "mst": 5,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "marksman": {
+    "name": "Marksman",
+    "base": {
+      "hp": 22,
+      "str": 7,
+      "skl": 6,
+      "spd": 6,
+      "def": 5,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "bowsoldier": {
+    "name": "Bow Soldier",
+    "base": {
+      "hp": 20,
+      "str": 5,
+      "skl": 4,
+      "spd": 4,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "bladesoldier": {
+    "name": "Blade Soldier",
+    "base": {
+      "hp": 22,
+      "str": 5,
+      "skl": 4,
+      "spd": 4,
+      "def": 4,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "fighter": {
+    "name": "Fighter",
+    "base": {
+      "hp": 22,
+      "str": 5,
+      "skl": 5,
+      "spd": 6,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ]
+  },
+  "warrior": {
+    "name": "Warrior",
+    "base": {
+      "hp": 25,
+      "str": 7,
+      "skl": 7,
+      "spd": 8,
+      "def": 5,
+      "mag": 0,
+      "luck": 0,
+      "mst": 5,
+      "move": 6
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ]
+  },
+  "myrmidon": {
+    "name": "Myrmidon",
+    "base": {
+      "hp": 20,
+      "str": 3,
+      "skl": 7,
+      "spd": 8,
+      "def": 2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "swordmaster": {
+    "name": "Swordmaster",
+    "base": {
+      "hp": 22,
+      "str": 6,
+      "skl": 10,
+      "spd": 10,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 5,
+      "move": 6
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "mercenary": {
+    "name": "Mercenary",
+    "base": {
+      "hp": 22,
+      "str": 4,
+      "skl": 5,
+      "spd": 5,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "hero": {
+    "name": "Hero",
+    "base": {
+      "hp": 25,
+      "str": 7,
+      "skl": 8,
+      "spd": 7,
+      "def": 5,
+      "mag": 0,
+      "luck": 0,
+      "mst": 5,
+      "move": 6
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "thief": {
+    "name": "Thief",
+    "base": {
+      "hp": 18,
+      "str": 1,
+      "skl": 5,
+      "spd": 10,
+      "def": 0,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 5
+    },
+    "skill": [
+      "Locktouch"
+    ],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "privateer": {
+    "name": "Privateer",
+    "base": {
+      "hp": 23,
+      "str": 7,
+      "skl": 7,
+      "spd": 7,
+      "def": 4,
+      "mag": 0,
+      "luck": 0,
+      "mst": 5,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "stealthhunter": {
+    "name": "Stealth Hunter",
+    "base": {
+      "hp": 25,
+      "str": 8,
+      "skl": 8,
+      "spd": 7,
+      "def": 6,
+      "mag": 0,
+      "luck": 0,
+      "mst": 5,
+      "move": 6
+    },
+    "skill": [
+      "Charisma"
+    ],
+    "weapon": [
+      "Sword",
+      "Bow"
+    ]
+  },
+  "sellsword": {
+    "name": "Sellsword",
+    "base": {
+      "hp": 22,
+      "str": 5,
+      "skl": 6,
+      "spd": 6,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "hunter": {
+    "name": "Hunter",
+    "base": {
+      "hp": 18,
+      "str": 4,
+      "skl": 5,
+      "spd": 5,
+      "def": 2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "pirate": {
+    "name": "Pirate",
+    "base": {
+      "hp": 25,
+      "str": 4,
+      "skl": 1,
+      "spd": 3,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ]
+  },
+  "rogue": {
+    "name": "Rogue",
+    "base": {
+      "hp": 20,
+      "str": 3,
+      "skl": 1,
+      "spd": 3,
+      "def": 1,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [
+      "Locktouch",
+      "Mug"
+    ],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "chief": {
+    "name": "Chief",
+    "base": {
+      "hp": 25,
+      "str": 7,
+      "skl": 2,
+      "spd": 4,
+      "def": 4,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "bandit": {
+    "name": "Bandit",
+    "base": {
+      "hp": 25,
+      "str": 4,
+      "skl": 1,
+      "spd": 4,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ]
+  },
+  "barbarian": {
+    "name": "Barbarian",
+    "base": {
+      "hp": 30,
+      "str": 7,
+      "skl": 2,
+      "spd": 5,
+      "def": 4,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ]
+  },
+  "artilleryman": {
+    "name": "Artilleryman",
+    "base": {
+      "hp": 30,
+      "str": 5,
+      "skl": 5,
+      "spd": 5,
+      "def": 15,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 3
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "ballistician": {
+    "name": "Ballistician",
+    "base": {
+      "hp": 20,
+      "str": 0,
+      "skl": 0,
+      "spd": 0,
+      "def": 5,
+      "mag": 0,
+      "luck": 0,
+      "mst": 5,
+      "move": 0
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "catapulter": {
+    "name": "Catapulter",
+    "base": {
+      "hp": 20,
+      "str": 0,
+      "skl": 0,
+      "spd": 0,
+      "def": 5,
+      "mag": 0,
+      "luck": 0,
+      "mst": 5,
+      "move": 0
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "cavalier": {
+    "name": "Cavalier",
+    "base": {
+      "hp": 20,
+      "str": 4,
+      "skl": 3,
+      "spd": 3,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 7
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -1,
+      "skl": -1,
+      "spd": -1,
+      "def": -1,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ]
+  },
+  "bronzepaladin": {
+    "name": "Bronze Paladin",
+    "base": {
+      "hp": 23,
+      "str": 6,
+      "skl": 5,
+      "spd": 4,
+      "def": 5,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 7
+    },
+    "dismount": {
+      "hp": 0,
+      "str": 0,
+      "skl": 0,
+      "spd": 0,
+      "def": 0,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -2
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Lance"
+    ]
+  },
+  "wyvernknightm": {
+    "name": "Wyvern Knight (Male)",
+    "base": {
+      "hp": 25,
+      "str": 8,
+      "skl": 5,
+      "spd": 6,
+      "def": 7,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 7
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -3,
+      "skl": -2,
+      "spd": -2,
+      "def": -3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Lance"
+    ]
+  },
+  "goldpaladin": {
+    "name": "Gold Paladin",
+    "base": {
+      "hp": 28,
+      "str": 10,
+      "skl": 10,
+      "spd": 10,
+      "def": 8,
+      "mag": 0,
+      "luck": 0,
+      "mst": 5,
+      "move": 8
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -3,
+      "skl": -3,
+      "spd": -4,
+      "def": -2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [
+      "Adept",
+      "Pavise"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ]
+  },
+  "silverpaladin": {
+    "name": "Silver Paladin",
+    "base": {
+      "hp": 23,
+      "str": 7,
+      "skl": 7,
+      "spd": 7,
+      "def": 6,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 8
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -2,
+      "skl": -3,
+      "spd": -3,
+      "def": -2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ]
+  },
+  "blackpaladin": {
+    "name": "Black Paladin",
+    "base": {
+      "hp": 24,
+      "str": 7,
+      "skl": 7,
+      "spd": 7,
+      "def": 7,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 8
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -2,
+      "skl": -2,
+      "spd": -2,
+      "def": -2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [
+      "Flurry"
+    ],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ]
+  },
+  "ladyknight": {
+    "name": "Lady Knight",
+    "base": {
+      "hp": 20,
+      "str": 4,
+      "skl": 5,
+      "spd": 5,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Bow"
+    ]
+  },
+  "bowknight": {
+    "name": "Bow Knight",
+    "base": {
+      "hp": 22,
+      "str": 5,
+      "skl": 6,
+      "spd": 5,
+      "def": 4,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 7
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -1,
+      "skl": -1,
+      "spd": 0,
+      "def": -1,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Bow"
+    ]
+  },
+  "troubadour": {
+    "name": "Troubadour",
+    "base": {
+      "hp": 18,
+      "str": 2,
+      "skl": 3,
+      "spd": 3,
+      "def": 2,
+      "mag": 3,
+      "luck": 0,
+      "mst": 3,
+      "move": 7
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -1,
+      "skl": 0,
+      "spd": 0,
+      "def": -1,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Staff"
+    ]
+  },
+  "shadowknight": {
+    "name": "Shadow Knight",
+    "base": {
+      "hp": 23,
+      "str": 7,
+      "skl": 5,
+      "spd": 5,
+      "def": 6,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 7
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -2,
+      "skl": -1,
+      "spd": -1,
+      "def": -2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Lance",
+      "Axe (Mounted)"
+    ]
+  },
+  "armorknight": {
+    "name": "Armor Knight",
+    "base": {
+      "hp": 28,
+      "str": 5,
+      "skl": 4,
+      "spd": 2,
+      "def": 9,
+      "mag": 0,
+      "luck": 0,
+      "mst": 3,
+      "move": 3
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "general": {
+    "name": "General",
+    "base": {
+      "hp": 30,
+      "str": 7,
+      "skl": 7,
+      "spd": 4,
+      "def": 10,
+      "mag": 0,
+      "luck": 0,
+      "mst": 5,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "greatknight": {
+    "name": "Great Knight",
+    "base": {
+      "hp": 28,
+      "str": 7,
+      "skl": 4,
+      "spd": 2,
+      "def": 10,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 6
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -2,
+      "skl": -1,
+      "spd": -1,
+      "def": 0,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "nomad": {
+    "name": "Nomad",
+    "base": {
+      "hp": 20,
+      "str": 6,
+      "skl": 5,
+      "spd": 6,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 2,
+      "move": 7
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -1,
+      "skl": -1,
+      "spd": -2,
+      "def": -1,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "nomadictrooper": {
+    "name": "Nomadic Trooper",
+    "base": {
+      "hp": 23,
+      "str": 7,
+      "skl": 6,
+      "spd": 7,
+      "def": 5,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 7
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -2,
+      "skl": -2,
+      "spd": -1,
+      "def": -2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Sword (Mounted)",
+      "Bow"
+    ]
+  },
+  "royalknight": {
+    "name": "Royal Knight",
+    "base": {
+      "hp": 25,
+      "str": 10,
+      "skl": 10,
+      "spd": 10,
+      "def": 8,
+      "mag": 0,
+      "luck": 0,
+      "mst": 5,
+      "move": 7
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -4,
+      "skl": -4,
+      "spd": -4,
+      "def": -2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)",
+      "Axe (Mounted)",
+      "Bow (Mounted)"
+    ]
+  },
+  "lancerider": {
+    "name": "Lance Rider",
+    "base": {
+      "hp": 22,
+      "str": 5,
+      "skl": 3,
+      "spd": 3,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 2,
+      "move": 7
+    },
+    "skill": [],
+    "weapon": [
+      "Lance"
+    ]
+  },
+  "bowrider": {
+    "name": "Bow Rider",
+    "base": {
+      "hp": 22,
+      "str": 5,
+      "skl": 3,
+      "spd": 3,
+      "def": 2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 2,
+      "move": 7
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ]
+  },
+  "ruffian": {
+    "name": "Ruffian",
+    "base": {
+      "hp": 20,
+      "str": 3,
+      "skl": 1,
+      "spd": 3,
+      "def": 1,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 7
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "mageknight": {
+    "name": "Mage Knight",
+    "base": {
+      "hp": 18,
+      "str": 2,
+      "skl": 1,
+      "spd": 2,
+      "def": 2,
+      "mag": 3,
+      "luck": 0,
+      "mst": 3,
+      "move": 7
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Fire",
+      "Thunder",
+      "Wind"
+    ]
+  },
+  "shadowrider": {
+    "name": "Shadow Rider",
+    "base": {
+      "hp": 25,
+      "str": 7,
+      "skl": 4,
+      "spd": 4,
+      "def": 4,
+      "mag": 4,
+      "luck": 0,
+      "mst": 2,
+      "move": 7
+    },
+    "skill": [],
+    "weapon": [
+      "Lance",
+      "Axe"
+    ],
+    "drop": "Luna Sword"
+  },
+  "axerider": {
+    "name": "Axe Rider",
+    "base": {
+      "hp": 22,
+      "str": 5,
+      "skl": 3,
+      "spd": 3,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 2,
+      "move": 7
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ]
+  },
+  "princess": {
+    "name": "Princess",
+    "base": {
+      "hp": 18,
+      "str": 2,
+      "skl": 2,
+      "spd": 3,
+      "def": 2,
+      "mag": 0,
+      "luck": 0,
+      "mst": 2,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ]
+  },
+  "pegasusknight": {
+    "name": "Pegasus Knight",
+    "base": {
+      "hp": 20,
+      "str": 5,
+      "skl": 4,
+      "spd": 7,
+      "def": 3,
+      "mag": 6,
+      "luck": 0,
+      "mst": 2,
+      "move": 7
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -2,
+      "skl": -2,
+      "spd": -3,
+      "def": -1,
+      "mag": -6,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ]
+  },
+  "wyvernknightf": {
+    "name": "Wyvern Knight (Female)",
+    "base": {
+      "hp": 25,
+      "str": 8,
+      "skl": 5,
+      "spd": 6,
+      "def": 7,
+      "mag": 0,
+      "luck": 0,
+      "mst": 4,
+      "move": 7
+    },
+    "dismount": {
+      "hp": 0,
+      "str": -3,
+      "skl": -2,
+      "spd": -2,
+      "def": -3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": -3
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Lance (Mounted)"
+    ]
+  },
+  "pegasusrider": {
+    "name": "Pegasus Rider",
+    "base": {
+      "hp": 20,
+      "str": 5,
+      "skl": 4,
+      "spd": 6,
+      "def": 3,
+      "mag": 2,
+      "luck": 0,
+      "mst": 2,
+      "move": 7
+    },
+    "skill": [],
+    "weapon": [
+      "Lance"
+    ]
+  },
+  "wyvernrider": {
+    "name": "Wyvern Rider",
+    "base": {
+      "hp": 25,
+      "str": 7,
+      "skl": 4,
+      "spd": 4,
+      "def": 6,
+      "mag": 0,
+      "luck": 0,
+      "mst": 2,
+      "move": 7
+    },
+    "skill": [],
+    "weapon": [
+      "Lance"
+    ]
+  },
+  "wyvernlord": {
+    "name": "Wyvern Lord",
+    "base": {
+      "hp": 30,
+      "str": 10,
+      "skl": 10,
+      "spd": 10,
+      "def": 10,
+      "mag": 0,
+      "luck": 0,
+      "mst": 5,
+      "move": 7
+    },
+    "skill": [],
+    "weapon": [
+      "Sword",
+      "Lance"
+    ]
+  },
+  "mage": {
+    "name": "Mage",
+    "base": {
+      "hp": 18,
+      "str": 0,
+      "skl": 5,
+      "spd": 4,
+      "def": 2,
+      "mag": 4,
+      "luck": 0,
+      "mst": 3,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "a) Fire",
+      "b) Thunder + Wind",
+      "c) Fire + Light"
+    ]
+  },
+  "sage": {
+    "name": "Sage",
+    "base": {
+      "hp": 20,
+      "str": 0,
+      "skl": 8,
+      "spd": 8,
+      "def": 4,
+      "mag": 7,
+      "luck": 0,
+      "mst": 5,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Fire",
+      "Thunder",
+      "Wind",
+      "Light"
+    ]
+  },
+  "witch": {
+    "name": "Witch",
+    "base": {
+      "hp": 20,
+      "str": 0,
+      "skl": 3,
+      "spd": 6,
+      "def": 2,
+      "mag": 5,
+      "luck": 0,
+      "mst": 5,
+      "move": 5
+    },
+    "skill": [
+      "Warp"
+    ],
+    "weapon": [
+      "Fire",
+      "Thunder",
+      "Wind",
+      "Dark"
+    ]
+  },
+  "highmage": {
+    "name": "High Mage",
+    "base": {
+      "hp": 20,
+      "str": 0,
+      "skl": 3,
+      "spd": 2,
+      "def": 2,
+      "mag": 4,
+      "luck": 0,
+      "mst": 5,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Fire",
+      "Thunder",
+      "Wind"
+    ]
+  },
+  "pontiff": {
+    "name": "Pontiff",
+    "base": {
+      "hp": 30,
+      "str": 0,
+      "skl": 10,
+      "spd": 10,
+      "def": 7,
+      "mag": 10,
+      "luck": 0,
+      "mst": 5,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Fire",
+      "Thunder",
+      "Wind",
+      "Dark",
+      "Staff"
+    ]
+  },
+  "shadowbishop": {
+    "name": "Shadow Bishop",
+    "base": {
+      "hp": 25,
+      "str": 0,
+      "skl": 5,
+      "spd": 6,
+      "def": 4,
+      "mag": 10,
+      "luck": 0,
+      "mst": 5,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Fire",
+      "Thunder",
+      "Wind",
+      "Dark",
+      "Staff"
+    ]
+  },
+  "shadowmage": {
+    "name": "Shadow Mage",
+    "base": {
+      "hp": 20,
+      "str": 0,
+      "skl": 5,
+      "spd": 4,
+      "def": 3,
+      "mag": 5,
+      "luck": 0,
+      "mst": 5,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Fire",
+      "Thunder",
+      "Wind",
+      "Dark"
+    ]
+  },
+  "summoner": {
+    "name": "Summoner",
+    "base": {
+      "hp": 20,
+      "str": 0,
+      "skl": 2,
+      "spd": 3,
+      "def": 2,
+      "mag": 5,
+      "luck": 0,
+      "mst": 5,
+      "move": 3
+    },
+    "skill": [
+      "Summon"
+    ],
+    "weapon": [
+      "Staff"
+    ]
+  },
+  "sorcerer": {
+    "name": "Sorcerer",
+    "base": {
+      "hp": 25,
+      "str": 0,
+      "skl": 8,
+      "spd": 10,
+      "def": 4,
+      "mag": 10,
+      "luck": 0,
+      "mst": 5,
+      "move": 3
+    },
+    "skill": [],
+    "weapon": [
+      "Dark"
+    ]
+  },
+  "bishop": {
+    "name": "Bishop",
+    "base": {
+      "hp": 20,
+      "str": 0,
+      "skl": 5,
+      "spd": 7,
+      "def": 3,
+      "mag": 7,
+      "luck": 0,
+      "mst": 5,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Fire",
+      "Thunder",
+      "Wind",
+      "Staff"
+    ]
+  },
+  "shaman": {
+    "name": "Shaman",
+    "base": {
+      "hp": 15,
+      "str": 0,
+      "skl": 4,
+      "spd": 5,
+      "def": 1,
+      "mag": 5,
+      "luck": 0,
+      "mst": 4,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Staff"
+    ]
+  },
+  "firedragon": {
+    "name": "Fire Dragon",
+    "base": {
+      "hp": 60,
+      "str": 10,
+      "skl": 10,
+      "spd": 10,
+      "def": 10,
+      "mag": 10,
+      "luck": 0,
+      "mst": 1,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Breath"
+    ]
+  },
+  "winddragon": {
+    "name": "Wind Dragon",
+    "base": {
+      "hp": 60,
+      "str": 10,
+      "skl": 10,
+      "spd": 10,
+      "def": 10,
+      "mag": 10,
+      "luck": 0,
+      "mst": 1,
+      "move": 8
+    },
+    "skill": [],
+    "weapon": [
+      "Breath"
+    ]
+  },
+  "earthdragon": {
+    "name": "Earth Dragon",
+    "base": {
+      "hp": 60,
+      "str": 10,
+      "skl": 10,
+      "spd": 10,
+      "def": 10,
+      "mag": 10,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Breath"
+    ],
+    "drop": "Moonlight"
+  },
+  "waterdragon": {
+    "name": "Water Dragon",
+    "base": {
+      "hp": 60,
+      "str": 10,
+      "skl": 10,
+      "spd": 10,
+      "def": 10,
+      "mag": 10,
+      "luck": 0,
+      "mst": 1,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Breath"
+    ]
+  },
+  "cleric": {
+    "name": "Cleric",
+    "base": {
+      "hp": 18,
+      "str": 0,
+      "skl": 2,
+      "spd": 3,
+      "def": 1,
+      "mag": 4,
+      "luck": 0,
+      "mst": 3,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Staff"
+    ]
+  },
+  "saint": {
+    "name": "Saint",
+    "base": {
+      "hp": 20,
+      "str": 0,
+      "skl": 5,
+      "spd": 7,
+      "def": 3,
+      "mag": 7,
+      "luck": 0,
+      "mst": 5,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Staff"
+    ]
+  },
+  "civilian": {
+    "name": "Civilian",
+    "base": {
+      "hp": 10,
+      "str": 0,
+      "skl": 0,
+      "spd": 0,
+      "def": 0,
+      "mag": 0,
+      "luck": 0,
+      "mst": 0,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": []
+  },
+  "revenant": {
+    "name": "Revenant",
+    "base": {
+      "hp": 20,
+      "str": 1,
+      "skl": 0,
+      "spd": 0,
+      "def": 1,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ],
+    "drop": "Herb"
+  },
+  "entombed": {
+    "name": "Entombed",
+    "base": {
+      "hp": 10,
+      "str": 0,
+      "skl": 0,
+      "spd": 0,
+      "def": 0,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ],
+    "drop": "Herb"
+  },
+  "ogre": {
+    "name": "Ogre",
+    "base": {
+      "hp": 25,
+      "str": 3,
+      "skl": 1,
+      "spd": 4,
+      "def": 3,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ],
+    "drop": "Smith's Hammer"
+  },
+  "greatogre": {
+    "name": "Greatogre",
+    "base": {
+      "hp": 30,
+      "str": 8,
+      "skl": 4,
+      "spd": 6,
+      "def": 7,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ],
+    "drop": "Blessed Axe"
+  },
+  "bonewalker": {
+    "name": "Bonewalker",
+    "base": {
+      "hp": 20,
+      "str": 5,
+      "skl": 2,
+      "spd": 5,
+      "def": 5,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ],
+    "drop": "Iron Shield"
+  },
+  "wight": {
+    "name": "Wight",
+    "base": {
+      "hp": 25,
+      "str": 7,
+      "skl": 3,
+      "spd": 7,
+      "def": 8,
+      "mag": 0,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Sword"
+    ],
+    "drop": "Slayer Sword"
+  },
+  "earthborn": {
+    "name": "Earthborn",
+    "base": {
+      "hp": 40,
+      "str": 10,
+      "skl": 2,
+      "spd": 2,
+      "def": 5,
+      "mag": 2,
+      "luck": 0,
+      "mst": 1,
+      "move": 3
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ]
+  },
+  "stoneborn": {
+    "name": "Stoneborn",
+    "base": {
+      "hp": 40,
+      "str": 10,
+      "skl": 2,
+      "spd": 2,
+      "def": 15,
+      "mag": 10,
+      "luck": 0,
+      "mst": 1,
+      "move": 3
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ],
+    "drop": "Paragon"
+  },
+  "harpy": {
+    "name": "Harpy",
+    "base": {
+      "hp": 10,
+      "str": 3,
+      "skl": 10,
+      "spd": 10,
+      "def": 1,
+      "mag": 2,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Bow"
+    ],
+    "drop": "Miracle Charm"
+  },
+  "mogall": {
+    "name": "Mogall",
+    "base": {
+      "hp": 15,
+      "str": 4,
+      "skl": 0,
+      "spd": 10,
+      "def": 2,
+      "mag": 10,
+      "luck": 0,
+      "mst": 1,
+      "move": 4
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ],
+    "drop": "Fruit"
+  },
+  "archmogall": {
+    "name": "Arch Mogall",
+    "base": {
+      "hp": 50,
+      "str": 10,
+      "skl": 0,
+      "spd": 5,
+      "def": 10,
+      "mag": 10,
+      "luck": 0,
+      "mst": 1,
+      "move": 3
+    },
+    "skill": [],
+    "weapon": [
+      "Thunder"
+    ]
+  },
+  "gargoyle": {
+    "name": "Gargoyle",
+    "base": {
+      "hp": 22,
+      "str": 6,
+      "skl": 10,
+      "spd": 8,
+      "def": 3,
+      "mag": 8,
+      "luck": 0,
+      "mst": 1,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Axe"
+    ],
+    "drop": "Money Bag"
+  },
+  "dracozombie": {
+    "name": "Dracozombie",
+    "base": {
+      "hp": 40,
+      "str": 7,
+      "skl": 4,
+      "spd": 4,
+      "def": 15,
+      "mag": 7,
+      "luck": 0,
+      "mst": 1,
+      "move": 5
+    },
+    "skill": [],
+    "weapon": [
+      "Fire"
+    ],
+    "drop": "Blessed Bow"
+  },
+  "pretendergod": {
+    "name": "Pretender God",
+    "base": {
+      "hp": 60,
+      "str": 10,
+      "skl": 30,
+      "spd": 25,
+      "def": 30,
+      "mag": 30,
+      "luck": 0,
+      "mst": 15,
+      "move": 0
+    },
+    "skill": [],
+    "weapon": [
+      "Dark"
+    ]
+  }
+}
