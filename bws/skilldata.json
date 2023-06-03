@@ -382,7 +382,7 @@
    "Robust+": {
       "name": "Robust+",
       "type": "Always",
-      "description": "Immune to Injured and Crippled statuses. Not displayed."
+      "description": "Immune to Injured and Crippled statuses. Not displayed. Also set on force-deployed units."
    },
    "Vulnerable": {
       "name": "Vulnerable",

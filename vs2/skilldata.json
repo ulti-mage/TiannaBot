@@ -1,0 +1,387 @@
+{
+  "commander": {
+    "name": "Commander",
+    "description": "Improves the accuracy of allies in a 3-space radius by 10"
+  }, 
+  "commander2": {
+    "name": "Commander II",
+    "description": "Improves the accuracy of allies in a 5-space radius by 15"
+  }, 
+  "commander3": {
+    "name": "Commander III",
+    "description": "Improves the accuracy of allies in a 7-space radius by 20"
+  }, 
+  "commanderex": {
+    "name": "Commander (EX)",
+    "description": "Grants a bond bonus of +70 accuracy"
+  }, 
+  "imperator": {
+    "name": "Imperator",
+    "description": "Improves the accuracy of all allies by 20"
+  }, 
+  "brotherlybonds": {
+    "name": "Brotherly Bonds",
+    "description": "Grants a bond bonus of +35 accuracy"
+  }, 
+  "fetid": {
+    "name": "Fetid",
+    "description": "Lowers the accuracy of allies in a 3-space radius by 20"
+  }, 
+  "imbecile": {
+    "name": "Imbecile",
+    "description": "Inflicts -10 accuracy, evasion, -1 attack power, defense, resistance to allies in a 5-space radius"
+  }, 
+  "charisma": {
+    "name": "Charisma",
+    "description": "Improves the evasion of allies in a 5-space radius by 10"
+  }, 
+  "synergy": {
+    "name": "Synergy",
+    "description": "Improves the accuracy and evasion of allies in a 2-space radius by 10"
+  }, 
+  "synergy2": {
+    "name": "Synergy II",
+    "description": "Improves the accuracy and evasion of allies in a 3-space radius by 30"
+  }, 
+  "battlehymn": {
+    "name": "Battle Hymn",
+    "description": "Improves the attack power of allies in a 3-space radius by 1"
+  }, 
+  "inheritedwill": {
+    "name": "Inherited Will",
+    "description": "Grants +3 attack power, +15 accuracy, +3 critical hit rate to allies within a 3-space radius"
+  }, 
+  "frontierimperator": {
+    "name": "Frontier Imperator",
+    "description": "Improves the attack power, defense and resistance of all allies by 1"
+  }, 
+  "darkpall": {
+    "name": "Dark Pall",
+    "description": "Improves the defense and resistance of all allies by 3"
+  }, 
+  "vestalveil": {
+    "name": "Vestal Veil",
+    "description": "Improves the defense and resistance of all allies by 7"
+  }, 
+  "glamor": {
+    "name": "Glamor",
+    "description": "Improves the attack power of adjacent allies by 3"
+  }, 
+  "senahsglamor": {
+    "name": "Senah's Glamor",
+    "description": "Improves the attack power of adjacent allies by 3"
+  }, 
+  "nutritionist": {
+    "name": "Nutritionist",
+    "description": "Improves the attack power of adjacent allies by 3"
+  }, 
+  "goodneighbor": {
+    "name": "Good Neighbor",
+    "description": "Improves the defense and resistance of adjacent allies by 3"
+  }, 
+  "goodneighbor2": {
+    "name": "Good Neighbor II",
+    "description": "Improves the defense and resistance of adjacent allies by 5"
+  }, 
+  "bestfriends": {
+    "name": "Best Friends",
+    "description": "Grants a bond bonus of +3 defense and resistance on top of standard bond bonuses"
+  }, 
+  "multichance": {
+    "name": "Multichance",
+    "description": "Allows the unit to sometimes deal two consecutive strikes",
+    "activation": "(AGI × 3)%"
+  }, 
+  "triplethreat": {
+    "name": "Triple Threat",
+    "description": "Allows the unit to sometimes deal three conscecutive strikes",
+    "activation": "20%"
+  }, 
+  "flurry": {
+    "name": "Flurry",
+    "description": "Allows the unit to sometimes deal five consecutive strikes",
+    "activation": "DEX%"
+  }, 
+  "deificrevels": {
+    "name": "Deific Revels",
+    "description": "Allows the unit to sometimes deal five consecutive strikes",
+    "activation": "DEX%"
+  }, 
+  "multistrike": {
+    "name": "Multistrike",
+    "description": "Allows the unit to always deal two consecutive strikes"
+  }, 
+  "deathseeker": {
+    "name": "Deathseeker",
+    "description": "Allows the unit to continue battle until either side falls, or up to 32 rounds of combat (only when in range if countering)"
+  }, 
+  "persistent": {
+    "name": "Persistent",
+    "description": "Allows the unit to continue battle, up to 32 rounds of combat (only when in range if countering)",
+    "activation": "(HP × 2)%"
+  }, 
+  "criticaledge": {
+    "name": "Critical Edge",
+    "description": "Improves critical hit rate by the unit's dexterity value"
+  }, 
+  "mettle": {
+    "name": "Mettle",
+    "description": "Improves critical hit rate by [(Max HP - Current HP)/Max HP]×50 when the unit's HP is 50% or less"
+  }, 
+  "wrath": {
+    "name": "Wrath",
+    "description": "Has a 25% chance of producing a critical hit when counterattacking",
+    "activation": "25%"
+  }, 
+  "criticalreprisal": {
+    "name": "Critical Reprisal",
+    "description": "Guarantees the unit's counterattacks are critical hits"
+  }, 
+  "shield": {
+    "name": "Shield",
+    "description": "May nullify an opponent's attack",
+    "activation": "DEX%"
+  }, 
+  "greatshield": {
+    "name": "Greatshield",
+    "description": "May nullify an opponent's attack",
+    "activation": "12%"
+  }, 
+  "axedefend": {
+    "name": "Axe Defend",
+    "description": "May nullify an opponent's attack",
+    "activation": "STR%"
+  }, 
+  "aegis": {
+    "name": "Aegis",
+    "description": "May nullify an opponent's attack",
+    "activation": "MAG%"
+  }, 
+  "aegis2": {
+    "name": "Aegis II",
+    "description": "May nullify an opponent's attack",
+    "activation": "25%"
+  }, 
+  "aegisex": {
+    "name": "Aegis (EX)",
+    "description": "Magically stops all opponent's attacks"
+  }, 
+  "parry": {
+    "name": "Parry",
+    "description": "May nullify an opponent's attack",
+    "activation": "DEX%"
+  }, 
+  "benison": {
+    "name": "Benison",
+    "description": "Allows the unit to evade death upon taking a mortal blow",
+    "activation": "(LUCK × 2)%"
+  }, 
+  "senahstenacity": {
+    "name": "Senah's Tenacity",
+    "description": "Allows the unit to evade death upon taking a mortal blow",
+    "activation": "50%"
+  }, 
+  "poweroflove": {
+    "name": "Power of Love",
+    "description": "Keeps a unit at 1 HP where they would otherwise die, except for Poison / event deaths / Foresight etc."
+  }, 
+  "deathless": {
+    "name": "Deathless",
+    "description": "Keeps a unit at 1 HP where they would otherwise die, except for Poison / event deaths / Foresight etc."
+  }, 
+  "deathless2": {
+    "name": "Deathless (Special)",
+    "description": "Keeps a unit at 1 HP where they would otherwise die"
+  }, 
+  "guestunit": {
+    "name": "Guest Unit",
+    "description": "Incurs a game over unit if the unit dies"
+  }, 
+  "mercy": {
+    "name": "Mercy",
+    "description": "Prevents attacks from killing targets"
+  }, 
+  "orison": {
+    "name": "Orison",
+    "description": "Improves evasion by [(Max HP - Current HP)/Max HP]×50 when the unit's HP is 50% or less"
+  }, 
+  "mothersorison": {
+    "name": "Mother's Orison",
+    "description": "Improves evasion by [(Max HP - Current HP)/Max HP]×50 when the unit's HP is 50% or less"
+  }, 
+  "acumen": {
+    "name": "Acumen",
+    "description": "Guarantees that attacks connect upon activation",
+    "activation": "(DEX × 2)%"
+  }, 
+  "deadeye": {
+    "name": "Deadeye",
+    "description": "Guarantees that all attacks connect"
+  }, 
+  "highevasion": {
+    "name": "High Evasion",
+    "description": "Improves evasion by 20"
+  }, 
+  "shimmer": {
+    "name": "Shimmer",
+    "description": "Improves evasion by 50"
+  }, 
+  "lurk": {
+    "name": "Lurk",
+    "description": "Improves terrain evasion bonuses by a factor of 1.5"
+  }, 
+  "criticaldodge": {
+    "name": "Critical Dodge",
+    "description": "Nullifies critical hits"
+  }, 
+  "foresight": {
+    "name": "Foresight",
+    "description": "Nullifies an opponent's chance-based skills"
+  }, 
+  "dispeleffects": {
+    "name": "Dispel Effects",
+    "description": "Nullifies effective attacks and protects the unit from extra harm"
+  }, 
+  "ambush": {
+    "name": "Ambush",
+    "description": "Allows the unit to sometimes strike first, even on enemy turns",
+    "activation": "(AGI × 5)%"
+  }, 
+  "firstblood": {
+    "name": "First Blood",
+    "description": "Allows the unit to always strike first, even on enemy turns"
+  }, 
+  "regenesis": {
+    "name": "Regenesis",
+    "description": "Allows the unit to recover 5 HP every turn"
+  }, 
+  "grandregenesis": {
+    "name": "Grand Regenesis",
+    "description": "Allows the unit to recover 30 HP every turn"
+  }, 
+  "hyperregenesis": {
+    "name": "Hyper Regenesis",
+    "description": "Allows the unit to recover all HP every turn"
+  }, 
+  "bloodysustenance": {
+    "name": "Bloody Sustenance",
+    "description": "Recovers HP based on damage dealt",
+    "activation": "20%"
+  }, 
+  "lifesieve": {
+    "name": "Lifesieve",
+    "description": "Restores HP equal to damage inflicted on opponents"
+  }, 
+  "paralysisstrike": {
+    "name": "Paralysis Strike",
+    "description": "Inflicts the Paralysis status on the opponent when attacks connect"
+  }, 
+  "slumberstrike": {
+    "name": "Slumber Strike",
+    "description": "Inflicts the Slumber status on the opponent when attacks connect"
+  }, 
+  "berserkstrike": {
+    "name": "Berserk Strike",
+    "description": "Inflicts the Berserk status on the opponent when attacks connect"
+  }, 
+  "mandrake": {
+    "name": "Mandrake",
+    "description": "Inflicts the Berserk status on the opponent when attacks connect"
+  }, 
+  "crownsplitter": {
+    "name": "Crownsplitter",
+    "description": "May inflict the Paralysis status on the opponent when attacks connect",
+    "activation": "(STR × 3)%"
+  }, 
+  "ironwill": {
+    "name": "Iron Will",
+    "description": "Grants immunity to ailments"
+  }, 
+  "object": {
+    "name": "Object",
+    "description": "Grants immunity to ailments"
+  }, 
+  "industry": {
+    "name": "Industry",
+    "description": "Has a 15% chance of granting the unit a second action (cannot active more than once per turn)",
+    "activation": "15%"
+  }, 
+  "secondwind": {
+    "name": "Second Wind",
+    "description": "Has a 25% chance of granting the unit a second action (cannot active more than once per turn)",
+    "activation": "25%"
+  }, 
+  "parrybows": {
+    "name": "Parry Bows",
+    "description": "Caps the accuracy of the opponent's bow attacks at 33"
+  }, 
+  "lightfoot": {
+    "name": "Lightfoot",
+    "description": "Improves mobility by 1"
+  }, 
+  "lockpick": {
+    "name": "Lockpick",
+    "description": "Allows the unit to open doors, chests, drawbridges and more without a key"
+  }, 
+  "potential": {
+    "name": "Potential",
+    "description": "EXP intake is enhanced by 50%"
+  }, 
+  "herbforager": {
+    "name": "Herb Forager",
+    "description": "Potentially collect wild herbs every turn for 23 turns",
+    "activation": "18%"
+  }, 
+  "variegate": {
+    "name": "Variegate",
+    "description": "Blend in with the surroundings to become invisible (Assassins only)"
+  }, 
+  "haggler": {
+    "name": "Haggler",
+    "description": "Allows the unit to make purchases at a 25% discount"
+  }, 
+  "masterhaggler": {
+    "name": "Master Haggler",
+    "description": "Allows the unit to make purchases at a 33% discount"
+  }, 
+  "weaponguard": {
+    "name": "Weaponguard",
+    "description": "Prevents weapons from depleting"
+  }, 
+  "moonlighter": {
+    "name": "Moonlighter",
+    "description": "Improves total funds by 600D upon each level up"
+  }, 
+  "taskmaster": {
+    "name": "Taskmaster",
+    "description": "Motivates an adjacent ally to take action again"
+  }, 
+  "tashasmoraleboost": {
+    "name": "Tasha's Morale Boost",
+    "description": "Motivates all adjacent allies to take action again"
+  }, 
+  "doublemarch": {
+    "name": "Double March",
+    "description": "Allows the unit to move with remaining mobility after combat"
+  }, 
+  "incurabledisease": {
+    "name": "Incurable Disease",
+    "description": "Loses 1 HP per turn"
+  }, 
+  "brokenheart": {
+    "name": "Broken Heart",
+    "description": "Becomes berserked upon reaching 1 HP"
+  }, 
+  "stalwart": {
+    "name": "Stalwart",
+    "description": "Prevents ailments, allows the unit to flee upon reaching 0 HP"
+  }, 
+  "lannasblessing": {
+    "name": "Lanna's Blessing",
+    "description": "Prevents ailments, allows the unit to flee upon reaching 0 HP"
+  }, 
+  "advancedclass": {
+    "name": "Advanced Class",
+    "description": "Reduces EXP intake from combat to 60% (nullified by the Potential skill)"
+  }
+}

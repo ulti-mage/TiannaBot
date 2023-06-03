@@ -39,7 +39,69 @@
     "lvl": 2,
     "promo": {
       "promo": "greatlord"
+    },
+    "recruit": "Automatically from the start",
+    "title": [
+      "Heir to Razelia",
+      "Scion of Reeve (Promotion)"
+    ],
+    "prf": "**1.** Rapier\n**2.** ☆Varunastra",
+    "givesupport": {
+      "Kreiss": {
+        "base": 5
+      },
+      "Arkis": {
+        "base": 5
+      },
+      "Narron": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 10, if Narron is in Runan's group"
+          }
+        }
+      },
+      "Enteh": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation in chapter 2"
+          },
+          "2": {
+            "bonus": 10,
+            "note": "Conversation at the end of chapter 2"
+          }
+        }
+      },
+      "Holmes": {
+        "base": 10
+      },
+      "Raphael": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation in chapter 19"
+          }
+        }
       }
+    },
+    "recievesupport": {
+      "Holmes": {
+        "base": 10
+      },
+      "Enteh": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 15,
+            "note": "Event during the 3rd split in Lazeria"
+          }
+        }
+      }
+    }
   },
   "kreiss": {
     "name": "Kreiss",
@@ -82,6 +144,33 @@
       "weapon": [
         "Lance (Dismounted)"
       ]
+    },
+    "recruit": "Automatically from the start",
+    "title": [
+      "Razelian Knight",
+      "The Swift Winds (learns Vantage)"
+    ],
+    "givesupport": {
+      "Arkis": {
+        "base": 5
+      },
+      "Letena": {
+        "base": 15
+      }
+    },
+    "recievesupport": {
+      "Runan": {
+        "base": 5
+      },
+      "Arkis": {
+        "base": 5
+      },
+      "Letena": {
+        "base": 15
+      },
+      "Lina": {
+        "base": 5
+      }
     }
   },
   "arkis": {
@@ -125,6 +214,55 @@
       "weapon": [
         "Lance (Dismounted)"
       ]
+    },
+    "recruit": "Automatically from the start. Talk with Lina in chapter 26B",
+    "title": [
+      "Razelian Knight",
+      "The Raging Winds (leanrs Lethality)"
+    ],
+    "givesupport": {
+      "Kreiss": {
+        "base": 5
+      },
+      "Lina": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Talk in chapter 26B"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Runan": {
+        "base": 5
+      },
+      "Kreiss": {
+        "base": 5
+      },
+      "Esther": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 4,
+            "note": "Talk in chapter 2"
+          },
+          "2": {
+            "bonus": 2,
+            "note": "At the end of chapter 10 if both are in Holmes' group"
+          }
+        }
+      },
+      "Lina": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Talk in chapter 26B"
+          }
+        }
+      }
     }
   },
   "garo": {
@@ -164,7 +302,37 @@
     ],
     "portrait": "garo.png",
     "class": "pirate",
-    "lvl": 7
+    "lvl": 7,
+    "recruit": "Automatically from the start",
+    "title": [
+      "Granadan Pirate",
+      "Legendary Pirate (learns Lethality)"
+    ],
+    "givesupport": {
+      "Julia": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Conversation at the end of chapter 3, first option"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Julia": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 15,
+            "note": "Conversation at the end of chapter 3, first option"
+          }
+        }
+      },
+      "Holmes": {
+        "base": 5
+      }
+    }
   },
   "kate": {
     "name": "Kate",
@@ -205,6 +373,68 @@
     "lvl": 2,
     "promo": {
       "promo": "bowknight"
+    },
+    "recruit": "Joins with Sasha in chapter 1",
+    "title": [
+      "Welltese Knight",
+      "Sorrowful Knight (Zieg's special event)"
+    ],
+    "givesupport": {
+      "Sasha": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during 3rd split, in Lazeria"
+          }
+        }
+      },
+      "Zieg": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 5"
+          }
+        }
+      },
+      "Norton": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 10 if Zieg, Kate and Norton are in Runan's group"
+          }
+        }
+      },
+      "Lionel": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Sasha": {
+        "base": 5
+      },
+      "Zieg": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 5"
+          },
+          "2": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 7"
+          },
+          "3": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 17"
+          }
+        }
+      },
+      "Raphael": {
+        "base": 5
+      }
     }
   },
   "sasha": {
@@ -252,6 +482,89 @@
     },
     "promo2": {
       "promo": "wyvernknightf"
+    },
+    "recruit": "Talk with Runan in chapter 1",
+    "title": [
+      "Young Princess",
+      "Pegasus Princess (Pegasus Knight)",
+      "Wyvern Princess (Wyvern Knight)"
+    ],
+    "givesupport": {
+      "Kate": {
+        "base": 5
+      },
+      "Luca": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 7"
+          }
+        }
+      },
+      "Raffin": {
+        "base": 5
+      },
+      "Martel": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 4,
+            "note": "Conversation in chapter 4"
+          }
+        }
+      },
+      "Raquel": {
+        "base": 5
+      },
+      "Norton": {
+        "base": 5
+      },
+      "Raphael": {
+        "base": 15
+      }
+    },
+    "recievesupport": {
+      "Runan": {
+        "base": 5
+      },
+      "Kate": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during 3rd split, in Lazeria"
+          }
+        }
+      },
+      "Raffin": {
+        "base": 6
+      },
+      "Martel": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 4,
+            "note": "Talk in chapter 4"
+          }
+        }
+      },
+      "Raphael": {
+        "base": 10
+      },
+      "Holmes": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 3,
+            "note": "Random encounter on Wellt Bridge if in Holmes group"
+          },
+          "2": {
+            "bonus": 3,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      }
     }
   },
   "lee": {
@@ -287,7 +600,33 @@
     ],
     "portrait": "lee.png",
     "class": "bishop",
-    "lvl": 15
+    "lvl": 15,
+    "recruit": "Choose him at Verje or Fort Wellt",
+    "title": [
+      "Bishop of Verje"
+    ],
+    "givesupport": {
+      "Plum": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 2"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Plum": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 2"
+          }
+        }
+      }
+    }
   },
   "ezekiel": {
     "name": "Ezekiel",
@@ -332,6 +671,21 @@
         "Sword",
         "Lance"
       ]
+    },
+    "recruit": "Choose him at Verje or Fort Wellt",
+    "title": [
+      "Knight of Verje",
+      "Weapon Master (Promotion)"
+    ],
+    "givesupport": {
+      "Letena": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Letena": {
+        "base": 15
+      }
     }
   },
   "narron": {
@@ -374,6 +728,22 @@
     "lvl": 1,
     "promo": {
       "promo": "goldpaladin"
+    },
+    "recruit": "Choose him at Verje or Fort Wellt",
+    "title": [
+      "Aspiring Knight",
+      "Golden Knight (Promotion)"
+    ],
+    "recievesupport": {
+      "Runan": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 10, if he is in Runan's group"
+          }
+        }
+      }
     }
   },
   "luca": {
@@ -413,6 +783,30 @@
     "lvl": 2,
     "promo": {
       "promo": "sniper"
+    },
+    "recruit": "Choose him at Verje or Fort Wellt",
+    "title": [
+      "Archer of Gram",
+      "Son of Brigid (Promotion)"
+    ],
+    "givesupport": {
+      "Raquel": {
+        "base": 9
+      }
+    },
+    "recievesupport": {
+      "Raquel": {
+        "base": 10
+      },
+      "Sasha": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 7"
+          }
+        }
+      }
     }
   },
   "raffin": {
@@ -453,6 +847,45 @@
     "lvl": 6,
     "promo": {
       "promo": "wyvernknightm"
+    },
+    "recruit": "Automatically at the start of chapter 2",
+    "title": [
+      "Bargese Knight",
+      "Rider of Garuda (Promotion)"
+    ],
+    "givesupport": {
+      "Sasha": {
+        "base": 6
+      },
+      "Esther": {
+        "base": 15
+      },
+      "Sharon": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 10, first option"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Sasha": {
+        "base": 5
+      },
+      "Esther": {
+        "base": 8
+      },
+      "Sharon": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 10, first option"
+          }
+        }
+      }
     }
   },
   "esther": {
@@ -494,6 +927,34 @@
     "lvl": 2,
     "promo": {
       "promo": "silverpaladin"
+    },
+    "recruit": "Automatically at the start of chapter 2",
+    "title": [
+      "Lady of Verje",
+      "[Blank] (Promotion)"
+    ],
+    "givesupport": {
+      "Arkis": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 4,
+            "note": "Talk in chapter 2"
+          },
+          "2": {
+            "bonus": 2,
+            "note": "At the end of chapter 10 if both are in Holmes' group"
+          }
+        }
+      },
+      "Raffin": {
+        "base": 8
+      }
+    },
+    "recievesupport": {
+      "Raffin": {
+        "base": 15
+      }
     }
   },
   "julia": {
@@ -524,7 +985,7 @@
       "Adept",
       "Draco (Lv. 18)",
       "Slayer (Lv. 25)",
-      "Astra (Map 30 event, Holmes route)"
+      "Astra (Chapter 30 event, Holmes route)"
     ],
     "weapon": [
       "Sword"
@@ -534,6 +995,72 @@
     "lvl": 1,
     "promo": {
       "promo": "swordmaster"
+    },
+    "recruit": "Automatically at the start of chapter 2",
+    "title": [
+      "Red-Haired Girl",
+      "Astral Warrior (Chapter 30 event)"
+    ],
+    "givesupport": {
+      "Garo": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 15,
+            "note": "Conversation at the end of chapter 3, first option"
+          }
+        }
+      },
+      "Shigen": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Conversation at the end of chapter 29 if they are in Holmes' group, first option"
+          }
+        }
+      },
+      "Yoda": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "At the end of chapter 30 if Julia is in Holmes' group"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Garo": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Conversation at the end of chapter 3, first option"
+          }
+        }
+      },
+      "Vega": {
+        "base": 6
+      },
+      "Shigen": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Conversation at the end of chapter 29 if they are in Holmes' group, first option"
+          }
+        }
+      },
+      "Yoda": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "At the end of chapter 30 if Julia is in Holmes' group"
+          }
+        }
+      }
     }
   },
   "bartz": {
@@ -572,6 +1099,39 @@
     "lvl": 3,
     "promo": {
       "promo": "warrior"
+    },
+    "recruit": "Automatically at the start of chapter 2",
+    "title": [
+      "Local Woodcutter",
+      "Hero of Taurus (Promotion)"
+    ],
+    "givesupport": {
+      "Plum": {
+        "base": 6,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Visit Plum's house in Chapter 14 with Bartz"
+          }
+        }
+      },
+      "Tom": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Enteh": {
+        "base": 8
+      },
+      "Plum": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Visit her Chapter 14 house with Bartz"
+          }
+        }
+      }
     }
   },
   "enteh": {
@@ -606,7 +1166,72 @@
     ],
     "portrait": "enteh.png",
     "class": "shaman",
-    "lvl": 2
+    "lvl": 2,
+    "recruit": "Automatically at the start of chapter 2",
+    "title": [
+      "Cleric of Mars",
+      "Shaman of Water (After chapter 5)",
+      "Water Incarnate (Mousa)"
+    ],
+    "givesupport": {
+      "Runan": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 15,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      },
+      "Bartz": {
+        "base": 8
+      },
+      "Plum": {
+        "base": 5
+      },
+      "Martel": {
+        "base": 10
+      },
+      "Maruj": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 17 if they are in Runan's group"
+          }
+        }
+      },
+      "Meriel": {
+        "base": 5
+      },
+      "Rishel": {
+        "base": 10
+      }
+    },
+    "recievesupport": {
+      "Runan": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation in chapter 2"
+          },
+          "2": {
+            "bonus": 10,
+            "note": "Conversation at the end of chapter 2"
+          }
+        }
+      },
+      "Maruj": {
+        "base": 5
+      },
+      "Meriel": {
+        "base": 5
+      },
+      "Rishel": {
+        "base": 7
+      }
+    }
   },
   "plum": {
     "name": "Plum",
@@ -640,7 +1265,87 @@
     ],
     "portrait": "plum.png",
     "class": "cleric",
-    "lvl": 1
+    "lvl": 1,
+    "recruit": "Visit the bottom right house in chapter 2 with Enteh",
+    "title": [
+      "Girl from Taurus",
+      "Dancing Girl (leanrs Dance)",
+      "Rainbow-Clad (250 dance count)"
+    ],
+    "prf": "☆Enarmor",
+    "givesupport": {
+      "Lee": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 2"
+          }
+        }
+      },
+      "Bartz": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Visit her Chapter 14 house with Bartz"
+          }
+        }
+      },
+      "Tom": {
+        "base": 5
+      },
+      "Lionheart": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "During 2nd split, Plum is a dancer and has Lan's mirror and Lionheart is with Holmes, visit Blaad"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Bartz": {
+        "base": 6,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Visit Plum's house in Chapter 14 with Bartz"
+          }
+        }
+      },
+      "Enteh": {
+        "base": 5
+      },
+      "Lee": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 2"
+          }
+        }
+      },
+      "Holmes": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Visit Plum's house in Chapter 14 with Holmes"
+          }
+        }
+      },
+      "Lionheart": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "During 2nd split, Plum is a dancer and has Lan's mirror and Lionheart is with Holmes, visit Blaad"
+          }
+        }
+      }
+    }
   },
   "raquel": {
     "name": "Raquel",
@@ -680,7 +1385,37 @@
     ],
     "portrait": "raquel.png",
     "class": "sniper",
-    "lvl": 11
+    "lvl": 11,
+    "recruit": "Visit the top left house in chapter 4 with Sasha",
+    "title": [
+      "Child of Brigid"
+    ],
+    "givesupport": {
+      "Luca": {
+        "base": 10
+      }
+    },
+    "recievesupport": {
+      "Sasha": {
+        "base": 5
+      },
+      "Luca": {
+        "base": 9
+      },
+      "Roger": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Visit Raquels house in chapter 4 with Luca"
+          },
+          "2": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      }
+    }
   },
   "martel": {
     "name": "Martel",
@@ -721,6 +1456,66 @@
     "lvl": 3,
     "promo": {
       "promo": "wyvernknightf"
+    },
+    "recruit": "Automatically at the start of chapter 4",
+    "title": [
+      "Knight on Wings",
+      "Warrior on Wings (Promotion)"
+    ],
+    "givesupport": {
+      "Sasha": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 4,
+            "note": "Talk in chapter 4"
+          }
+        }
+      },
+      "Frau": {
+        "base": 5
+      },
+      "Rishel": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "During 2nd split, after chapter 23"
+          }
+        }
+      },
+      "Verna": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Sasha": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 4,
+            "note": "Conversation in chapter 4"
+          }
+        }
+      },
+      "Enteh": {
+        "base": 10
+      },
+      "Frau": {
+        "base": 5
+      },
+      "Rishel": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "During 2nd split after chapter 23"
+          }
+        }
+      },
+      "Verna": {
+        "base": 5
+      }
     }
   },
   "vega": {
@@ -760,6 +1555,37 @@
     "lvl": 4,
     "promo": {
       "promo": "swordmaster"
+    },
+    "recruit": "Talk with Julia in chapter 4 (appears at turn 2)",
+    "title": [
+      "Reaper of Schram",
+      "Dark Assassin (Promotion)"
+    ],
+    "prf": "☆Schram",
+    "givesupport": {
+      "Julia": {
+        "base": 6
+      },
+      "Shigen": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Choose the first option in the Shigen x Krishna conversation after chapter 13, then deploy Shigen and Vega in chapter 14"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Shigen": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Choose the first option in the Shigen x Krishna conversation after chapter 13, then deploy Shigen and Vega in chapter 14"
+          }
+        }
+      }
     }
   },
   "maruj": {
@@ -804,6 +1630,55 @@
         "Fire",
         "Light"
       ]
+    },
+    "recruit": "Talk with Enteh in chapter 5 or keep him alive",
+    "title": [
+      "Eisenbach's Heir",
+      "Sage of Wind (Promotion)"
+    ],
+    "prf": "☆Wundergust",
+    "givesupport": {
+      "Enteh": {
+        "base": 5
+      },
+      "Mel": {
+        "base": 5
+      },
+      "Meriel": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      },
+      "Alfred": {
+        "base": 10
+      }
+    },
+    "recievesupport": {
+      "Enteh": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 17 if they are in Runan's group"
+          }
+        }
+      },
+      "Mel": {
+        "base": 5
+      },
+      "Meriel": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      }
     }
   },
   "zieg": {
@@ -844,7 +1719,41 @@
     ],
     "portrait": "zieg.png",
     "class": "shadowknight",
-    "lvl": 5
+    "lvl": 5,
+    "recruit": "Talk with Runan in chapter 5 or keep him alive",
+    "title": [
+      "Sorrowful Knight"
+    ],
+    "givesupport": {
+      "Kate": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 5"
+          },
+          "2": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 7"
+          },
+          "3": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 17"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Kate": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 5"
+          }
+        }
+      }
+    }
   },
   "mel": {
     "name": "Mel",
@@ -879,7 +1788,35 @@
     ],
     "portrait": "mel.png",
     "class": "troubadour",
-    "lvl": 3
+    "lvl": 3,
+    "recruit": "Visit the bottom right house in chapter 3 with Runan, keep her alive in chapter 4, she will join automatically in chapter 6 at the start of turn 2, she will leave the party after chapter 7 if Roger isn't recruited (if Mel is alive; she can be killed during the map to bypass being de-recruited w/o having to recruit Roger, then revived on the Tower of Morse later)",
+    "title": [
+      "Lady of Mars",
+      "Holy Knight (Recruitment)"
+    ],
+    "prf": "☆Ensorcel",
+    "givesupport": {
+      "Maruj": {
+        "base": 5
+      },
+      "Roger": {
+        "base": 15
+      },
+      "Narcus": {
+        "base": 5
+      },
+      "Alfred": {
+        "base": 10
+      }
+    },
+    "recievesupport": {
+      "Roger": {
+        "base": 15
+      },
+      "Maruj": {
+        "base": 5
+      }
+    }
   },
   "norton": {
     "name": "Norton",
@@ -919,6 +1856,45 @@
     "lvl": 4,
     "promo": {
       "promo": "greatknight"
+    },
+    "recruit": "Talk with Sasha in chapter 6",
+    "title": [
+      "Welltese Knight",
+      "Rock Solid (Promotion)"
+    ],
+    "givesupport": {
+      "Lionel": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Sasha": {
+        "base": 5
+      },
+      "Kate": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 10 if Zieg, Kate and Norton are in Runan's group"
+          }
+        }
+      },
+      "Lionel": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      }
     }
   },
   "tom": {
@@ -953,7 +1929,19 @@
     ],
     "portrait": "tom.png",
     "class": "artilleryman",
-    "lvl": 3
+    "lvl": 3,
+    "recruit": "Talk with Bartz in chapter 7",
+    "title": [
+      "Hunter from Lot"
+    ],
+    "recievesupport": {
+      "Plum": {
+        "base": 5
+      },
+      "Bartz": {
+        "base": 5
+      }
+    }
   },
   "roger": {
     "name": "Roger",
@@ -991,7 +1979,34 @@
     ],
     "portrait": "roger.png",
     "class": "silverpaladin",
-    "lvl": 5
+    "lvl": 5,
+    "recruit": "He must not be killed in chapter 4, talk with Mel in chapter 7",
+    "title": [
+      "Paladin of Wellt"
+    ],
+    "givesupport": {
+      "Raquel": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Visit Raquels house in chapter 4 with Luca"
+          },
+          "2": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      },
+      "Mel": {
+        "base": 15
+      }
+    },
+    "recievesupport": {
+      "Mel": {
+        "base": 15
+      }
+    }
   },
   "katri": {
     "name": "Katri",
@@ -1025,7 +2040,70 @@
     ],
     "portrait": "katri.png",
     "class": "shaman",
-    "lvl": 1
+    "lvl": 1,
+    "recruit": "Automatically at the start of chapter 8",
+    "title": [
+      "The Shaman of Fire",
+      "Fire Incarnate (Neuron)"
+    ],
+    "givesupport": {
+      "Xeno": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation a the end of chapter 10"
+          }
+        }
+      },
+      "Juni": {
+        "base": 5
+      },
+      "Holmes": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Event after 3rd split, on Harfa Fort"
+          }
+        }
+      },
+      "Attrom": {
+        "base": 5
+      },
+      "Maerchen": {
+        "base": 15
+      },
+      "Frau": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Conversation at the end of chapter 15 if Martel and Frau are with Holmes' group"
+          }
+        }
+      },
+      "Zachariah": {
+        "base": 15
+      }
+    },
+    "recievesupport": {
+      "Xeno": {
+        "base": 5
+      },
+      "Juni": {
+        "base": 5
+      },
+      "Holmes": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 13"
+          }
+        }
+      }
+    }
   },
   "xeno": {
     "name": "Xeno",
@@ -1065,6 +2143,48 @@
     "lvl": 1,
     "promo": {
       "promo": "hero"
+    },
+    "recruit": "Automatically at the start of chapter 8",
+    "title": [
+      "Granadan Soldier",
+      "Brave Youth (Promotion)"
+    ],
+    "givesupport": {
+      "Katri": {
+        "base": 5
+      },
+      "Juni": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "After 2nd split, if Xeno and Juni are with Holmes' group. Pass through Oaks and choose the 2nd option. Prevents Attroms and Lyrias support"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Juni": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 15,
+            "note": "After 2nd split, if Xeno and Juni are with Holmes' group. Pass through Oaks and choose the 2nd option. Prevents Attroms and Lyrias support"
+          }
+        }
+      },
+      "Katri": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation a the end of chapter 10"
+          }
+        }
+      },
+      "Holmes": {
+        "base": 5
+      }
     }
   },
   "juni": {
@@ -1103,7 +2223,57 @@
     ],
     "portrait": "juni.png",
     "class": "thief",
-    "lvl": 1
+    "lvl": 1,
+    "recruit": "Automatically at the start of chapter 8",
+    "title": [
+      "Plucky Thief"
+    ],
+    "givesupport": {
+      "Katri": {
+        "base": 5
+      },
+      "Xeno": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 15,
+            "note": "After 2nd split, if Xeno and Juni are with Holmes' group. Pass through Oaks and choose the 2nd option. Prevents Attroms and Lyrias support"
+          }
+        }
+      },
+      "Lyria": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Juni and Lyria are in Holmes' group when passing through Ligria after chapter 15"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Xeno": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "After 2nd split, if Xeno and Juni are with Holmes' group. Pass through Oaks and choose the 2nd option. Prevents Attroms and Lyrias support"
+          }
+        }
+      },
+      "Katri": {
+        "base": 5
+      },
+      "Lyria": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Juni and Lyria are in Holmes' group when passing through Ligria after chapter 15"
+          }
+        }
+      }
+    }
   },
   "meriel": {
     "name": "Meriel",
@@ -1147,6 +2317,58 @@
         "Thunder",
         "Wind"
       ]
+    },
+    "recruit": "Automatically at the start of chapter 9",
+    "title": [
+      "Mage of Light",
+      "Radiant One (Promotion)"
+    ],
+    "prf": "**1.** ☆Starlight\n**2.** ☆Aura Rain",
+    "givesupport": {
+      "Enteh": {
+        "base": 5
+      },
+      "Maruj": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      },
+      "Rishel": {
+        "base": 9
+      },
+      "Renee": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Enteh": {
+        "base": 5
+      },
+      "Maruj": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      },
+      "Rishel": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "During 2nd split, if Meriel and Rishel are with Runan's group"
+          }
+        }
+      },
+      "Renee": {
+        "base": 5
+      }
     }
   },
   "sharon": {
@@ -1188,6 +2410,36 @@
     "lvl": 6,
     "promo": {
       "promo": "bowknight"
+    },
+    "recruit": "Talk with Raffin in chapter 10 or keep her alive",
+    "title": [
+      "Bargese Knight",
+      "Vermillion Sniper (Promotion)"
+    ],
+    "givesupport": {
+      "Raffin": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 10, first option"
+          }
+        }
+      },
+      "Billford": {
+        "base": 15
+      }
+    },
+    "recievesupport": {
+      "Raffin": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 10, first option"
+          }
+        }
+      }
     }
   },
   "billford": {
@@ -1229,6 +2481,16 @@
     "lvl": 8,
     "promo": {
       "promo": "general"
+    },
+    "recruit": "Talk with Sharon in chapter 10 or keep him alive",
+    "title": [
+      "Wild Ox of Barge",
+      "Tough as Steel (Promotion)"
+    ],
+    "recievesupport": {
+      "Sharon": {
+        "base": 15
+      }
     }
   },
   "holmes": {
@@ -1273,6 +2535,89 @@
       "weapon": [
         "Sword"
       ]
+    },
+    "recruit": "Automatically at the start of split 1",
+    "title": [
+      "The Sea Lion",
+      "Lord of Granada (Promotion)"
+    ],
+    "prf": "☆Agneyastra",
+    "givesupport": {
+      "Runan": {
+        "base": 10
+      },
+      "Garo": {
+        "base": 5
+      },
+      "Sasha": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 3,
+            "note": "Random encounter on Wellt Bridge if Sasha is in Holmes group"
+          },
+          "2": {
+            "bonus": 3,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      },
+      "Plum": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Visit Plum's house in Chapter 14 with Holmes"
+          }
+        }
+      },
+      "Katri": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 13"
+          }
+        }
+      },
+      "Xeno": {
+        "base": 5
+      },
+      "Raphael": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria if Holmes has a support with Sasha"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Runan": {
+        "base": 10
+      },
+      "Katri": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Event after 3rd split, on Harfa Fort"
+          }
+        }
+      },
+      "Shigen": {
+        "base": 10
+      },
+      "Attrom": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 29"
+          }
+        }
+      }
     }
   },
   "shigen": {
@@ -1314,6 +2659,93 @@
     "lvl": 7,
     "promo": {
       "promo": "swordmaster"
+    },
+    "recruit": "Automatically at the start of split 1",
+    "title": [
+      "Swordsman of Yr",
+      "Son of Zoa (Chapter 14 duel)"
+    ],
+    "prf": "☆Dullahan",
+    "givesupport": {
+      "Julia": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Conversation at the end of chapter 29 if they are in Holmes' group, first option"
+          }
+        }
+      },
+      "Vega": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Choose the first option in the Shigen x Krishna conversation after chapter 13, then deploy Shigen and Vega in chapter 14"
+          }
+        }
+      },
+      "Holmes": {
+        "base": 10
+      },
+      "Krishna": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Choose the first option in the Shigen x Krishna conversation after chapter 13, then deploy Shigen and Vega in chapter 14"
+          },
+          "2": {
+            "bonus": 10,
+            "note": "Conversation on floor 5 of Tower of Morse"
+          }
+        }
+      },
+      "Sierra": {
+        "base": 15
+      },
+      "Yoda": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Julia": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Conversation at the end of chapter 29 if they are in Holmes' group, first option"
+          }
+        }
+      },
+      "Vega": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Choose the first option in the Shigen x Krishna conversation after chapter 13, then deploy Shigen and Vega in chapter 14"
+          }
+        }
+      },
+      "Sierra": {
+        "base": 10
+      },
+      "Krishna": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 4,
+            "note": "Conversation at the end of chapter 13, first option"
+          },
+          "2": {
+            "bonus": 4,
+            "note": "Conversation on floor 5 of Tower of Morse"
+          }
+        }
+      },
+      "Yoda": {
+        "base": 5
+      }
     }
   },
   "alicia": {
@@ -1357,6 +2789,28 @@
         "Fire",
         "Light"
       ]
+    },
+    "recruit": "Automatically at the start of chapter 11",
+    "title": [
+      "Thunder Mage",
+      "Burning Light (Promotion)"
+    ],
+    "prf": "Dire Thunder",
+    "givesupport": {
+      "Alfred": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation in chapter 21"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Alfred": {
+        "base": 15
+      }
     }
   },
   "samson": {
@@ -1397,6 +2851,16 @@
     "lvl": 6,
     "promo": {
       "promo": "warrior"
+    },
+    "recruit": "Automatically at the start of chapter 11",
+    "title": [
+      "Warrior of Erial",
+      "Heir to Erial (Promotion)"
+    ],
+    "recievesupport": {
+      "Katrina": {
+        "base": 15
+      }
     }
   },
   "lionel": {
@@ -1441,6 +2905,36 @@
         "Sword",
         "Axe"
       ]
+    },
+    "recruit": "Choose him at Fort Wellt",
+    "title": [
+      "Welltese Lancer",
+      "Grandmaster (Promotion)"
+    ],
+    "givesupport": {
+      "Norton": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Norton": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      },
+      "Kate": {
+        "base": 5
+      }
     }
   },
   "attrom": {
@@ -1479,6 +2973,51 @@
     "lvl": 3,
     "promo": {
       "promo": "hero"
+    },
+    "recruit": "Automatically at the start of chapter 12",
+    "title": [
+      "Youth of Blaad",
+      "Hero of Blaad (Promotion)"
+    ],
+    "givesupport": {
+      "Holmes": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation at the end of chapter 29"
+          }
+        }
+      },
+      "Lyria": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "During 2nd split if Attrom and Lyria are in Holmes' group. When passing through Oaks pick the first option. Prevents Xeno and Juni's support."
+          }
+        }
+      },
+      "Renee": {
+        "base": 10
+      }
+    },
+    "recievesupport": {
+      "Katri": {
+        "base": 5
+      },
+      "Lyria": {
+        "base": 3,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "During 2nd split if Attrom and Lyria are in Holmes' group. When passing through Oaks pick the first option. Prevents Xeno and Juni's support."
+          }
+        }
+      },
+      "Renee": {
+        "base": 15
+      }
     }
   },
   "krishna": {
@@ -1517,6 +3056,41 @@
     "lvl": 1,
     "promo": {
       "promo": "swordmaster"
+    },
+    "recruit": "Automatically at chapter 12 when you enter the ship",
+    "title": [
+      "Warrior Thief",
+      "Dragon Warrior (learns Draco)"
+    ],
+    "givesupport": {
+      "Shigen": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 4,
+            "note": "Conversation at the end of chapter 13, first option"
+          },
+          "2": {
+            "bonus": 4,
+            "note": "Conversation on floor 5 of Tower of Morse"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Shigen": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Choose the first option in the Shigen x Krishna conversation after chapter 13, then deploy Shigen and Vega in chapter 14"
+          },
+          "2": {
+            "bonus": 10,
+            "note": "Conversation on floor 5 of Tower of Morse"
+          }
+        }
+      }
     }
   },
   "maerchen": {
@@ -1553,7 +3127,16 @@
     ],
     "portrait": "maerchen.png",
     "class": "chief",
-    "lvl": 15
+    "lvl": 15,
+    "recruit": "Automatically at the end of chapter 12",
+    "title": [
+      "The Sea Serpent"
+    ],
+    "recievesupport": {
+      "Katri": {
+        "base": 15
+      }
+    }
   },
   "frau": {
     "name": "Frau",
@@ -1593,6 +3176,42 @@
     "lvl": 1,
     "promo": {
       "promo": "wyvernknightf"
+    },
+    "recruit": "Talk with Martel in chapter 15 or keep her alive",
+    "title": [
+      "Knight on Wings",
+      "Warrior on Wings (Promotion)"
+    ],
+    "givesupport": {
+      "Martel": {
+        "base": 5
+      },
+      "San": {
+        "base": 10
+      },
+      "Verna": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "San": {
+        "base": 10
+      },
+      "Katri": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Conversation at the end of chapter 15 if Martel and Frau are with Holmes' group"
+          }
+        }
+      },
+      "Martel": {
+        "base": 5
+      },
+      "Verna": {
+        "base": 5
+      }
     }
   },
   "san": {
@@ -1635,6 +3254,21 @@
     "lvl": 2,
     "promo": {
       "promo": "blackpaladin"
+    },
+    "recruit": "Talk with Frau in chapter 15 or keep her alive",
+    "title": [
+      "Silva's Daughter",
+      "Knight of Canaan (Promotion)"
+    ],
+    "givesupport": {
+      "Frau": {
+        "base": 10
+      }
+    },
+    "recievesupport": {
+      "Frau": {
+        "base": 10
+      }
     }
   },
   "lyria": {
@@ -1669,7 +3303,54 @@
     ],
     "portrait": "lyria.png",
     "class": "cleric",
-    "lvl": 1
+    "lvl": 1,
+    "recruit": "Visit the church building with Attrom in chapter 15",
+    "title": [
+      "Singing Cleric",
+      "Dreaming Girl (Attrom rescue event)",
+      "Shining Star (250 sing count)"
+    ],
+    "prf": "☆Empower",
+    "givesupport": {
+      "Juni": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Juni and Lyria are in Holmes' group when passing through Ligria after chapter 15"
+          }
+        }
+      },
+      "Attrom": {
+        "base": 3,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "During 2nd split if Attrom and Lyria are in Holmes' group. When passing through Oaks pick the first option. Prevents Xeno and Juni's support."
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Attrom": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "During 2nd split if Attrom and Lyria are in Holmes' group. When passing through Oaks pick the first option. Prevents Xeno and Juni's support."
+          }
+        }
+      },
+      "Juni": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Juni and Lyria are in Holmes' group when passing through Ligria after chapter 15"
+          }
+        }
+      }
+    }
   },
   "mintz": {
     "name": "Mintz",
@@ -1705,7 +3386,39 @@
     ],
     "portrait": "mintz.png",
     "class": "blackpaladin",
-    "lvl": 9
+    "lvl": 9,
+    "recruit": "Clear chapter 10 while Mintz enters the fort",
+    "title": [
+      "Knight of Arless"
+    ],
+    "givesupport": {
+      "Leonie": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "If Mintz rescued Leonie in chapter 9"
+          }
+        }
+      },
+      "Hagar": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Leonie": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "If Mintz rescued Leonie in chapter 9"
+          }
+        }
+      },
+      "Hagar": {
+        "base": 5
+      }
+    }
   },
   "leonie": {
     "name": "Leonie",
@@ -1746,6 +3459,36 @@
     "lvl": 3,
     "promo": {
       "promo": "sniper"
+    },
+    "recruit": "Clear chapter 10 within 10 turns or visit the far right house in chapter 17",
+    "title": [
+      "Archer of Selba",
+      "Master Hunter (Promotion)"
+    ],
+    "givesupport": {
+      "Mintz": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "If Mintz rescued Leonie in chapter 9"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Mintz": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "If Mintz rescued Leonie in chapter 9"
+          }
+        }
+      },
+      "Lionheart": {
+        "base": 5
+      }
     }
   },
   "shirou": {
@@ -1788,6 +3531,21 @@
       "weapon": [
         "Sword (Mounted)"
       ]
+    },
+    "recruit": "Keep him alive in chapter 17",
+    "title": [
+      "Selban Nomad",
+      "Right-Hand Man (Promotion)"
+    ],
+    "givesupport": {
+      "Lionheart": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Lionheart": {
+        "base": 10
+      }
     }
   },
   "raphael": {
@@ -1829,7 +3587,42 @@
     ],
     "portrait": "raphael.png",
     "class": "royalknight",
-    "lvl": 25
+    "lvl": 25,
+    "recruit": "Talk with Runan or Sasha in chapter 19 or keep him alive",
+    "title": [
+      "King of Wellt"
+    ],
+    "givesupport": {
+      "Kate": {
+        "base": 5
+      },
+      "Sasha": {
+        "base": 10
+      }
+    },
+    "recievesupport": {
+      "Sasha": {
+        "base": 15
+      },
+      "Runan": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation in chapter 19"
+          }
+        }
+      },
+      "Holmes": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria if Holmes has a support with Sasha"
+          }
+        }
+      }
+    }
   },
   "lionheart": {
     "name": "Lionheart",
@@ -1868,7 +3661,60 @@
     ],
     "portrait": "lionheart.png",
     "class": "nomadictrooper",
-    "lvl": 12
+    "lvl": 12,
+    "recruit": "Automatically at the start of chapter 22",
+    "title": [
+      "Lord of Selba"
+    ],
+    "givesupport": {
+      "Plum": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "During 2nd split, Plum is a dancer and has Lan's mirror and Lionheart is with Holmes, visit Blaad"
+          }
+        }
+      },
+      "Leonie": {
+        "base": 5
+      },
+      "Shirou": {
+        "base": 10
+      },
+      "Renee": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Shirou": {
+        "base": 5
+      },
+      "Renee": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      },
+      "Plum": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "During 2nd split, Plum is a dancer and has Lan's mirror and Lionheart is with Holmes, visit Blaad"
+          }
+        }
+      }
+    }
   },
   "zachariah": {
     "name": "Zachariah",
@@ -1903,7 +3749,16 @@
     ],
     "portrait": "zachariah.png",
     "class": "general",
-    "lvl": 20
+    "lvl": 20,
+    "recruit": "Automatically at the end of chapter 22",
+    "title": [
+      "Salia's Defender"
+    ],
+    "recievesupport": {
+      "Katri": {
+        "base": 15
+      }
+    }
   },
   "bud": {
     "name": "Bud",
@@ -1941,7 +3796,27 @@
     ],
     "portrait": "bud.png",
     "class": "thief",
-    "lvl": 2
+    "lvl": 2,
+    "recruit": "Recruit Narcus in chapter 9 and keep him alive, joins automatically in chapter 23 at the start of turn 6",
+    "title": [
+      "Cat Burglar"
+    ],
+    "givesupport": {
+      "Rishel": {
+        "base": 8
+      },
+      "Narcus": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Rishel": {
+        "base": 10
+      },
+      "Narcus": {
+        "base": 5
+      }
+    }
   },
   "rishel": {
     "name": "Rishel",
@@ -1986,6 +3861,57 @@
         "Wind",
         "Light"
       ]
+    },
+    "recruit": "Talk with Bud in chapter 23",
+    "title": [
+      "Fire Mage"
+    ],
+    "prf": "☆Sunflame",
+    "givesupport": {
+      "Enteh": {
+        "base": 7
+      },
+      "Martel": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "During 2nd split after chapter 23"
+          }
+        }
+      },
+      "Meriel": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "During 2nd split, if Meriel and Rishel are with Runan's group"
+          }
+        }
+      },
+      "Bud": {
+        "base": 10
+      }
+    },
+    "recievesupport": {
+      "Enteh": {
+        "base": 10
+      },
+      "Bud": {
+        "base": 8
+      },
+      "Meriel": {
+        "base": 9
+      },
+      "Martel": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "During 2nd split, after chapter 23"
+          }
+        }
+      }
     }
   },
   "sierra": {
@@ -2023,7 +3949,21 @@
     ],
     "portrait": "sierra.png",
     "class": "witch",
-    "lvl": 8
+    "lvl": 8,
+    "recruit": "Get Shigen killed at or before the Forbidden Bridge (he will be back in Holmes team after the second split) or visit the house with Shigen in chapter 31 (she will join after the map is cleared)",
+    "title": [
+      "Zoan Witch"
+    ],
+    "givesupport": {
+      "Shigen": {
+        "base": 10
+      }
+    },
+    "recievesupport": {
+      "Shigen": {
+        "base": 15
+      }
+    }
   },
   "rebecca": {
     "name": "Rebecca",
@@ -2059,7 +3999,11 @@
     ],
     "portrait": "rebecca.png",
     "class": "cleric",
-    "lvl": 3
+    "lvl": 3,
+    "recruit": "Visit the blue house in chapter 25 without doing the Letena events",
+    "title": [
+      "Girl of Arcana"
+    ]
   },
   "letena": {
     "name": "Letena",
@@ -2092,9 +4036,30 @@
     "weapon": [
       "Staff"
     ],
-    "portrait": "leteena.png",
+    "portrait": "letena.png",
     "class": "cleric",
-    "lvl": 3
+    "lvl": 3,
+    "recruit": "With Holmes' team, visit Verje before chapter 13 with both Kreiss and Arkis in the team, after chapter 13 and before chapter 15, visit Verje with Kreiss holding an Elixir, after chapter 15 and before chapter 16, visit Verje with Kreiss holding a Miracle Charm, after chapter 16 and before the Forbidden Bridge, visit Verje, in chapter 25, kill Mark with Kreiss, then visit the blue house with Kreiss to recruit Letena, at the third split, she will leave the team (and bring Kreiss with her if you choose the second option), except if you have Ezekiel in the team (choose option 2) and if either Letena or Kreiss is dead",
+    "title": [
+      "Pure Light"
+    ],
+    "prf": "☆Silence",
+    "givesupport": {
+      "Kreiss": {
+        "base": 15
+      },
+      "Ezekiel": {
+        "base": 15
+      }
+    },
+    "recievesupport": {
+      "Kreiss": {
+        "base": 15
+      },
+      "Ezekiel": {
+        "base": 5
+      }
+    }
   },
   "narcus": {
     "name": "Narcus",
@@ -2132,7 +4097,24 @@
     ],
     "portrait": "narcus.png",
     "class": "thief",
-    "lvl": 10
+    "lvl": 10,
+    "recruit": "Visit the bottom right house in chapter 3 with Runan, talk with Runan in chapter 9 (he leaves the party with half of your money after this chapter), talk with Runan in chapter 25 (he gives back the money he stole)",
+    "title": [
+      "Suspicious Guy"
+    ],
+    "givesupport": {
+      "Bud": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Mel": {
+        "base": 5
+      },
+      "Bud": {
+        "base": 5
+      }
+    }
   },
   "lina": {
     "name": "Lina",
@@ -2173,6 +4155,36 @@
     "lvl": 1,
     "promo": {
       "promo": "silverpaladin"
+    },
+    "recruit": "Chapter 26A : Visit one of the top house (the second from the left to the right) with Arkis or Kreiss or Chapter 26B : Open her cell",
+    "title": [
+      "Razelian Girl",
+      "Razelian Knight (Promotion)"
+    ],
+    "givesupport": {
+      "Kreiss": {
+        "base": 5
+      },
+      "Arkis": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Having both in chapter 26B"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Arkis": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Having both in chapter 26B"
+          }
+        }
+      }
     }
   },
   "renee": {
@@ -2208,7 +4220,46 @@
     ],
     "portrait": "renee.png",
     "class": "saint",
-    "lvl": 13
+    "lvl": 13,
+    "recruit": "Talk with Attrom in chapter 29",
+    "title": [
+      "Beacon of Hope"
+    ],
+    "prf": "**1.** ☆Exorcise\n**2.** ☆Warp",
+    "givesupport": {
+      "Meriel": {
+        "base": 5
+      },
+      "Attrom": {
+        "base": 15
+      },
+      "Lionheart": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      }
+    },
+    "recievesupport": {
+      "Attrom": {
+        "base": 10
+      },
+      "Lionheart": {
+        "base": 10,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Event during the 3rd split, in Lazeria"
+          }
+        }
+      },
+      "Meriel": {
+        "base": 5
+      }
+    }
   },
   "yoda": {
     "name": "Yoda",
@@ -2246,7 +4297,39 @@
     ],
     "portrait": "yoda.png",
     "class": "swordmaster",
-    "lvl": 30
+    "lvl": 30,
+    "recruit": "Automatically at the end of chapter 30",
+    "title": [
+      "Runeblade of Zoa"
+    ],
+    "givesupport": {
+      "Julia": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "At the end of chapter 30 if Julia is in Holmes' group"
+          }
+        }
+      },
+      "Shigen": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Julia": {
+        "base": 0,
+        "increase": {
+          "1": {
+            "bonus": 10,
+            "note": "At the end of chapter 30 if Julia is in Holmes' group"
+          }
+        }
+      },
+      "Shigen": {
+        "base": 5
+      }
+    }
   },
   "hagar": {
     "name": "Hagar",
@@ -2282,7 +4365,21 @@
     ],
     "portrait": "hagar.png",
     "class": "artilleryman",
-    "lvl": 16
+    "lvl": 16,
+    "recruit": "Talk with Mintz in chapter 34 (appears at turn 10)",
+    "title": [
+      "The Panther"
+    ],
+    "givesupport": {
+      "Mintz": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Mintz": {
+        "base": 5
+      }
+    }
   },
   "verna": {
     "name": "Verna",
@@ -2321,6 +4418,33 @@
     "lvl": 17,
     "promo": {
       "promo": "wyvernknightf"
+    },
+    "recruit": "Automatically at the start of chapter 36",
+    "title": [
+      "Knight on Wings",
+      "Warrior on Wings (Promotion)"
+    ],
+    "givesupport": {
+      "Martel": {
+        "base": 5
+      },
+      "Frau": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Neyfa": {
+        "base": 15
+      },
+      "Frau": {
+        "base": 5
+      },
+      "Martel": {
+        "base": 5
+      },
+      "Sennet": {
+        "base": 5
+      }
     }
   },
   "alfred": {
@@ -2358,7 +4482,33 @@
     ],
     "portrait": "alfred.png",
     "class": "sage",
-    "lvl": 35
+    "lvl": 35,
+    "recruit": "Automatically in chapter 40 at turn 4",
+    "title": [
+      "Repentant Sage"
+    ],
+    "givesupport": {
+      "Alicia": {
+        "base": 15
+      }
+    },
+    "recievesupport": {
+      "Alicia": {
+        "base": 5,
+        "increase": {
+          "1": {
+            "bonus": 5,
+            "note": "Conversation in chapter 21"
+          }
+        }
+      },
+      "Mel": {
+        "base": 10
+      },
+      "Maruj": {
+        "base": 10
+      }
+    }
   },
   "sennet": {
     "name": "Sennet",
@@ -2394,7 +4544,28 @@
     ],
     "portrait": "sennet.png",
     "class": "prince",
-    "lvl": 22
+    "lvl": 22,
+    "recruit": "Automatically at the start of chapter 40",
+    "title": [
+      "Lost Prince"
+    ],
+    "prf": "☆Vayavyastra",
+    "givesupport": {
+      "Verna": {
+        "base": 5
+      },
+      "Tia": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Neyfa": {
+        "base": 15
+      },
+      "Tia": {
+        "base": 5
+      }
+    }
   },
   "tia": {
     "name": "Tia",
@@ -2433,6 +4604,25 @@
     ],
     "portrait": "tia.png",
     "class": "ledaprincess",
-    "lvl": 22
+    "lvl": 22,
+    "recruit": "Automatically in chapter 40 at turn 4",
+    "title": [
+      "Shaman of Earth",
+      "Earth Incarnate (Kranion)"
+    ],
+    "prf": "☆Bhaumastra",
+    "givesupport": {
+      "Sennet": {
+        "base": 5
+      }
+    },
+    "recievesupport": {
+      "Sennet": {
+        "base": 5
+      },
+      "Richard": {
+        "base": 5
+      }
+    }
   }
 }

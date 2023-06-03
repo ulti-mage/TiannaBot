@@ -1043,7 +1043,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - Start Chapter 3\n**Permanent**: - Promote Ruby",
+            "recruit": "**Mercenary**: - Start Chapter 3\n**Permanent**: - Promote Ruby and have watched all of her events",
             "promo": false,
             "prf": false
         },
@@ -1310,7 +1310,7 @@
         "misc": {
             "recruit": "**Mercenary**: - Start Chapter 4\n**Permanent**: - Has at least 1 Happiness when completing Ch. 12-1",
             "promo": "- Complete Ch. 12-1 and save all the women",
-            "prf": "Starlight; After completing Ch. 7-1"
+            "prf": "Starlight (usable after promotion); After completing Ch. 7-1"
         },
         "portrait": "saphira.png",
         "class": "Acolyte",
@@ -1897,27 +1897,33 @@
             "hp": 50,
             "str": 15,
             "def": 11,
-            "spd": 19,
+            "spd": 17,
             "mag": 2
         },
-        "growth": false,
+        "growth": {
+            "hp": 50,
+            "str": 20,
+            "def": 10,
+            "spd": 20,
+            "mag": 0
+        },
         "bracket": false,
         "rank": {
             "Sword": {
                 "base": 26,
-                "growth": false
+                "growth": 30
             },
             "Spear": {
                 "base": 52,
-                "growth": false
+                "growth": 60
             },
             "S Shield": {
                 "base": 43,
-                "growth": false
+                "growth": 50
             },
             "M Shield": {
                 "base": 43,
-                "growth": false
+                "growth": 50
             }
         },
         "skill": [

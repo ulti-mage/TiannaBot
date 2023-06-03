@@ -1,0 +1,4427 @@
+{
+  "zade": {
+    "name": "Zade",
+    "class": "Archliege",
+    "portrait": "zade.png",
+    "level": 1,
+    "base": {
+      "hp": 31,
+      "str": 10,
+      "mag": 0,
+      "dex": 11,
+      "agi": 9,
+      "luck": 4,
+      "prof": 11,
+      "def": 9,
+      "res": 1,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 50,
+      "str": 20,
+      "mag": 15,
+      "dex": 25,
+      "agi": 25,
+      "luck": 30,
+      "prof": 30,
+      "def": 17,
+      "res": 15,
+      "mob": 7
+    },
+    "growth": {
+      "hp": 60,
+      "str": 35,
+      "mag": 0,
+      "dex": 35,
+      "agi": 35,
+      "luck": 0,
+      "prof": 55,
+      "def": 25,
+      "res": 5,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword"
+    ],
+    "skill": [
+      "Commander II",
+      "Multichance",
+      "Lockpick (if with Cezar)",
+      "Dispel Effects (Ch.18 event)"
+    ],
+    "mount": {
+      "stat": {
+        "hp": false,
+        "str": false,
+        "mag": false,
+        "dex": false,
+        "agi": false,
+        "luck": false,
+        "prof": false,
+        "def": false,
+        "res": false,
+        "mob": 2
+      },
+      "item": "Verula"
+    },
+    "givesupport": {
+      "Accorte": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Orphelia": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Troy": {
+        "acc": 5,
+        "eva": 5
+      }
+    },
+    "recievesupport": {
+      "Theodel": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Athol": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 20,
+        "res": 20
+      }
+    },
+    "recruit": "Available from the start of Chapter 1.",
+    "prf": ""
+  },
+  "accorte": {
+    "name": "Accorte",
+    "class": "Archmage",
+    "portrait": "accorte.png",
+    "level": 2,
+    "base": {
+      "hp": 24,
+      "str": 0,
+      "mag": 11,
+      "dex": 13,
+      "agi": 11,
+      "luck": 6,
+      "prof": 13,
+      "def": 4,
+      "res": 8,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 36,
+      "str": 0,
+      "mag": 17,
+      "dex": 17,
+      "agi": 18,
+      "luck": 30,
+      "prof": 30,
+      "def": 8,
+      "res": 15,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 35,
+      "str": 0,
+      "mag": 25,
+      "dex": 40,
+      "agi": 40,
+      "luck": 10,
+      "prof": 40,
+      "def": 15,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Dark Magic",
+      "Spirit Magic"
+    ],
+    "skill": [
+      "Orison"
+    ],
+    "givesupport": {
+      "Slayne": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Ch.13"
+      }
+    },
+    "recievesupport": {
+      "Zade": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Slayne": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2,
+        "note": "After Ch.13"
+      }
+    },
+    "recruit": "Available from the start of Chapter 1. Leaves after Chapter 20.",
+    "prf": ""
+  },
+  "ashram": {
+    "name": "Ashram",
+    "class": "Swordmaster",
+    "portrait": "ashram.png",
+    "level": 7,
+    "base": {
+      "hp": 34,
+      "str": 10,
+      "mag": 0,
+      "dex": 24,
+      "agi": 17,
+      "luck": 0,
+      "prof": 14,
+      "def": 6,
+      "res": 0,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 45,
+      "str": 22,
+      "mag": 10,
+      "dex": 28,
+      "agi": 25,
+      "luck": 30,
+      "prof": 30,
+      "def": 12,
+      "res": 10,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 40,
+      "str": 30,
+      "mag": 0,
+      "dex": 30,
+      "agi": 20,
+      "luck": 0,
+      "prof": 50,
+      "def": 20,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Incurable Disease",
+      "Multichance",
+      "First Blood"
+    ],
+    "givesupport": {
+      "Sujata": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Haldyn": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Ashram x Haldyn Talk in Ch.11"
+      }
+    },
+    "recievesupport": {
+      "Sujata": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Haldyn": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Ashram x Haldyn Talk in Ch.11"
+      }
+    },
+    "recruit": "Available from the start of Chapter 1.",
+    "prf": ""
+  },
+  "sujata": {
+    "name": "Sujata",
+    "class": "Daggerdancer",
+    "portrait": "sujata.png",
+    "level": 1,
+    "base": {
+      "hp": 20,
+      "str": 1,
+      "mag": 4,
+      "dex": 12,
+      "agi": 19,
+      "luck": 15,
+      "prof": 11,
+      "def": 1,
+      "res": 2,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 28,
+      "str": 3,
+      "mag": 7,
+      "dex": 25,
+      "agi": 28,
+      "luck": 30,
+      "prof": 30,
+      "def": 4,
+      "res": 5,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 25,
+      "str": 10,
+      "mag": 20,
+      "dex": 30,
+      "agi": 40,
+      "luck": 10,
+      "prof": 10,
+      "def": 10,
+      "res": 20,
+      "mob": 3
+    },
+    "weapon": [
+      "Dagger"
+    ],
+    "skill": [
+      "Broken Heart",
+      "Mother's Orison",
+      "High Evasion"
+    ],
+    "givesupport": {
+      "Ashram": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Ashram": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Available from the start of Chapter 1.",
+    "prf": ""
+  },
+  "sheela": {
+    "name": "Sheela",
+    "class": "Deadshot",
+    "portrait": "sheela.png",
+    "level": 3,
+    "base": {
+      "hp": 23,
+      "str": 6,
+      "mag": 3,
+      "dex": 13,
+      "agi": 14,
+      "luck": 0,
+      "prof": 14,
+      "def": 5,
+      "res": 3,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 36,
+      "str": 17,
+      "mag": 10,
+      "dex": 21,
+      "agi": 20,
+      "luck": 30,
+      "prof": 30,
+      "def": 11,
+      "res": 10,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 40,
+      "str": 30,
+      "mag": 25,
+      "dex": 45,
+      "agi": 50,
+      "luck": 10,
+      "prof": 50,
+      "def": 15,
+      "res": 15,
+      "mob": 0
+    },
+    "weapon": [
+      "Bow"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Lightfoot",
+      "Flurry"
+    ],
+    "givesupport": {
+      "Zayid": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3
+      },
+      "Penneloupe": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Sheela x Zayid Talk in Ch. 11"
+      }
+    },
+    "recievesupport": {
+      "Zayid": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Penneloupe": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Sheela x Zayid Talk in Ch. 11"
+      }
+    },
+    "recruit": "Joins at the start of Player Phase a turn following any player unit approaching the Fasthold occupied by Aristotle's men in Chapter 1.",
+    "prf": ""
+  },
+  "zayid": {
+    "name": "Zayid",
+    "class": "Gladiator",
+    "portrait": "zayid.png",
+    "level": 8,
+    "base": {
+      "hp": 38,
+      "str": 14,
+      "mag": 0,
+      "dex": 11,
+      "agi": 12,
+      "luck": 0,
+      "prof": 11,
+      "def": 7,
+      "res": 0,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 54,
+      "str": 24,
+      "mag": 5,
+      "dex": 18,
+      "agi": 20,
+      "luck": 10,
+      "prof": 30,
+      "def": 14,
+      "res": 5,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 75,
+      "str": 35,
+      "mag": 0,
+      "dex": 35,
+      "agi": 30,
+      "luck": 0,
+      "prof": 35,
+      "def": 25,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword",
+      "Axe"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Wrath"
+    ],
+    "givesupport": {
+      "Sheela": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Penneloupe": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Sheela x Penneloupe Talk in Ch. 11"
+      }
+    },
+    "recievesupport": {
+      "Sheela": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3
+      },
+      "Penneloupe": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Sheela x Penneloupe Talk in Ch. 11"
+      }
+    },
+    "recruit": "Joins at the start of Player Phase a turn following any player unit approaching the Fasthold occupied by Aristotle's men in Chapter 1.",
+    "prf": ""
+  },
+  "slayne": {
+    "name": "Slayne",
+    "class": "True Archer",
+    "portrait": "slayne.png",
+    "level": 6,
+    "base": {
+      "hp": 31,
+      "str": 9,
+      "mag": 0,
+      "dex": 13,
+      "agi": 7,
+      "luck": 2,
+      "prof": 14,
+      "def": 5,
+      "res": 0,
+      "mob": 4
+    },
+    "cap": {
+      "hp": 32,
+      "str": 14,
+      "mag": 7,
+      "dex": 22,
+      "agi": 14,
+      "luck": 30,
+      "prof": 30,
+      "def": 16,
+      "res": 6,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 65,
+      "str": 45,
+      "mag": 0,
+      "dex": 55,
+      "agi": 30,
+      "luck": 0,
+      "prof": 40,
+      "def": 25,
+      "res": 0,
+      "mob": 3
+    },
+    "weapon": [
+      "Bow",
+      "Greatbow"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Multichance",
+      "Lightfoot",
+      "Acumen (Lv. 8)"
+    ],
+    "givesupport": {
+      "Accorte": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2,
+        "note": "After Ch.13"
+      }
+    },
+    "recievesupport": {
+      "Hilda": {
+        "acc": 5,
+        "eva": 5
+      },
+      "Accorte": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Ch.13"
+      }
+    },
+    "recruit": "Joins on Turn 2 Player Phase of Chapter 2. Leaves after Chapter 20 if Accorte is alive by then.",
+    "prf": ""
+  },
+  "hilda": {
+    "name": "Hilda",
+    "class": "Axemaster",
+    "portrait": "hilda.png",
+    "level": 3,
+    "base": {
+      "hp": 31,
+      "str": 13,
+      "mag": 0,
+      "dex": 12,
+      "agi": 15,
+      "luck": 3,
+      "prof": 13,
+      "def": 7,
+      "res": 1,
+      "mob": 6
+    },
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": 21,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": 50,
+      "str": 30,
+      "mag": 15,
+      "dex": 40,
+      "agi": 50,
+      "luck": 0,
+      "prof": 55,
+      "def": 22,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Axe"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Critical Reprisal",
+      "Axe Defend"
+    ],
+    "givesupport": {
+      "Slayne": {
+        "acc": 5,
+        "eva": 5
+      }
+    },
+    "recruit": "Available from the start of Chapter 3, if her cell was opened in Chapter 2. Leaves after Chapter 6.",
+    "prf": ""
+  },
+  "baymonk": {
+    "name": "Baymonk",
+    "class": "Sword Lion",
+    "portrait": "baymonk.png",
+    "level": 4,
+    "base": {
+      "hp": 32,
+      "str": 10,
+      "mag": 0,
+      "dex": 14,
+      "agi": 15,
+      "luck": 0,
+      "prof": 12,
+      "def": 4,
+      "res": 0,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 45,
+      "str": 20,
+      "mag": 15,
+      "dex": 25,
+      "agi": 23,
+      "luck": 30,
+      "prof": 30,
+      "def": 13,
+      "res": 6,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 80,
+      "str": 35,
+      "mag": 0,
+      "dex": 35,
+      "agi": 30,
+      "luck": 0,
+      "prof": 40,
+      "def": 25,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword"
+    ],
+    "skill": [
+      "Critical Edge"
+    ],
+    "recruit": "Recruited by talking to him with Zade and paying 2,000D in Chapter 3.",
+    "prf": ""
+  },
+  "drake": {
+    "name": "Drake",
+    "class": "Master Thief",
+    "portrait": "drake.png",
+    "level": 1,
+    "base": {
+      "hp": 28,
+      "str": 4,
+      "mag": 1,
+      "dex": 13,
+      "agi": 16,
+      "luck": 0,
+      "prof": 9,
+      "def": 3,
+      "res": 0,
+      "mob": 7
+    },
+    "cap": {
+      "hp": 35,
+      "str": 15,
+      "mag": 5,
+      "dex": 25,
+      "agi": 30,
+      "luck": false,
+      "prof": 30,
+      "def": 8,
+      "res": 2,
+      "mob": 9
+    },
+    "growth": {
+      "hp": 75,
+      "str": 40,
+      "mag": 10,
+      "dex": 40,
+      "agi": 50,
+      "luck": 10,
+      "prof": 35,
+      "def": 25,
+      "res": 5,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword"
+    ],
+    "skill": [
+      "Lockpick",
+      "Multichance",
+      "Parry",
+      "Double March",
+      "Critical Edge (Lv. 4)",
+      "High Evasion (Lv. 11)",
+      "Benison (Lv. 17)"
+    ],
+    "recruit": "Recruited by talking to him with Zade holding the Crested Armlet☆ in Chapter 3.",
+    "prf": ""
+  },
+  "castore": {
+    "name": "Castore",
+    "class": "Sailor",
+    "portrait": "castore.png",
+    "level": 2,
+    "base": {
+      "hp": 34,
+      "str": 10,
+      "mag": 0,
+      "dex": 3,
+      "agi": 5,
+      "luck": 2,
+      "prof": 7,
+      "def": 5,
+      "res": 0,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 60,
+      "str": 20,
+      "mag": 5,
+      "dex": 14,
+      "agi": 16,
+      "luck": false,
+      "prof": 30,
+      "def": 12,
+      "res": 5,
+      "mob": 7
+    },
+    "growth": {
+      "hp": 100,
+      "str": 60,
+      "mag": 0,
+      "dex": 25,
+      "agi": 20,
+      "luck": 0,
+      "prof": 25,
+      "def": 25,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Axe"
+    ],
+    "skill": [
+      "Brotherly Bonds",
+      "Object (Pirate Ship)",
+      "Grand Regenesis (Pirate Ship)",
+      "Critical Edge (Pirate Ship)",
+      "Multistrike (Pirate Ship)",
+      "Weaponguard (Pirate Ship)"
+    ],
+    "promo": {
+      "name": "Pirate Ship",
+      "bonus": {
+        "hp": 4,
+        "str": 4,
+        "mag": 7,
+        "dex": false,
+        "agi": -4,
+        "luck": false,
+        "prof": 12,
+        "def": 12,
+        "res": 5,
+        "mob": 1
+      },
+      "cap": {
+        "hp": 60,
+        "str": 30,
+        "mag": false,
+        "dex": false,
+        "agi": false,
+        "luck": false,
+        "prof": 30,
+        "def": 30,
+        "res": false,
+        "mob": 12
+      },
+      "note": "Ch.22 capture",
+      "weapon": [
+        "Bow",
+        "Greatbow",
+        "loses Axe"
+      ]
+    },
+    "givesupport": {
+      "Porruck": {
+        "note": "Brotherly Bonds grants +35 Acc"
+      }
+    },
+    "recievesupport": {
+      "Porruck": {
+        "note": "Brotherly Bonds grants +35 Acc"
+      }
+    },
+    "recruit": "Available from the preparations menu for Chapter 4, if captured by Zade in Chapter 3.",
+    "prf": ""
+  },
+  "porruck": {
+    "name": "Porruck",
+    "class": "Sailor",
+    "portrait": "porruck.png",
+    "level": 2,
+    "base": {
+      "hp": 33,
+      "str": 9,
+      "mag": 0,
+      "dex": 4,
+      "agi": 6,
+      "luck": 2,
+      "prof": 6,
+      "def": 6,
+      "res": 0,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 60,
+      "str": 20,
+      "mag": 5,
+      "dex": 14,
+      "agi": 16,
+      "luck": false,
+      "prof": 30,
+      "def": 12,
+      "res": 5,
+      "mob": 7
+    },
+    "growth": {
+      "hp": 80,
+      "str": 40,
+      "mag": 0,
+      "dex": 35,
+      "agi": 40,
+      "luck": 3,
+      "prof": 30,
+      "def": 30,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Axe"
+    ],
+    "skill": [
+      "Brotherly Bonds",
+      "Object (Pirate Ship)",
+      "Grand Regenesis (Pirate Ship)",
+      "Critical Edge (Pirate Ship)",
+      "Multistrike (Pirate Ship)",
+      "Weaponguard (Pirate Ship)"
+    ],
+    "promo": {
+      "name": "Pirate Ship",
+      "bonus": {
+        "hp": 4,
+        "str": 4,
+        "mag": 7,
+        "dex": false,
+        "agi": -4,
+        "luck": false,
+        "prof": 12,
+        "def": 12,
+        "res": 5,
+        "mob": 1
+      },
+      "cap": {
+        "hp": 60,
+        "str": 30,
+        "mag": false,
+        "dex": false,
+        "agi": false,
+        "luck": false,
+        "prof": 30,
+        "def": 30,
+        "res": false,
+        "mob": 12
+      },
+      "note": "Ch.22 capture",
+      "weapon": [
+        "Bow",
+        "Greatbow",
+        "loses Axe"
+      ]
+    },
+    "givesupport": {
+      "Castore": {
+        "note": "Brotherly Bonds grants +35 Acc"
+      }
+    },
+    "recievesupport": {
+      "Castore": {
+        "note": "Brotherly Bonds grants +35 Acc"
+      }
+    },
+    "recruit": "Available from the preparations menu for Chapter 4, if captured by Zade in Chapter 3.",
+    "prf": ""
+  },
+  "karajan": {
+    "name": "Karajan",
+    "class": "Sorcerer",
+    "portrait": "karajan.png",
+    "level": 1,
+    "base": {
+      "hp": 22,
+      "str": 0,
+      "mag": 6,
+      "dex": 1,
+      "agi": 2,
+      "luck": 0,
+      "prof": 7,
+      "def": 2,
+      "res": 4,
+      "mob": 4
+    },
+    "cap": {
+      "hp": 40,
+      "str": 0,
+      "mag": 14,
+      "dex": 14,
+      "agi": 14,
+      "luck": false,
+      "prof": 30,
+      "def": 10,
+      "res": 12,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 40,
+      "str": 0,
+      "mag": 30,
+      "dex": 35,
+      "agi": 30,
+      "luck": 0,
+      "prof": 35,
+      "def": 17,
+      "res": 13,
+      "mob": 3
+    },
+    "weapon": [
+      "Dark Magic",
+      "Spirit Magic",
+      "Staff"
+    ],
+    "skill": [
+      "Multichance (Lv. 15)"
+    ],
+    "recruit": "Available from the preparations menu for Chapter 4, if captured by Zade in Chapter 3.",
+    "prf": ""
+  },
+  "jonathan": {
+    "name": "Jonathan",
+    "class": "Wagon",
+    "portrait": "jonathan.png",
+    "level": 1,
+    "base": {
+      "hp": 40,
+      "str": 0,
+      "mag": 0,
+      "dex": 0,
+      "agi": 0,
+      "luck": 9,
+      "prof": 1,
+      "def": 2,
+      "res": 0,
+      "mob": 4
+    },
+    "cap": {
+      "hp": 80,
+      "str": 30,
+      "mag": false,
+      "dex": false,
+      "agi": 30,
+      "luck": 30,
+      "prof": 30,
+      "def": 30,
+      "res": 5,
+      "mob": 10
+    },
+    "growth": {
+      "hp": 25,
+      "str": 0,
+      "mag": 0,
+      "dex": 0,
+      "agi": 0,
+      "luck": 20,
+      "prof": 40,
+      "def": 10,
+      "res": 0,
+      "mob": 5
+    },
+    "weapon": [],
+    "skill": [
+      "Haggler",
+      "Stalwart",
+      "Herb Forager",
+      "Senah's Glamor (Lv. 15)",
+      "Senah's Tenacity (Lv. 30)"
+    ],
+    "recruit": "Available from the preparations menu for Chapter 4.",
+    "prf": ""
+  },
+  "nelke": {
+    "name": "Nelke",
+    "class": "Priestess",
+    "portrait": "nelke.png",
+    "level": 1,
+    "base": {
+      "hp": 17,
+      "str": 0,
+      "mag": 6,
+      "dex": 3,
+      "agi": 5,
+      "luck": 5,
+      "prof": 5,
+      "def": 0,
+      "res": 6,
+      "mob": 4
+    },
+    "cap": {
+      "hp": 26,
+      "str": 0,
+      "mag": 14,
+      "dex": 13,
+      "agi": 13,
+      "luck": 30,
+      "prof": 30,
+      "def": 5,
+      "res": 14,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 35,
+      "str": 0,
+      "mag": 40,
+      "dex": 20,
+      "agi": 30,
+      "luck": 25,
+      "prof": 25,
+      "def": 15,
+      "res": 30,
+      "mob": 0
+    },
+    "weapon": [
+      "Staff"
+    ],
+    "skill": [
+      "Potential",
+      "Iron Will (Lv. 17)",
+      "Aegis II (Ch. 17 event)"
+    ],
+    "recruit": "Available from the preparations menu for Chapter 4, if Zade talked to Baymonk.",
+    "prf": ""
+  },
+  "bennette": {
+    "name": "Bennette",
+    "class": "Thaumaturge",
+    "portrait": "bennette.png",
+    "level": 1,
+    "base": {
+      "hp": 19,
+      "str": 5,
+      "mag": 7,
+      "dex": 18,
+      "agi": 7,
+      "luck": 7,
+      "prof": 12,
+      "def": 2,
+      "res": 3,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 34,
+      "str": 13,
+      "mag": 15,
+      "dex": 18,
+      "agi": 18,
+      "luck": false,
+      "prof": 30,
+      "def": 9,
+      "res": 5,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 50,
+      "str": 35,
+      "mag": 35,
+      "dex": 50,
+      "agi": 60,
+      "luck": 15,
+      "prof": 35,
+      "def": 25,
+      "res": 20,
+      "mob": 3
+    },
+    "weapon": [
+      "Bow",
+      "Staff"
+    ],
+    "skill": [
+      "Glamor",
+      "Critical Edge",
+      "Orison",
+      "Acumen",
+      "Industry",
+      "Inherited Will (After Ch.15, replaces Glamor)"
+    ],
+    "givesupport": {
+      "Phoeve": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Laffine": {
+        "acc": 5,
+        "eva": 5
+      },
+      "Roleck": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Fauve": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Barzelphen": {
+        "atk": 5,
+        "acc": 30,
+        "crit": 15,
+        "eva": 30,
+        "ceva": 15,
+        "def": 5,
+        "res": 5,
+        "note": "After Ch.17"
+      }
+    },
+    "recievesupport": {
+      "Phoeve": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Ch.17"
+      },
+      "Laffine": {
+        "acc": 5,
+        "eva": 5
+      },
+      "Roleck": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 3,
+        "eva": 6,
+        "def": 1,
+        "res": 1
+      },
+      "Fauve": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Joins on Turn 2 Player Phase of Chapter 4. Even upon being felled in battle, returns after Chapter 15. If she is allowed to leave after Chapter 18, returns upon commencing battle in Chapter 25.",
+    "prf": ""
+  },
+  "lucion": {
+    "name": "Lucion",
+    "class": "Guardian",
+    "portrait": "lucion.png",
+    "level": 1,
+    "base": {
+      "hp": 25,
+      "str": 6,
+      "mag": 0,
+      "dex": 8,
+      "agi": 3,
+      "luck": 1,
+      "prof": 6,
+      "def": 10,
+      "res": 0,
+      "mob": 4
+    },
+    "cap": {
+      "hp": 45,
+      "str": 14,
+      "mag": 0,
+      "dex": 13,
+      "agi": 11,
+      "luck": false,
+      "prof": 30,
+      "def": 18,
+      "res": 4,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 75,
+      "str": 45,
+      "mag": 0,
+      "dex": 25,
+      "agi": 30,
+      "luck": 0,
+      "prof": 40,
+      "def": 50,
+      "res": 6,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Critical Dodge",
+      "Shield",
+      "Mettle"
+    ],
+    "promo": {
+      "name": "Royal Guard",
+      "bonus": {
+        "hp": 4,
+        "str": 2,
+        "mag": false,
+        "dex": 1,
+        "agi": 1,
+        "luck": false,
+        "prof": 3,
+        "def": 1,
+        "res": false,
+        "mob": 1
+      },
+      "cap": {
+        "hp": 50,
+        "str": 16,
+        "mag": 0,
+        "dex": 15,
+        "agi": 12,
+        "luck": false,
+        "prof": 30,
+        "def": 23,
+        "res": 6,
+        "mob": 7
+      },
+      "note": "Ch.12 or Ch.20 event"
+    },
+    "givesupport": {
+      "Claude": {
+        "acc": 5,
+        "eva": 5
+      }
+    },
+    "recievesupport": {
+      "Claude": {
+        "acc": 5,
+        "eva": 5
+      }
+    },
+    "recruit": "Joins on Turn 3 Player Phase of Chapter 4.",
+    "prf": ""
+  },
+  "phoeve": {
+    "name": "Phoeve",
+    "class": "Vestal Mage",
+    "portrait": "phoeve.png",
+    "level": 1,
+    "base": {
+      "hp": 22,
+      "str": 0,
+      "mag": 6,
+      "dex": 5,
+      "agi": 8,
+      "luck": 11,
+      "prof": 6,
+      "def": 2,
+      "res": 7,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 28,
+      "str": 0,
+      "mag": 15,
+      "dex": 17,
+      "agi": 17,
+      "luck": 30,
+      "prof": 30,
+      "def": 6,
+      "res": 13,
+      "mob": false
+    },
+    "growth": {
+      "hp": 20,
+      "str": 0,
+      "mag": 30,
+      "dex": 35,
+      "agi": 40,
+      "luck": 40,
+      "prof": 35,
+      "def": 10,
+      "res": 20,
+      "mob": 0
+    },
+    "weapon": [
+      "Divine Magic",
+      "Spirit Magic"
+    ],
+    "skill": [
+      "Aegis",
+      "Triple Threat"
+    ],
+    "promo": {
+      "name": "Mage Knight",
+      "bonus": {
+        "hp": false,
+        "str": false,
+        "mag": 1,
+        "dex": false,
+        "agi": false,
+        "luck": false,
+        "prof": 1,
+        "def": 1,
+        "res": false,
+        "mob": 2
+      },
+      "cap": {
+        "hp": 36,
+        "str": 0,
+        "mag": 16,
+        "dex": 17,
+        "agi": 18,
+        "luck": 30,
+        "prof": 30,
+        "def": 8,
+        "res": 13,
+        "mob": 10
+      },
+      "note": "Ch. 12 Event"
+    },
+    "givesupport": {
+      "Bennette": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Ch. 17"
+      },
+      "Laffine": {
+        "acc": 5,
+        "eva": 5
+      },
+      "Roleck": {
+        "acc": 5,
+        "eva": 5
+      }
+    },
+    "recievesupport": {
+      "Bennette": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Abrahm": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Laffine": {
+        "acc": 5,
+        "eva": 5
+      },
+      "Roleck": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Joins on Turn 4 Player Phase of Chapter 4. If Fauve is alive by Chapter 16, Bennette needs to visit the upper middle house by Turn 20 in order for her to stay.",
+    "prf": ""
+  },
+  "abrahm": {
+    "name": "Abrahm",
+    "class": "Grand Guard",
+    "portrait": "abrahm.png",
+    "level": 4,
+    "base": {
+      "hp": 31,
+      "str": 10,
+      "mag": 0,
+      "dex": 9,
+      "agi": 4,
+      "luck": 1,
+      "prof": 8,
+      "def": 14,
+      "res": 0,
+      "mob": 4
+    },
+    "cap": {
+      "hp": 60,
+      "str": 27,
+      "mag": 18,
+      "dex": 27,
+      "agi": 27,
+      "luck": 30,
+      "prof": 30,
+      "def": 30,
+      "res": 16,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 70,
+      "str": 35,
+      "mag": 10,
+      "dex": 40,
+      "agi": 25,
+      "luck": 0,
+      "prof": 25,
+      "def": 35,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Good Neighbor",
+      "Greatshield",
+      "Lightfoot"
+    ],
+    "givesupport": {
+      "Phoeve": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Joins on Turn 4 Player Phase of Chapter 4.",
+    "prf": ""
+  },
+  "claude": {
+    "name": "Claude",
+    "class": "Guardian",
+    "portrait": "claude.png",
+    "level": 1,
+    "base": {
+      "hp": 24,
+      "str": 7,
+      "mag": 0,
+      "dex": 8,
+      "agi": 3,
+      "luck": 0,
+      "prof": 3,
+      "def": 9,
+      "res": 0,
+      "mob": 4
+    },
+    "cap": {
+      "hp": 45,
+      "str": 14,
+      "mag": 0,
+      "dex": 13,
+      "agi": 11,
+      "luck": false,
+      "prof": 30,
+      "def": 18,
+      "res": 4,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 80,
+      "str": 40,
+      "mag": 0,
+      "dex": 30,
+      "agi": 25,
+      "luck": 0,
+      "prof": 65,
+      "def": 60,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear",
+      "Axe"
+    ],
+    "skill": [
+      "Ambush",
+      "Shield",
+      "Potential"
+    ],
+    "promo": {
+      "name": "Royal Guard",
+      "bonus": {
+        "hp": 4,
+        "str": 2,
+        "mag": false,
+        "dex": 1,
+        "agi": 1,
+        "luck": false,
+        "prof": 3,
+        "def": 1,
+        "res": false,
+        "mob": 1
+      },
+      "cap": {
+        "hp": 50,
+        "str": 16,
+        "mag": 0,
+        "dex": 15,
+        "agi": 12,
+        "luck": false,
+        "prof": 30,
+        "def": 23,
+        "res": false,
+        "mob": 7
+      },
+      "note": "Ch.12 or Ch.20 event"
+    },
+    "givesupport": {
+      "Lucion": {
+        "acc": 5,
+        "eva": 5
+      }
+    },
+    "recievesupport": {
+      "Lucion": {
+        "acc": 5,
+        "eva": 5
+      }
+    },
+    "recruit": "Joins on Turn 6 Player Phase of Chapter 4.",
+    "prf": ""
+  },
+  "alexander": {
+    "name": "Alexander",
+    "class": "Lance Knight",
+    "portrait": "alexander.png",
+    "level": 3,
+    "base": {
+      "hp": 25,
+      "str": 8,
+      "mag": 1,
+      "dex": 5,
+      "agi": 7,
+      "luck": 3,
+      "prof": 7,
+      "def": 6,
+      "res": 2,
+      "mob": 8
+    },
+    "cap": {
+      "hp": 36,
+      "str": 14,
+      "mag": false,
+      "dex": 13,
+      "agi": 12,
+      "luck": false,
+      "prof": 30,
+      "def": 14,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": 75,
+      "str": 45,
+      "mag": 0,
+      "dex": 30,
+      "agi": 40,
+      "luck": 0,
+      "prof": 60,
+      "def": 35,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Best Friends",
+      "Ambush",
+      "Triple Threat (Lv. 15)"
+    ],
+    "promo": {
+      "name": "Great Lancer",
+      "bonus": {
+        "hp": 4,
+        "str": 2,
+        "mag": false,
+        "dex": 2,
+        "agi": 2,
+        "luck": false,
+        "prof": 4,
+        "def": 2,
+        "res": 1,
+        "mob": false
+      },
+      "cap": {
+        "hp": 45,
+        "str": 18,
+        "mag": 8,
+        "dex": 18,
+        "agi": 16,
+        "luck": false,
+        "prof": 30,
+        "def": 16,
+        "res": 9,
+        "mob": 10
+      },
+      "note": "Ch.14 or Ch.20 event"
+    },
+    "givesupport": {
+      "Hestion": {
+        "acc": 5,
+        "eva": 5,
+        "note": "Best Friends gives +3 Def/Res"
+      },
+      "Mia": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Hestion": {
+        "acc": 5,
+        "eva": 5,
+        "note": "Best Friends gives +3 Def/Res"
+      },
+      "Mia": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 3,
+        "eva": 5,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Appears at the start of Turn 11 Enemy Phase in Chapter 4. Recruited by talking to either him or Hestion with Zade with neither dead.",
+    "prf": ""
+  },
+  "hestion": {
+    "name": "Hestion",
+    "class": "Knight",
+    "portrait": "hestion.png",
+    "level": 3,
+    "base": {
+      "hp": 25,
+      "str": 7,
+      "mag": 2,
+      "dex": 7,
+      "agi": 7,
+      "luck": 2,
+      "prof": 6,
+      "def": 7,
+      "res": 1,
+      "mob": 8
+    },
+    "cap": {
+      "hp": 34,
+      "str": 14,
+      "mag": 10,
+      "dex": 13,
+      "agi": 13,
+      "luck": false,
+      "prof": 30,
+      "def": 14,
+      "res": 6,
+      "mob": 10
+    },
+    "growth": {
+      "hp": 65,
+      "str": 35,
+      "mag": 15,
+      "dex": 40,
+      "agi": 40,
+      "luck": 10,
+      "prof": 60,
+      "def": 27,
+      "res": 5,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear"
+    ],
+    "skill": [
+      "Best Friends",
+      "Multichance",
+      "Critical Edge (Lv. 14)"
+    ],
+    "promo": {
+      "name": "Knight-Sergeant",
+      "bonus": {
+        "hp": 3,
+        "str": 1,
+        "mag": false,
+        "dex": 3,
+        "agi": 2,
+        "luck": false,
+        "prof": 8,
+        "def": 1,
+        "res": 1,
+        "mob": false
+      },
+      "cap": {
+        "hp": 44,
+        "str": 17,
+        "mag": 10,
+        "dex": 21,
+        "agi": 17,
+        "luck": false,
+        "prof": 30,
+        "def": 15,
+        "res": 8,
+        "mob": 10
+      },
+      "note": "Ch.14 or Ch.20 event",
+      "weapon": [
+        "Throwing Spear"
+      ]
+    },
+    "givesupport": {
+      "Alexander": {
+        "acc": 5,
+        "eva": 5,
+        "note": "Best Friends gives +3 Def/Res"
+      },
+      "Mia": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Alexander": {
+        "acc": 5,
+        "eva": 5,
+        "note": "Best Friends gives +3 Def/Res"
+      }
+    },
+    "recruit": "Appears at the start of Turn 11 Enemy Phase in Chapter 4. Recruited by talking to either him or Alexander with Zade with neither dead.",
+    "prf": ""
+  },
+  "laffine": {
+    "name": "Laffine",
+    "class": "Paladin",
+    "portrait": "laffine.png",
+    "level": 2,
+    "base": {
+      "hp": 26,
+      "str": 6,
+      "mag": 6,
+      "dex": 9,
+      "agi": 9,
+      "luck": 6,
+      "prof": 10,
+      "def": 8,
+      "res": 5,
+      "mob": 9
+    },
+    "cap": {
+      "hp": 44,
+      "str": 18,
+      "mag": 17,
+      "dex": 20,
+      "agi": 22,
+      "luck": 30,
+      "prof": 30,
+      "def": 17,
+      "res": 14,
+      "mob": 10
+    },
+    "growth": {
+      "hp": 50,
+      "str": 25,
+      "mag": 25,
+      "dex": 45,
+      "agi": 40,
+      "luck": 0,
+      "prof": 30,
+      "def": 25,
+      "res": 15,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Dispel Effects",
+      "Bloody Sustenance"
+    ],
+    "givesupport": {
+      "Bennette": {
+        "acc": 5,
+        "eva": 5
+      },
+      "Phoeve": {
+        "acc": 5,
+        "eva": 5
+      },
+      "Amlute": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 3,
+        "eva": 6,
+        "def": 1,
+        "res": 1
+      },
+      "Roleck": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recievesupport": {
+      "Bennette": {
+        "acc": 5,
+        "eva": 5
+      },
+      "Phoeve": {
+        "acc": 5,
+        "eva": 5
+      },
+      "Amlute": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 3,
+        "eva": 6,
+        "def": 1,
+        "res": 1
+      },
+      "Roleck": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Available from the preparations menu for Chapter 5.",
+    "prf": ""
+  },
+  "amlute": {
+    "name": "Amlute",
+    "class": "Tarkhan",
+    "portrait": "amlute.png",
+    "level": 4,
+    "base": {
+      "hp": 30,
+      "str": 10,
+      "mag": 0,
+      "dex": 8,
+      "agi": 10,
+      "luck": 0,
+      "prof": 12,
+      "def": 7,
+      "res": 1,
+      "mob": 8
+    },
+    "cap": {
+      "hp": 38,
+      "str": 17,
+      "mag": 5,
+      "dex": 18,
+      "agi": 18,
+      "luck": false,
+      "prof": 30,
+      "def": 16,
+      "res": 10,
+      "mob": 10
+    },
+    "growth": {
+      "hp": 75,
+      "str": 37,
+      "mag": 0,
+      "dex": 35,
+      "agi": 25,
+      "luck": 0,
+      "prof": 35,
+      "def": 30,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Bow"
+    ],
+    "skill": [
+      "Iron Will",
+      "Multichance"
+    ],
+    "givesupport": {
+      "Laffine": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 3,
+        "eva": 6,
+        "def": 1,
+        "res": 1
+      },
+      "Salyna": {
+        "eva": 15,
+        "ceva": 10,
+        "def": 2,
+        "res": 2,
+        "note": "After Amlute x Salyna Talk in Ch.18"
+      }
+    },
+    "recievesupport": {
+      "Laffine": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 3,
+        "eva": 6,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Available from the preparations menu for Chapter 5.",
+    "prf": ""
+  },
+  "barzelphen": {
+    "name": "Barzelphen",
+    "class": "Napper",
+    "portrait": "barzelphen.png",
+    "level": 1,
+    "base": {
+      "hp": 45,
+      "str": 11,
+      "mag": 0,
+      "dex": 5,
+      "agi": 3,
+      "luck": 0,
+      "prof": 15,
+      "def": 5,
+      "res": 0,
+      "mob": 4
+    },
+    "cap": {
+      "hp": 60,
+      "str": 22,
+      "mag": 12,
+      "dex": 18,
+      "agi": 16,
+      "luck": false,
+      "prof": 30,
+      "def": 18,
+      "res": 5,
+      "mob": 7
+    },
+    "growth": {
+      "hp": 50,
+      "str": 20,
+      "mag": 0,
+      "dex": 10,
+      "agi": 10,
+      "luck": 0,
+      "prof": 0,
+      "def": 15,
+      "res": 0,
+      "mob": 3
+    },
+    "weapon": [
+      "Axe"
+    ],
+    "skill": [
+      "Fetid",
+      "Moonlighter",
+      "Lightfoot",
+      "Lockpick (Ch. 22 event)"
+    ],
+    "recievesupport": {
+      "Bennette": {
+        "atk": 5,
+        "acc": 30,
+        "crit": 15,
+        "eva": 30,
+        "ceva": 15,
+        "def": 5,
+        "res": 5,
+        "note": "After Ch. 17"
+      }
+    },
+    "recruit": "Available from the preparations menu for Chapter 6, if captured by Zade in Chapter 5.",
+    "prf": ""
+  },
+  "bertoullia": {
+    "name": "Bertoullia",
+    "class": "Firewyrm",
+    "portrait": "bertoullia.png",
+    "level": 8,
+    "base": {
+      "hp": 50,
+      "str": 5,
+      "mag": 3,
+      "dex": 6,
+      "agi": 3,
+      "luck": 0,
+      "prof": 2,
+      "def": 10,
+      "res": 0,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 80,
+      "str": 30,
+      "mag": 30,
+      "dex": 30,
+      "agi": 30,
+      "luck": 30,
+      "prof": 30,
+      "def": 30,
+      "res": 30,
+      "mob": 12
+    },
+    "growth": {
+      "hp": 70,
+      "str": 0,
+      "mag": 25,
+      "dex": 35,
+      "agi": 20,
+      "luck": 0,
+      "prof": false,
+      "def": 30,
+      "res": 20,
+      "mob": 0
+    },
+    "weapon": [
+      "Breath"
+    ],
+    "skill": [
+      "Multistrike",
+      "Lightfoot",
+      "Acumen (Lv. 22)"
+    ],
+    "givesupport": {
+      "Salyna": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Available from the preparations menu for Chapter 6, if in Chapter 5 the green house was visited, 600D was paid and she survives the map.",
+    "prf": ""
+  },
+  "roleck": {
+    "name": "Roleck",
+    "class": "General",
+    "portrait": "roleck.png",
+    "level": 5,
+    "base": {
+      "hp": 44,
+      "str": 14,
+      "mag": 0,
+      "dex": 14,
+      "agi": 12,
+      "luck": 10,
+      "prof": 30,
+      "def": 15,
+      "res": 5,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 60,
+      "str": 24,
+      "mag": false,
+      "dex": 18,
+      "agi": 16,
+      "luck": false,
+      "prof": 30,
+      "def": 22,
+      "res": 8,
+      "mob": 7
+    },
+    "growth": {
+      "hp": 60,
+      "str": 35,
+      "mag": 0,
+      "dex": 25,
+      "agi": 25,
+      "luck": 0,
+      "prof": 30,
+      "def": 30,
+      "res": 5,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Frontier Imperator",
+      "Greatshield",
+      "Triple Threat",
+      "Taskmaster",
+      "Lockpick (Ch.6 only)"
+    ],
+    "givesupport": {
+      "Bennette": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 3,
+        "eva": 6,
+        "def": 1,
+        "res": 1
+      },
+      "Phoeve": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Laffine": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Bennette": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Phoeve": {
+        "acc": 5,
+        "eva": 5
+      },
+      "Laffine": {
+        "acc": 5,
+        "eva": 5,
+        "ceva": 3
+      }
+    },
+    "recruit": "Available from the preparations menu for Chapter 6. Leaves after Chapter 14. If Bennette is allowed to leave after Chapter 18, returns upon commencing battle in Chapter 25.",
+    "prf": ""
+  },
+  "aslanne": {
+    "name": "Aslanne",
+    "class": "Raptor Knight",
+    "portrait": "aslanne.png",
+    "level": 7,
+    "base": {
+      "hp": 29,
+      "str": 10,
+      "mag": 8,
+      "dex": 12,
+      "agi": 11,
+      "luck": 4,
+      "prof": 20,
+      "def": 7,
+      "res": 2,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 38,
+      "str": 14,
+      "mag": 15,
+      "dex": 20,
+      "agi": 22,
+      "luck": 30,
+      "prof": 30,
+      "def": 13,
+      "res": 9,
+      "mob": 10
+    },
+    "growth": {
+      "hp": 55,
+      "str": 25,
+      "mag": 15,
+      "dex": 30,
+      "agi": 35,
+      "luck": 0,
+      "prof": 40,
+      "def": 25,
+      "res": 15,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword"
+    ],
+    "skill": [
+      "Commander",
+      "Critical Dodge",
+      "Mettle"
+    ],
+    "mount": {
+      "stat": {
+        "hp": false,
+        "str": false,
+        "mag": false,
+        "dex": false,
+        "agi": 3,
+        "luck": false,
+        "prof": false,
+        "def": false,
+        "res": false,
+        "mob": 1
+      },
+      "item": "celestialamulet",
+      "weapon": [
+        "Standard Spear",
+        "Throwing Spear"
+      ]
+    },
+    "givesupport": {
+      "Ezrel": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Ezrel": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Joins at the start of Player Phase a turn following any player unit approaching Libbech Fortress in Chapter 6.",
+    "prf": ""
+  },
+  "ezrel": {
+    "name": "Ezrel",
+    "class": "Vestal Mage",
+    "portrait": "ezrel.png",
+    "level": 1,
+    "base": {
+      "hp": 22,
+      "str": 0,
+      "mag": 5,
+      "dex": 6,
+      "agi": 5,
+      "luck": 5,
+      "prof": 6,
+      "def": 2,
+      "res": 3,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 30,
+      "str": 0,
+      "mag": 15,
+      "dex": 17,
+      "agi": 17,
+      "luck": false,
+      "prof": 30,
+      "def": 6,
+      "res": 13,
+      "mob": 7
+    },
+    "growth": {
+      "hp": 35,
+      "str": 0,
+      "mag": 25,
+      "dex": 40,
+      "agi": 30,
+      "luck": 0,
+      "prof": 50,
+      "def": 15,
+      "res": 20,
+      "mob": 3
+    },
+    "weapon": [
+      "Divine Magic",
+      "Spirit Magic"
+    ],
+    "skill": [
+      "High Evasion",
+      "Lurk (Lv. 5)",
+      "Multichance (Lv. 10)",
+      "Aegis (Lv. 15)",
+      "Bloody Sustenance (Lv. 22)"
+    ],
+    "givesupport": {
+      "Aslanne": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Aslanne": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Joins at the start of Player Phase a turn following any player unit approaching Libbech Fortress in Chapter 6.",
+    "prf": ""
+  },
+  "ouron": {
+    "name": "Ouron",
+    "class": "Ranger",
+    "portrait": "ouron.png",
+    "level": 3,
+    "base": {
+      "hp": 23,
+      "str": 5,
+      "mag": 0,
+      "dex": 10,
+      "agi": 8,
+      "luck": 4,
+      "prof": 13,
+      "def": 4,
+      "res": 0,
+      "mob": 9
+    },
+    "cap": {
+      "hp": 30,
+      "str": 13,
+      "mag": 3,
+      "dex": 17,
+      "agi": 18,
+      "luck": false,
+      "prof": 30,
+      "def": 11,
+      "res": 6,
+      "mob": 11
+    },
+    "growth": {
+      "hp": 60,
+      "str": 35,
+      "mag": 5,
+      "dex": 50,
+      "agi": 40,
+      "luck": 0,
+      "prof": 40,
+      "def": 20,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Bow"
+    ],
+    "skill": [
+      "Lockpick",
+      "Lurk",
+      "Potential",
+      "Lightfoot",
+      "High Evasion",
+      "Industry (Ch. 25 event)"
+    ],
+    "recruit": "Available from the start of the chapter in Chapter 7x.",
+    "prf": ""
+  },
+  "penneloupe": {
+    "name": "Penneloupe",
+    "class": "Elite Hunter",
+    "portrait": "penneloupe.png",
+    "level": 7,
+    "base": {
+      "hp": 24,
+      "str": 9,
+      "mag": 1,
+      "dex": 14,
+      "agi": 18,
+      "luck": 0,
+      "prof": 14,
+      "def": 5,
+      "res": 3,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 40,
+      "str": 18,
+      "mag": 10,
+      "dex": 22,
+      "agi": 20,
+      "luck": false,
+      "prof": 30,
+      "def": 11,
+      "res": 10,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 30,
+      "str": 25,
+      "mag": 15,
+      "dex": 35,
+      "agi": 40,
+      "luck": 0,
+      "prof": 35,
+      "def": 18,
+      "res": 8,
+      "mob": 0
+    },
+    "weapon": [
+      "Bow"
+    ],
+    "skill": [
+      "Glamor",
+      "Lurk",
+      "Critical Edge",
+      "Triple Threat"
+    ],
+    "givesupport": {
+      "Sheela": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Sheela x Zayid talk in Ch. 11"
+      },
+      "Zayid": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Sheela x Penneloupe talk in Ch. 11"
+      }
+    },
+    "recievesupport": {
+      "Sheela": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Sheela x Zayid talk in Ch. 11"
+      },
+      "Zayid": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Sheela x Penneloupe talk in Ch. 11"
+      }
+    },
+    "recruit": "Recruited by visiting the village in Chapter 7x.",
+    "prf": ""
+  },
+  "haldyn": {
+    "name": "Haldyn",
+    "class": "Swordmaster",
+    "portrait": "haldyn.png",
+    "level": 2,
+    "base": {
+      "hp": 31,
+      "str": 10,
+      "mag": 0,
+      "dex": 19,
+      "agi": 18,
+      "luck": 5,
+      "prof": 16,
+      "def": 7,
+      "res": 0,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 45,
+      "str": 22,
+      "mag": 10,
+      "dex": 28,
+      "agi": 25,
+      "luck": false,
+      "prof": 30,
+      "def": 12,
+      "res": 10,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 60,
+      "str": 40,
+      "mag": 0,
+      "dex": 60,
+      "agi": 50,
+      "luck": 0,
+      "prof": 50,
+      "def": 25,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Multichance",
+      "Parry",
+      "Mettle",
+      "Deific Revels (Ch. 11 event)"
+    ],
+    "givesupport": {
+      "Ashram": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Ashram x Haldyn Talk in Ch. 11"
+      },
+      "Ravinia": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 5,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Ashram": {
+        "acc": 5,
+        "eva": 5,
+        "note": "After Ashram x Haldyn Talk in Ch. 11"
+      },
+      "Ravinia": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 5,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Available from the start of Chapter 8.",
+    "prf": ""
+  },
+  "orphelia": {
+    "name": "Orphelia",
+    "class": "Eagle Rider",
+    "portrait": "orphelia.png",
+    "level": 1,
+    "base": {
+      "hp": 22,
+      "str": 6,
+      "mag": 5,
+      "dex": 7,
+      "agi": 10,
+      "luck": 14,
+      "prof": 6,
+      "def": 3,
+      "res": 3,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 33,
+      "str": 13,
+      "mag": 15,
+      "dex": 18,
+      "agi": 19,
+      "luck": 30,
+      "prof": 30,
+      "def": 12,
+      "res": 7,
+      "mob": 10
+    },
+    "growth": {
+      "hp": 60,
+      "str": 35,
+      "mag": 30,
+      "dex": 50,
+      "agi": 40,
+      "luck": 30,
+      "prof": 35,
+      "def": 25,
+      "res": 15,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear"
+    ],
+    "skill": [
+      "Dispel Effects",
+      "Orison",
+      "Potential",
+      "High Evasion"
+    ],
+    "mount": {
+      "stat": {
+        "hp": false,
+        "str": 1,
+        "mag": false,
+        "dex": -2,
+        "agi": -2,
+        "luck": false,
+        "prof": false,
+        "def": false,
+        "res": false,
+        "mob": 1
+      },
+      "item": "celestialamulet",
+      "weapon": [
+        "Standard Spear",
+        "loses Staff"
+      ]
+    },
+    "recievesupport": {
+      "Zade": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Available from the start of Chapter 8.",
+    "prf": ""
+  },
+  "fauve": {
+    "name": "Fauve",
+    "class": "Axemaster",
+    "portrait": "fauve.png",
+    "level": 2,
+    "base": {
+      "hp": 42,
+      "str": 14,
+      "mag": 0,
+      "dex": 9,
+      "agi": 11,
+      "luck": 3,
+      "prof": 12,
+      "def": 7,
+      "res": 0,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 52,
+      "str": 25,
+      "mag": 10,
+      "dex": 20,
+      "agi": 24,
+      "luck": false,
+      "prof": 30,
+      "def": 13,
+      "res": 5,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 80,
+      "str": 40,
+      "mag": 0,
+      "dex": 40,
+      "agi": 30,
+      "luck": 0,
+      "prof": 60,
+      "def": 30,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Axe"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Axe Defend"
+    ],
+    "givesupport": {
+      "Bennette": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Bennette": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Available from the start of Chapter 8.",
+    "prf": ""
+  },
+  "lilia": {
+    "name": "Lilia",
+    "class": "High Priestess",
+    "portrait": "lilia.png",
+    "level": 2,
+    "base": {
+      "hp": 22,
+      "str": 0,
+      "mag": 13,
+      "dex": 11,
+      "agi": 12,
+      "luck": 7,
+      "prof": 18,
+      "def": 3,
+      "res": 12,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 34,
+      "str": 0,
+      "mag": 18,
+      "dex": 19,
+      "agi": 19,
+      "luck": 30,
+      "prof": 30,
+      "def": 7,
+      "res": 21,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 30,
+      "str": 0,
+      "mag": 35,
+      "dex": 20,
+      "agi": 30,
+      "luck": 30,
+      "prof": 20,
+      "def": 10,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Divine Magic",
+      "Staff"
+    ],
+    "skill": [
+      "Industry",
+      "Battle Hymn",
+      "Multistrike (Lv. 30)"
+    ],
+    "givesupport": {
+      "Garlan": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3
+      }
+    },
+    "recruit": "Available from the start of Chapter 8.",
+    "prf": ""
+  },
+  "pandell": {
+    "name": "Pandell",
+    "class": "Guardian",
+    "portrait": "pandell.png",
+    "level": 13,
+    "base": {
+      "hp": 28,
+      "str": 9,
+      "mag": 0,
+      "dex": 8,
+      "agi": 6,
+      "luck": 0,
+      "prof": 11,
+      "def": 10,
+      "res": 1,
+      "mob": 4
+    },
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": 0,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": false,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Multichance"
+    ],
+    "recruit": "[Temporary Replacement Unit] Available from the start of Chapter 8, only if is Lucion dead. Leaves after Chapter 8.",
+    "prf": ""
+  },
+  "montgomery": {
+    "name": "Montgomery",
+    "class": "Grand Guard",
+    "portrait": "montgomery.png",
+    "level": 16,
+    "base": {
+      "hp": 36,
+      "str": 11,
+      "mag": 0,
+      "dex": 9,
+      "agi": 6,
+      "luck": 0,
+      "prof": 16,
+      "def": 16,
+      "res": 1,
+      "mob": 4
+    },
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": 0,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": false,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Greatshield"
+    ],
+    "recruit": "[Temporary Replacement Unit] Available from the start of Chapter 8, only if is Abrahm dead. Leaves after Chapter 8.",
+    "prf": ""
+  },
+  "cueger": {
+    "name": "Cueger",
+    "class": "Guardian",
+    "portrait": "cueger.png",
+    "level": 13,
+    "base": {
+      "hp": 28,
+      "str": 9,
+      "mag": 0,
+      "dex": 8,
+      "agi": 6,
+      "luck": 0,
+      "prof": 11,
+      "def": 10,
+      "res": 1,
+      "mob": 4
+    },
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": 0,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": false,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Greatshield"
+    ],
+    "recruit": "[Temporary Replacement Unit] Available from the start of Chapter 8, only if is Claude dead. Leaves after Chapter 8.",
+    "prf": ""
+  },
+  "sloan": {
+    "name": "Sloan",
+    "class": "Swordmaster",
+    "portrait": "sloan.png",
+    "level": 3,
+    "base": {
+      "hp": 33,
+      "str": 12,
+      "mag": 0,
+      "dex": 21,
+      "agi": 18,
+      "luck": 3,
+      "prof": 20,
+      "def": 8,
+      "res": 0,
+      "mob": 6
+    },
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 50,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Critical Dodge",
+      "Ambush"
+    ],
+    "recruit": "[Replacement Unit] Joins upon commencing battle in Chapter 10, only if is Haldyn dead. Playable from the start of Chapter 11.",
+    "prf": ""
+  },
+  "arielle": {
+    "name": "Arielle",
+    "class": "High Sestra",
+    "portrait": "arielle.png",
+    "level": 4,
+    "base": {
+      "hp": 23,
+      "str": 0,
+      "mag": 16,
+      "dex": 10,
+      "agi": 11,
+      "luck": 8,
+      "prof": 21,
+      "def": 2,
+      "res": 13,
+      "mob": 5
+    },
+    "cap": {
+      "hp": false,
+      "str": 0,
+      "mag": 18,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Divine Magic",
+      "Staff"
+    ],
+    "skill": [
+      "Benison",
+      "Aegis II"
+    ],
+    "recruit": "[First Guest Appearance] Available as a guest unit from Turn 11 Player Phase of Chapter 15. Leaves after Chapter 15.[Second Guest Appearance] Returns as a guest unit upon commencing battle in Chapter 19. Leaves after Chapter 19.",
+    "prf": ""
+  },
+  "salyna": {
+    "name": "Salyna",
+    "class": "Dragonsestra",
+    "portrait": "salyna.png",
+    "level": 1,
+    "base": {
+      "hp": 30,
+      "str": 5,
+      "mag": 7,
+      "dex": 10,
+      "agi": 8,
+      "luck": 12,
+      "prof": 2,
+      "def": 8,
+      "res": 7,
+      "mob": 8
+    },
+    "cap": {
+      "hp": 50,
+      "str": 24,
+      "mag": 15,
+      "dex": 26,
+      "agi": 26,
+      "luck": false,
+      "prof": 30,
+      "def": 16,
+      "res": 12,
+      "mob": 10
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 20,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear",
+      "Staff"
+    ],
+    "skill": [
+      "Lanna's Blessing"
+    ],
+    "recievesupport": {
+      "Amlute": {
+        "eva": 15,
+        "ceva": 10,
+        "def": 2,
+        "res": 2,
+        "note": "After Amlute x Salyna Talk in Ch. 18"
+      },
+      "Bertoullia": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "[Initial Appearance] Available upon commencing battle in Chapter 18.[Permanent Join] Have Zade talk to her in Chapter 18.",
+    "prf": ""
+  },
+  "mia": {
+    "name": "Mia",
+    "class": "Farmer",
+    "portrait": "mia.png",
+    "level": 1,
+    "base": {
+      "hp": 20,
+      "str": 1,
+      "mag": 2,
+      "dex": 3,
+      "agi": 5,
+      "luck": 14,
+      "prof": 5,
+      "def": 1,
+      "res": 0,
+      "mob": 4
+    },
+    "cap": {
+      "hp": 35,
+      "str": 16,
+      "mag": 10,
+      "dex": 16,
+      "agi": 16,
+      "luck": 30,
+      "prof": 30,
+      "def": 10,
+      "res": 8,
+      "mob": 8
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Master Haggler"
+    ],
+    "givesupport": {
+      "Alexander": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 3,
+        "eva": 5,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Alexander": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Hestion": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Available upon commencing battle in Chapter 20, if both Alexander and Hestion are alive.",
+    "prf": ""
+  },
+  "phoros": {
+    "name": "Phoros",
+    "class": "Punitive Knight",
+    "portrait": "phoros.png",
+    "level": 13,
+    "base": {
+      "hp": 46,
+      "str": 15,
+      "mag": 3,
+      "dex": 18,
+      "agi": 14,
+      "luck": 7,
+      "prof": 22,
+      "def": 15,
+      "res": 7,
+      "mob": 9
+    },
+    "cap": {
+      "hp": 55,
+      "str": 22,
+      "mag": 15,
+      "dex": 21,
+      "agi": 20,
+      "luck": 30,
+      "prof": 30,
+      "def": 22,
+      "res": 15,
+      "mob": 10
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 35,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Persistent",
+      "Shield"
+    ],
+    "recievesupport": {
+      "Arielle": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Joins on Turn 11 Player Phase of Chapter 20, if talked to with Arielle in Chapter 19.",
+    "prf": ""
+  },
+  "ravinia": {
+    "name": "Ravinia",
+    "class": "Eastern Fencer",
+    "portrait": "ravinia.png",
+    "level": 5,
+    "base": {
+      "hp": 27,
+      "str": 9,
+      "mag": 0,
+      "dex": 20,
+      "agi": 18,
+      "luck": 13,
+      "prof": 17,
+      "def": 3,
+      "res": 1,
+      "mob": 6
+    },
+    "cap": {
+      "hp": 40,
+      "str": 20,
+      "mag": 15,
+      "dex": 26,
+      "agi": 21,
+      "luck": false,
+      "prof": 30,
+      "def": 11,
+      "res": 7,
+      "mob": 8
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 40,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Greatsword"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Benison",
+      "High Evasion",
+      "Deific Revels"
+    ],
+    "givesupport": {
+      "Haldyn": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Haldyn": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Available from the preparations menu for Chapter 21, if captured by Haldyn in Chapter 20.",
+    "prf": ""
+  },
+  "cezar": {
+    "name": "Cezar",
+    "class": "Treasure Hunter",
+    "portrait": "czear.png",
+    "level": 22,
+    "base": {
+      "hp": 23,
+      "str": 3,
+      "mag": 0,
+      "dex": 16,
+      "agi": 21,
+      "luck": 5,
+      "prof": 9,
+      "def": 4,
+      "res": 1,
+      "mob": 7
+    },
+    "cap": {
+      "hp": 27,
+      "str": 3,
+      "mag": false,
+      "dex": false,
+      "agi": 22,
+      "luck": false,
+      "prof": 30,
+      "def": 4,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": 35,
+      "str": 5,
+      "mag": 0,
+      "dex": 30,
+      "agi": 35,
+      "luck": 5,
+      "prof": 40,
+      "def": 10,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Dagger"
+    ],
+    "skill": [
+      "Lockpick",
+      "Lurk"
+    ],
+    "recruit": "[Replacement Unit] Available as a guest unit upon commencing battle in Chapter 21, only if Drake is dead. Leaves after Chapter 21.",
+    "prf": ""
+  },
+  "theodel": {
+    "name": "Theodel",
+    "class": "Mage Lord",
+    "portrait": "theodel.png",
+    "level": 17,
+    "base": {
+      "hp": 34,
+      "str": 0,
+      "mag": 17,
+      "dex": 14,
+      "agi": 19,
+      "luck": 7,
+      "prof": 20,
+      "def": 10,
+      "res": 15,
+      "mob": 6
+    },
+    "cap": {
+      "hp": false,
+      "str": 0,
+      "mag": 20,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": 10,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 40,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Divine Magic",
+      "Spirit Magic",
+      "Staff"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Multichance",
+      "Aegis II",
+      "Wrath"
+    ],
+    "givesupport": {
+      "Zade": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Emilia": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Emilia": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "[Guest Appearance] Available as a guest unit upon commencing battle in Chapter 21. Leaves after Chapter 21.[Permanent Join] Returns on Turn 10 Player Phase of Chapter 25.",
+    "prf": ""
+  },
+  "emilia": {
+    "name": "Emilia",
+    "class": "Princess",
+    "portrait": "emilia.png",
+    "level": 3,
+    "base": {
+      "hp": 22,
+      "str": 0,
+      "mag": 5,
+      "dex": 5,
+      "agi": 7,
+      "luck": 12,
+      "prof": 6,
+      "def": 2,
+      "res": 6,
+      "mob": 5
+    },
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 40,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Staff"
+    ],
+    "skill": [
+      "Benison",
+      "Charisma (Promotion)",
+      "Critical Reprisal (Promotion)"
+    ],
+    "promo": {
+      "name": "Sphirian Princess",
+      "bonus": {
+        "hp": false,
+        "str": false,
+        "mag": 10,
+        "dex": 7,
+        "agi": 4,
+        "luck": false,
+        "prof": 3,
+        "def": 4,
+        "res": 8,
+        "mob": 1
+      },
+      "cap": {
+        "hp": 38,
+        "str": 6,
+        "mag": 20,
+        "dex": 23,
+        "agi": 24,
+        "luck": 30,
+        "prof": 30,
+        "def": 16,
+        "res": 16,
+        "mob": 8
+      },
+      "note": "Ch.22 event",
+      "weapon": [
+        "Spirit Magic",
+        "Dark Magic"
+      ]
+    },
+    "givesupport": {
+      "Theodel": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Theodel": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "[First Guest Appearance] Automatically from the start of Chapter 21 as a guest unit. Leaves after Chapter 21.[Second Guest Appearance] Returns as a guest unit on Turn 10 Player Phase of Chapter 25.",
+    "prf": ""
+  },
+  "garlan": {
+    "name": "Garlan",
+    "class": "Tactician",
+    "portrait": "garlan.png",
+    "level": 30,
+    "base": {
+      "hp": 22,
+      "str": 0,
+      "mag": 4,
+      "dex": 6,
+      "agi": 0,
+      "luck": 4,
+      "prof": 20,
+      "def": 0,
+      "res": 1,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 22,
+      "str": 0,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 0,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Spirit Magic",
+      "Staff"
+    ],
+    "skill": [
+      "Commander II"
+    ],
+    "recievesupport": {
+      "Lilia": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3
+      }
+    },
+    "recruit": "Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24.",
+    "prf": ""
+  },
+  "tasha": {
+    "name": "Tasha",
+    "class": "Head Chef",
+    "portrait": "tasha.png",
+    "level": 1,
+    "base": {
+      "hp": 18,
+      "str": 0,
+      "mag": 0,
+      "dex": 0,
+      "agi": 3,
+      "luck": 8,
+      "prof": 1,
+      "def": 0,
+      "res": 3,
+      "mob": 4
+    },
+    "cap": {
+      "hp": 26,
+      "str": 0,
+      "mag": false,
+      "dex": 13,
+      "agi": 14,
+      "luck": false,
+      "prof": 30,
+      "def": 5,
+      "res": 10,
+      "mob": 8
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 0,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [],
+    "skill": [
+      "Nutritionist",
+      "Tasha's Morale Boost"
+    ],
+    "givesupport": {
+      "Prody": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Prody": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Troy": {
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "[Guest Appearance] Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24.[Permanent Join] Returns on Turn 10 Player Phase of Chapter 25.",
+    "prf": ""
+  },
+  "bonacel": {
+    "name": "Bonacel",
+    "class": "Prisoner",
+    "portrait": "bonacel.png",
+    "level": 28,
+    "base": {
+      "hp": 26,
+      "str": 8,
+      "mag": 0,
+      "dex": 8,
+      "agi": 5,
+      "luck": 5,
+      "prof": 18,
+      "def": 5,
+      "res": 0,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 26,
+      "str": 8,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": 5,
+      "res": false,
+      "mob": 5
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 40,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Wrath",
+      "Commander (Ch. 24 only)"
+    ],
+    "promo": {
+      "name": "Gigas",
+      "bonus": {
+        "hp": 31,
+        "str": 10,
+        "mag": 0,
+        "dex": 10,
+        "agi": 10,
+        "luck": 0,
+        "prof": 12,
+        "def": 13,
+        "res": 1,
+        "mob": 0
+      },
+      "cap": {
+        "hp": false,
+        "str": false,
+        "mag": false,
+        "dex": 18,
+        "agi": 16,
+        "luck": false,
+        "prof": 30,
+        "def": false,
+        "res": false,
+        "mob": false
+      },
+      "note": "With Hugoniot's Cuirass",
+      "weapon": [
+        "Standard Sword",
+        "Greatsword",
+        "loses Standard Spear",
+        "loses Throwing Spear"
+      ]
+    },
+    "promo2": {
+      "name": "General",
+      "bonus": {
+        "hp": 26,
+        "str": 8,
+        "mag": 0,
+        "dex": 7,
+        "agi": 6,
+        "luck": 0,
+        "prof": 12,
+        "def": 12,
+        "res": 1,
+        "mob": 0
+      },
+      "cap": {
+        "hp": false,
+        "str": 20,
+        "mag": false,
+        "dex": false,
+        "agi": false,
+        "luck": false,
+        "prof": 30,
+        "def": 20,
+        "res": false,
+        "mob": 7
+      },
+      "note": "With General's Cuirass",
+      "weapon": [
+        "Standard Sword"
+      ]
+    },
+    "recruit": "Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24.",
+    "prf": ""
+  },
+  "prody": {
+    "name": "Prody",
+    "class": "Prisoner",
+    "portrait": "prody.png",
+    "level": 21,
+    "base": {
+      "hp": 26,
+      "str": 8,
+      "mag": 0,
+      "dex": 8,
+      "agi": 5,
+      "luck": 0,
+      "prof": 12,
+      "def": 5,
+      "res": 0,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 26,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": 5,
+      "res": false,
+      "mob": 5
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 65,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Good Neighbor II"
+    ],
+    "promo": {
+      "name": "Grand Guard",
+      "bonus": {
+        "hp": 17,
+        "str": 7,
+        "mag": 0,
+        "dex": 5,
+        "agi": 3,
+        "luck": 0,
+        "prof": 3,
+        "def": 11,
+        "res": 0,
+        "mob": -1
+      },
+      "cap": {
+        "hp": 50,
+        "str": 16,
+        "mag": 0,
+        "dex": 15,
+        "agi": 12,
+        "luck": false,
+        "prof": 30,
+        "def": 25,
+        "res": false,
+        "mob": 6
+      },
+      "note": "With Prody's Cuirass"
+    },
+    "promo2": {
+      "name": "Armored Brute",
+      "bonus": {
+        "hp": 19,
+        "str": 6,
+        "mag": 0,
+        "dex": 6,
+        "agi": 3,
+        "luck": 0,
+        "prof": 7,
+        "def": 14,
+        "res": 0,
+        "mob": -1
+      },
+      "cap": {
+        "hp": false,
+        "str": 20,
+        "mag": false,
+        "dex": 18,
+        "agi": false,
+        "luck": false,
+        "prof": 30,
+        "def": 22,
+        "res": false,
+        "mob": false
+      },
+      "note": "With Brute's Cuirass"
+    },
+    "givesupport": {
+      "Tasha": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Tasha": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24.",
+    "prf": ""
+  },
+  "rebel": {
+    "name": "Rebel",
+    "class": "Old Man",
+    "portrait": "rebel.png",
+    "level": 1,
+    "base": {
+      "hp": 16,
+      "str": 0,
+      "mag": 0,
+      "dex": 0,
+      "agi": 0,
+      "luck": 0,
+      "prof": 0,
+      "def": 0,
+      "res": 0,
+      "mob": 4
+    },
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": false,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [],
+    "skill": [],
+    "recruit": "Joins as a guest unit in Chapter 23 when his cell is opened. Leaves after Chapter 23.",
+    "prf": ""
+  },
+  "grandmother": {
+    "name": "Grandmother",
+    "class": "Old Woman",
+    "portrait": "grandmother",
+    "level": 1,
+    "base": {
+      "hp": 16,
+      "str": 0,
+      "mag": 0,
+      "dex": 0,
+      "agi": 0,
+      "luck": 0,
+      "prof": 0,
+      "def": 0,
+      "res": 0,
+      "mob": 4
+    },
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": false,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [],
+    "skill": [],
+    "givesupport": {
+      "Lea": {
+        "atk": 3,
+        "acc": 20,
+        "crit": 10,
+        "eva": 20,
+        "ceva": 10,
+        "def": 3,
+        "res": 3
+      }
+    },
+    "recruit": "Joins as a guest unit in Chapter 23 when her cell is opened. Leaves after Chapter 23.",
+    "prf": ""
+  },
+  "minister": {
+    "name": "Minister",
+    "class": "Old Man",
+    "portrait": "minister.png",
+    "level": 1,
+    "base": {
+      "hp": 16,
+      "str": 0,
+      "mag": 0,
+      "dex": 0,
+      "agi": 0,
+      "luck": 0,
+      "prof": 0,
+      "def": 0,
+      "res": 0,
+      "mob": 4
+    },
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": false,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [],
+    "skill": [],
+    "recruit": "Joins as a guest unit in Chapter 23 when his cell is opened. Leaves after Chapter 23.",
+    "prf": ""
+  },
+  "emma": {
+    "name": "Emma",
+    "class": "Maid",
+    "portrait": "emma.png",
+    "level": 1,
+    "base": {
+      "hp": 21,
+      "str": 1,
+      "mag": 0,
+      "dex": 2,
+      "agi": 2,
+      "luck": 5,
+      "prof": 1,
+      "def": 1,
+      "res": 0,
+      "mob": 5
+    },
+    "cap": {
+      "hp": 35,
+      "str": 13,
+      "mag": 10,
+      "dex": 18,
+      "agi": 16,
+      "luck": 30,
+      "prof": 30,
+      "def": 10,
+      "res": 8,
+      "mob": 8
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 0,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Spear"
+    ],
+    "skill": [
+      "Industry"
+    ],
+    "recruit": "Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24.",
+    "prf": ""
+  },
+  "troy": {
+    "name": "Troy",
+    "class": "Paladin",
+    "portrait": "troy.png",
+    "level": 25,
+    "base": {
+      "hp": 43,
+      "str": 14,
+      "mag": 2,
+      "dex": 16,
+      "agi": 17,
+      "luck": 8,
+      "prof": 20,
+      "def": 16,
+      "res": 7,
+      "mob": 8
+    },
+    "cap": {
+      "hp": 46,
+      "str": 19,
+      "mag": false,
+      "dex": 19,
+      "agi": 20,
+      "luck": false,
+      "prof": 30,
+      "def": 17,
+      "res": false,
+      "mob": 10
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 60,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Multichance",
+      "Lightfoot",
+      "Triple Threat"
+    ],
+    "givesupport": {
+      "Tasha": {
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Lea": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Zade": {
+        "acc": 5,
+        "eva": 5
+      }
+    },
+    "recruit": "[Guest Appearance] Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24. [Permanent Join] Returns on Turn 10 Player Phase of Chapter 25.",
+    "prf": ""
+  },
+  "lea": {
+    "name": "Lea",
+    "class": "Maiden Knight",
+    "portrait": "lea.png",
+    "level": 8,
+    "base": {
+      "hp": 29,
+      "str": 9,
+      "mag": 9,
+      "dex": 11,
+      "agi": 12,
+      "luck": 9,
+      "prof": 11,
+      "def": 10,
+      "res": 8,
+      "mob": 8
+    },
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": 20,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": 17,
+      "res": 14,
+      "mob": 10
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Multichance",
+      "Critical Dodge",
+      "Benison",
+      "Shield"
+    ],
+    "recievesupport": {
+      "Troy": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Grandmother": {
+        "atk": 3,
+        "acc": 20,
+        "crit": 10,
+        "eva": 20,
+        "ceva": 10,
+        "def": 3,
+        "res": 3
+      }
+    },
+    "recruit": "[Guest Appearance] Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24. [Permanent Join] Returns on Turn 10 Player Phase of Chapter 25.",
+    "prf": ""
+  },
+  "paulos": {
+    "name": "Paulos",
+    "class": "General",
+    "portrait": "paulos.png",
+    "level": 26,
+    "base": {
+      "hp": 50,
+      "str": 18,
+      "mag": 1,
+      "dex": 14,
+      "agi": 9,
+      "luck": 3,
+      "prof": 30,
+      "def": 16,
+      "res": 4,
+      "mob": 5
+    },
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Good Neighbor II"
+    ],
+    "recruit": "Available from the preparation menu for Chapter 25.",
+    "prf": ""
+  },
+  "athol": {
+    "name": "Athol",
+    "class": "Starmaiden",
+    "portrait": "athol.png",
+    "level": 30,
+    "base": {
+      "hp": 28,
+      "str": 0,
+      "mag": 17,
+      "dex": 12,
+      "agi": 11,
+      "luck": 15,
+      "prof": 19,
+      "def": 1,
+      "res": 12,
+      "mob": 0
+    },
+    "cap": {
+      "hp": false,
+      "str": 0,
+      "mag": false,
+      "dex": 12,
+      "agi": false,
+      "luck": false,
+      "prof": 30,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": 45,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Staff"
+    ],
+    "skill": [
+      "Charisma",
+      "Benison"
+    ],
+    "givesupport": {
+      "Zade": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 20,
+        "res": 20
+      }
+    },
+    "recruit": "Recruited by having Zade reach 1 tile right 1 tile below Adonsphair's Head in Chapter 25.",
+    "prf": ""
+  }
+}

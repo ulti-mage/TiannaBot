@@ -75,16 +75,6 @@ async def unit(interaction: discord.Interaction, name: str, level: int, promoted
             await interaction.response.send_message('That unit does not exist', ephemeral=True)
 
 
-def get_unit_name_choices(ctx: str) -> list[app_commands.Choice]:
-    with open(bws_unit_data_file, 'r') as f:
-        unit_names = list(json.load(f).keys())
-        choices = []
-        for name in unit_names:
-            if (ctx.lower() in name.lower()) and (len(choices) < 25):
-                choices.append(app_commands.Choice(name=name.title(), value=name))
-    return choices
-
-
 def get_unit_stats_embed(unit_json: json) -> discord.Embed:
     embed = discord.Embed(title=unit_json['name'], color=0x8a428a)
     embed.add_field(name='', value='Lvl ' + str(unit_json['lvl']) + ' ' + unit_json['class'], inline=False)
@@ -267,16 +257,6 @@ async def item(interaction: discord.Interaction, name: str):
             await interaction.response.send_message('That item does not exist', ephemeral=True)
 
 
-def get_item_name_choices(ctx: str) -> list[app_commands.Choice]:
-    with open(bws_item_data_file, 'r') as f:
-        item_json = list(json.load(f).keys())
-        choices = []
-        for name in item_json:
-            if (ctx.lower() in name.lower()) and (len(choices) < 25):
-                choices.append(app_commands.Choice(name=name, value=name))
-    return choices
-
-
 def get_item_stats_embed(item_json: json):
     embed = discord.Embed(title=item_json['name'], color=0x8a428a)
     stats = ''
@@ -327,16 +307,6 @@ async def skill(interaction: discord.Interaction, name: str):
             await interaction.response.send_message('That skill does not exist', ephemeral=True)
 
 
-def get_skill_name_choices(ctx: str) -> list[app_commands.Choice]:
-    with open(bws_skill_data_file, 'r') as f:
-        skill_json = list(json.load(f).keys())
-        choices = []
-        for name in skill_json:
-            if (ctx.lower() in name.lower()) and (len(choices) < 25):
-                choices.append(app_commands.Choice(name=name, value=name))
-    return choices
-
-
 def get_skill_data_embed(skill_json: json) -> discord.Embed:
     embed = discord.Embed(title=skill_json['name'], color=0x8a428a)
     info = ''
@@ -359,25 +329,17 @@ async def furniture(interaction: discord.Interaction, name: str):
             embed = discord.Embed(color=0x8a428a)
             image = discord.File('bws/images/explain.png', filename='explain.png')
             embed.set_image(url='attachment://' + 'explain.png')
+            found = True
             await interaction.response.send_message(embed=embed, file=image)
-        for k in furniture_json:
-            if k.lower().startswith(name.lower()):
-                embed = get_furniture_data_embed(furniture_json[k])
-                await interaction.response.send_message(embed=embed)
-                found = True
-                break
+        else:
+            for k in furniture_json:
+                if k.lower().startswith(name.lower()):
+                    embed = get_furniture_data_embed(furniture_json[k])
+                    await interaction.response.send_message(embed=embed)
+                    found = True
+                    break
         if not found:
             await interaction.response.send_message('That furniture does not exist', ephemeral=True)
-
-
-def get_furniture_name_choices(ctx: str) -> list[app_commands.Choice]:
-    with open(bws_furniture_data_file, 'r') as f:
-        furniture_json = list(json.load(f).keys())
-        choices = []
-        for name in furniture_json:
-            if (ctx.lower() in name.lower()) and (len(choices) < 25):
-                choices.append(app_commands.Choice(name=name, value=name))
-    return choices
 
 
 def get_furniture_data_embed(furniture_json: json) -> discord.Embed:
@@ -449,16 +411,6 @@ async def food(interaction: discord.Interaction, name: str):
                 break
         if not found:
             await interaction.response.send_message('That food does not exist', ephemeral=True)
-
-
-def get_food_name_choices(ctx: str) -> list[app_commands.Choice]:
-    with open(bws_food_data_file, 'r') as f:
-        food_json = list(json.load(f).keys())
-        choices = []
-        for name in food_json:
-            if (ctx.lower() in name.lower()) and (len(choices) < 25):
-                choices.append(app_commands.Choice(name=name, value=name))
-    return choices
 
 
 def get_food_liked_embed(food_json: json) -> discord.Embed:

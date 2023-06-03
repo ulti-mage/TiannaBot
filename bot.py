@@ -3,10 +3,32 @@ import typing
 import discord
 from discord import app_commands
 from discord.ext import commands
+import json
 import bws
 import trs
 
 bot = commands.Bot(command_prefix='/', intents=discord.Intents.default())
+
+bws_unit_data_file = 'bws/unitdata.json'
+bws_item_data_file = 'bws/itemdata.json'
+bws_skill_data_file = 'bws/skilldata.json'
+bws_furniture_data_file = 'bws/furnituredata.json'
+bws_food_data_file = 'bws/fooddata.json'
+
+trs_unit_data_file = 'trs/unitdata.json'
+trs_class_data_file = 'trs/classdata.json'
+trs_item_data_file = 'trs/itemdata.json'
+trs_skill_data_file = 'trs/skilldata.json'
+
+
+def get_name_choices(ctx: str, file: str) -> list[app_commands.Choice]:
+    with open(file, 'r') as f:
+        name_json = json.load(f)
+        choices = []
+        for k in name_json:
+            if (ctx.lower() in name_json[k]['name'].lower()) and (len(choices) < 25):
+                choices.append(app_commands.Choice(name=name_json[k]['name'], value=name_json[k]['name']))
+    return choices
 
 
 class General(app_commands.Group):
@@ -35,7 +57,7 @@ class Berwick(app_commands.Group):
 
     @unit.autocomplete('name')
     async def unit_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
-        return bws.get_unit_name_choices(current)
+        return get_name_choices(current, bws_unit_data_file)
 
     @app_commands.command(name='item', description='Get Berwick Saga item data')
     async def item(self, interaction: discord.Interaction, name: str):
@@ -43,7 +65,7 @@ class Berwick(app_commands.Group):
 
     @item.autocomplete('name')
     async def item_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
-        return bws.get_item_name_choices(current)
+        return get_name_choices(current, bws_item_data_file)
 
     @app_commands.command(name='skill', description='Get Berwick Saga skill data')
     async def skill(self, interaction: discord.Interaction, name: str):
@@ -51,7 +73,7 @@ class Berwick(app_commands.Group):
 
     @skill.autocomplete('name')
     async def skill_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
-        return bws.get_skill_name_choices(current)
+        return get_name_choices(current, bws_skill_data_file)
 
     @app_commands.command(name='furniture', description='Get Berwick Saga furniture data')
     async def furniture(self, interaction: discord.Interaction, name: str):
@@ -59,7 +81,7 @@ class Berwick(app_commands.Group):
 
     @furniture.autocomplete('name')
     async def furniture_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
-        return bws.get_furniture_name_choices(current)
+        return get_name_choices(current, bws_furniture_data_file)
 
     @app_commands.command(name='food', description='Get Berwick Saga food data')
     async def food(self, interaction: discord.Interaction, name: str):
@@ -67,7 +89,7 @@ class Berwick(app_commands.Group):
 
     @food.autocomplete('name')
     async def food_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
-        return bws.get_food_name_choices(current)
+        return get_name_choices(current, bws_food_data_file)
 
 
 bot.tree.add_command(Berwick(name='bws', description='Berwick Data'))
@@ -83,15 +105,15 @@ class TearRing(app_commands.Group):
                        promoted: typing.Optional[bool] = None,
                        reeve: typing.Optional[bool] = False,
                        salia: typing.Optional[bool] = False):
-        await trs.unitdata(interaction, name, personal, classname, level, promoted, reeve, salia)
+        await trs.unit(interaction, name, personal, classname, level, promoted, reeve, salia)
 
     @unitdata.autocomplete('name')
     async def unit_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
-        return trs.get_unit_name_choices(current)
+        return get_name_choices(current, trs_unit_data_file)
 
     @unitdata.autocomplete('classname')
     async def class_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
-        return trs.get_class_name_choices(current)
+        return get_name_choices(current, trs_class_data_file)
 
     @app_commands.command(name='class', description='Get TearRing Saga class data')
     async def classdata(self, interaction: discord.Interaction, name: str):
@@ -99,7 +121,23 @@ class TearRing(app_commands.Group):
 
     @classdata.autocomplete('name')
     async def class_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
-        return trs.get_class_name_choices(current)
+        return get_name_choices(current, trs_class_data_file)
+
+    @app_commands.command(name='skill', description='Get TearRing Saga skill data')
+    async def skilldata(self, interaction: discord.Interaction, name: str):
+        await trs.skill(interaction, name)
+
+    @skilldata.autocomplete('name')
+    async def skill_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, trs_skill_data_file)
+
+    @app_commands.command(name='item', description='Get TearRing Saga item data')
+    async def itemdata(self, interaction: discord.Interaction, name: str):
+        await trs.item(interaction, name)
+
+    @itemdata.autocomplete('name')
+    async def skill_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, trs_item_data_file)
 
 
 bot.tree.add_command(TearRing(name='trs', description='TearRing Data'))

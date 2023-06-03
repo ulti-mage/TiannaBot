@@ -1,0 +1,145 @@
+{
+  "terra": {
+    "name": "Terra",
+    "description": "User performs a critical attack that ignores Terrain effects.\nCan't activate with Adept, Draco or Astra.",
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+  },
+  "Sol": {
+    "name": "Sol",
+    "description": "User restores HP equal to damage dealt.\nCan't activate with other skills.",
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+  },
+  "wrath": {
+    "name": "Wrath",
+    "description": "As HP decreases, Crit increases.",
+    "activation": "(100-[HP x 100 / MHP])%"
+  },
+  "astra": {
+    "name": "Astra",
+    "description": "User performs a 5-hit attack if using a pysical melee weapon.\nCan't activate with Adept, Draco or Terra.",
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+  },
+  "luna": {
+    "name": "Luna",
+    "description": "User negates foe's defence/magical defense.\nCan't activate with other skills.",
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+  },
+  "vantage": {
+    "name": "Vantage",
+    "description": "User strikes first in combat.",
+    "activation": "Unit Speed > Foe Speed"
+  },
+  "lethality": {
+    "name": "Lethality",
+    "description": "User kills foe if using a physical melee weapon and if a critical hit would kill.",
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+  },
+  "adept": {
+    "name": "Adept",
+    "description": "User performs a 2-hit attack.\nCan't activate with Draco, Terra or Astra.",
+    "activation": "(User Speed)%"
+  },
+  "draco": {
+    "name": "Draco",
+    "description": "User does triple damage if using a pysical melee weapon as an infantry unit.\nCan't activate with Adept, Terra or Astra.",
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+  },
+  "pavise": {
+    "name": "Pavise",
+    "description": "User gains 20 defense.",
+    "activation": "(User Level)%"
+  },
+  "mug": {
+    "name": "Mug",
+    "description": "User steals all non ☆ weapons and items from defeated foe. Reduces Hit and Avoid of allies within 3 spaces by 50."
+  },
+  "steal": {
+    "name": "Steal",
+    "description": "User steals a non ☆ weapon or item from foe after combat.",
+    "activation": "(User Skill + Speed)%"
+  },
+  "Nihil": {
+    "name": "Nihil",
+    "description": "User ignores foe's combat skills."
+  },
+  "paragon": {
+    "name": "Paragon",
+    "description": "User gains 2x EXP."
+  },
+  "canto": {
+    "name": "Canto",
+    "description": "User can use left over move after attacking. Only usable by mounted units."
+  },
+  "flurry": {
+    "name": "Flurry",
+    "description": "User gains the Flurry command. Initiates 2~5 rounds of combat.",
+    "activation": "Unit Speed > Foe Speed"
+  },
+  "dance": {
+    "name": "Dance",
+    "description": "User allows an ally to move again.\nCycles between 7 states when used and starts at 0.\nState 2 can grant Ensorcel, State 4 can grant Enarmor, State 6 can grant Empower. \nChances for effects are (Times danced{max 250} - 150)/10"
+  },
+  "sing": {
+    "name": "Sing",
+    "description": "User restores HP of allies and may make them move again.\nS = Times sang so far (max 250), HP restored = (S + 5)/50, min 2, Range = (Level/5) +1, max 4, Refresh chance = (S / 50) + 2* (Recieved Support/5) + 10, excludes Plum"
+  },
+  "warp": {
+    "name": "Warp",
+    "description": "User can teleport to a traversable space and act afterwards."
+  },
+  "summon": {
+    "name": "Summon",
+    "description": "User can use special summoning staves."
+  },
+  "lockpick": {
+    "name": "Lockpick",
+    "description": "User can open doors and chests without keys."
+  },
+  "slayer": {
+    "name": "Slayer",
+    "description": "User gains +10 Hit and Avoid against monsters."
+  },
+  "charisma": {
+    "name": "Charisma",
+    "description": "Grants allies within 3 squares +5% Hit and Avoid."
+  },
+  "forester": {
+    "name": "Forester",
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Forest maps."
+  },
+  "grassrunner": {
+    "name": "Grassrunner",
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Grass maps."
+  },
+  "mountaineer": {
+    "name": "Mountaineer",
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Mountain maps."
+  },
+  "seafarer": {
+    "name": "Seafarer",
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Sea maps."
+  },
+  "frontiersman": {
+    "name": "Frontiersman",
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Frontier maps."
+  },
+  "desertdweller": {
+    "name": "Desert-Dweller",
+    "description": "Unknown, Unused",
+    "activation": "Unknown"
+  },
+  "urbanite": {
+    "name": "Urbanite",
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Castle and Indoor maps."
+  },
+  "gladiator": {
+    "name": "Gladiator",
+    "description": "Unit gains +10% Hit and Avoid in Arenas."
+  },
+  "search": {
+    "name": "Search",
+    "description": "Unknown, Unused",
+    "activation": "Unknown"
+  }
+
+}

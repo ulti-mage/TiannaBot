@@ -1,0 +1,842 @@
+{
+  "liege": {
+    "name": "Liege",
+    "cap": {
+      "hp": 40,
+      "str": 18,
+      "mag": 8,
+      "dex": 18,
+      "agi": 18,
+      "luck": false,
+      "prof": false,
+      "def": 15,
+      "res": 8,
+      "mob": 7
+    }
+  },
+  "meledianprincess": {
+    "name": "Meledian Princess",
+    "cap": {
+      "hp": 30,
+      "str": 0,
+      "mag": 20,
+      "dex": 12,
+      "agi": 20,
+      "luck": 30,
+      "prof": 30,
+      "def": 5,
+      "res": 19,
+      "mob": 5
+    }
+  },
+  "guardian": {
+    "name": "Guardian",
+    "cap": {
+      "hp": 34,
+      "str": 14,
+      "mag": 0,
+      "dex": 13,
+      "agi": 11,
+      "luck": false,
+      "prof": false,
+      "def": 16,
+      "res": 4,
+      "mob": false
+    }
+  },
+  "axefighterm": {
+    "name": "Axefighter (Male)",
+    "cap": {
+      "hp": 40,
+      "str": 16,
+      "mag": 5,
+      "dex": 14,
+      "agi": 16,
+      "luck": false,
+      "prof": false,
+      "def": 9,
+      "res": 5,
+      "mob": false
+    }
+  },
+  "axefighterf": {
+    "name": "Axefighter (Female)",
+    "cap": {
+      "hp": 38,
+      "str": 15,
+      "mag": 5,
+      "dex": 15,
+      "agi": 17,
+      "luck": false,
+      "prof": false,
+      "def": 8,
+      "res": 6,
+      "mob": false
+    }
+  },
+  "goliath": {
+    "name": "Goliath",
+    "cap": {
+      "hp": 80,
+      "str": 16,
+      "mag": 5,
+      "dex": 14,
+      "agi": 16,
+      "luck": false,
+      "prof": false,
+      "def": 11,
+      "res": 5,
+      "mob": false
+    }
+  },
+  "hunterm": {
+    "name": "Hunter (Male)",
+    "cap": {
+      "hp": 29,
+      "str": 14,
+      "mag": false,
+      "dex": 14,
+      "agi": 14,
+      "luck": false,
+      "prof": false,
+      "def": 8,
+      "res": 6,
+      "mob": false
+    }
+  },
+  "hunterf": {
+    "name": "Hunter (Female)",
+    "cap": {
+      "hp": 28,
+      "str": 13,
+      "mag": 8,
+      "dex": 15,
+      "agi": 15,
+      "luck": false,
+      "prof": false,
+      "def": 7,
+      "res": 5,
+      "mob": 0
+    }
+  },
+  "thief": {
+    "name": "Thief",
+    "cap": {
+      "hp": 25,
+      "str": 3,
+      "mag": false,
+      "dex": 20,
+      "agi": 22,
+      "luck": false,
+      "prof": false,
+      "def": 3,
+      "res": false,
+      "mob": false
+    }
+  },
+  "swordfighterm": {
+    "name": "Swordfighter (Male)",
+    "cap": {
+      "hp": 32,
+      "str": 14,
+      "mag": false,
+      "dex": 17,
+      "agi": 15,
+      "luck": false,
+      "prof": false,
+      "def": 8,
+      "res": false,
+      "mob": false
+    }
+  },
+  "swordfighterf": {
+    "name": "Swordfighter (Female)",
+    "cap": {
+      "hp": 30,
+      "str": 13,
+      "mag": 5,
+      "dex": 18,
+      "agi": 16,
+      "luck": false,
+      "prof": false,
+      "def": 7,
+      "res": 6,
+      "mob": false
+    }
+  },
+  "servant": {
+    "name": "Servant",
+    "cap": {
+      "hp": 27,
+      "str": 3,
+      "mag": 5,
+      "dex": 16,
+      "agi": 18,
+      "luck": false,
+      "prof": false,
+      "def": 4,
+      "res": 2,
+      "mob": 8
+    }
+  },
+  "knightm": {
+    "name": "Knight (Male)",
+    "cap": {
+      "hp": 34,
+      "str": 13,
+      "mag": false,
+      "dex": 13,
+      "agi": 13,
+      "luck": false,
+      "prof": false,
+      "def": 13,
+      "res": false,
+      "mob": false
+    }
+  },
+  "knightf": {
+    "name": "Knight (Female)",
+    "cap": {
+      "hp": 32,
+      "str": 12,
+      "mag": 12,
+      "dex": 14,
+      "agi": 14,
+      "luck": false,
+      "prof": false,
+      "def": 12,
+      "res": 6,
+      "mob": 10
+    }
+  },
+  "stepperunner": {
+    "name": "Steppe Runner",
+    "cap": {
+      "hp": 27,
+      "str": 12,
+      "mag": 5,
+      "dex": 15,
+      "agi": 18,
+      "luck": false,
+      "prof": false,
+      "def": 9,
+      "res": 7,
+      "mob": false
+    }
+  },
+  "ranger": {
+    "name": "Ranger",
+    "cap": {
+      "hp": 30,
+      "str": 13,
+      "mag": false,
+      "dex": 14,
+      "agi": 15,
+      "luck": false,
+      "prof": false,
+      "def": 11,
+      "res": false,
+      "mob": false
+    }
+  },
+  "lanceknight": {
+    "name": "Lance Knight",
+    "cap": {
+      "hp": 36,
+      "str": 15,
+      "mag": 10,
+      "dex": 13,
+      "agi": 12,
+      "luck": false,
+      "prof": false,
+      "def": 13,
+      "res": false,
+      "mob": false
+    }
+  },
+  "thaumaturge": {
+    "name": "Thaumaturge",
+    "cap": {
+      "hp": 27,
+      "str": 9,
+      "mag": 18,
+      "dex": 16,
+      "agi": 16,
+      "luck": false,
+      "prof": false,
+      "def": 9,
+      "res": 9,
+      "mob": false
+    }
+  },
+  "sestra": {
+    "name": "Sestra",
+    "cap": {
+      "hp": 20,
+      "str": 0,
+      "mag": 15,
+      "dex": 14,
+      "agi": 16,
+      "luck": false,
+      "prof": false,
+      "def": 5,
+      "res": 18,
+      "mob": false
+    }
+  },
+  "vestalmagem": {
+    "name": "Vestal Mage (Male)",
+    "cap": {
+      "hp": 27,
+      "str": 0,
+      "mag": 11,
+      "dex": 15,
+      "agi": 16,
+      "luck": false,
+      "prof": false,
+      "def": 6,
+      "res": 13,
+      "mob": false
+    }
+  },
+  "vestalmagef": {
+    "name": "Vestal Mage (Female)",
+    "cap": {
+      "hp": 26,
+      "str": 0,
+      "mag": 15,
+      "dex": 16,
+      "agi": 17,
+      "luck": false,
+      "prof": false,
+      "def": 6,
+      "res": false,
+      "mob": false
+    }
+  },
+  "sphirianmagef": {
+    "name": "Sphirian Mage (Female)",
+    "cap": {
+      "hp": 27,
+      "str": 0,
+      "mag": 14,
+      "dex": 16,
+      "agi": 16,
+      "luck": false,
+      "prof": false,
+      "def": 7,
+      "res": 12,
+      "mob": false
+    }
+  },
+  "priestess": {
+    "name": "Priestess",
+    "cap": {
+      "hp": 26,
+      "str": 0,
+      "mag": 14,
+      "dex": 13,
+      "agi": 13,
+      "luck": false,
+      "prof": false,
+      "def": 5,
+      "res": 14,
+      "mob": false
+    }
+  },
+  "starling": {
+    "name": "Starling",
+    "cap": {
+      "hp": 24,
+      "str": 0,
+      "mag": 16,
+      "dex": 17,
+      "agi": 15,
+      "luck": false,
+      "prof": false,
+      "def": 5,
+      "res": 10,
+      "mob": false
+    }
+  },
+  "nevesta": {
+    "name": "Nevesta",
+    "cap": {
+      "hp": 24,
+      "str": 3,
+      "mag": 15,
+      "dex": 24,
+      "agi": 30,
+      "luck": 30,
+      "prof": false,
+      "def": 3,
+      "res": 12,
+      "mob": 8
+    }
+  },
+  "eagleriderf": {
+    "name": "Eagle Rider (Female)",
+    "cap": {
+      "hp": 33,
+      "str": 10,
+      "mag": 5,
+      "dex": 16,
+      "agi": 19,
+      "luck": false,
+      "prof": false,
+      "def": 10,
+      "res": 7,
+      "mob": false
+    }
+  },
+  "eagleriderd": {
+    "name": "Eagle Rider (Dismounted)",
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": false,
+      "def": false,
+      "res": false,
+      "mob": false
+    }
+  },
+  "eidolon": {
+    "name": "Eidolon",
+    "cap": {
+      "hp": 40,
+      "str": 15,
+      "mag": false,
+      "dex": 14,
+      "agi": 15,
+      "luck": 30,
+      "prof": 30,
+      "def": 16,
+      "res": 10,
+      "mob": 8
+    }
+  },
+  "archliege": {
+    "name": "Archliege",
+    "cap": {
+      "hp": 50,
+      "str": 25,
+      "mag": 15,
+      "dex": 25,
+      "agi": 25,
+      "luck": false,
+      "prof": 30,
+      "def": 20,
+      "res": 15,
+      "mob": 10
+    }
+  },
+  "archlieged": {
+    "name": "Archliege (Dismounted)",
+    "cap": {
+      "hp": 50,
+      "str": 25,
+      "mag": 15,
+      "dex": 25,
+      "agi": 25,
+      "luck": false,
+      "prof": 30,
+      "def": 22,
+      "res": 13,
+      "mob": 7
+    }
+  },
+  "gladiator": {
+    "name": "Gladiator",
+    "cap": {
+      "hp": 54,
+      "str": 24,
+      "mag": 5,
+      "dex": 18,
+      "agi": 20,
+      "luck": 10,
+      "prof": 30,
+      "def": 15,
+      "res": 0,
+      "mob": 8
+    }
+  },
+  "grandguardian": {
+    "name": "Grand Guardian",
+    "cap": {
+      "hp": 50,
+      "str": 16,
+      "mag": 0,
+      "dex": 15,
+      "agi": 12,
+      "luck": 30,
+      "prof": 30,
+      "def": 24,
+      "res": 6,
+      "mob": 6
+    }
+  },
+  "deadshotm": {
+    "name": "Deadshot (Male)",
+    "cap": {
+      "hp": 35,
+      "str": 19,
+      "mag": 15,
+      "dex": 20,
+      "agi": 19,
+      "luck": 30,
+      "prof": 30,
+      "def": 12,
+      "res": 7,
+      "mob": 8
+    }
+  },
+  "deadshotf": {
+    "name": "Deadshot (Female)",
+    "cap": {
+      "hp": 34,
+      "str": 18,
+      "mag": 16,
+      "dex": 21,
+      "agi": 20,
+      "luck": 30,
+      "prof": 30,
+      "def": 11,
+      "res": 6,
+      "mob": 8
+    }
+  },
+  "axemasterm": {
+    "name": "Axemaster (Male)",
+    "cap": {
+      "hp": 52,
+      "str": 25,
+      "mag": 10,
+      "dex": 20,
+      "agi": 24,
+      "luck": 30,
+      "prof": 30,
+      "def": 14,
+      "res": 5,
+      "mob": 8
+    }
+  },
+  "axemasterf": {
+    "name": "Axemaster (Female)",
+    "cap": {
+      "hp": 50,
+      "str": 23,
+      "mag": 10,
+      "dex": 21,
+      "agi": 21,
+      "luck": false,
+      "prof": 30,
+      "def": 13,
+      "res": 6,
+      "mob": false
+    }
+  },
+  "thiefhunter": {
+    "name": "Thief Hunter",
+    "cap": {
+      "hp": 28,
+      "str": 3,
+      "mag": 3,
+      "dex": 22,
+      "agi": 24,
+      "luck": 30,
+      "prof": 30,
+      "def": 4,
+      "res": 3,
+      "mob": 8
+    }
+  },
+  "swordmasterm": {
+    "name": "Swordmaster (Male)",
+    "cap": {
+      "hp": 40,
+      "str": 20,
+      "mag": 10,
+      "dex": 28,
+      "agi": 25,
+      "luck": 30,
+      "prof": 30,
+      "def": 14,
+      "res": 9,
+      "mob": 8
+    }
+  },
+  "sworddancer": {
+    "name": "Sword Dancer",
+    "cap": {
+      "hp": 35,
+      "str": 16,
+      "mag": 15,
+      "dex": 19,
+      "agi": 19,
+      "luck": 30,
+      "prof": 30,
+      "def": 7,
+      "res": 10,
+      "mob": 8
+    }
+  },
+  "truearcher": {
+    "name": "True Archer",
+    "cap": {
+      "hp": 32,
+      "str": 14,
+      "mag": 7,
+      "dex": 18,
+      "agi": 14,
+      "luck": false,
+      "prof": 30,
+      "def": 20,
+      "res": 6,
+      "mob": false
+    }
+  },
+  "swordlion": {
+    "name": "Sword Lion",
+    "cap": {
+      "hp": 45,
+      "str": 22,
+      "mag": 15,
+      "dex": 25,
+      "agi": 23,
+      "luck": false,
+      "prof": false,
+      "def": 17,
+      "res": 6,
+      "mob": false
+    }
+  },
+  "paladinm": {
+    "name": "Paladin (Male)",
+    "cap": {
+      "hp": 46,
+      "str": 19,
+      "mag": 15,
+      "dex": 19,
+      "agi": 20,
+      "luck": 30,
+      "prof": 30,
+      "def": 18,
+      "res": 12,
+      "mob": 10
+    }
+  },
+  "paladinf": {
+    "name": "Paladin (Female)",
+    "cap": {
+      "hp": 44,
+      "str": 18,
+      "mag": 17,
+      "dex": 20,
+      "agi": 22,
+      "luck": 30,
+      "prof": 30,
+      "def": 16,
+      "res": 14,
+      "mob": 10
+    }
+  },
+  "silkenknight": {
+    "name": "Silken Knight",
+    "cap": {
+      "hp": 38,
+      "str": 18,
+      "mag": 15,
+      "dex": 20,
+      "agi": 22,
+      "luck": false,
+      "prof": false,
+      "def": 16,
+      "res": 10,
+      "mob": 10
+    }
+  },
+  "tarkhanm": {
+    "name": "Tarkhan (Male)",
+    "cap": {
+      "hp": 38,
+      "str": 17,
+      "mag": 5,
+      "dex": 18,
+      "agi": 18,
+      "luck": false,
+      "prof": 30,
+      "def": 16,
+      "res": 10,
+      "mob": false
+    }
+  },
+  "tarkhanf": {
+    "name": "Tarkhan (Female)",
+    "cap": {
+      "hp": 36,
+      "str": 17,
+      "mag": 8,
+      "dex": 19,
+      "agi": 19,
+      "luck": false,
+      "prof": false,
+      "def": 15,
+      "res": 11,
+      "mob": false
+    }
+  },
+  "greatlancer": {
+    "name": "Great Lancer",
+    "cap": {
+      "hp": 48,
+      "str": 20,
+      "mag": 8,
+      "dex": 18,
+      "agi": 18,
+      "luck": false,
+      "prof": 30,
+      "def": 21,
+      "res": 9,
+      "mob": false
+    }
+  },
+  "bravelion": {
+    "name": "Lion Knight",
+    "cap": {
+      "hp": 46,
+      "str": 20,
+      "mag": 12,
+      "dex": 21,
+      "agi": 20,
+      "luck": false,
+      "prof": 30,
+      "def": 20,
+      "res": 12,
+      "mob": false
+    }
+  },
+  "knightmaster": {
+    "name": "Knight Master",
+    "cap": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": false,
+      "def": false,
+      "res": false,
+      "mob": false
+    }
+  },
+  "archmagem": {
+    "name": "Archmage (Male)",
+    "cap": {
+      "hp": 38,
+      "str": 0,
+      "mag": 17,
+      "dex": 19,
+      "agi": 20,
+      "luck": 30,
+      "prof": 30,
+      "def": 10,
+      "res": 14,
+      "mob": 8
+    }
+  },
+  "archmagef": {
+    "name": "Archmage (Female)",
+    "cap": {
+      "hp": 36,
+      "str": 0,
+      "mag": 19,
+      "dex": 20,
+      "agi": 20,
+      "luck": 30,
+      "prof": 30,
+      "def": 10,
+      "res": 15,
+      "mob": 8
+    }
+  },
+  "highpriest": {
+    "name": "High Priest",
+    "cap": {
+      "hp": 36,
+      "str": 0,
+      "mag": 16,
+      "dex": 18,
+      "agi": 18,
+      "luck": false,
+      "prof": 30,
+      "def": 9,
+      "res": 20,
+      "mob": false
+    }
+  },
+  "highpriestess": {
+    "name": "High Priestess",
+    "cap": {
+      "hp": 34,
+      "str": 0,
+      "mag": 18,
+      "dex": 19,
+      "agi": 19,
+      "luck": 30,
+      "prof": 30,
+      "def": 8,
+      "res": 21,
+      "mob": 8
+    }
+  },
+  "raptorknight": {
+    "name": "Raptor Knight",
+    "cap": {
+      "hp": 38,
+      "str": 14,
+      "mag": 10,
+      "dex": 20,
+      "agi": 22,
+      "luck": 30,
+      "prof": 30,
+      "def": 13,
+      "res": 9,
+      "mob": 10
+    }
+  },
+  "dragonknightf": {
+    "name": "Dragon Knight (Female)",
+    "cap": {
+      "hp": 48,
+      "str": 17,
+      "mag": 10,
+      "dex": 16,
+      "agi": 15,
+      "luck": 30,
+      "prof": 30,
+      "def": 16,
+      "res": 8,
+      "mob": false
+    }
+  },
+  "dragonmaster": {
+    "name": "Dragonmaster",
+    "cap": {
+      "hp": 60,
+      "str": 25,
+      "mag": 15,
+      "dex": 25,
+      "agi": 25,
+      "luck": false,
+      "prof": 30,
+      "def": 25,
+      "res": 10,
+      "mob": false
+    }
+  }
+}

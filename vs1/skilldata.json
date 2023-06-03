@@ -1,0 +1,282 @@
+{
+  "commander": {
+    "name": "Commander",
+    "description": "Improves the accuracy of allies in a 3-space radius by 10"
+  },
+  "commander2": {
+    "name": "Commander II",
+    "description": "Improves the accuracy of allies in a 3-space radius by 15"
+  },
+  "commander3": {
+    "name": "Commander III",
+    "description": "Improves the accuracy of allies in a 3-space radius by 20"
+  },
+  "imperator": {
+    "name": "Imperator",
+    "description": "Improves the accuracy of all allies by 20"
+  },
+  "illustriousgeneral": {
+    "name": "Illustrious General",
+    "description": "Empowers a 12-space radius (Accuracy +40, ATK/DEF/RES +7)"
+  },
+  "imbecile": {
+    "name": "Imbecile",
+    "description": "Inflicts ACC/EVA -10, ATK/DEF/RES -1 to allies in a 5-space radius"
+  },
+  "charisma": {
+    "name": "Charisma",
+    "description": "Improves the evasion of allies in a 5-space radius by 5"
+  },
+  "starmaidensgrace": {
+    "name": "Starmaiden's Grace",
+    "description": "Improves the ATK/DEF/RES of all allies by 2"
+  },
+  "battlehymn": {
+    "name": "Battle Hymn",
+    "description": "Improves the ATK of allies in a 3-space radius by 1"
+  },
+  "darkpall": {
+    "name": "Dark Pall",
+    "description": "Improves the DEF/RES of all allies by 3"
+  },
+  "delirium": {
+    "name": "Delirium",
+    "description": "Improves the critical hit rate of all allies by 17"
+  },
+  "glamor": {
+    "name": "Glamor",
+    "description": "Improves the ATK of adjacent allies by 3"
+  },
+  "goodneighbor": {
+    "name": "Good Neighbor",
+    "description": "Improves the DEF/RES of adjacent allies by 3"
+  },
+  "goodneighbor2": {
+    "name": "Good Neighbor II",
+    "description": "Improves the DEF/RES of adjacent allies by 5"
+  },
+  "multichance": {
+    "name": "Multichance",
+    "description": "Unit may strike twice consecutively (AGI ×3)% of the time",
+    "activation": "(AGI ×3)"
+  },
+  "triplethreat": {
+    "name": "Triple Threat",
+    "description": "Unit may strike thrice consecutively 20% of the time",
+    "activation": "20%"
+  },
+  "flurry": {
+    "name": "Flurry",
+    "description": "Unit may strike five times consecutively (DEX)% of the time",
+    "activation": "(DEX)%"
+  },
+  "deificrevels": {
+    "name": "Deific Revels",
+    "description": "Unit may strike five times (DEX ×3)% of the time",
+    "activation": "(DEX ×3)%"
+  },
+  "multistrike": {
+    "name": "Multistrike",
+    "description": "Unit always strike twice consecutively"
+  },
+  "criticaledge": {
+    "name": "Critical Edge",
+    "description": "Improves the unit's critical hit rate by the dexterity value"
+  },
+  "mettle": {
+    "name": "Mettle",
+    "description": "Improves CRIT by (HP lost/full HP) ×50 if unit's HP is under 50%"
+  },
+  "wrath": {
+    "name": "Wrath",
+    "description": "Has a 25% chance of producing a critical hit when counterattacking",
+    "activation": "25%"
+  },
+  "criticalreprisal": {
+    "name": "Critical Reprisal",
+    "description": "Guarantees the unit's counterattacks are critical hits"
+  },
+  "shield": {
+    "name": "Shield",
+    "description": "Has a (DEX)% chance of nullifying an opponent's attack",
+    "activation": "(DEX)%"
+  },
+  "greatshield": {
+    "name": "Greatshield",
+    "description": "Has an 18% chance of nullifying an opponent's attack",
+    "activation": "18%"
+  },
+  "axedefend": {
+    "name": "Axe Defend",
+    "description": "Negates incoming attacks with an axe",
+    "activation": "(STR)%"
+  },
+  "aegis": {
+    "name": "Aegis",
+    "description": "Negates incoming attacks with a shield of magic",
+    "activation": "(MAG)%"
+  },
+  "aegis2": {
+    "name": "Aegis II",
+    "description": "Negates incoming attacks with a shield of magic",
+    "activation": "(25)%"
+  },
+  "highevasion": {
+    "name": "High Evasion",
+    "description": "Increases the unit's evasion by 20"
+  },
+  "shimmer": {
+    "name": "Shimmer",
+    "description": "Increases the unit's evasion by 50"
+  },
+  "absoluteevasion": {
+    "name": "Absolute Evasion",
+    "description": "Increases the unit's evasion by 100"
+  },
+  "orison": {
+    "name": "Orison",
+    "description": "Improves EVA by (HP lost/full HP) ×50 if unit's HP is under 50%"
+  },
+  "benison": {
+    "name": "Benison",
+    "description": "Has a (LUCK ×2)% chance of saving the unit from a mortal blow",
+    "activation": "(LUCK ×2)%"
+  },
+  "acumen": {
+    "name": "Acumen",
+    "description": "Attacks always connect upon (DEX ×2)% activation",
+    "activation": "(DEX ×2)%"
+  },
+  "deadeye": {
+    "name": "Deadeye",
+    "description": "Attacks always connect"
+  },
+  "lurk": {
+    "name": "Lurk",
+    "description": "Increases terrain evasion bonuses by ×1.5"
+  },
+  "criticaldodge": {
+    "name": "Critical Dodge",
+    "description": "Nullifies the opponent's critical hit rate"
+  },
+  "foresight": {
+    "name": "Foresight",
+    "description": "Nullifies the opponent's chance-based skills"
+  },
+  "dispeleffects": {
+    "name": "Dispel Effects",
+    "description": "Negates incoming effective damage"
+  },
+  "ambush": {
+    "name": "Ambush",
+    "description": "May attack first during combat (AGI ×5)% of the time",
+    "activation": "(AGI ×5)%"
+  },
+  "firstblood": {
+    "name": "First Blood",
+    "description": "Always attacks first during combat"
+  },
+  "regenesis": {
+    "name": "Regenesis",
+    "description": "Recovers 5 HP at the start of each turn"
+  },
+  "grandregenesis": {
+    "name": "Grand Regenesis",
+    "description": "Recovers 30 HP at the start of each turn"
+  },
+  "lifesieve": {
+    "name": "Lifesieve",
+    "description": "Recovers HP by inflicted amount of damage"
+  },
+  "deathless": {
+    "name": "Deathless",
+    "description": "Becomes invincible in combat (cannot go below 1 HP)"
+  },
+  "paralysisstrike": {
+    "name": "Paralysis Strike",
+    "description": "Inflicts Paralysis upon hit"
+  },
+  "poisonstrike": {
+    "name": "Poison Strike",
+    "description": "Inflicts Poison upon hit"
+  },
+  "slumberstrike": {
+    "name": "Slumber Strike",
+    "description": "Inflicts Slumber upon hit"
+  },
+  "berserkstrike": {
+    "name": "Berserk Strike",
+    "description": "Inflicts Berserk upon hit"
+  },
+  "bedevil": {
+    "name": "Bedevil",
+    "description": "Inflicts Berserk upon hit"
+  },
+  "industry": {
+    "name": "Industry",
+    "description": "May perform a second action with 15% chance",
+    "activation": "15%"
+  },
+  "secondwind": {
+    "name": "Second Wind",
+    "description": "May perform a second action with 15% chance",
+    "activation": "15%"
+  },
+  "lightfoot": {
+    "name": "Lightfoot",
+    "description": "Confers +1 Movement"
+  },
+  "lockpick": {
+    "name": "Lockpick",
+    "description": "Opens doors, chests and gates without a key"
+  },
+  "diligence": {
+    "name": "Diligence",
+    "description": "Increases EXP intake by 50%; applies even after class change"
+  },
+  "herbforager": {
+    "name": "Herb Forager",
+    "description": "May obtain a Herbs from the wild with 15% chance (until Turn 23)",
+    "activation": "15%"
+  },
+  "recondition": {
+    "name": "Recondition",
+    "description": "1st item in the inventory gains +1 use each turn (until Turn 20)"
+  },
+  "variegate": {
+    "name": "Variegate",
+    "description": "Blend in with the surroundings to become invisible (Assassins only)"
+  },
+  "haggler": {
+    "name": "Haggler",
+    "description": "Purchase from shops for 25% less"
+  },
+  "masterhaggler": {
+    "name": "Master Haggler",
+    "description": "Purchase from shops for 33% less"
+  },
+  "weaponguard": {
+    "name": "Weaponguard",
+    "description": "Does not expend weapon durability"
+  },
+  "darkhorse": {
+    "name": "Dark Horse",
+    "description": "Growth rates for every non-mobility stats are increased by 10%"
+  },
+  "taskmaster": {
+    "name": "Taskmaster",
+    "description": "Refreshes an adjacent unit"
+  },
+  "supplier": {
+    "name": "Supplier",
+    "description": "Confers unit access to the convoy"
+  },
+  "doublemarch": {
+    "name": "Double March",
+    "description": "Allows the unit to move with remaining movement after an action"
+  },
+  "advancedclass": {
+    "name": "Advanced Class",
+    "description": "Reduces EXP intake to 60% (except for innately-earned EXP)."
+  }
+}

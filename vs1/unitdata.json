@@ -1,0 +1,2734 @@
+{
+  "zade": {
+    "name": "Zade",
+    "class": "liege",
+    "portrait": "zade.png",
+    "lvl": 1,
+    "base": {
+      "hp": 23,
+      "str": 5,
+      "mag": 0,
+      "dex": 5,
+      "agi": 5,
+      "luck": 2,
+      "prof": 5,
+      "def": 5,
+      "res": 0,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 60,
+      "str": 35,
+      "mag": 0,
+      "dex": 40,
+      "agi": 35,
+      "luck": 0,
+      "prof": 55,
+      "def": 30,
+      "res": 5,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword"
+    ],
+    "skill": [
+      "Commander",
+      "Critical Edge",
+      "Commander II (Promotion)"
+    ],
+    "promo": {
+      "name": "archliege",
+      "bonus": {
+        "hp": 3,
+        "str": 2,
+        "mag": 2,
+        "dex": 3,
+        "agi": 3,
+        "luck": 2,
+        "prof": 5,
+        "def": 2,
+        "res": 4,
+        "mob": 2
+      }
+    },
+    "givesupport": {
+      "Theodel": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Merida": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5,
+        "note": "Ch16 event"
+      },
+      "Athol": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Accorte": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Theodel": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Athol": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1,
+        "note": "After Ch15"
+      },
+      "Merida": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5,
+        "note": "Ch16 event"
+      }
+    },
+    "recruit": "Automatically at the start of the Prologue",
+    "prf": "Edelstern☆, Emmung☆"
+  },
+  "athol": {
+    "name": "Athol",
+    "class": "meledianprincess",
+    "portrait": "athol.png",
+    "lvl": 1,
+    "base": {
+      "hp": 18,
+      "str": 0,
+      "mag": 6,
+      "dex": 2,
+      "agi": 5,
+      "luck": 7,
+      "prof": 3,
+      "def": 1,
+      "res": 7,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 30,
+      "str": 0,
+      "mag": 50,
+      "dex": 25,
+      "agi": 25,
+      "luck": 0,
+      "prof": 45,
+      "def": 5,
+      "res": 40,
+      "mob": 0
+    },
+    "weapon": [
+      "Staff"
+    ],
+    "skill": [
+      "Benison",
+      "Charisma (Orthodox)",
+      "Starmaiden's Grace (Clemency)"
+    ],
+    "givesupport": {
+      "Zade": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Zade": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Automatically at the start of the Prologue",
+    "prf": "Vermil Ring☆"
+  },
+  "troy": {
+    "name": "Troy",
+    "class": "knightm",
+    "portrait": "troy.png",
+    "lvl": 4,
+    "base": {
+      "hp": 25,
+      "str": 6,
+      "mag": 0,
+      "dex": 5,
+      "agi": 9,
+      "luck": 3,
+      "prof": 6,
+      "def": 6,
+      "res": 0,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 65,
+      "str": 35,
+      "mag": 0,
+      "dex": 30,
+      "agi": 40,
+      "luck": 0,
+      "prof": 60,
+      "def": 35,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear"
+    ],
+    "skill": [
+      "Multichance",
+      "Triple Threat (Lv. 10)"
+    ],
+    "promo": {
+      "name": "paladinm",
+      "bonus": {
+        "hp": 3,
+        "str": 1,
+        "mag": 2,
+        "dex": 2,
+        "agi": 2,
+        "luck": 0,
+        "prof": 4,
+        "def": 2,
+        "res": 4,
+        "mob": 0
+      },
+      "weapon": [
+        "Throwing Spear"
+      ]
+    },
+    "recruit": "Automatically at the start of the Prologue"
+  },
+  "bonacel": {
+    "name": "Bonacel",
+    "class": "Guardian",
+    "portrait": "bonacel.png",
+    "lvl": 7,
+    "base": {
+      "hp": 31,
+      "str": 9,
+      "mag": 0,
+      "dex": 7,
+      "agi": 4,
+      "luck": 2,
+      "prof": 9,
+      "def": 11,
+      "res": 0,
+      "mob": 4
+    },
+    "growth": {
+      "hp": 70,
+      "str": 40,
+      "mag": 0,
+      "dex": 20,
+      "agi": 20,
+      "luck": 0,
+      "prof": 40,
+      "def": 40,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Shield",
+      "Wrath",
+      "Greatshield (Promotion)"
+    ],
+    "promo": {
+      "name": "grandguard",
+      "bonus": {
+        "hp": 4,
+        "str": 2,
+        "mag": 0,
+        "dex": 1,
+        "agi": 1,
+        "luck": 0,
+        "prof": 3,
+        "def": 4,
+        "res": 0,
+        "mob": 0
+      }
+    },
+    "recruit": "Automatically at the start of the Prologue"
+  },
+  "prody": {
+    "name": "Prody",
+    "class": "guardian",
+    "portrait": "prody.png",
+    "lvl": 2,
+    "base": {
+      "hp": 24,
+      "str": 6,
+      "mag": 0,
+      "dex": 5,
+      "agi": 3,
+      "luck": 0,
+      "prof": 3,
+      "def": 7,
+      "res": 0,
+      "mob": 4
+    },
+    "growth": {
+      "hp": 80,
+      "str": 40,
+      "mag": 0,
+      "dex": 30,
+      "agi": 25,
+      "luck": 0,
+      "prof": 65,
+      "def": 50,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Good Neighbor",
+      "Diligence",
+      "Good Neighbor II (Lv. 15)"
+    ],
+    "promo": {
+      "name": "grandguard",
+      "bonus": {
+        "hp": 4,
+        "str": 2,
+        "mag": 0,
+        "dex": 1,
+        "agi": 1,
+        "luck": 0,
+        "prof": 3,
+        "def": 4,
+        "res": 0,
+        "mob": 0
+      }
+    },
+    "recruit": "Automatically at the start of the Prologue"
+  },
+  "alysia": {
+    "name": "Alysia",
+    "class": "sestra",
+    "portrait": "alysia.png",
+    "lvl": 5,
+    "base": {
+      "hp": 17,
+      "str": 0,
+      "mag": 8,
+      "dex": 6,
+      "agi": 6,
+      "luck": 5,
+      "prof": 11,
+      "def": 1,
+      "res": 8,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 25,
+      "str": 0,
+      "mag": 30,
+      "dex": 30,
+      "agi": 35,
+      "luck": 20,
+      "prof": 40,
+      "def": 8,
+      "res": 30,
+      "mob": 0
+    },
+    "weapon": [
+      "Staff"
+    ],
+    "skill": [
+      "Regenesis",
+      "Benison"
+    ],
+    "givesupport": {
+      "Dune": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Jean": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Ash": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recievesupport": {
+      "Dune": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Visit Lucca Village with Zade in Ch1. Leaves at the end of Ch2"
+  },
+  "dune": {
+    "name": "Dune",
+    "class": "hunterm",
+    "portrait": "dune.png",
+    "lvl": 2,
+    "base": {
+      "hp": 21,
+      "str": 5,
+      "mag": 0,
+      "dex": 6,
+      "agi": 7,
+      "luck": 3,
+      "prof": 7,
+      "def": 2,
+      "res": 0,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 50,
+      "str": 35,
+      "mag": 0,
+      "dex": 30,
+      "agi": 35,
+      "luck": 5,
+      "prof": 50,
+      "def": 20,
+      "res": 5,
+      "mob": 0
+    },
+    "weapon": [
+      "Bow"
+    ],
+    "skill": [
+      "Ambush",
+      "Multichance (Lv. 16)",
+      "Critical Edge (Promotion)"
+    ],
+    "promo": {
+      "name": "deadshotm",
+      "bonus": {
+        "hp": 3,
+        "str": 3,
+        "mag": 0,
+        "dex": 3,
+        "agi": 4,
+        "luck": 0,
+        "prof": 2,
+        "def": 2,
+        "res": 0,
+        "mob": 1
+      }
+    },
+    "givesupport": {
+      "Alysia": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Alysia": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Lyttia": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1,
+        "note": "Ch17 event"
+      }
+    },
+    "recruit": "Visit Lucca Village with Zade in Ch1 ",
+    "prf": "Elder Cornelius☆, Bow of Aragoth☆"
+  },
+  "jean": {
+    "name": "Jean",
+    "class": "axefighterm",
+    "portrait": "jean.png",
+    "lvl": 3,
+    "base": {
+      "hp": 27,
+      "str": 11,
+      "mag": 0,
+      "dex": 3,
+      "agi": 5,
+      "luck": 0,
+      "prof": 7,
+      "def": 3,
+      "res": 0,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 75,
+      "str": 35,
+      "mag": 0,
+      "dex": 20,
+      "agi": 15,
+      "luck": 0,
+      "prof": 30,
+      "def": 18,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Axe"
+    ],
+    "skill": [
+      "Axe Defend",
+      "Critical Edge (Promotion)"
+    ],
+    "promo": {
+      "name": "axemasterm",
+      "bonus": {
+        "hp": 4,
+        "str": 4,
+        "mag": 0,
+        "dex": 4,
+        "agi": 3,
+        "luck": 0,
+        "prof": 4,
+        "def": 2,
+        "res": 0,
+        "mob": 1
+      }
+    },
+    "reclass": {
+      "goliath": {
+        "bonus": {
+          "hp": 20,
+          "str": 0,
+          "mag": 0,
+          "dex": 0,
+          "agi": 0,
+          "luck": 0,
+          "prof": 0,
+          "def": 0,
+          "res": 0,
+          "mob": -1,
+          "condition": "Lvl 15 Axefighter"
+        }
+      }
+    },
+    "givesupport": {
+      "Ash": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recievesupport": {
+      "Ash": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Alysia": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recruit": "Visit Lucca Village with Zade in Ch1 ",
+    "prf": "Axe of Amity☆"
+  },
+  "ash": {
+    "name": "Ash",
+    "class": "axefighterm",
+    "portrait": "ash.png",
+    "lvl": 3,
+    "base": {
+      "hp": 28,
+      "str": 8,
+      "mag": 0,
+      "dex": 4,
+      "agi": 5,
+      "luck": 0,
+      "prof": 10,
+      "def": 4,
+      "res": 0,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 55,
+      "str": 30,
+      "mag": 0,
+      "dex": 25,
+      "agi": 30,
+      "luck": 0,
+      "prof": 45,
+      "def": 23,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Axe"
+    ],
+    "skill": [
+      "Mettle",
+      "Lightfoot (Lv. 8)",
+      "Herb Forager (Lv. 15 + Lilia deployed)",
+      "Critical Edge (Promotion)"
+    ],
+    "promo": {
+      "name": "axemasterm",
+      "bonus": {
+        "hp": 4,
+        "str": 4,
+        "mag": 0,
+        "dex": 4,
+        "agi": 3,
+        "luck": 0,
+        "prof": 4,
+        "def": 2,
+        "res": 0,
+        "mob": 1
+      }
+    },
+    "givesupport": {
+      "Jean": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Lilia": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Jean": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Alysia": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Lilia": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3
+      }
+    },
+    "recruit": "Visit Lucca Village with Zade in Ch1 "
+  },
+  "merida1": {
+    "name": "Merida (Early)",
+    "class": "knightf",
+    "portrait": "merida1.png",
+    "lvl": 1,
+    "base": {
+      "hp": 21,
+      "str": 3,
+      "mag": 6,
+      "dex": 5,
+      "agi": 9,
+      "luck": 6,
+      "prof": 4,
+      "def": 3,
+      "res": 6,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 40,
+      "str": 25,
+      "mag": 20,
+      "dex": 35,
+      "agi": 30,
+      "luck": 0,
+      "prof": 40,
+      "def": 24,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear"
+    ],
+    "skill": [
+      "High Evasion",
+      "Lightfoot"
+    ],
+    "promo": {
+      "name": "paladinf",
+      "bonus": {
+        "hp": 4,
+        "str": 1,
+        "mag": 3,
+        "dex": 1,
+        "agi": 2,
+        "luck": 0,
+        "prof": 5,
+        "def": 2,
+        "res": 4,
+        "mob": 0
+      },
+      "weapon": [
+        "Throwing Spear"
+      ]
+    },
+    "givesupport": {
+      "Zade": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5,
+        "note": "Ch16 event"
+      }
+    },
+    "recievesupport": {
+      "Zade": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5,
+        "note": "Ch16 event"
+      }
+    },
+    "recruit": "Talk to her with Zade, or simply have her survive the map as an NPC in Ch2 (If fell in battle as an NPC in Ch2, re-appears on Turn 9 Player Phase of Ch11 in a unique promoted class, but without her prf spear)",
+    "prf": "Dandelion☆"
+  },
+  "theodel": {
+    "name": "Theodel",
+    "class": "vestalmage",
+    "portrait": "theodel.png",
+    "lvl": 3,
+    "base": {
+      "hp": 23,
+      "str": 0,
+      "mag": 6,
+      "dex": 9,
+      "agi": 4,
+      "luck": 3,
+      "prof": 6,
+      "def": 3,
+      "res": 4,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 35,
+      "str": 0,
+      "mag": 25,
+      "dex": 30,
+      "agi": 35,
+      "luck": 10,
+      "prof": 40,
+      "def": 15,
+      "res": 15,
+      "mob": 0
+    },
+    "weapon": [
+      "Divine Magic",
+      "Spirit Magic"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Aegis"
+    ],
+    "promo": {
+      "name": "archmagem",
+      "bonus": {
+        "hp": 1,
+        "str": 0,
+        "mag": 2,
+        "dex": 2,
+        "agi": 3,
+        "luck": 0,
+        "prof": 3,
+        "def": 1,
+        "res": 1,
+        "mob": 1
+      }
+    },
+    "givesupport": {
+      "Zade": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recievesupport": {
+      "Zade": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recruit": "Automatically on Turn 3 Player Phase of Ch3",
+    "prf": "Almaterna☆, Mother's Necklace"
+  },
+  "cezar": {
+    "name": "Cezar",
+    "class": "thief",
+    "portrait": "cezar.png",
+    "lvl": 1,
+    "base": {
+      "hp": 20,
+      "str": 2,
+      "mag": 0,
+      "dex": 11,
+      "agi": 14,
+      "luck": 0,
+      "prof": 9,
+      "def": 2,
+      "res": 0,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 35,
+      "str": 5,
+      "mag": 0,
+      "dex": 30,
+      "agi": 35,
+      "luck": 5,
+      "prof": 40,
+      "def": 10,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Dagger"
+    ],
+    "skill": [
+      "Lockpick",
+      "Lurk",
+      "Haggler (Promotion)"
+    ],
+    "promo": {
+      "name": "thiefhunter",
+      "bonus": {
+        "hp": 2,
+        "str": 0,
+        "mag": 0,
+        "dex": 2,
+        "agi": 2,
+        "luck": 0,
+        "prof": 3,
+        "def": 1,
+        "res": 0,
+        "mob": 1
+      }
+    },
+    "recruit": "Automatically on Turn 4 Player Phase of Ch3"
+  },
+  "sheela": {
+    "name": "Sheela",
+    "class": "hunterf",
+    "portrait": "sheela.png",
+    "lvl": 1,
+    "base": {
+      "hp": 17,
+      "str": 2,
+      "mag": 3,
+      "dex": 8,
+      "agi": 8,
+      "luck": 0,
+      "prof": 7,
+      "def": 1,
+      "res": 4,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 40,
+      "str": 30,
+      "mag": 25,
+      "dex": 35,
+      "agi": 50,
+      "luck": 10,
+      "prof": 50,
+      "def": 15,
+      "res": 15,
+      "mob": 0
+    },
+    "weapon": [
+      "Bow"
+    ],
+    "skill": [
+      "Lightfoot",
+      "Flurry (Lv. 12)",
+      "Critical Edge (Promotion)"
+    ],
+    "promo": {
+      "name": "deadshotf",
+      "bonus": {
+        "hp": 3,
+        "str": 3,
+        "mag": 0,
+        "dex": 3,
+        "agi": 4,
+        "luck": 0,
+        "prof": 2,
+        "def": 2,
+        "res": 0,
+        "mob": 1
+      }
+    },
+    "givesupport": {
+      "Zayid": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3
+      }
+    },
+    "recievesupport": {
+      "Zayid": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Seize Thebes with Zade in Ch3",
+    "prf": "Soaring Flame☆"
+  },
+  "zayid": {
+    "name": "Zayid",
+    "class": "gladiator",
+    "portrait": "zayid.png",
+    "lvl": 3,
+    "base": {
+      "hp": 33,
+      "str": 12,
+      "mag": 0,
+      "dex": 9,
+      "agi": 10,
+      "luck": 0,
+      "prof": 11,
+      "def": 7,
+      "res": 0,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 65,
+      "str": 40,
+      "mag": 0,
+      "dex": 15,
+      "agi": 20,
+      "luck": 0,
+      "prof": 35,
+      "def": 20,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword",
+      "Axe"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Wrath"
+    ],
+    "givesupport": {
+      "Sheela": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Sheela": {
+        "atk": 1,
+        "acc": 15,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3
+      }
+    },
+    "recruit": "Visit the Yapa Yurt with either Cezar or Sheela in Ch3",
+    "prf": "Agza's Crescent☆"
+  },
+  "haldyn": {
+    "name": "Haldyn",
+    "class": "swordfighterm",
+    "portrait": "haldyn.png",
+    "lvl": 5,
+    "base": {
+      "hp": 26,
+      "str": 7,
+      "mag": 0,
+      "dex": 13,
+      "agi": 12,
+      "luck": 3,
+      "prof": 10,
+      "def": 4,
+      "res": 0,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 55,
+      "str": 35,
+      "mag": 0,
+      "dex": 40,
+      "agi": 35,
+      "luck": 0,
+      "prof": 50,
+      "def": 22,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Multichance",
+      "Mettle"
+    ],
+    "promo": {
+      "name": "swordmasterm",
+      "bonus": {
+        "hp": 5,
+        "str": 3,
+        "mag": 0,
+        "dex": 4,
+        "agi": 3,
+        "luck": 0,
+        "prof": 4,
+        "def": 2,
+        "res": 0,
+        "mob": 1
+      }
+    },
+    "recruit": "Automatically at the start of Ch4"
+  },
+  "rubina": {
+    "name": "Rubina",
+    "class": "eagleriderf",
+    "portrait": "rubina.png",
+    "lvl": 1,
+    "base": {
+      "hp": 20,
+      "str": 4,
+      "mag": 5,
+      "dex": 5,
+      "agi": 8,
+      "luck": 7,
+      "prof": 6,
+      "def": 3,
+      "res": 1,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 50,
+      "str": 35,
+      "mag": 5,
+      "dex": 30,
+      "agi": 35,
+      "luck": 40,
+      "prof": 30,
+      "def": 20,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Wrath"
+    ],
+    "promo": {
+      "name": "raptorknight",
+      "bonus": {
+        "hp": 3,
+        "str": 2,
+        "mag": 0,
+        "dex": 2,
+        "agi": 2,
+        "luck": 0,
+        "prof": 4,
+        "def": 1,
+        "res": 0,
+        "mob": 0
+      },
+      "weapon": [
+        "Throwing Spear"
+      ]
+    },
+    "givesupport": {
+      "Yaeri": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recievesupport": {
+      "Aslanne": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Yaeri": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recruit": "Automatically on Turn 3 Player Phase of Ch5",
+    "prf": "Doyenne"
+  },
+  "yaeri": {
+    "name": "Yaeri",
+    "class": "eagleriderf",
+    "portrait": "yaeri.png",
+    "lvl": 3,
+    "base": {
+      "hp": 21,
+      "str": 5,
+      "mag": 5,
+      "dex": 6,
+      "agi": 10,
+      "luck": 4,
+      "prof": 8,
+      "def": 4,
+      "res": 2,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 40,
+      "str": 25,
+      "mag": 10,
+      "dex": 35,
+      "agi": 25,
+      "luck": 0,
+      "prof": 35,
+      "def": 16,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear"
+    ],
+    "skill": [
+      "Multichance",
+      "Aegis"
+    ],
+    "promo": {
+      "name": "raptorknight",
+      "bonus": {
+        "hp": 3,
+        "str": 2,
+        "mag": 0,
+        "dex": 2,
+        "agi": 2,
+        "luck": 0,
+        "prof": 4,
+        "def": 1,
+        "res": 0,
+        "mob": 0
+      },
+      "weapon": [
+        "Throwing Spear"
+      ]
+    },
+    "givesupport": {
+      "Rubina": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Ma'aya": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Aslanne": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Rubina": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recruit": "Automatically on Turn 3 Player Phase of Ch5",
+    "prf": "Doyenne"
+  },
+  "aslanne": {
+    "name": "Aslanne",
+    "class": "raptorknight",
+    "portrait": "aslanne.png",
+    "lvl": 3,
+    "base": {
+      "hp": 27,
+      "str": 9,
+      "mag": 7,
+      "dex": 11,
+      "agi": 12,
+      "luck": 4,
+      "prof": 17,
+      "def": 6,
+      "res": 1,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 55,
+      "str": 25,
+      "mag": 13,
+      "dex": 30,
+      "agi": 35,
+      "luck": 0,
+      "prof": 40,
+      "def": 25,
+      "res": 15,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Commander",
+      "Critical Dodge",
+      "Critical Reprisal",
+      "Mettle",
+      "Lightfoot (Lv. 20)"
+    ],
+    "givesupport": {
+      "Rubine": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Yaeri": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recruit": "Automatically on Turn 3 Player Phase of Ch5 as a guest unit, leaves after the end of the map. Re-joins at the start of Ch20",
+    "prf": "Doyenne"
+  },
+  "nina": {
+    "name": "Nina",
+    "class": "sestra",
+    "portrait": "nina.png",
+    "lvl": 1,
+    "base": {
+      "hp": 10,
+      "str": 0,
+      "mag": 10,
+      "dex": 0,
+      "agi": 0,
+      "luck": 17,
+      "prof": 3,
+      "def": 0,
+      "res": 13,
+      "mob": 3
+    },
+    "growth": {
+      "hp": 25,
+      "str": 0,
+      "mag": 40,
+      "dex": 35,
+      "agi": 40,
+      "luck": 20,
+      "prof": 40,
+      "def": 10,
+      "res": 30,
+      "mob": 0
+    },
+    "weapon": [
+      "Staff"
+    ],
+    "skill": [
+      "Regenesis",
+      "Benison"
+    ],
+    "recruit": "Automatically on Turn 11 Player Phase of Ch5 (leaves your party at the end of the map)"
+  },
+  "lilia": {
+    "name": "Lilia",
+    "class": "priestess",
+    "portrait": "lilia.png",
+    "lvl": 2,
+    "base": {
+      "hp": 17,
+      "str": 0,
+      "mag": 5,
+      "dex": 3,
+      "agi": 5,
+      "luck": 3,
+      "prof": 7,
+      "def": 0,
+      "res": 6,
+      "mob": 4
+    },
+    "growth": {
+      "hp": 30,
+      "str": 0,
+      "mag": 25,
+      "dex": 20,
+      "agi": 30,
+      "luck": 30,
+      "prof": 70,
+      "def": 10,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Staff"
+    ],
+    "skill": [
+      "Herb Forager",
+      "Industry"
+    ],
+    "promo": {
+      "name": "highpriestess",
+      "bonus": {
+        "hp": 2,
+        "str": 0,
+        "mag": 3,
+        "dex": 2,
+        "agi": 2,
+        "luck": 0,
+        "prof": 3,
+        "def": 1,
+        "res": 3,
+        "mob": 1
+      },
+      "weapon": [
+        "Divine Magic"
+      ]
+    },
+    "givesupport": {
+      "Ash": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3
+      }
+    },
+    "recievesupport": {
+      "Ash": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Automatically at the start of Ch6"
+  },
+  "accorte": {
+    "name": "Accorte",
+    "class": "sphirianmage",
+    "portrait": "accorte.png",
+    "lvl": 3,
+    "base": {
+      "hp": 20,
+      "str": 0,
+      "mag": 6,
+      "dex": 7,
+      "agi": 7,
+      "luck": 2,
+      "prof": 10,
+      "def": 2,
+      "res": 4,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 25,
+      "str": 0,
+      "mag": 20,
+      "dex": 35,
+      "agi": 40,
+      "luck": 10,
+      "prof": 40,
+      "def": 13,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Dark Magic",
+      "Spirit Magic"
+    ],
+    "skill": [
+      "Orison"
+    ],
+    "promo": {
+      "name": "archmagef",
+      "bonus": {
+        "hp": 3,
+        "str": 0,
+        "mag": 3,
+        "dex": 3,
+        "agi": 2,
+        "luck": 0,
+        "prof": 3,
+        "def": 1,
+        "res": 2,
+        "mob": 1
+      }
+    },
+    "recievesupport": {
+      "Zade": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Talk to the Diabolist with Zade while keeping the Revenant Witch alive to have her join as a guest unit in Ch7. Leaves after the end of the map, but re-joins permanently on Turn 4 Player Phase of Ch8",
+    "prf": "Nashorne☆"
+  },
+  "hoelun": {
+    "name": "Hoelun",
+    "class": "stepperunner",
+    "portrait": "hoelun.png",
+    "lvl": 2,
+    "base": {
+      "hp": 17,
+      "str": 2,
+      "mag": 0,
+      "dex": 7,
+      "agi": 6,
+      "luck": 5,
+      "prof": 7,
+      "def": 2,
+      "res": 1,
+      "mob": 7
+    },
+    "growth": {
+      "hp": 30,
+      "str": 15,
+      "mag": 10,
+      "dex": 30,
+      "agi": 40,
+      "luck": 10,
+      "prof": 25,
+      "def": 15,
+      "res": 5,
+      "mob": 0
+    },
+    "weapon": [
+      "Bow"
+    ],
+    "skill": [
+      "Lockpick",
+      "Multichance",
+      "Flurry (Ch. 12 Event)",
+      "Critical Edge (Swordfighter)"
+    ],
+    "reclass": {
+      "sestra": {
+        "bonus": {
+          "hp": 0,
+          "str": 0,
+          "mag": 3,
+          "dex": -3,
+          "agi": -2,
+          "luck": 0,
+          "prof": -1,
+          "def": 0,
+          "res": 4,
+          "mob": -2,
+          "condition": "Ch. 12 Altar"
+        }
+      },
+      "swordfighterf": {
+        "bonus": {
+          "hp": 3,
+          "str": 1,
+          "mag": 0,
+          "dex": 6,
+          "agi": 5,
+          "luck": 0,
+          "prof": 1,
+          "def": 0,
+          "res": 0,
+          "mob": -2,
+          "condition": "Ch. 12 Altar"
+        }
+      },
+      "tarkhanf": {
+        "bonus": {
+          "hp": 3,
+          "str": 2,
+          "mag": 0,
+          "dex": 1,
+          "agi": 1,
+          "luck": 0,
+          "prof": 3,
+          "def": 2,
+          "res": 1,
+          "mob": 0,
+          "condition": "Ch. 12 Altar"
+        }
+      },
+      "vestalmagef": {
+        "bonus": {
+          "hp": 3,
+          "str": 0,
+          "mag": 5,
+          "dex": -1,
+          "agi": -1,
+          "luck": 0,
+          "prof": 2,
+          "def": 0,
+          "res": 3,
+          "mob": -2,
+          "condition": "Ch. 12 Altar"
+        }
+      }
+    },
+    "givesupport": {
+      "Cyltan": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1,
+        "note": "Ch. 9 event"
+      },
+      "Urven": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1,
+        "note": "Ch. 10 event"
+      }
+    },
+    "recievesupport": {
+      "Cyltan": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1,
+        "note": "Ch. 9 event"
+      }
+    },
+    "recruit": "Automatically at the start of Ch8",
+    "prf": "Ariadne☆"
+  },
+  "aynellia": {
+    "name": "Aynellia",
+    "class": "sworddancer",
+    "portrait": "aynellia.png",
+    "lvl": 2,
+    "base": {
+      "hp": 24,
+      "str": 4,
+      "mag": 5,
+      "dex": 12,
+      "agi": 19,
+      "luck": 0,
+      "prof": 11,
+      "def": 2,
+      "res": 3,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 35,
+      "str": 20,
+      "mag": 15,
+      "dex": 20,
+      "agi": 20,
+      "luck": 35,
+      "prof": 55,
+      "def": 10,
+      "res": 15,
+      "mob": 5
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Orison",
+      "High Evasion",
+      "Multistrike",
+      "Glamor"
+    ],
+    "givesupport": {
+      "Cyltan": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5,
+        "ceva": 3
+      }
+    },
+    "recievesupport": {
+      "Neira": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recruit": "Automatically on Turn 8 Player Phase of Ch8, leaves at the end of the map. Joins permanently at the start of Ch13 (need not wait for Turn 8 of Ch8 to happen)",
+    "prf": "Alcyone☆"
+  },
+  "cyltan": {
+    "name": "Cyltan",
+    "class": "ranger",
+    "portrait": "cyltan.png",
+    "lvl": 3,
+    "base": {
+      "hp": 23,
+      "str": 5,
+      "mag": 0,
+      "dex": 9,
+      "agi": 8,
+      "luck": 3,
+      "prof": 7,
+      "def": 4,
+      "res": 0,
+      "mob": 7
+    },
+    "growth": {
+      "hp": 45,
+      "str": 28,
+      "mag": 0,
+      "dex": 30,
+      "agi": 25,
+      "luck": 0,
+      "prof": 40,
+      "def": 20,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Bow"
+    ],
+    "skill": [
+      "Lightfoot",
+      "Commander (Ch. 12x Event)"
+    ],
+    "promo": {
+      "name": "tarkhanm",
+      "bonus": {
+        "hp": 3,
+        "str": 2,
+        "mag": 0,
+        "dex": 1,
+        "agi": 1,
+        "luck": 0,
+        "prof": 3,
+        "def": 2,
+        "res": 1,
+        "mob": 0
+      },
+      "weapon": [
+        "Standard Sword"
+      ]
+    },
+    "givesupport": {
+      "Hoelun": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1,
+        "note": "Ch. 9 event"
+      }
+    },
+    "recievesupport": {
+      "Hoelun": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1,
+        "note": "Ch. 9 event"
+      },
+      "Aynellia": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5,
+        "ceva": 3
+      }
+    },
+    "recruit": "Automatically at the start of Ch9",
+    "prf": "Am Solim☆"
+  },
+  "urven": {
+    "name": "Urven",
+    "class": "lanceknight",
+    "portrait": "urven.png",
+    "lvl": 7,
+    "base": {
+      "hp": 27,
+      "str": 7,
+      "mag": 0,
+      "dex": 8,
+      "agi": 8,
+      "luck": 0,
+      "prof": 11,
+      "def": 7,
+      "res": 0,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 54,
+      "str": 27,
+      "mag": 10,
+      "dex": 27,
+      "agi": 45,
+      "luck": 0,
+      "prof": 55,
+      "def": 27,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Dispel Effects",
+      "Mettle"
+    ],
+    "promo": {
+      "name": "greatlancer",
+      "bonus": {
+        "hp": 4,
+        "str": 2,
+        "mag": 0,
+        "dex": 2,
+        "agi": 2,
+        "luck": 0,
+        "prof": 4,
+        "def": 2,
+        "res": 1,
+        "mob": 0
+      }
+    },
+    "recievesupport": {
+      "Hoelun": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1,
+        "note": "Ch. 10 event"
+      }
+    },
+    "recruit": "Automatically at the start of Ch10 as a guest unit, leaves at the end of the map but re-joins permanently at the start of Ch12. Leaves if Hoelun accepts Dolstoy's offer in Ch10."
+  },
+  "merida2": {
+    "name": "Merida (Late)",
+    "class": "silkenknight",
+    "portrait": "merida2.png",
+    "lvl": 1,
+    "base": {
+      "hp": 24,
+      "str": 5,
+      "mag": 9,
+      "dex": 8,
+      "agi": 15,
+      "luck": 6,
+      "prof": 11,
+      "def": 4,
+      "res": 8,
+      "mob": 9
+    },
+    "growth": {
+      "hp": 40,
+      "str": 25,
+      "mag": 20,
+      "dex": 35,
+      "agi": 30,
+      "luck": 0,
+      "prof": 40,
+      "def": 24,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "High Evasion",
+      "Lightfoot",
+      "Multichance",
+      "Dark Horse"
+    ],
+    "givesupport": {
+      "Zade": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5,
+        "note": "Ch16 event"
+      }
+    },
+    "recievesupport": {
+      "Zade": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5,
+        "note": "Ch16 event"
+      }
+    },
+    "recruit": "Turn 9 Player Phase of Ch11, if killed as a NPC in Ch2"
+  },
+  "maaya": {
+    "name": "Ma'aya",
+    "class": "eagleriderf",
+    "portrait": "maaya.png",
+    "lvl": 1,
+    "base": {
+      "hp": 20,
+      "str": 3,
+      "mag": 0,
+      "dex": 4,
+      "agi": 6,
+      "luck": 3,
+      "prof": 5,
+      "def": 2,
+      "res": 1,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 25,
+      "str": 15,
+      "mag": 30,
+      "dex": 25,
+      "agi": 55,
+      "luck": 30,
+      "prof": 30,
+      "def": 10,
+      "res": 25,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear"
+    ],
+    "skill": [
+      "Master Haggler (lost if Dragon Knight)",
+      "Industry"
+    ],
+    "promo": {
+      "name": "raptorknight",
+      "bonus": {
+        "hp": 3,
+        "str": 2,
+        "mag": 0,
+        "dex": 2,
+        "agi": 2,
+        "luck": 0,
+        "prof": 4,
+        "def": 1,
+        "res": 0,
+        "mob": 0
+      },
+      "weapon": [
+        "Throwing Spear"
+      ]
+    },
+    "reclass": {
+      "dragonknightf": {
+        "bonus": {
+          "hp": 12,
+          "str": 3,
+          "mag": 0,
+          "dex": 2,
+          "agi": 0,
+          "luck": 0,
+          "prof": 4,
+          "def": 6,
+          "res": 0,
+          "mob": 1,
+          "condition": "From Eagle Rider, Ch. 12 Altar"
+        }
+      },
+      "dragonknightf": {
+        "bonus": {
+          "hp": 9,
+          "str": 1,
+          "mag": 0,
+          "dex": 0,
+          "agi": -2,
+          "luck": 0,
+          "prof": 0,
+          "def": 5,
+          "res": 0,
+          "mob": 1,
+          "condition": "From Raptor Knight, Ch. 12 Altar"
+        }
+      }
+    },
+    "recievesupport": {
+      "Yaeri": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Talk to her with Yaeri in Ch11. Cannot be recruited if any of the yurts were attacked in Ch9, or if the river was poisoned in Ch11.",
+    "prf": "Doyenne"
+  },
+  "lyttia": {
+    "name": "Lyttia",
+    "class": "starling",
+    "portrait": "lyttia.png",
+    "lvl": 1,
+    "base": {
+      "hp": 19,
+      "str": 0,
+      "mag": 3,
+      "dex": 7,
+      "agi": 5,
+      "luck": 10,
+      "prof": 2,
+      "def": 1,
+      "res": 5,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 20,
+      "str": 0,
+      "mag": 50,
+      "dex": 20,
+      "agi": 25,
+      "luck": 0,
+      "prof": 35,
+      "def": 10,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Spirit Magic"
+    ],
+    "skill": [
+      "Benison",
+      "Taskmaster"
+    ],
+    "givesupport": {
+      "Tallan": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2,
+        "note": "Ch. 17 event"
+      },
+      "Helme": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Dune": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1,
+        "note": "Ch. 17 event"
+      }
+    },
+    "recievesupport": {
+      "Tallan": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Helme": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Dune": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2,
+        "note": "After Ch. 17"
+      }
+    },
+    "recruit": "Automatically at the start of Ch12",
+    "prf": "Ripwippe☆"
+  },
+  "tallan": {
+    "name": "Tallan",
+    "class": "servant",
+    "portrait": "tallan.png",
+    "lvl": 1,
+    "base": {
+      "hp": 16,
+      "str": 1,
+      "mag": 0,
+      "dex": 1,
+      "agi": 7,
+      "luck": 18,
+      "prof": 1,
+      "def": 1,
+      "res": 0,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 40,
+      "str": 15,
+      "mag": 10,
+      "dex": 60,
+      "agi": 60,
+      "luck": 25,
+      "prof": 40,
+      "def": 15,
+      "res": 15,
+      "mob": 3
+    },
+    "weapon": [
+      "Dagger"
+    ],
+    "skill": [
+      "Lockpick",
+      "Lurk",
+      "High Evasion",
+      "Multistrike",
+      "Recondition",
+      "Supplier"
+    ],
+    "givesupport": {
+      "Lyttia": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Lyttia": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2,
+        "note": "Ch. 17 event"
+      }
+    },
+    "recruit": "Automatically at the start of Ch12"
+  },
+  "helme": {
+    "name": "Helme",
+    "class": "lionknight",
+    "portrait": "helme.png",
+    "lvl": 2,
+    "base": {
+      "hp": 33,
+      "str": 11,
+      "mag": 2,
+      "dex": 15,
+      "agi": 12,
+      "luck": 1,
+      "prof": 20,
+      "def": 10,
+      "res": 5,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 45,
+      "str": 20,
+      "mag": 0,
+      "dex": 20,
+      "agi": 25,
+      "luck": 0,
+      "prof": 10,
+      "def": 20,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Mutlichance"
+    ],
+    "givesupport": {
+      "Lyttia": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Lyttia": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Automatically at the start of Ch12. Leaves the party if Lyttia dies"
+  },
+  "lianka": {
+    "name": "Lianka",
+    "class": "nevesta",
+    "portrait": "lianka.png",
+    "lvl": 1,
+    "base": {
+      "hp": 16,
+      "str": 1,
+      "mag": 6,
+      "dex": 8,
+      "agi": 12,
+      "luck": 11,
+      "prof": 2,
+      "def": 2,
+      "res": 5,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 20,
+      "str": 10,
+      "mag": 35,
+      "dex": 35,
+      "agi": 40,
+      "luck": 40,
+      "prof": 10,
+      "def": 10,
+      "res": 20,
+      "mob": 3
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Dagger"
+    ],
+    "skill": [
+      "Lurk",
+      "Lockpick",
+      "Orison",
+      "High Evasion",
+      "Multistrike"
+    ],
+    "givesupport": {
+      "Hilda": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Eddard": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Hilda": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      },
+      "Eddard": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Automatically on Turn 3 Player Phase of Ch12 as a guest unit, leaves at the end of the map. Retrieve the Goetite Shard from the Red Chest with Siegfried within the first 10 turns in Ch13 to recruit permanently once Zade seizes the castle",
+    "prf": "Lianka's Claw☆"
+  },
+  "hilda": {
+    "name": "Hilda",
+    "class": "axefighterf",
+    "portrait": "hilda.png",
+    "lvl": 10,
+    "base": {
+      "hp": 26,
+      "str": 8,
+      "mag": 0,
+      "dex": 7,
+      "agi": 10,
+      "luck": 3,
+      "prof": 9,
+      "def": 4,
+      "res": 0,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 40,
+      "str": 30,
+      "mag": 15,
+      "dex": 40,
+      "agi": 50,
+      "luck": 0,
+      "prof": 55,
+      "def": 22,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Axe"
+    ],
+    "skill": [
+      "Critical Reprisal",
+      "Axe Defend",
+      "Critical Edge (Promotion)"
+    ],
+    "promo": {
+      "name": "axemasterf",
+      "bonus": {
+        "hp": 4,
+        "str": 4,
+        "mag": 0,
+        "dex": 4,
+        "agi": 3,
+        "luck": 0,
+        "prof": 4,
+        "def": 2,
+        "res": 1,
+        "mob": 1
+      }
+    },
+    "givesupport": {
+      "Lianka": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Lianka": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      },
+      "Siegfried": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Automatically on Turn 3 Player Phase of Ch12 as a guest unit, leaves at the end of the map. Retrieve the Goetite Shard from the Red Chest with Siegfried within the first 10 turns in Ch13 to recruit permanently once Zade seizes the castle. Leaves the party if Lianka dies",
+    "prf": "Justitia☆"
+  },
+  "siegfried": {
+    "name": "Siegfried",
+    "class": "highpriest",
+    "portrait": "siegfried.png",
+    "lvl": 2,
+    "base": {
+      "hp": 24,
+      "str": 0,
+      "mag": 9,
+      "dex": 7,
+      "agi": 9,
+      "luck": 3,
+      "prof": 15,
+      "def": 4,
+      "res": 11,
+      "mob": 5
+    },
+    "growth": {
+      "hp": 40,
+      "str": 0,
+      "mag": 20,
+      "dex": 35,
+      "agi": 30,
+      "luck": 0,
+      "prof": 45,
+      "def": 20,
+      "res": 15,
+      "mob": 0
+    },
+    "weapon": [
+      "Divine Magic",
+      "Staff"
+    ],
+    "skill": [
+      "Regenesis",
+      "Battle Hymn"
+    ],
+    "givesupport": {
+      "Hilda": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Visit the southwest house with Hilda and Lianka, then visit the southernmost house with Cyltan to have him join as a guest unit, leaves at the end of the map. Have him retrieve the Goetite Shard from the Red Chest within the first 10 turns in Ch13 to recruit permanently once Zade seizes the castle",
+    "prf": "Halidole☆, Formalinthe☆"
+  },
+  "neira": {
+    "name": "Neira",
+    "class": "thaumaturge",
+    "portrait": "neira.png",
+    "lvl": 5,
+    "base": {
+      "hp": 21,
+      "str": 3,
+      "mag": 7,
+      "dex": 7,
+      "agi": 8,
+      "luck": 6,
+      "prof": 3,
+      "def": 4,
+      "res": 4,
+      "mob": 7
+    },
+    "growth": {
+      "hp": 30,
+      "str": 25,
+      "mag": 20,
+      "dex": 25,
+      "agi": 30,
+      "luck": 10,
+      "prof": 40,
+      "def": 16,
+      "res": 10,
+      "mob": 0
+    },
+    "weapon": [
+      "Bow",
+      "Staff"
+    ],
+    "skill": [
+      "High Evasion"
+    ],
+    "givesupport": {
+      "Aynellia": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Jamulan": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recievesupport": {
+      "Aynellia": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Jamulan": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recruit": "Talk to her with Cyltan while keeping Jamulan alive to make her leave the map in Ch12 and to have her join automatically at the start of Ch13"
+  },
+  "jamulan": {
+    "name": "Jamulan",
+    "class": "axelion",
+    "portrait": "jamulan.png",
+    "lvl": 5,
+    "base": {
+      "hp": 38,
+      "str": 12,
+      "mag": 0,
+      "dex": 11,
+      "agi": 8,
+      "luck": 2,
+      "prof": 14,
+      "def": 11,
+      "res": 1,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 40,
+      "str": 25,
+      "mag": 0,
+      "dex": 25,
+      "agi": 20,
+      "luck": 0,
+      "prof": 25,
+      "def": 18,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Axe"
+    ],
+    "skill": [
+      "Mettle"
+    ],
+    "givesupport": {
+      "Neira": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Neira": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Talk to Neira with Cyltan while keeping him alive to make him leave the map in Ch12 and to have him join automatically at the start of Ch13"
+  },
+  "slayne": {
+    "name": "Slayne",
+    "class": "truearcher",
+    "portrait": "slayne.png",
+    "lvl": 2,
+    "base": {
+      "hp": 30,
+      "str": 9,
+      "mag": 0,
+      "dex": 10,
+      "agi": 7,
+      "luck": 2,
+      "prof": 12,
+      "def": 5,
+      "res": 0,
+      "mob": 4
+    },
+    "growth": {
+      "hp": 65,
+      "str": 45,
+      "mag": 0,
+      "dex": 35,
+      "agi": 25,
+      "luck": 0,
+      "prof": 40,
+      "def": 25,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Bow",
+      "Greatbow"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Multichance"
+    ],
+    "recruit": "Automatically on Turn 3 Player Phase of Ch14"
+  },
+  "eddard": {
+    "name": "Eddard",
+    "class": "dragonmaster",
+    "portrait": "eddard.png",
+    "lvl": 4,
+    "base": {
+      "hp": 42,
+      "str": 15,
+      "mag": 0,
+      "dex": 15,
+      "agi": 14,
+      "luck": 9,
+      "prof": 19,
+      "def": 14,
+      "res": 3,
+      "mob": 8
+    },
+    "growth": {
+      "hp": 60,
+      "str": 40,
+      "mag": 5,
+      "dex": 30,
+      "agi": 50,
+      "luck": 0,
+      "prof": 40,
+      "def": 30,
+      "res": 0,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear",
+      "Throwing Spear"
+    ],
+    "skill": [
+      "Critical Edge",
+      "Multichance"
+    ],
+    "givesupport": {
+      "Lianka": {
+        "eva": 15,
+        "ceva": 6,
+        "def": 2,
+        "res": 2
+      }
+    },
+    "recievesupport": {
+      "Lianka": {
+        "atk": 1,
+        "acc": 10,
+        "crit": 6,
+        "eva": 10,
+        "ceva": 3,
+        "def": 1,
+        "res": 1
+      }
+    },
+    "recruit": "Automatically on Turn 3 Player Phase of Ch17. Leaves the party if Lianka dies in Ch17",
+    "prf": "Dragon Lance☆"
+  },
+  "aslanne2": {
+    "name": "Aslanne (Late)",
+    "class": "raptorknightd",
+    "portrait": "aslanne.png",
+    "lvl": 16,
+    "base": {
+      "hp": 33,
+      "str": 13,
+      "mag": 9,
+      "dex": 20,
+      "agi": 19,
+      "luck": 6,
+      "prof": 17,
+      "def": 10,
+      "res": 1,
+      "mob": 6
+    },
+    "growth": {
+      "hp": 55,
+      "str": 25,
+      "mag": 13,
+      "dex": 30,
+      "agi": 35,
+      "luck": 0,
+      "prof": 40,
+      "def": 25,
+      "res": 15,
+      "mob": 0
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword"
+    ],
+    "skill": [
+      "Commander",
+      "Critical Dodge",
+      "Critical Reprisal",
+      "Mettle",
+      "Lightfoot (Lv. 20)"
+    ],
+    "givesupport": {
+      "Rubina": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      },
+      "Yaeri": {
+        "acc": 5,
+        "crit": 3,
+        "eva": 5
+      }
+    },
+    "recruit": "Start of Ch20"
+  },
+  "rastelle": {
+    "name": "Rastelle",
+    "class": "eagleknightd",
+    "portrait": "rastelle.png",
+    "lvl": 6,
+    "base": {
+      "hp": 23,
+      "str": 7,
+      "mag": 2,
+      "dex": 7,
+      "agi": 9,
+      "luck": 8,
+      "prof": 14,
+      "def": 4,
+      "res": 4,
+      "mob": 5
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": false,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword"
+    ],
+    "skill": [
+      "Orison",
+      "Industry",
+      "Paralysis Strike"
+    ],
+    "recruit": "(Replacement unit) Automatically at the start of Ch20, only if Lianka or Eddard have left the party"
+  },
+  "cromwell": {
+    "name": "Cromwell",
+    "class": "knightmaster",
+    "portrait": "cromwell.png",
+    "lvl": 20,
+    "base": {
+      "hp": 38,
+      "str": 10,
+      "mag": 0,
+      "dex": 14,
+      "agi": 11,
+      "luck": 17,
+      "prof": 20,
+      "def": 12,
+      "res": 6,
+      "mob": 8
+    },
+    "growth": {
+      "hp": false,
+      "str": false,
+      "mag": false,
+      "dex": false,
+      "agi": false,
+      "luck": false,
+      "prof": false,
+      "def": false,
+      "res": false,
+      "mob": false
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear",
+      "Throwing Spear",
+      "Axe"
+    ],
+    "skill": [
+      "Benison",
+      "Shield",
+      "Displel Effects",
+      "Lightfoot"
+    ],
+    "recruit": "(Replacement unit) Automatically at the start of Ch20, only if Lianka or Eddard have left the party"
+  }
+}
