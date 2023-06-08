@@ -51,15 +51,6 @@
     ],
     "mount": {
       "stat": {
-        "hp": false,
-        "str": false,
-        "mag": false,
-        "dex": false,
-        "agi": false,
-        "luck": false,
-        "prof": false,
-        "def": false,
-        "res": false,
         "mob": 2
       },
       "item": "Verula"
@@ -105,7 +96,7 @@
       }
     },
     "recruit": "Available from the start of Chapter 1.",
-    "prf": ""
+    "prf": "**1.** Edelstern☆\n**2.** Emmung☆\n**3.** Silvanister☆\n**4.** Serena's Letter\n**5.** Verula"
   },
   "accorte": {
     "name": "Accorte",
@@ -181,7 +172,7 @@
       }
     },
     "recruit": "Available from the start of Chapter 1. Leaves after Chapter 20.",
-    "prf": ""
+    "prf": "Nashorne☆"
   },
   "ashram": {
     "name": "Ashram",
@@ -264,7 +255,7 @@
       }
     },
     "recruit": "Available from the start of Chapter 1.",
-    "prf": ""
+    "prf": "Bathoras☆"
   },
   "sujata": {
     "name": "Sujata",
@@ -335,7 +326,7 @@
       }
     },
     "recruit": "Available from the start of Chapter 1.",
-    "prf": ""
+    "prf": "**1.** Prayer Knife☆\n **2.** Perra Kalta☆"
   },
   "sheela": {
     "name": "Sheela",
@@ -414,7 +405,7 @@
       }
     },
     "recruit": "Joins at the start of Player Phase a turn following any player unit approaching the Fasthold occupied by Aristotle's men in Chapter 1.",
-    "prf": ""
+    "prf": "Soaring Flame☆"
   },
   "zayid": {
     "name": "Zayid",
@@ -494,7 +485,7 @@
       }
     },
     "recruit": "Joins at the start of Player Phase a turn following any player unit approaching the Fasthold occupied by Aristotle's men in Chapter 1.",
-    "prf": ""
+    "prf": "Deathseeker☆"
   },
   "slayne": {
     "name": "Slayne",
@@ -567,8 +558,7 @@
         "note": "After Ch.13"
       }
     },
-    "recruit": "Joins on Turn 2 Player Phase of Chapter 2. Leaves after Chapter 20 if Accorte is alive by then.",
-    "prf": ""
+    "recruit": "Joins on Turn 2 Player Phase of Chapter 2. Leaves after Chapter 20 if Accorte is alive by then."
   },
   "hilda": {
     "name": "Hilda",
@@ -588,16 +578,8 @@
       "mob": 6
     },
     "cap": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
       "agi": 21,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
       "hp": 50,
@@ -626,7 +608,7 @@
       }
     },
     "recruit": "Available from the start of Chapter 3, if her cell was opened in Chapter 2. Leaves after Chapter 6.",
-    "prf": ""
+    "prf": "Justitia☆"
   },
   "baymonk": {
     "name": "Baymonk",
@@ -677,7 +659,7 @@
       "Critical Edge"
     ],
     "recruit": "Recruited by talking to him with Zade and paying 2,000D in Chapter 3.",
-    "prf": ""
+    "prf": "Euphoria☆"
   },
   "drake": {
     "name": "Drake",
@@ -702,7 +684,6 @@
       "mag": 5,
       "dex": 25,
       "agi": 30,
-      "luck": false,
       "prof": 30,
       "def": 8,
       "res": 2,
@@ -733,7 +714,7 @@
       "Benison (Lv. 17)"
     ],
     "recruit": "Recruited by talking to him with Zade holding the Crested Armlet☆ in Chapter 3.",
-    "prf": ""
+    "prf": "**1.** Sinagur☆\n**2.** Crested Sanctblade☆\n**3.** Crested Armlet☆\n**4.** Seal of Frist☆"
   },
   "castore": {
     "name": "Castore",
@@ -758,7 +739,6 @@
       "mag": 5,
       "dex": 14,
       "agi": 16,
-      "luck": false,
       "prof": 30,
       "def": 12,
       "res": 5,
@@ -793,9 +773,7 @@
         "hp": 4,
         "str": 4,
         "mag": 7,
-        "dex": false,
         "agi": -4,
-        "luck": false,
         "prof": 12,
         "def": 12,
         "res": 5,
@@ -804,13 +782,8 @@
       "cap": {
         "hp": 60,
         "str": 30,
-        "mag": false,
-        "dex": false,
-        "agi": false,
-        "luck": false,
         "prof": 30,
         "def": 30,
-        "res": false,
         "mob": 12
       },
       "note": "Ch.22 capture",
@@ -830,8 +803,7 @@
         "note": "Brotherly Bonds grants +35 Acc"
       }
     },
-    "recruit": "Available from the preparations menu for Chapter 4, if captured by Zade in Chapter 3.",
-    "prf": ""
+    "recruit": "Available from the preparations menu for Chapter 4, if captured by Zade in Chapter 3."
   },
   "porruck": {
     "name": "Porruck",
@@ -856,7 +828,6 @@
       "mag": 5,
       "dex": 14,
       "agi": 16,
-      "luck": false,
       "prof": 30,
       "def": 12,
       "res": 5,
@@ -891,9 +862,7 @@
         "hp": 4,
         "str": 4,
         "mag": 7,
-        "dex": false,
         "agi": -4,
-        "luck": false,
         "prof": 12,
         "def": 12,
         "res": 5,
@@ -902,13 +871,8 @@
       "cap": {
         "hp": 60,
         "str": 30,
-        "mag": false,
-        "dex": false,
-        "agi": false,
-        "luck": false,
         "prof": 30,
         "def": 30,
-        "res": false,
         "mob": 12
       },
       "note": "Ch.22 capture",
@@ -928,13 +892,12 @@
         "note": "Brotherly Bonds grants +35 Acc"
       }
     },
-    "recruit": "Available from the preparations menu for Chapter 4, if captured by Zade in Chapter 3.",
-    "prf": ""
+    "recruit": "Available from the preparations menu for Chapter 4, if captured by Zade in Chapter 3."
   },
   "karajan": {
     "name": "Karajan",
     "class": "Sorcerer",
-    "portrait": "karajan.png",
+    "portrait": "karajan1.png",
     "level": 1,
     "base": {
       "hp": 22,
@@ -954,7 +917,6 @@
       "mag": 14,
       "dex": 14,
       "agi": 14,
-      "luck": false,
       "prof": 30,
       "def": 10,
       "res": 12,
@@ -981,7 +943,7 @@
       "Multichance (Lv. 15)"
     ],
     "recruit": "Available from the preparations menu for Chapter 4, if captured by Zade in Chapter 3.",
-    "prf": ""
+    "prf": "**1.** Nocturne☆\n**2.** Staff of Waking☆"
   },
   "jonathan": {
     "name": "Jonathan",
@@ -1003,8 +965,6 @@
     "cap": {
       "hp": 80,
       "str": 30,
-      "mag": false,
-      "dex": false,
       "agi": 30,
       "luck": 30,
       "prof": 30,
@@ -1032,8 +992,7 @@
       "Senah's Glamor (Lv. 15)",
       "Senah's Tenacity (Lv. 30)"
     ],
-    "recruit": "Available from the preparations menu for Chapter 4.",
-    "prf": ""
+    "recruit": "Available from the preparations menu for Chapter 4."
   },
   "nelke": {
     "name": "Nelke",
@@ -1085,7 +1044,7 @@
       "Aegis II (Ch. 17 event)"
     ],
     "recruit": "Available from the preparations menu for Chapter 4, if Zade talked to Baymonk.",
-    "prf": ""
+    "prf": "Nelke's Staff☆"
   },
   "bennette": {
     "name": "Bennette",
@@ -1110,7 +1069,6 @@
       "mag": 15,
       "dex": 18,
       "agi": 18,
-      "luck": false,
       "prof": 30,
       "def": 9,
       "res": 5,
@@ -1205,8 +1163,7 @@
         "res": 2
       }
     },
-    "recruit": "Joins on Turn 2 Player Phase of Chapter 4. Even upon being felled in battle, returns after Chapter 15. If she is allowed to leave after Chapter 18, returns upon commencing battle in Chapter 25.",
-    "prf": ""
+    "recruit": "Joins on Turn 2 Player Phase of Chapter 4. Even upon being felled in battle, returns after Chapter 15. If she is allowed to leave after Chapter 18, returns upon commencing battle in Chapter 25."
   },
   "lucion": {
     "name": "Lucion",
@@ -1231,7 +1188,6 @@
       "mag": 0,
       "dex": 13,
       "agi": 11,
-      "luck": false,
       "prof": 30,
       "def": 18,
       "res": 4,
@@ -1264,13 +1220,10 @@
       "bonus": {
         "hp": 4,
         "str": 2,
-        "mag": false,
         "dex": 1,
         "agi": 1,
-        "luck": false,
         "prof": 3,
         "def": 1,
-        "res": false,
         "mob": 1
       },
       "cap": {
@@ -1279,7 +1232,6 @@
         "mag": 0,
         "dex": 15,
         "agi": 12,
-        "luck": false,
         "prof": 30,
         "def": 23,
         "res": 6,
@@ -1299,8 +1251,7 @@
         "eva": 5
       }
     },
-    "recruit": "Joins on Turn 3 Player Phase of Chapter 4.",
-    "prf": ""
+    "recruit": "Joins on Turn 3 Player Phase of Chapter 4."
   },
   "phoeve": {
     "name": "Phoeve",
@@ -1328,8 +1279,7 @@
       "luck": 30,
       "prof": 30,
       "def": 6,
-      "res": 13,
-      "mob": false
+      "res": 13
     },
     "growth": {
       "hp": 20,
@@ -1354,15 +1304,9 @@
     "promo": {
       "name": "Mage Knight",
       "bonus": {
-        "hp": false,
-        "str": false,
         "mag": 1,
-        "dex": false,
-        "agi": false,
-        "luck": false,
         "prof": 1,
         "def": 1,
-        "res": false,
         "mob": 2
       },
       "cap": {
@@ -1419,12 +1363,12 @@
       }
     },
     "recruit": "Joins on Turn 4 Player Phase of Chapter 4. If Fauve is alive by Chapter 16, Bennette needs to visit the upper middle house by Turn 20 in order for her to stay.",
-    "prf": ""
+    "prf": "Phylarsk☆"
   },
   "abrahm": {
     "name": "Abrahm",
     "class": "Grand Guard",
-    "portrait": "abrahm.png",
+    "portrait": "abrahm1.png",
     "level": 4,
     "base": {
       "hp": 31,
@@ -1479,8 +1423,7 @@
         "res": 2
       }
     },
-    "recruit": "Joins on Turn 4 Player Phase of Chapter 4.",
-    "prf": ""
+    "recruit": "Joins on Turn 4 Player Phase of Chapter 4."
   },
   "claude": {
     "name": "Claude",
@@ -1505,7 +1448,6 @@
       "mag": 0,
       "dex": 13,
       "agi": 11,
-      "luck": false,
       "prof": 30,
       "def": 18,
       "res": 4,
@@ -1538,13 +1480,10 @@
       "bonus": {
         "hp": 4,
         "str": 2,
-        "mag": false,
         "dex": 1,
         "agi": 1,
-        "luck": false,
         "prof": 3,
         "def": 1,
-        "res": false,
         "mob": 1
       },
       "cap": {
@@ -1553,10 +1492,8 @@
         "mag": 0,
         "dex": 15,
         "agi": 12,
-        "luck": false,
         "prof": 30,
         "def": 23,
-        "res": false,
         "mob": 7
       },
       "note": "Ch.12 or Ch.20 event"
@@ -1573,8 +1510,7 @@
         "eva": 5
       }
     },
-    "recruit": "Joins on Turn 6 Player Phase of Chapter 4.",
-    "prf": ""
+    "recruit": "Joins on Turn 6 Player Phase of Chapter 4."
   },
   "alexander": {
     "name": "Alexander",
@@ -1596,14 +1532,10 @@
     "cap": {
       "hp": 36,
       "str": 14,
-      "mag": false,
       "dex": 13,
       "agi": 12,
-      "luck": false,
       "prof": 30,
-      "def": 14,
-      "res": false,
-      "mob": false
+      "def": 14
     },
     "growth": {
       "hp": 75,
@@ -1631,14 +1563,11 @@
       "bonus": {
         "hp": 4,
         "str": 2,
-        "mag": false,
         "dex": 2,
         "agi": 2,
-        "luck": false,
         "prof": 4,
         "def": 2,
-        "res": 1,
-        "mob": false
+        "res": 1
       },
       "cap": {
         "hp": 45,
@@ -1646,7 +1575,6 @@
         "mag": 8,
         "dex": 18,
         "agi": 16,
-        "luck": false,
         "prof": 30,
         "def": 16,
         "res": 9,
@@ -1682,8 +1610,7 @@
         "res": 1
       }
     },
-    "recruit": "Appears at the start of Turn 11 Enemy Phase in Chapter 4. Recruited by talking to either him or Hestion with Zade with neither dead.",
-    "prf": ""
+    "recruit": "Appears at the start of Turn 11 Enemy Phase in Chapter 4. Recruited by talking to either him or Hestion with Zade with neither dead."
   },
   "hestion": {
     "name": "Hestion",
@@ -1708,7 +1635,6 @@
       "mag": 10,
       "dex": 13,
       "agi": 13,
-      "luck": false,
       "prof": 30,
       "def": 14,
       "res": 6,
@@ -1740,14 +1666,11 @@
       "bonus": {
         "hp": 3,
         "str": 1,
-        "mag": false,
         "dex": 3,
         "agi": 2,
-        "luck": false,
         "prof": 8,
         "def": 1,
-        "res": 1,
-        "mob": false
+        "res": 1
       },
       "cap": {
         "hp": 44,
@@ -1755,7 +1678,6 @@
         "mag": 10,
         "dex": 21,
         "agi": 17,
-        "luck": false,
         "prof": 30,
         "def": 15,
         "res": 8,
@@ -1789,8 +1711,7 @@
         "note": "Best Friends gives +3 Def/Res"
       }
     },
-    "recruit": "Appears at the start of Turn 11 Enemy Phase in Chapter 4. Recruited by talking to either him or Alexander with Zade with neither dead.",
-    "prf": ""
+    "recruit": "Appears at the start of Turn 11 Enemy Phase in Chapter 4. Recruited by talking to either him or Alexander with Zade with neither dead."
   },
   "laffine": {
     "name": "Laffine",
@@ -1891,7 +1812,7 @@
       }
     },
     "recruit": "Available from the preparations menu for Chapter 5.",
-    "prf": ""
+    "prf": "Mother's Necklace"
   },
   "amlute": {
     "name": "Amlute",
@@ -1916,7 +1837,6 @@
       "mag": 5,
       "dex": 18,
       "agi": 18,
-      "luck": false,
       "prof": 30,
       "def": 16,
       "res": 10,
@@ -1970,7 +1890,7 @@
       }
     },
     "recruit": "Available from the preparations menu for Chapter 5.",
-    "prf": ""
+    "prf": "Wandering Scion☆"
   },
   "barzelphen": {
     "name": "Barzelphen",
@@ -1995,7 +1915,6 @@
       "mag": 12,
       "dex": 18,
       "agi": 16,
-      "luck": false,
       "prof": 30,
       "def": 18,
       "res": 5,
@@ -2035,7 +1954,7 @@
       }
     },
     "recruit": "Available from the preparations menu for Chapter 6, if captured by Zade in Chapter 5.",
-    "prf": ""
+    "prf": "**1.** Axe of Love☆\n**2.** Saint's Axe☆\n**3.** Maiden Love"
   },
   "bertoullia": {
     "name": "Bertoullia",
@@ -2073,7 +1992,6 @@
       "dex": 35,
       "agi": 20,
       "luck": 0,
-      "prof": false,
       "def": 30,
       "res": 20,
       "mob": 0
@@ -2098,7 +2016,7 @@
       }
     },
     "recruit": "Available from the preparations menu for Chapter 6, if in Chapter 5 the green house was visited, 600D was paid and she survives the map.",
-    "prf": ""
+    "prf": "Dragonip"
   },
   "roleck": {
     "name": "Roleck",
@@ -2120,10 +2038,8 @@
     "cap": {
       "hp": 60,
       "str": 24,
-      "mag": false,
       "dex": 18,
       "agi": 16,
-      "luck": false,
       "prof": 30,
       "def": 22,
       "res": 8,
@@ -2195,8 +2111,7 @@
         "ceva": 3
       }
     },
-    "recruit": "Available from the preparations menu for Chapter 6. Leaves after Chapter 14. If Bennette is allowed to leave after Chapter 18, returns upon commencing battle in Chapter 25.",
-    "prf": ""
+    "recruit": "Available from the preparations menu for Chapter 6. Leaves after Chapter 14. If Bennette is allowed to leave after Chapter 18, returns upon commencing battle in Chapter 25."
   },
   "aslanne": {
     "name": "Aslanne",
@@ -2250,18 +2165,10 @@
     ],
     "mount": {
       "stat": {
-        "hp": false,
-        "str": false,
-        "mag": false,
-        "dex": false,
         "agi": 3,
-        "luck": false,
-        "prof": false,
-        "def": false,
-        "res": false,
         "mob": 1
       },
-      "item": "celestialamulet",
+      "item": "celestralamulet2",
       "weapon": [
         "Standard Spear",
         "Throwing Spear"
@@ -2287,7 +2194,7 @@
       }
     },
     "recruit": "Joins at the start of Player Phase a turn following any player unit approaching Libbech Fortress in Chapter 6.",
-    "prf": ""
+    "prf": "Celestral Amulet (Aslanne)"
   },
   "ezrel": {
     "name": "Ezrel",
@@ -2312,7 +2219,6 @@
       "mag": 15,
       "dex": 17,
       "agi": 17,
-      "luck": false,
       "prof": 30,
       "def": 6,
       "res": 13,
@@ -2361,7 +2267,7 @@
       }
     },
     "recruit": "Joins at the start of Player Phase a turn following any player unit approaching Libbech Fortress in Chapter 6.",
-    "prf": ""
+    "prf": "Scynterna☆"
   },
   "ouron": {
     "name": "Ouron",
@@ -2386,7 +2292,6 @@
       "mag": 3,
       "dex": 17,
       "agi": 18,
-      "luck": false,
       "prof": 30,
       "def": 11,
       "res": 6,
@@ -2415,8 +2320,7 @@
       "High Evasion",
       "Industry (Ch. 25 event)"
     ],
-    "recruit": "Available from the start of the chapter in Chapter 7x.",
-    "prf": ""
+    "recruit": "Available from the start of the chapter in Chapter 7x."
   },
   "penneloupe": {
     "name": "Penneloupe",
@@ -2441,7 +2345,6 @@
       "mag": 10,
       "dex": 22,
       "agi": 20,
-      "luck": false,
       "prof": 30,
       "def": 11,
       "res": 10,
@@ -2493,7 +2396,7 @@
       }
     },
     "recruit": "Recruited by visiting the village in Chapter 7x.",
-    "prf": ""
+    "prf": "Fell Fury☆"
   },
   "haldyn": {
     "name": "Haldyn",
@@ -2518,7 +2421,6 @@
       "mag": 10,
       "dex": 28,
       "agi": 25,
-      "luck": false,
       "prof": 30,
       "def": 12,
       "res": 10,
@@ -2580,7 +2482,7 @@
       }
     },
     "recruit": "Available from the start of Chapter 8.",
-    "prf": ""
+    "prf": "Flamurle☆"
   },
   "orphelia": {
     "name": "Orphelia",
@@ -2636,18 +2538,12 @@
     ],
     "mount": {
       "stat": {
-        "hp": false,
         "str": 1,
-        "mag": false,
         "dex": -2,
         "agi": -2,
-        "luck": false,
-        "prof": false,
-        "def": false,
-        "res": false,
         "mob": 1
       },
-      "item": "celestialamulet",
+      "item": "celestralamulet1",
       "weapon": [
         "Standard Spear",
         "loses Staff"
@@ -2665,7 +2561,7 @@
       }
     },
     "recruit": "Available from the start of Chapter 8.",
-    "prf": ""
+    "prf": "Celestral Amulet (Orphelia)"
   },
   "fauve": {
     "name": "Fauve",
@@ -2690,7 +2586,6 @@
       "mag": 10,
       "dex": 20,
       "agi": 24,
-      "luck": false,
       "prof": 30,
       "def": 13,
       "res": 5,
@@ -2735,7 +2630,7 @@
       }
     },
     "recruit": "Available from the start of Chapter 8.",
-    "prf": ""
+    "prf": "Champion's Axe☆"
   },
   "lilia": {
     "name": "Lilia",
@@ -2796,8 +2691,7 @@
         "ceva": 3
       }
     },
-    "recruit": "Available from the start of Chapter 8.",
-    "prf": ""
+    "recruit": "Available from the start of Chapter 8."
   },
   "pandell": {
     "name": "Pandell",
@@ -2817,28 +2711,10 @@
       "mob": 4
     },
     "cap": {
-      "hp": false,
-      "str": false,
       "mag": 0,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": false,
-      "def": false,
-      "res": false,
-      "mob": false
     },
     "weapon": [
       "Standard Spear",
@@ -2847,8 +2723,7 @@
     "skill": [
       "Multichance"
     ],
-    "recruit": "[Temporary Replacement Unit] Available from the start of Chapter 8, only if is Lucion dead. Leaves after Chapter 8.",
-    "prf": ""
+    "recruit": "[Temporary Replacement Unit] Available from the start of Chapter 8, only if is Lucion dead. Leaves after Chapter 8."
   },
   "montgomery": {
     "name": "Montgomery",
@@ -2868,28 +2743,10 @@
       "mob": 4
     },
     "cap": {
-      "hp": false,
-      "str": false,
       "mag": 0,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": false,
-      "def": false,
-      "res": false,
-      "mob": false
     },
     "weapon": [
       "Standard Spear",
@@ -2898,8 +2755,7 @@
     "skill": [
       "Greatshield"
     ],
-    "recruit": "[Temporary Replacement Unit] Available from the start of Chapter 8, only if is Abrahm dead. Leaves after Chapter 8.",
-    "prf": ""
+    "recruit": "[Temporary Replacement Unit] Available from the start of Chapter 8, only if is Abrahm dead. Leaves after Chapter 8."
   },
   "cueger": {
     "name": "Cueger",
@@ -2919,28 +2775,10 @@
       "mob": 4
     },
     "cap": {
-      "hp": false,
-      "str": false,
       "mag": 0,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": false,
-      "def": false,
-      "res": false,
-      "mob": false
     },
     "weapon": [
       "Standard Spear",
@@ -2949,8 +2787,7 @@
     "skill": [
       "Greatshield"
     ],
-    "recruit": "[Temporary Replacement Unit] Available from the start of Chapter 8, only if is Claude dead. Leaves after Chapter 8.",
-    "prf": ""
+    "recruit": "[Temporary Replacement Unit] Available from the start of Chapter 8, only if is Claude dead. Leaves after Chapter 8."
   },
   "sloan": {
     "name": "Sloan",
@@ -2970,28 +2807,10 @@
       "mob": 6
     },
     "cap": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 50,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 50
     },
     "weapon": [
       "Standard Sword",
@@ -3002,8 +2821,7 @@
       "Critical Dodge",
       "Ambush"
     ],
-    "recruit": "[Replacement Unit] Joins upon commencing battle in Chapter 10, only if is Haldyn dead. Playable from the start of Chapter 11.",
-    "prf": ""
+    "recruit": "[Replacement Unit] Joins upon commencing battle in Chapter 10, only if is Haldyn dead. Playable from the start of Chapter 11."
   },
   "arielle": {
     "name": "Arielle",
@@ -3023,28 +2841,12 @@
       "mob": 5
     },
     "cap": {
-      "hp": false,
       "str": 0,
       "mag": 18,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "weapon": [
       "Divine Magic",
@@ -3055,7 +2857,7 @@
       "Aegis II"
     ],
     "recruit": "[First Guest Appearance] Available as a guest unit from Turn 11 Player Phase of Chapter 15. Leaves after Chapter 15.[Second Guest Appearance] Returns as a guest unit upon commencing battle in Chapter 19. Leaves after Chapter 19.",
-    "prf": ""
+    "prf": "Prayer Staff☆"
   },
   "salyna": {
     "name": "Salyna",
@@ -3080,23 +2882,13 @@
       "mag": 15,
       "dex": 26,
       "agi": 26,
-      "luck": false,
       "prof": 30,
       "def": 16,
       "res": 12,
       "mob": 10
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 20,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 20
     },
     "weapon": [
       "Standard Sword",
@@ -3126,7 +2918,7 @@
       }
     },
     "recruit": "[Initial Appearance] Available upon commencing battle in Chapter 18.[Permanent Join] Have Zade talk to her in Chapter 18.",
-    "prf": ""
+    "prf": "Staff of Silence☆"
   },
   "mia": {
     "name": "Mia",
@@ -3158,16 +2950,7 @@
       "mob": 8
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "weapon": [
       "Standard Spear",
@@ -3204,7 +2987,7 @@
       }
     },
     "recruit": "Available upon commencing battle in Chapter 20, if both Alexander and Hestion are alive.",
-    "prf": ""
+    "prf": "Miracle Hoe☆"
   },
   "phoros": {
     "name": "Phoros",
@@ -3236,16 +3019,7 @@
       "mob": 10
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 35,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 35
     },
     "weapon": [
       "Standard Sword",
@@ -3268,7 +3042,7 @@
       }
     },
     "recruit": "Joins on Turn 11 Player Phase of Chapter 20, if talked to with Arielle in Chapter 19.",
-    "prf": ""
+    "prf": "Seal of Cordea☆"
   },
   "ravinia": {
     "name": "Ravinia",
@@ -3293,23 +3067,13 @@
       "mag": 15,
       "dex": 26,
       "agi": 21,
-      "luck": false,
       "prof": 30,
       "def": 11,
       "res": 7,
       "mob": 8
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 40,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 40
     },
     "weapon": [
       "Standard Sword",
@@ -3344,13 +3108,12 @@
         "res": 1
       }
     },
-    "recruit": "Available from the preparations menu for Chapter 21, if captured by Haldyn in Chapter 20.",
-    "prf": ""
+    "recruit": "Available from the preparations menu for Chapter 21, if captured by Haldyn in Chapter 20."
   },
   "cezar": {
     "name": "Cezar",
     "class": "Treasure Hunter",
-    "portrait": "czear.png",
+    "portrait": "cezar.png",
     "level": 22,
     "base": {
       "hp": 23,
@@ -3367,14 +3130,9 @@
     "cap": {
       "hp": 27,
       "str": 3,
-      "mag": false,
-      "dex": false,
       "agi": 22,
-      "luck": false,
       "prof": 30,
-      "def": 4,
-      "res": false,
-      "mob": false
+      "def": 4
     },
     "growth": {
       "hp": 35,
@@ -3396,7 +3154,7 @@
       "Lurk"
     ],
     "recruit": "[Replacement Unit] Available as a guest unit upon commencing battle in Chapter 21, only if Drake is dead. Leaves after Chapter 21.",
-    "prf": ""
+    "prf": "Kingsdagger☆"
   },
   "theodel": {
     "name": "Theodel",
@@ -3416,28 +3174,13 @@
       "mob": 6
     },
     "cap": {
-      "hp": false,
       "str": 0,
       "mag": 20,
-      "dex": false,
-      "agi": false,
-      "luck": false,
       "prof": 30,
-      "def": 10,
-      "res": false,
-      "mob": false
+      "def": 10
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 40,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 40
     },
     "weapon": [
       "Divine Magic",
@@ -3475,7 +3218,7 @@
       }
     },
     "recruit": "[Guest Appearance] Available as a guest unit upon commencing battle in Chapter 21. Leaves after Chapter 21.[Permanent Join] Returns on Turn 10 Player Phase of Chapter 25.",
-    "prf": ""
+    "prf": "Almaterna☆"
   },
   "emilia": {
     "name": "Emilia",
@@ -3495,28 +3238,10 @@
       "mob": 5
     },
     "cap": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 40,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 40
     },
     "weapon": [
       "Staff"
@@ -3529,12 +3254,9 @@
     "promo": {
       "name": "Sphirian Princess",
       "bonus": {
-        "hp": false,
-        "str": false,
         "mag": 10,
         "dex": 7,
         "agi": 4,
-        "luck": false,
         "prof": 3,
         "def": 4,
         "res": 8,
@@ -3578,7 +3300,7 @@
       }
     },
     "recruit": "[First Guest Appearance] Automatically from the start of Chapter 21 as a guest unit. Leaves after Chapter 21.[Second Guest Appearance] Returns as a guest unit on Turn 10 Player Phase of Chapter 25.",
-    "prf": ""
+    "prf": "Queen's Pendant"
   },
   "garlan": {
     "name": "Garlan",
@@ -3600,26 +3322,10 @@
     "cap": {
       "hp": 22,
       "str": 0,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 0,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 0
     },
     "weapon": [
       "Spirit Magic",
@@ -3637,8 +3343,7 @@
         "ceva": 3
       }
     },
-    "recruit": "Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24.",
-    "prf": ""
+    "recruit": "Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24."
   },
   "tasha": {
     "name": "Tasha",
@@ -3660,26 +3365,15 @@
     "cap": {
       "hp": 26,
       "str": 0,
-      "mag": false,
       "dex": 13,
       "agi": 14,
-      "luck": false,
       "prof": 30,
       "def": 5,
       "res": 10,
       "mob": 8
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 0,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 0
     },
     "weapon": [],
     "skill": [
@@ -3711,8 +3405,7 @@
         "res": 1
       }
     },
-    "recruit": "[Guest Appearance] Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24.[Permanent Join] Returns on Turn 10 Player Phase of Chapter 25.",
-    "prf": ""
+    "recruit": "[Guest Appearance] Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24.[Permanent Join] Returns on Turn 10 Player Phase of Chapter 25."
   },
   "bonacel": {
     "name": "Bonacel",
@@ -3734,26 +3427,12 @@
     "cap": {
       "hp": 26,
       "str": 8,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
       "prof": 30,
       "def": 5,
-      "res": false,
       "mob": 5
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 40,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 40
     },
     "weapon": [
       "Standard Spear",
@@ -3768,26 +3447,16 @@
       "bonus": {
         "hp": 31,
         "str": 10,
-        "mag": 0,
         "dex": 10,
         "agi": 10,
-        "luck": 0,
         "prof": 12,
         "def": 13,
-        "res": 1,
-        "mob": 0
+        "res": 1
       },
       "cap": {
-        "hp": false,
-        "str": false,
-        "mag": false,
         "dex": 18,
         "agi": 16,
-        "luck": false,
-        "prof": 30,
-        "def": false,
-        "res": false,
-        "mob": false
+        "prof": 30
       },
       "note": "With Hugoniot's Cuirass",
       "weapon": [
@@ -3802,25 +3471,17 @@
       "bonus": {
         "hp": 26,
         "str": 8,
-        "mag": 0,
         "dex": 7,
         "agi": 6,
         "luck": 0,
         "prof": 12,
         "def": 12,
-        "res": 1,
-        "mob": 0
+        "res": 1
       },
       "cap": {
-        "hp": false,
         "str": 20,
-        "mag": false,
-        "dex": false,
-        "agi": false,
-        "luck": false,
         "prof": 30,
         "def": 20,
-        "res": false,
         "mob": 7
       },
       "note": "With General's Cuirass",
@@ -3829,7 +3490,7 @@
       ]
     },
     "recruit": "Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24.",
-    "prf": ""
+    "prf": "**1.** Hugoniot's Cuirass\n**2.** General's Cuirass"
   },
   "prody": {
     "name": "Prody",
@@ -3850,27 +3511,12 @@
     },
     "cap": {
       "hp": 26,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
       "prof": 30,
       "def": 5,
-      "res": false,
       "mob": 5
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 65,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 65
     },
     "weapon": [
       "Standard Spear",
@@ -3884,13 +3530,10 @@
       "bonus": {
         "hp": 17,
         "str": 7,
-        "mag": 0,
         "dex": 5,
         "agi": 3,
-        "luck": 0,
         "prof": 3,
         "def": 11,
-        "res": 0,
         "mob": -1
       },
       "cap": {
@@ -3899,10 +3542,8 @@
         "mag": 0,
         "dex": 15,
         "agi": 12,
-        "luck": false,
         "prof": 30,
         "def": 25,
-        "res": false,
         "mob": 6
       },
       "note": "With Prody's Cuirass"
@@ -3912,26 +3553,17 @@
       "bonus": {
         "hp": 19,
         "str": 6,
-        "mag": 0,
         "dex": 6,
         "agi": 3,
-        "luck": 0,
         "prof": 7,
         "def": 14,
-        "res": 0,
         "mob": -1
       },
       "cap": {
-        "hp": false,
         "str": 20,
-        "mag": false,
         "dex": 18,
-        "agi": false,
-        "luck": false,
         "prof": 30,
-        "def": 22,
-        "res": false,
-        "mob": false
+        "def": 22
       },
       "note": "With Brute's Cuirass"
     },
@@ -3955,7 +3587,7 @@
       }
     },
     "recruit": "Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24.",
-    "prf": ""
+    "prf": "**1.** Brute's Cuirass\n**2.** Prody's Cuirass"
   },
   "rebel": {
     "name": "Rebel",
@@ -3975,38 +3607,18 @@
       "mob": 4
     },
     "cap": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": false,
-      "def": false,
-      "res": false,
-      "mob": false
     },
     "weapon": [],
     "skill": [],
-    "recruit": "Joins as a guest unit in Chapter 23 when his cell is opened. Leaves after Chapter 23.",
-    "prf": ""
+    "recruit": "Joins as a guest unit in Chapter 23 when his cell is opened. Leaves after Chapter 23."
   },
   "grandmother": {
     "name": "Grandmother",
     "class": "Old Woman",
-    "portrait": "grandmother",
+    "portrait": "grandmother.png",
     "level": 1,
     "base": {
       "hp": 16,
@@ -4021,28 +3633,9 @@
       "mob": 4
     },
     "cap": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": false,
-      "def": false,
-      "res": false,
-      "mob": false
     },
     "weapon": [],
     "skill": [],
@@ -4057,8 +3650,7 @@
         "res": 3
       }
     },
-    "recruit": "Joins as a guest unit in Chapter 23 when her cell is opened. Leaves after Chapter 23.",
-    "prf": ""
+    "recruit": "Joins as a guest unit in Chapter 23 when her cell is opened. Leaves after Chapter 23."
   },
   "minister": {
     "name": "Minister",
@@ -4078,33 +3670,13 @@
       "mob": 4
     },
     "cap": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": false,
-      "def": false,
-      "res": false,
-      "mob": false
     },
     "weapon": [],
     "skill": [],
-    "recruit": "Joins as a guest unit in Chapter 23 when his cell is opened. Leaves after Chapter 23.",
-    "prf": ""
+    "recruit": "Joins as a guest unit in Chapter 23 when his cell is opened. Leaves after Chapter 23."
   },
   "emma": {
     "name": "Emma",
@@ -4136,16 +3708,7 @@
       "mob": 8
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 0,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 0
     },
     "weapon": [
       "Standard Spear"
@@ -4154,7 +3717,7 @@
       "Industry"
     ],
     "recruit": "Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24.",
-    "prf": ""
+    "prf": "Emma's Ring of Keys"
   },
   "troy": {
     "name": "Troy",
@@ -4176,26 +3739,14 @@
     "cap": {
       "hp": 46,
       "str": 19,
-      "mag": false,
       "dex": 19,
       "agi": 20,
-      "luck": false,
       "prof": 30,
       "def": 17,
-      "res": false,
       "mob": 10
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 60,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 60
     },
     "weapon": [
       "Standard Sword",
@@ -4230,8 +3781,7 @@
         "eva": 5
       }
     },
-    "recruit": "[Guest Appearance] Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24. [Permanent Join] Returns on Turn 10 Player Phase of Chapter 25.",
-    "prf": ""
+    "recruit": "[Guest Appearance] Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24. [Permanent Join] Returns on Turn 10 Player Phase of Chapter 25."
   },
   "lea": {
     "name": "Lea",
@@ -4251,28 +3801,14 @@
       "mob": 8
     },
     "cap": {
-      "hp": false,
-      "str": false,
-      "mag": false,
       "dex": 20,
-      "agi": false,
-      "luck": false,
       "prof": 30,
       "def": 17,
       "res": 14,
       "mob": 10
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "weapon": [
       "Standard Sword",
@@ -4307,8 +3843,7 @@
         "res": 3
       }
     },
-    "recruit": "[Guest Appearance] Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24. [Permanent Join] Returns on Turn 10 Player Phase of Chapter 25.",
-    "prf": ""
+    "recruit": "[Guest Appearance] Available as a guest unit from the start of Chapter 23. Leaves after Chapter 24. [Permanent Join] Returns on Turn 10 Player Phase of Chapter 25."
   },
   "paulos": {
     "name": "Paulos",
@@ -4328,28 +3863,10 @@
       "mob": 5
     },
     "cap": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "weapon": [
       "Standard Sword",
@@ -4359,8 +3876,7 @@
     "skill": [
       "Good Neighbor II"
     ],
-    "recruit": "Available from the preparation menu for Chapter 25.",
-    "prf": ""
+    "recruit": "Available from the preparation menu for Chapter 25."
   },
   "athol": {
     "name": "Athol",
@@ -4380,28 +3896,12 @@
       "mob": 0
     },
     "cap": {
-      "hp": false,
       "str": 0,
-      "mag": false,
       "dex": 12,
-      "agi": false,
-      "luck": false,
-      "prof": 30,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 30
     },
     "growth": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": 45,
-      "def": false,
-      "res": false,
-      "mob": false
+      "prof": 45
     },
     "weapon": [
       "Staff"
@@ -4422,6 +3922,6 @@
       }
     },
     "recruit": "Recruited by having Zade reach 1 tile right 1 tile below Adonsphair's Head in Chapter 25.",
-    "prf": ""
+    "prf": "Stellacrus☆"
   }
 }

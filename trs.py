@@ -1,11 +1,58 @@
 import discord
-from discord import app_commands
 import json
 
 trs_unit_data_file = 'trs/unitdata.json'
 trs_class_data_file = 'trs/classdata.json'
 trs_item_data_file = 'trs/itemdata.json'
 trs_skill_data_file = 'trs/skilldata.json'
+
+
+def get_unit_json(ctx: str) -> json:
+    with open(trs_unit_data_file, 'r') as f:
+        unit_json = json.load(f)
+        for k in unit_json:
+            if unit_json[k]['name'].lower() == ctx.lower():
+                return unit_json[k]
+        for k in unit_json:
+            if k.lower().startswith(ctx.lower()):
+                return unit_json[k]
+        return None
+
+
+def get_class_json(ctx: str) -> json:
+    with open(trs_class_data_file, 'r') as f:
+        class_json = json.load(f)
+        for k in class_json:
+            if class_json[k]['name'].lower() == ctx.lower():
+                return class_json[k]
+        for k in class_json:
+            if (k == ctx) or (class_json[k]['name'].lower().startswith(ctx.lower())):
+                return class_json[k]
+        return None
+
+
+def get_item_json(ctx: str) -> json:
+    with open(trs_item_data_file, 'r') as f:
+        item_json = json.load(f)
+        for k in item_json:
+            if item_json[k]['name'].lower() == ctx.lower():
+                return item_json[k]
+        for k in item_json:
+            if (k == ctx) or (item_json[k]['name'].lower().startswith(ctx.lower())):
+                return item_json[k]
+        return None
+
+
+def get_skill_json(ctx: str) -> json:
+    with open(trs_skill_data_file, 'r') as f:
+        skill_json = json.load(f)
+        for k in skill_json:
+            if skill_json[k]['name'].lower() == ctx.lower():
+                return skill_json[k]
+        for k in skill_json:
+            if (k == ctx) or (skill_json[k]['name'].lower().startswith(ctx.lower())):
+                return skill_json[k]
+        return None
 
 
 class UnitButton(discord.ui.View):
@@ -88,16 +135,16 @@ async def unit(interaction: discord.Interaction, name: str, personal: bool, clas
             await interaction.response.send_message('That class does not exist', ephemeral=True)
         else:
             if level is None and promoted is None and classname is None \
-                    and promoted is None and reeve is False and salia is False:
-                embed = get_unit_stats_embed(unit_json, False, base_class_json, False,
+                    and promoted is None and not reeve and not salia:
+                embed = get_unit_stats_embed(unit_json, personal, base_class_json, False,
                                              False, False, promo_class_json, promo2_class_json)
-                portrait = discord.File('trs/images/' + unit_json['portrait'], filename=unit_json['portrait'])
+                portrait = discord.File('trs/portraits/' + unit_json['portrait'], filename=unit_json['portrait'])
                 embed.set_thumbnail(url='attachment://' + unit_json['portrait'])
                 await interaction.response.send_message(embed=embed, file=portrait, view=view)
             elif level is None and promoted is None:
                 embed = get_unit_stats_embed(unit_json, personal, base_class_json, alternate_class_flag,
                                              reeve, salia, promo_class_json, promo2_class_json)
-                portrait = discord.File('trs/images/' + unit_json['portrait'], filename=unit_json['portrait'])
+                portrait = discord.File('trs/portraits/' + unit_json['portrait'], filename=unit_json['portrait'])
                 embed.set_thumbnail(url='attachment://' + unit_json['portrait'])
                 await interaction.response.send_message(embed=embed, file=portrait)
             else:
@@ -105,30 +152,9 @@ async def unit(interaction: discord.Interaction, name: str, personal: bool, clas
                     level = 0
                 embed = get_unit_level_embed(unit_json, personal, base_class_json, alternate_class_flag, level,
                                              promoted, reeve, salia)
-                portrait = discord.File('trs/images/' + unit_json['portrait'], filename=unit_json['portrait'])
+                portrait = discord.File('trs/portraits/' + unit_json['portrait'], filename=unit_json['portrait'])
                 embed.set_thumbnail(url='attachment://' + unit_json['portrait'])
                 await interaction.response.send_message(embed=embed, file=portrait)
-
-
-def get_unit_json(name: str) -> json:
-    with open(trs_unit_data_file, 'r') as f:
-        unit_json = json.load(f)
-        for k in unit_json:
-            if k.lower().startswith(name.lower()):
-                return unit_json[k]
-        return None
-
-
-def get_class_json(ctx: str) -> json:
-    with open(trs_class_data_file, 'r') as f:
-        class_json = json.load(f)
-        for k in class_json:
-            if class_json[k]['name'].lower() == ctx.lower():
-                return class_json[k]
-        for k in class_json:
-            if (k == ctx) or (class_json[k]['name'].lower().startswith(ctx.lower())):
-                return class_json[k]
-        return None
 
 
 def get_unit_stats_embed(unit_json: json, personal: bool, base_class: json, alternate_class_flag: bool,
@@ -249,21 +275,21 @@ def get_unit_stats_embed(unit_json: json, personal: bool, base_class: json, alte
 
     skills_text = ''
     if alternate_class_flag:
-        for skill in base_class['skill']:
-            skills_text += skill + '\n'
+        for s in base_class['skill']:
+            skills_text += s + '\n'
     else:
-        for skill in unit_json['skill']:
-            skills_text += skill + '\n'
+        for s in unit_json['skill']:
+            skills_text += s + '\n'
 
     embed.add_field(name='Skills', value=skills_text, inline=True)
 
     weapons = ''
     if alternate_class_flag:
-        for rank in base_class['weapon']:
-            weapons += rank + '\n'
+        for r in base_class['weapon']:
+            weapons += r + '\n'
     else:
-        for rank in unit_json['weapon']:
-            weapons += rank + '\n'
+        for r in unit_json['weapon']:
+            weapons += r + '\n'
 
     embed.add_field(name='Weapons', value=weapons, inline=True)
     return embed
@@ -307,11 +333,14 @@ def get_unit_level_embed(unit_json: json, personal: bool, base_class: json, alte
                 boost = 0
                 if reeve:
                     boost = 10
-                val = ((unit_json['growth'][stat] + boost) * lvlinc + (unit_json['base'][stat] * 100)) / 100
+                val = round(((unit_json['growth'][stat] + boost) / 100), 2) * lvlinc + unit_json['base'][stat]
                 if not personal:
                     val += base_class['base'][stat]
                 if promoted and 'promo' in unit_json:
                     val += promo_class['base'][stat] - base_class['base'][stat]
+
+                val = round(val, 2)
+
                 if val >= 60:
                     stats += 'HP **60** | '
                 else:
@@ -321,11 +350,13 @@ def get_unit_level_embed(unit_json: json, personal: bool, base_class: json, alte
                 boost = 0
                 if (reeve and stat in ['luck', 'mag', 'mst']) or (salia and stat in ['str', 'skl', 'spd', 'def']):
                     boost = 10
-                val = ((unit_json['growth'][stat] + boost) * lvlinc + (unit_json['base'][stat] * 100)) / 100
+                val = round(((unit_json['growth'][stat] + boost) / 100), 2) * lvlinc + unit_json['base'][stat]
                 if not personal:
                     val += base_class['base'][stat]
                 if promoted and 'promo' in unit_json:
                     val += promo_class['base'][stat] - base_class['base'][stat]
+
+                val = round(val, 2)
 
                 if stat == 'luck':
                     if val >= 30:
@@ -344,7 +375,7 @@ def get_unit_level_embed(unit_json: json, personal: bool, base_class: json, alte
                         if val >= 15:
                             stats += stat.title() + ' **15** | '
                         else:
-                            stats += stat.title() + ' **' + str(val) + '** | '
+                            stats += stat.title() + ' ' + str(val) + ' | '
                     else:
                         if promoted:
                             if val >= promo_class['base'][stat] + 15:
@@ -389,7 +420,8 @@ def get_unit_support_embed(unit_json: json):
             if 'increase' in unit_json['givesupport'][support]:
                 givensupport += '\n'
                 for increase in unit_json['givesupport'][support]['increase']:
-                    givensupport += '*Bonus + ' + str(unit_json['givesupport'][support]['increase'][increase]['bonus']) + '*\n'
+                    givensupport += '*Bonus + ' + str(
+                        unit_json['givesupport'][support]['increase'][increase]['bonus']) + '*\n'
                     givensupport += '*' + unit_json['givesupport'][support]['increase'][increase]['note'] + '*\n'
             givensupport += '\n'
         embed.add_field(name='Given Supports', value=givensupport, inline=True)
@@ -402,7 +434,8 @@ def get_unit_support_embed(unit_json: json):
             if 'increase' in unit_json['recievesupport'][support]:
                 recievedsupport += '\n'
                 for increase in unit_json['recievesupport'][support]['increase']:
-                    recievedsupport += '*Bonus + ' + str(unit_json['recievesupport'][support]['increase'][increase]['bonus']) + '*\n'
+                    recievedsupport += '*Bonus + ' + str(
+                        unit_json['recievesupport'][support]['increase'][increase]['bonus']) + '*\n'
                     recievedsupport += '*' + unit_json['recievesupport'][support]['increase'][increase]['note'] + '*\n'
             recievedsupport += '\n'
         embed.add_field(name='Recieved Supports', value=recievedsupport, inline=True)
@@ -415,17 +448,12 @@ def get_unit_support_embed(unit_json: json):
 
 
 async def classdata(interaction: discord.Interaction, name: str):
-    with open(trs_class_data_file, 'r') as f:
-        class_json = json.load(f)
-        found = False
-        for k in class_json:
-            if class_json[k]['name'].lower().startswith(name.lower()):
-                found = True
-                embed = get_class_data_embed(class_json[k])
-                await interaction.response.send_message(embed=embed)
-                break
-        if not found:
-            await interaction.response.send_message('That class does not exist', ephemeral=True)
+    class_json = get_class_json(name)
+    if class_json is None:
+        await interaction.response.send_message('That class does not exist', ephemeral=True)
+    else:
+        embed = get_class_data_embed(class_json)
+        await interaction.response.send_message(embed=embed)
 
 
 def get_class_data_embed(class_json: json):
@@ -465,8 +493,8 @@ def get_class_data_embed(class_json: json):
     embed.add_field(name='Caps', value=caps, inline=False)
 
     skills = ''
-    for skill in class_json['skill']:
-        skills += skill + '\n'
+    for s in class_json['skill']:
+        skills += s + '\n'
     embed.add_field(name='Skills', value=skills, inline=True)
 
     weapons = ''
@@ -481,17 +509,12 @@ def get_class_data_embed(class_json: json):
 
 
 async def skill(interaction: discord.Interaction, name: str):
-    with open(trs_skill_data_file, 'r') as f:
-        skill_json = json.load(f)
-        found = False
-        for k in skill_json:
-            if k.lower().startswith(name.lower()):
-                embed = get_skill_data_embed(skill_json[k])
-                await interaction.response.send_message(embed=embed)
-                found = True
-                break
-        if not found:
-            await interaction.response.send_message('That skill does not exist', ephemeral=True)
+    skill_json = get_skill_json(name)
+    if skill_json is None:
+        await interaction.response.send_message('That skill does not exist', ephemeral=True)
+    else:
+        embed = get_skill_data_embed(skill_json)
+        await interaction.response.send_message(embed=embed)
 
 
 def get_skill_data_embed(skill_json: json) -> discord.Embed:
@@ -507,24 +530,14 @@ def get_skill_data_embed(skill_json: json) -> discord.Embed:
 
 
 async def item(interaction: discord.Interaction, name: str):
-    with open(trs_item_data_file, 'r') as f:
-        item_json = json.load(f)
-        found = False
-        for k in item_json:
-            if item_json[k]['name'].lower() == name.lower():
-                embed = get_item_stats_embed(item_json[k])
-                await interaction.response.send_message(embed=embed)
-                found = True
-                break
-        if not found:
-            for k in item_json:
-                if k.lower().startswith(name.lower()):
-                    embed = get_item_stats_embed(item_json[k])
-                    await interaction.response.send_message(embed=embed)
-                    found = True
-                    break
-        if not found:
-            await interaction.response.send_message('That item does not exist', ephemeral=True)
+    item_json = get_item_json(name)
+    if item_json is None:
+        await interaction.response.send_message('That item does not exist', ephemeral=True)
+    else:
+        embed = get_item_stats_embed(item_json)
+        # icon = discord.File('trs/items/' + item_json['icon'], filename=item_json['icon'])
+        # embed.set_thumbnail(url='attachment://' + item_json['icon'])
+        await interaction.response.send_message(embed=embed)  # , file=icon
 
 
 def get_item_stats_embed(item_json: json):

@@ -417,7 +417,7 @@
    "Silence": {
       "name": "Silence",
       "type": "Command (self)",
-      "description": "Prevents use of all dark magic for 3 turns. Only usable before moving and every 10 turns."
+      "description": "Prevents use of all dark magic unil the next action of the unit or until the next turn. Only usable before moving and every 10 turns."
    },
    "Paragon": {
       "name": "Paragon",

@@ -9,7 +9,8 @@
     "mst": 1,
     "range": "1",
     "durability": 46,
-    "cost":460
+    "cost":460,
+    "icon": "Slim Sword.png"
   },
   "ironsword": {
     "name": "Iron Sword",
@@ -21,7 +22,8 @@
     "mst": 3,
     "range": "1",
     "durability": 50,
-    "cost":1000
+    "cost":1000,
+    "icon": "Iron Sword.png"
   },
   "steelsword": {
     "name": "Steel Sword",
@@ -33,7 +35,8 @@
     "mst": 4,
     "range": "1",
     "durability": 50,
-    "cost":1500
+    "cost":1500,
+    "icon": "Steel Sword.png"
   },
   "silversword": {
     "name": "Silver Sword",
@@ -45,7 +48,8 @@
     "mst": 10,
     "range": "1",
     "durability": 30,
-    "cost":3000
+    "cost":3000,
+    "icon": "Silver Sword.png"
   },
   "rapier": {
     "name": "Rapier",
@@ -58,7 +62,8 @@
     "range": "1",
     "durability": 25,
     "cost":2500,
-    "note": "Runan only, Effective against cavalry and armored units"
+    "note": "Runan only, Effective against cavalry and armored units",
+    "icon": "Rapier.png"
   },
   "estoc": {
     "name": "Estoc",
@@ -71,7 +76,8 @@
     "range": "1",
     "durability": 22,
     "cost":1320,
-    "note": "Effective against armored units"
+    "note": "Effective against armored units",
+    "icon": "Estoc.png"
   },
   "ironblade": {
     "name": "Iron Blade",
@@ -83,7 +89,8 @@
     "mst": 7,
     "range": "1",
     "durability": 50,
-    "cost":2000
+    "cost":2000,
+    "icon": "Iron Blade.png"
   },
   "steelblade": {
     "name": "Steel Blade",
@@ -95,7 +102,8 @@
     "mst": 8,
     "range": "1",
     "durability": 50,
-    "cost":2500
+    "cost":2500,
+    "icon": "Steel Blade.png"
   },
   "killingedge": {
     "name": "Killing Edge",
@@ -107,7 +115,8 @@
     "mst": 7,
     "range": "1",
     "durability": 24,
-    "cost":2880
+    "cost":2880,
+    "icon": "Killing Edge.png"
   },
   "scimitar": {
     "name": "Scimitar",
@@ -119,7 +128,8 @@
     "mst": 2,
     "range": "1",
     "durability": 33,
-    "cost":660
+    "cost":660,
+    "icon": "Scimitar.png"
   },
   "bravesword": {
     "name": "Brave Sword",
@@ -132,7 +142,8 @@
     "range": "1",
     "durability": 70,
     "cost":7000,
-    "note": "Doubles number of attacks"
+    "note": "Doubles number of attacks",
+    "icon": "Brave Sword.png"
   },
   "shieldblade": {
     "name": "Shieldblade",
@@ -145,7 +156,8 @@
     "range": "1",
     "durability": 29,
     "cost":6600,
-    "note": "Raises defense randomly by 1~20"
+    "note": "Raises defense randomly by 1~20",
+    "icon": "Shieldblade.png"
   },
   "levinsword": {
     "name": "Levin Sword",
@@ -158,7 +170,8 @@
     "range": "1-2",
     "durability": 23,
     "cost":3450,
-    "note": "Deals magic damage"
+    "note": "Deals magic damage",
+    "icon": "Levin Sword.png"
   },
   "swordbreaker": {
     "name": "Swordbreaker",
@@ -171,7 +184,8 @@
     "range": "1",
     "durability": 8,
     "cost":2400,
-    "note": "Breaks foe's non ☆ swords"
+    "note": "Breaks foe's non ☆ swords",
+    "icon": "Swordbreaker.png"
   },
   "maingauche": {
     "name": "Main Gauche",
@@ -184,7 +198,8 @@
     "range": "1",
     "durability": 14,
     "cost":2520,
-    "note": "Raises avoid by 20"
+    "note": "Raises avoid by 20",
+    "icon": "Main Gauche.png"
   },
   "armorslayer": {
     "name": "Armorslayer",
@@ -197,7 +212,8 @@
     "range": "1",
     "durability": 22,
     "cost":2200,
-    "note": "Effective against armored units"
+    "note": "Effective against armored units",
+    "icon": "Armorslayer.png"
   },
   "thiefsdagger": {
     "name": "Thief's Dagger",
@@ -210,7 +226,8 @@
     "range": "1",
     "durability": 8,
     "cost":2000,
-    "note": "Grants the Steal skill while equipped"
+    "note": "Grants the Steal skill while equipped",
+    "icon": "Thief's Dagger.png"
   },
   "shamshir": {
     "name": "Shamshir",
@@ -222,7 +239,8 @@
     "mst": 7,
     "range": "1",
     "durability": 40,
-    "cost":2800
+    "cost":2800,
+    "icon": "Shamshir.png"
   },
   "wardblade": {
     "name": "Wardblade",
@@ -235,7 +253,8 @@
     "range": "1",
     "durability": 16,
     "cost":4800,
-    "note": "Raises Res by 7"
+    "note": "Raises Res by 7",
+    "icon": "Wardblade.png"
   },
   "schram": {
     "name": "☆Schram",
@@ -248,7 +267,8 @@
     "range": "1",
     "durability": 60,
     "cost":false,
-    "note": "Vega only, effective against monsters, halves damage recieved"
+    "note": "Vega only, effective against monsters, halves damage recieved",
+    "icon": "Schram.png"
   },
   "sol": {
     "name": "☆Sol",
@@ -261,7 +281,8 @@
     "range": "1",
     "durability": 55,
     "cost":false,
-    "note": "Effective against monsters, user recovers HP equal to damage dealt"
+    "note": "Effective against monsters, user recovers HP equal to damage dealt",
+    "icon": "Sol.png"
   },
   "lukuud": {
     "name": "☆Lukuud",
@@ -274,7 +295,8 @@
     "range": "1",
     "durability": 50,
     "cost":false,
-    "note": "Effective against monsters, raises Res by 7"
+    "note": "Effective against monsters, raises Res by 7",
+    "icon": "Lukuud.png"
   },
   "dullahan": {
     "name": "☆Dullahan",
@@ -287,7 +309,8 @@
     "range": "1",
     "durability": 40,
     "cost":false,
-    "note": "Shigen only, revives user for one durability point when HP reaches 0"
+    "note": "Shigen only, revives user for one durability point when HP reaches 0",
+    "icon": "Dullahan.png"
   },
   "slayersword": {
     "name": "Slayer Sword",
@@ -300,7 +323,8 @@
     "range": "1",
     "durability": 30,
     "cost":6000,
-    "note": "Effective against monsters"
+    "note": "Effective against monsters",
+    "icon": "Slayer Sword.png"
   },
   "luna": {
     "name": "Luna",
@@ -313,7 +337,8 @@
     "range": "1",
     "durability": 30,
     "cost":6000,
-    "note": "Ignores defense, can be used to recover HP"
+    "note": "Ignores non-dragon defense, can be used to recover HP",
+    "icon": "Luna.png"
   },
   "paragon": {
     "name": "Paragon",
@@ -326,7 +351,8 @@
     "range": "1",
     "durability": 30,
     "cost":6000,
-    "note": "Gains double EXP"
+    "note": "Gains double EXP",
+    "icon": "Paragon.png"
   },
   "varunastra": {
     "name": "☆Varunastra",
@@ -339,7 +365,8 @@
     "range": "1",
     "durability": false,
     "cost":false,
-    "note": "Runan only, halves breath damage, negates Dragon Skin"
+    "note": "Runan only, halves breath damage, negates Dragon Skin",
+    "icon": "Varunastra.png"
   },
   "vayavyastra": {
     "name": "☆Vayavyastra",
@@ -352,7 +379,8 @@
     "range": "1",
     "durability": false,
     "cost":false,
-    "note": "Sennet only, halves breath damage, negates Dragon Skin"
+    "note": "Sennet only, halves breath damage, negates Dragon Skin",
+    "icon": "Vayavyastra.png"
   },
   "agneyastra": {
     "name": "☆Agneyastra",
@@ -365,7 +393,8 @@
     "range": "1",
     "durability": false,
     "cost":false,
-    "note": "Holmes only, halves breath damage, negates Dragon Skin"
+    "note": "Holmes only, halves breath damage, negates Dragon Skin",
+    "icon": "Agneyastra.png"
   },
   "bhaumastra": {
     "name": "☆Bhaumastra",
@@ -378,7 +407,8 @@
     "range": "1",
     "durability": false,
     "cost":false,
-    "note": "Tia only, halves breath damage, negates Dragon Skin"
+    "note": "Tia only, halves breath damage, negates Dragon Skin",
+    "icon": "Bhaumastra.png"
   },
   "slimslance": {
     "name": "Slim Lance",
@@ -390,7 +420,8 @@
     "mst": 2,
     "range": "1",
     "durability": 50,
-    "cost":500
+    "cost":500,
+    "icon": "Slim Lance.png"
   },
   "ironlance": {
     "name": "Iron Lance",
@@ -402,7 +433,8 @@
     "mst": 4,
     "range": "1",
     "durability": 60,
-    "cost":1200
+    "cost":1200,
+    "icon": "Iron Lance.png"
   },
   "steellance": {
     "name": "Steel Lance",
@@ -414,7 +446,8 @@
     "mst": 7,
     "range": "1",
     "durability": 60,
-    "cost":1800
+    "cost":1800,
+    "icon": "Steel Lance.png"
   },
   "silverlance": {
     "name": "Silver Lance",
@@ -426,7 +459,8 @@
     "mst": 11,
     "range": "1",
     "durability": 32,
-    "cost":3200
+    "cost":3200,
+    "icon": "Silver Lance.png"
   },
   "bravelance": {
     "name": "Brave Lance",
@@ -439,7 +473,8 @@
     "range": "1",
     "durability": 80,
     "cost":6400,
-    "note": "Doubles number of attacks"
+    "note": "Doubles number of attacks",
+    "icon": "Brave Lance.png"
   },
   "javelin": {
     "name": "Javelin",
@@ -451,7 +486,8 @@
     "mst": 5,
     "range": "1-2",
     "durability": 32,
-    "cost":640
+    "cost":640,
+    "icon": "Javelin.png"
   },
   "killerlance": {
     "name": "Killer Lance",
@@ -463,7 +499,8 @@
     "mst": 8,
     "range": "1",
     "durability": 32,
-    "cost":3200
+    "cost":3200,
+    "icon": "Killer Lance.png"
   },
   "greatlance": {
     "name": "Greatlance",
@@ -475,7 +512,8 @@
     "mst": 6,
     "range": "1",
     "durability": 48,
-    "cost":1920
+    "cost":1920,
+    "icon": "Greatlance.png"
   },
   "canaanspear": {
     "name": "☆Canaan Spear",
@@ -488,7 +526,8 @@
     "range": "1-2",
     "durability": 20,
     "cost":false,
-    "note": "Recover HP equal to damage dealt"
+    "note": "Recover HP equal to damage dealt",
+    "icon": "Canaan Spear.png"
   },
   "pilum": {
     "name": "Pilum",
@@ -500,7 +539,8 @@
     "mst": 9,
     "range": "1-2",
     "durability": 30,
-    "cost":1500
+    "cost":1500,
+    "icon": "Pilum.png"
   },
   "spear": {
     "name": "Spear",
@@ -512,7 +552,8 @@
     "mst": 14,
     "range": "1-2",
     "durability": 30,
-    "cost":3600
+    "cost":3600,
+    "icon": "Spear.png"
   },
   "devillance": {
     "name": "Devil Lance",
@@ -525,7 +566,8 @@
     "range": "1",
     "durability": 73,
     "cost":7300,
-    "note": "(31-Luck)% backfire chance, doesn't apply to Shadow Knights, Riders or Lancers"
+    "note": "(31-Luck)% backfire chance, doesn't apply to Shadow Knights, Riders or Lancers",
+    "icon": "Devil Lance.png"
   },
   "blessedlance": {
     "name": "Blessed Lance",
@@ -538,7 +580,8 @@
     "range": "1",
     "durability": 30,
     "cost":9000,
-    "note": "Effective against monsters, can be used to recover HP"
+    "note": "Effective against monsters, can be used to recover HP",
+    "icon": "Blessed Lance.png"
   },
   "saliaspear": {
     "name": "☆Salia Spear",
@@ -551,7 +594,8 @@
     "range": "1-2",
     "durability": 74,
     "cost":false,
-    "note": "Doubles number of attacks"
+    "note": "Doubles number of attacks",
+    "icon": "Salia Spear.png"
   },
   "ledaspear": {
     "name": "☆Leda Spear",
@@ -564,7 +608,8 @@
     "range": "1-2",
     "durability": 80,
     "cost":false,
-    "note": "Effective against monsters, halves damage recieved"
+    "note": "Effective against monsters, halves damage recieved",
+    "icon": "Leda Spear.png"
   },
   "handaxe": {
     "name": "Hand Axe",
@@ -576,7 +621,8 @@
     "mst": 1,
     "range": "1-2",
     "durability": 60,
-    "cost":1200
+    "cost":1200,
+    "icon": "Hand Axe.png"
   },
   "ironaxe": {
     "name": "Iron Axe",
@@ -588,7 +634,8 @@
     "mst": 3,
     "range": "1",
     "durability": 88,
-    "cost":880
+    "cost":880,
+    "icon": "Iron Axe.png"
   },
   "steelaxe": {
     "name": "Steel Axe",
@@ -600,7 +647,8 @@
     "mst": 4,
     "range": "1",
     "durability": 52,
-    "cost":1560
+    "cost":1560,
+    "icon": "Steel Axe.png"
   },
   "killeraxe": {
     "name": "Killer Axe",
@@ -612,7 +660,8 @@
     "mst": 9,
     "range": "1",
     "durability": 40,
-    "cost":2000
+    "cost":2000,
+    "icon": "Killer Axe.png"
   },
   "tomahawk": {
     "name": "Tomahawk",
@@ -624,7 +673,8 @@
     "mst": 10,
     "range": "1-2",
     "durability": 32,
-    "cost":2560
+    "cost":2560,
+    "icon": "Tomahawk.png"
   },
   "silveraxe": {
     "name": "Silver Axe",
@@ -636,7 +686,8 @@
     "mst": 11,
     "range": "1",
     "durability": 40,
-    "cost":4000
+    "cost":4000,
+    "icon": "Silver Axe.png"
   },
   "halberd": {
     "name": "Halberd",
@@ -649,7 +700,8 @@
     "range": "1",
     "durability": 45,
     "cost":2200,
-    "note": "Effective against cavalry units"
+    "note": "Effective against cavalry units",
+    "icon": "Halberd.png"
   },
   "foulclaw": {
     "name": "★Foul Claw",
@@ -662,7 +714,8 @@
     "range": "1",
     "durability": false,
     "cost":false,
-    "note": "Enemy only"
+    "note": "Enemy only",
+    "icon": "Foul Claw.png"
   },
   "hammer": {
     "name": "Hammer",
@@ -675,7 +728,8 @@
     "range": "1",
     "durability": 60,
     "cost":1200,
-    "note": "Effective against armored units"
+    "note": "Effective against armored units",
+    "icon": "Hammer.png"
   },
   "dolharken": {
     "name": "☆Dolharken",
@@ -688,7 +742,8 @@
     "range": "1",
     "durability": 94,
     "cost":false,
-    "note": "Halves damage recieved"
+    "note": "Halves damage recieved",
+    "icon": "Dolharken.png"
   },
   "foulfist": {
     "name": "★Foul Fist",
@@ -701,7 +756,8 @@
     "range": "1",
     "durability": false,
     "cost":false,
-    "note": "Enemy only"
+    "note": "Enemy only",
+    "icon": "Foul Fist.png"
   },
   "ops": {
     "name": "★Ops",
@@ -714,7 +770,8 @@
     "range": "1",
     "durability": false,
     "cost":false,
-    "note": "Enemy only"
+    "note": "Enemy only",
+    "icon": "Ops.png"
   },
   "shieldaxe": {
     "name": "Shieldaxe",
@@ -727,7 +784,8 @@
     "range": "1",
     "durability": 28,
     "cost":2800,
-    "note": "Raises defense by 10"
+    "note": "Raises defense by 10",
+    "icon": "Shieldaxe.png"
   },
   "blessedaxe": {
     "name": "Blessed Axe",
@@ -740,7 +798,8 @@
     "range": "1",
     "durability": 40,
     "cost":8000,
-    "note": "Effective against monsters, can be used to recover HP"
+    "note": "Effective against monsters, can be used to recover HP",
+    "icon": "Blessed Axe.png"
   },
   "braveaxe": {
     "name": "Brave Axe",
@@ -753,7 +812,8 @@
     "range": "1",
     "durability": 90,
     "cost":4500,
-    "note": "Doubles number of attacks"
+    "note": "Doubles number of attacks",
+    "icon": "Brave Axe.png"
   },
   "woodenbow": {
     "name": "Wooden Bow",
@@ -765,7 +825,8 @@
     "mst": 2,
     "range": "2",
     "durability": 50,
-    "cost":500
+    "cost":500,
+    "icon": "Wooden Bow.png"
   },
   "ironbow": {
     "name": "Iron Bow",
@@ -777,7 +838,8 @@
     "mst": 6,
     "range": "2",
     "durability": 40,
-    "cost":1200
+    "cost":1200,
+    "icon": "Iron Bow.png"
   },
   "steelbow": {
     "name": "Steel Bow",
@@ -789,7 +851,8 @@
     "mst": 8,
     "range": "2",
     "durability": 40,
-    "cost":2000
+    "cost":2000,
+    "icon": "Steel Bow.png"
   },
   "silverbow": {
     "name": "Silver Bow",
@@ -801,7 +864,8 @@
     "mst": 11,
     "range": "2",
     "durability": 28,
-    "cost":2800
+    "cost":2800,
+    "icon": "Silver Bow.png"
   },
   "blessedbow": {
     "name": "Blessed Bow",
@@ -814,7 +878,8 @@
     "range": "2-3",
     "durability": 30,
     "cost":false,
-    "note": "Effective against monsters, can be used to recover HP"
+    "note": "Effective against monsters, can be used to recover HP",
+    "icon": "Blessed Bow.png"
   },
   "harpybow": {
     "name": "★Harpy Bow",
@@ -827,7 +892,8 @@
     "range": "2",
     "durability": 40,
     "cost":false,
-    "note": "Enemy only"
+    "note": "Enemy only",
+    "icon": "Harpy Bow.png"
   },
   "bravebow": {
     "name": "Brave Bow",
@@ -840,7 +906,8 @@
     "range": "2",
     "durability": 60,
     "cost":4800,
-    "note": "Doubles number of attacks"
+    "note": "Doubles number of attacks",
+    "icon": "Brave Bow.png"
   },
   "longbow": {
     "name": "Long Bow",
@@ -852,7 +919,8 @@
     "mst": 10,
     "range": "2-3",
     "durability": 40,
-    "cost":4800
+    "cost":4800,
+    "icon": "Long Bow.png"
   },
   "bowgun": {
     "name": "Bowgun",
@@ -864,7 +932,8 @@
     "mst": 3,
     "range": "2",
     "durability": 44,
-    "cost":1320
+    "cost":1320,
+    "icon": "Bowgun.png"
   },
   "bravecrossbow": {
     "name": "Brave Crossbow",
@@ -877,7 +946,8 @@
     "range": "2",
     "durability": 40,
     "cost":1600,
-    "note": "Doubles number of attacks"
+    "note": "Doubles number of attacks",
+    "icon": "Brave Crossbow.png"
   },
   "arbalest": {
     "name": "Arbalest",
@@ -889,7 +959,8 @@
     "mst": 15,
     "range": "2-4",
     "durability": 22,
-    "cost":4400
+    "cost":4400,
+    "icon": "Arbalest.png"
   },
   "killercrossbow": {
     "name": "Killer Crossbow",
@@ -901,7 +972,8 @@
     "mst": 9,
     "range": "2",
     "durability": 23,
-    "cost":2300
+    "cost":2300,
+    "icon": "Killer Crossbow.png"
   },
   "chukonu": {
     "name": "Chu-ko-nu",
@@ -914,7 +986,8 @@
     "range": "2",
     "durability": 60,
     "cost":3600,
-    "note": "Quadruples number of attacks"
+    "note": "Quadruples number of attacks",
+    "icon": "Chukono.png"
   },
   "arrowspate": {
     "name": "Arrowspate",
@@ -927,7 +1000,8 @@
     "range": "3-7",
     "durability": 22,
     "cost":4400,
-    "note": "Can't move or be counted"
+    "note": "Can't move or be countered",
+    "icon": "Arrowspate.png"
   },
   "stonehoist": {
     "name": "Stonehoist",
@@ -940,7 +1014,8 @@
     "range": "3-7",
     "durability": 15,
     "cost":3000,
-    "note": "Can't move or be counted"
+    "note": "Can't move or be countered",
+    "icon": "Stonehoist.png"
   },
   "fire": {
     "name": "Fire",
@@ -952,7 +1027,8 @@
     "mst": 3,
     "range": "1-2",
     "durability": 30,
-    "cost":2400
+    "cost":2400,
+    "icon": "Fire.png"
   },
   "elfire": {
     "name": "Elfire",
@@ -964,7 +1040,8 @@
     "mst": 6,
     "range": "1-2",
     "durability": 25,
-    "cost":3000
+    "cost":3000,
+    "icon": "Elfire.png"
   },
   "bolganone": {
     "name": "Bolganone",
@@ -976,7 +1053,8 @@
     "mst": 12,
     "range": "1-2",
     "durability": 18,
-    "cost":3240
+    "cost":3240,
+    "icon": "Bolganone.png"
   },
   "meteor": {
     "name": "Meteor",
@@ -989,7 +1067,8 @@
     "range": "2-5",
     "durability": 15,
     "cost":3300,
-    "note": "Can't be counted"
+    "note": "Can't be countered",
+    "icon": "Meteor.png"
   },
   "ifrit": {
     "name": "Ifrit",
@@ -1002,7 +1081,8 @@
     "range": "2-3",
     "durability": 12,
     "cost":2400,
-    "note": "Deaks damage in a 3x3 square area, can only be used on even-numbered turns"
+    "note": "Deaks damage in a 3x3 square area, can only be used on even-numbered turns",
+    "icon": "Ifrit.png"
   },
   "sunflame": {
     "name": "☆Sunflame",
@@ -1015,7 +1095,8 @@
     "range": "1-3",
     "durability": 70,
     "cost":false,
-    "note": "Rishel only, effective against monsters, raises defense by 10"
+    "note": "Rishel only, effective against monsters, raises defense by 10",
+    "icon": "Sunflame.png"
   },
   "thunder": {
     "name": "Thunder",
@@ -1027,7 +1108,8 @@
     "mst": 4,
     "range": "1-2",
     "durability": 30,
-    "cost":2400
+    "cost":2400,
+    "icon": "Thunder.png"
   },
   "elthunder": {
     "name": "Elthunder",
@@ -1039,7 +1121,8 @@
     "mst": 8,
     "range": "1-2",
     "durability": 25,
-    "cost":3000
+    "cost":3000,
+    "icon": "Elthunder.png"
   },
   "direthunder": {
     "name": "Dire Thunder",
@@ -1052,7 +1135,8 @@
     "range": "1-2",
     "durability": 62,
     "cost":false,
-    "note": "Alicia only, doubles number of attacks"
+    "note": "Alicia only, doubles number of attacks",
+    "icon": "Dire Thunder.png"
   },
   "thoron": {
     "name": "Thoron",
@@ -1064,7 +1148,8 @@
     "mst": 12,
     "range": "1-2",
     "durability": 20,
-    "cost":6000
+    "cost":6000,
+    "icon": "Thoron.png"
   },
   "darkthunder": {
     "name": "Darkthunder",
@@ -1077,7 +1162,8 @@
     "range": "2-3",
     "durability": 14,
     "cost":4200,
-    "note": "Deaks damage in a 3x3 square area, can only be used on even-numbered turns"
+    "note": "Deaks damage in a 3x3 square area, can only be used on even-numbered turns",
+    "icon": "Darkthunder.png"
   },
   "wind": {
     "name": "Wind",
@@ -1089,7 +1175,8 @@
     "mst": 5,
     "range": "1-2",
     "durability": 44,
-    "cost":2640
+    "cost":2640,
+    "icon": "Wind.png"
   },
   "blizzard": {
     "name": "Blizzard",
@@ -1102,7 +1189,8 @@
     "range": "1-2",
     "durability": 30,
     "cost":3000,
-    "note": "Can't be counted"
+    "note": "Can't be countered",
+    "icon": "Blizzard.png"
   },
   "wundergust": {
     "name": "☆Wundergust",
@@ -1115,7 +1203,8 @@
     "range": "1-2",
     "durability": 58,
     "cost":false,
-    "note": "Maruj only"
+    "note": "Maruj only",
+    "icon": "Wundergust.png"
   },
   "tornado": {
     "name": "Tornado",
@@ -1128,7 +1217,8 @@
     "range": "2",
     "durability": 12,
     "cost":3600,
-    "note": "Deals damage to 5 squares in a + shape, can only be used on even-numbered turns"
+    "note": "Deals damage to 5 squares in a + shape, can only be used on even-numbered turns",
+    "icon": "Tornado.png"
   },
   "sylphid": {
     "name": " ☆Sylphid",
@@ -1141,7 +1231,8 @@
     "range": "1-2",
     "durability": 47,
     "cost":false,
-    "note": "Can't be counted"
+    "note": "Can't be countered",
+    "icon": "Sylphid.png"
   },
   "moonlight": {
     "name": "Moonlight",
@@ -1154,7 +1245,8 @@
     "range": "1-2",
     "durability": 18,
     "cost":5400,
-    "note": "Recover HP equal to damage dealt, effective against monsters"
+    "note": "Recover HP equal to damage dealt, effective against monsters",
+    "icon": "Moonlight.png"
   },
   "starlight": {
     "name": "☆Starlight",
@@ -1167,7 +1259,8 @@
     "range": "1-2",
     "durability": 50,
     "cost":false,
-    "note": "Meriel only, raises avoid by 30, effective against monsters"
+    "note": "Meriel only, raises avoid by 30, effective against monsters",
+    "icon": "Starlight.png"
   },
   "canticle": {
     "name": "☆Canticle",
@@ -1180,7 +1273,8 @@
     "range": "1-2",
     "durability": 40,
     "cost":false,
-    "note": "Can't be counted, effective against monsters"
+    "note": "Can't be countered, effective against monsters",
+    "icon": "Canticle.png"
   },
   "aurarain": {
     "name": "☆Aura Rain",
@@ -1193,7 +1287,8 @@
     "range": "All",
     "durability": 7,
     "cost":false,
-    "note": "Meriel only, targets all enemies, can only be used on turns divisible by 5, effective against monsters"
+    "note": "Meriel only, targets all enemies, can only be used on turns divisible by 5, effective against monsters",
+    "icon": "Aura Rain.png"
   },
   "swarm": {
     "name": "Swarm",
@@ -1205,7 +1300,8 @@
     "mst": 4,
     "range": "1-2",
     "durability": 26,
-    "cost":2600
+    "cost":2600,
+    "icon": "Swarm.png"
   },
   "nosferatu": {
     "name": "Nosferatu",
@@ -1218,7 +1314,8 @@
     "range": "1-2",
     "durability": 30,
     "cost":3000,
-    "note": "Recover HP equal to damage dealt"
+    "note": "Recover HP equal to damage dealt",
+    "icon": "Nosferatu.png"
   },
   "death": {
     "name": "Death",
@@ -1230,7 +1327,8 @@
     "mst": 10,
     "range": "1-2",
     "durability": 18,
-    "cost":2700
+    "cost":2700,
+    "icon": "Death.png"
   },
   "zahhak": {
     "name": "★Zahhak",
@@ -1243,7 +1341,8 @@
     "range": "1-2",
     "durability": 68,
     "cost":false,
-    "note": "Enemy only, seals enemy's attacks"
+    "note": "Enemy only, seals enemy's attacks",
+    "icon": "Zahhak.png"
   },
   "tumahann": {
     "name": "Tumahann",
@@ -1256,7 +1355,8 @@
     "range": "1-3",
     "durability": 40,
     "cost":2800,
-    "note": "Can't be counted"
+    "note": "Can't be countered",
+    "icon": "Tumahann.png"
   },
   "blackrain": {
     "name": "★Black Rain",
@@ -1269,7 +1369,8 @@
     "range": "All",
     "durability": false,
     "cost":false,
-    "note": "Enemy only, kills all enemies but the caster and Tia, negates revival effects, only usable on turns divisible by 20"
+    "note": "Enemy only, kills all enemies but the caster and Tia, negates revival effects, only usable on turns divisible by 20",
+    "icon": "Black Rain.png"
   },
   "blackhole": {
     "name": "Black Hole",
@@ -1282,7 +1383,8 @@
     "range": "1-2",
     "durability": 12,
     "cost":3000,
-    "note": "Deals damage to 5 squares in a + shape, can only be used on even-numbered turns"
+    "note": "Deals damage to 5 squares in a + shape, can only be used on even-numbered turns",
+    "icon": "Black Hole.png"
   },
   "earthquake": {
     "name": "Earthquake",
@@ -1295,7 +1397,8 @@
     "range": "All",
     "durability": 10,
     "cost":4000,
-    "note": "Targets all non flying enemies, can only be used on turns divisible by 5"
+    "note": "Targets all non flying enemies, can only be used on turns divisible by 5",
+    "icon": "Earthquake.png"
   },
   "landburst": {
     "name": "Land Burst",
@@ -1308,7 +1411,8 @@
     "range": "2-3",
     "durability": 12,
     "cost":3600,
-    "note": "Deals damage in a 3x3 square, can only be used on even-numbered turns"
+    "note": "Deals damage in a 3x3 square, can only be used on even-numbered turns",
+    "icon": "Land Burst.png"
   },
   "kisharswrath": {
     "name": "Kishar's Wrath",
@@ -1321,7 +1425,8 @@
     "range": "2-5",
     "durability": 12,
     "cost":3840,
-    "note": "Deals damage to 5 squares in a + shape, can only be used on even-numbered turns"
+    "note": "Deals damage to 5 squares in a + shape, can only be used on even-numbered turns",
+    "icon": "Kishar's Wrath.png"
   },
   "breath": {
     "name": "☆Breath",
@@ -1334,7 +1439,8 @@
     "range": "1-2",
     "durability": false,
     "cost":false,
-    "note": "Negates defense"
+    "note": "Negates non-dragon skin defense",
+    "icon": "Breath.png"
   },
   "shadowflame": {
     "name": "★Shadowflame",
@@ -1347,7 +1453,8 @@
     "range": "1-3",
     "durability": false,
     "cost":false,
-    "note": "Deals damage in a 3x3 square area, negates defense"
+    "note": "Deals damage in a 3x3 square area, negates non-dragon skin defense",
+    "icon": "Shadowflame.png"
   },
   "fiercebreath": {
     "name": "☆Fierce Breath",
@@ -1360,7 +1467,8 @@
     "range": "1-2",
     "durability": false,
     "cost":false,
-    "note": "Deals damage in a 3x3 square area, negates defense"
+    "note": "Deals damage in a 3x3 square area, negates non-dragon skin defense",
+    "icon": "Fierce Breath.png"
   },
   "heal": {
     "name": "Heal",
@@ -1369,7 +1477,8 @@
     "range": "1",
     "durability": 22,
     "cost":2200,
-    "note": "Restores an ally's HP by user's Magic +10"
+    "note": "Restores an ally's HP by user's Magic +10",
+    "icon": "Heal.png"
   },
   "physic": {
     "name": "Physic",
@@ -1378,16 +1487,18 @@
     "range": "All",
     "durability": 15,
     "cost":4500,
-    "note": "Restores an ally's HP by user's Magic +10"
+    "note": "Restores an ally's HP by user's Magic +10",
+    "icon": "Physic.png"
   },
   "save": {
-    "name": " ☆Save",
+    "name": "☆Save",
     "type": "Staff",
     "mst": 2,
     "range": "All",
     "durability": 18,
     "cost":false,
-    "note": "Can be used to save the game in the middle of a battle"
+    "note": "Can be used to save the game in the middle of a battle",
+    "icon": "Save.png"
   },
   "hammerne": {
     "name": "☆Hammerne",
@@ -1396,7 +1507,8 @@
     "range": "1",
     "durability": 3,
     "cost":false,
-    "note": "Restore a weapon or staff to full durability"
+    "note": "Restore a weapon or staff to full durability",
+    "icon": "Hammerne.png"
   },
   "enarmor": {
     "name": "☆Enarmor",
@@ -1405,7 +1517,8 @@
     "range": "1",
     "durability": 18,
     "cost":false,
-    "note": "Plum only, halves an allies taken damage for a chapter"
+    "note": "Plum only, halves an allies taken damage for a chapter",
+    "icon": "Enarmor.png"
   },
   "exorcise": {
     "name": "☆Exorcise",
@@ -1414,7 +1527,8 @@
     "range": "All",
     "durability": 7,
     "cost":false,
-    "note": "Renee only, Removes mosters up to user's magic"
+    "note": "Renee only, Removes mosters up to user's magic",
+    "icon": "Exorcise.png"
   },
   "silence": {
     "name": "☆Silence",
@@ -1423,7 +1537,8 @@
     "range": "All",
     "durability": 9,
     "cost":false,
-    "note": "Letena only, Stops up to Mag number of enemies from casting magic for 1 turn"
+    "note": "Letena only, Stops up to Mag number of enemies from casting magic for 1 turn",
+    "icon": "Silence.png"
   },
   "empower": {
     "name": "☆Empower",
@@ -1432,7 +1547,8 @@
     "range": "1",
     "durability": 14,
     "cost":false,
-    "note": "Lyria only, Grants +10 Power to an ally for a chapter"
+    "note": "Lyria only, Grants +10 Power to an ally for a chapter",
+    "icon": "Empower.png"
   },
   "Ensorcel": {
     "name": "☆Ensorcel",
@@ -1441,7 +1557,8 @@
     "range": "1",
     "durability": 10,
     "cost":false,
-    "note": "Mel only, raises an allies magic by 7 for a chapter"
+    "note": "Mel only, raises an allies magic by 7 for a chapter",
+    "icon": "Ensorcel.png"
   },
   "zombie": {
     "name": "Zombie",
@@ -1450,7 +1567,8 @@
     "range": "1",
     "durability": 12,
     "cost":3600,
-    "note": "Summon NPC Revenants and entombed"
+    "note": "Story Mode: Summon NPC Revenants and entombed\nVersus Mode: Summons NPC Revenants and Dracozombies.",
+    "icon": "Zombie.png"
   },
   "skeleton": {
     "name": "Skeleton",
@@ -1459,7 +1577,8 @@
     "range": "1",
     "durability": 12,
     "cost":4200,
-    "note": "Summon NPC Bonewalkers and Wights"
+    "note": "Summon NPC Bonewalkers and Wights",
+    "icon": "Skeleton.png"
   },
   "ogre": {
     "name": "Ogre",
@@ -1468,7 +1587,8 @@
     "range": "1",
     "durability": 12,
     "cost":4200,
-    "note": "Summon NPC Ogres and Greatogres"
+    "note": "Summon NPC Ogres and Greatogres",
+    "icon": "Ogre.png"
   },
   "gargoyle": {
     "name": "Gargoyle",
@@ -1477,7 +1597,8 @@
     "range": "1",
     "durability": 12,
     "cost":4200,
-    "note": "Summon NPC Gargoyles"
+    "note": "Summon NPC Gargoyles",
+    "icon": "Gargoyle.png"
   },
   "harpy": {
     "name": "Harpy",
@@ -1486,7 +1607,8 @@
     "range": "1",
     "durability": 12,
     "cost":4200,
-    "note": "Summon NPC Harpies"
+    "note": "Summon NPC Harpies",
+    "icon": "Harpy.png"
   },
   "golem": {
     "name": "Golem",
@@ -1495,7 +1617,8 @@
     "range": "1",
     "durability": 12,
     "cost":4200,
-    "note": "Summon NPC Earthborn and Stoneborn"
+    "note": "Summon NPC Earthborn and Stoneborn",
+    "icon": "Golem.png"
   },
   "warp": {
     "name": "☆Warp",
@@ -1504,524 +1627,599 @@
     "range": "1",
     "durability": 15,
     "cost":false,
-    "note": "Renee only, teleports an ally to a traversable square"
+    "note": "Renee only, teleports an ally to a traversable square",
+    "icon": "Warp.png"
   },
   "herb": {
     "name": "Herb",
     "type": "Item",
     "durability": 3,
     "cost":1200,
-    "note": "Restore 10 HP"
+    "note": "Restore 10 HP",
+    "icon": "Herb.png"
   },
   "fruit": {
     "name": "Fruit",
     "type": "Item",
     "durability": 3,
     "cost":2100,
-    "note": "Restore 20 HP"
+    "note": "Restore 20 HP",
+    "icon": "Fruit.png"
   },
   "elixir": {
     "name": "Elixir",
     "type": "Item",
     "durability": 3,
     "cost":3000,
-    "note": "Restore all HP"
+    "note": "Restore all HP",
+    "icon": "Elixir.png"
   },
   "miraclecharm": {
     "name": "Miracle Charm",
     "type": "Item",
     "durability": 1,
     "cost":5000,
-    "note": "Negates one fatal attack"
+    "note": "Negates one fatal attack",
+    "icon": "Miracle Charm.png"
   },
   "knightcrest": {
     "name": "Knight Crest",
     "type": "Item",
     "durability": 1,
     "cost":11700,
-    "note": "Use to promote knight-type units"
+    "note": "Use to promote knight-type units",
+    "icon": "Knight Crest.png"
   },
   "herocrest": {
     "name": "Hero Crest",
     "type": "Item",
     "durability": 1,
     "cost":11700,
-    "note": "Use to promote fighter-type units"
+    "note": "Use to promote fighter-type units",
+    "icon": "Hero Crest.png"
   },
   "sagescloak": {
     "name": "Sage's Cloak",
     "type": "Item",
     "durability": 1,
     "cost":11700,
-    "note": "Use to promote magic units"
+    "note": "Use to promote magic units",
+    "icon": "Sage's Cloak.png"
   },
   "wyvernflute": {
     "name": "Wyvern Flute",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Use to promote Pegasus Knights"
+    "note": "Use to promote Pegasus Knights",
+    "icon": "Wyvern Flute.png"
   },
   "doorkey": {
     "name": "Door Key",
     "type": "Item",
     "durability": 1,
     "cost":500,
-    "note": "Opens a door"
+    "note": "Opens a door",
+    "icon": "Door Key.png"
   },
   "mysterykey": {
     "name": "Mystery Key",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Unused"
+    "note": "Unused",
+    "icon": "Mystery Key.png"
   },
   "memberkey": {
     "name": "☆Member Key",
     "type": "Item",
     "durability": 5,
     "cost":false,
-    "note": "Used to enter Secret Shops"
+    "note": "Used to enter Secret Shops",
+    "icon": "Member Key.png"
   },
   "bridgekey": {
     "name": "Bridge Key",
     "type": "Item",
     "durability": 1,
     "cost":2000,
-    "note": "Raises a closed bridge"
+    "note": "Raises a closed bridge",
+    "icon": "Bridge Key.png"
   },
   "emblemofcanaan": {
     "name": "Emblem of Canaan",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Emblem of the Canaan royal family\nUnused"
+    "note": "Emblem of the Canaan royal family\nUnused",
+    "icon": "Emblem of Canaan.png"
   },
   "emblemofreeve": {
     "name": "Emblem of Reeve",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Emblem of the Reeve royal family\nUnused"
+    "note": "Emblem of the Reeve royal family\nUnused",
+    "icon": "Emblem of Reeve.png"
   },
   "emblemofsalia": {
     "name": "Emblem of Salia",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Emblem of the Salia royal family\nUnused"
+    "note": "Emblem of the Salia royal family\nUnused",
+    "icon": "Emblem of Salia.png"
   },
   "emblemofleda": {
     "name": "Emblem of Leda",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Emblem of the Leda royal family\nUnused"
+    "note": "Emblem of the Leda royal family\nUnused",
+    "icon": "Emblem of Leda.png"
   },
   "ringofcanaan": {
     "name": "Ring of Canaan",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Allows Neyfa to transform into the Wind Dragon, Rachis"
+    "note": "Allows Neyfa to transform into the Wind Dragon, Rachis",
+    "icon": "Ring of Canaan.png"
   },
   "ringofsalia": {
     "name": "Ring of Salia",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Allows Katri to transform into the Fire Dragon, Neuron"
+    "note": "Allows Katri to transform into the Fire Dragon, Neuron",
+    "icon": "Ring of Salia.png"
   },
   "ringofreeve": {
     "name": "Ring of Reeve",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Allows Enteh to transform into the Water Dragon, Mousa"
+    "note": "Allows Enteh to transform into the Water Dragon, Mousa",
+    "icon": "Ring of Reeve.png"
   },
   "ringofleda": {
     "name": "Ring of Leda",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Allows Tia to transform into the Earth Dragon, Kranion"
+    "note": "Allows Tia to transform into the Earth Dragon, Kranion",
+    "icon": "Ring of Leda.png"
   },
   "energypotion": {
     "name": "Energy Potion",
     "type": "Item",
     "durability": 1,
     "cost":12000,
-    "note": "Permanently increases strength by 3"
+    "note": "Permanently increases strength by 3",
+    "icon": "Energy Potion.png"
   },
   "secretpotion": {
     "name": "Secret Potion",
     "type": "Item",
     "durability": 1,
     "cost":12000,
-    "note": "Permanently increases skill by 3"
+    "note": "Permanently increases skill by 3",
+    "icon": "Secret Potion.png"
   },
   "wingpotion": {
     "name": "Wing Potion",
     "type": "Item",
     "durability": 1,
     "cost":12000,
-    "note": "Permanently increases speed by 3"
+    "note": "Permanently increases speed by 3",
+    "icon": "Wing Potion.png"
   },
   "goddesspotion": {
     "name": "Goddess Potion",
     "type": "Item",
     "durability": 1,
     "cost":12000,
-    "note": "Permanently increases luck by 3"
+    "note": "Permanently increases luck by 3",
+    "icon": "Goddess Potion.png"
   },
   "dragonpotion": {
     "name": "Dragon Potion",
     "type": "Item",
     "durability": 1,
     "cost":12000,
-    "note": "Permanently increases defense by 3"
+    "note": "Permanently increases defense by 3",
+    "icon": "Dragon Potion.png"
   },
   "spiritpotion": {
     "name": "Spirit Potion",
     "type": "Item",
     "durability": 1,
     "cost":12000,
-    "note": "Permanently increases magic by 3"
+    "note": "Permanently increases magic by 3",
+    "icon": "Spirit Potion.png"
   },
   "angelicpotion": {
     "name": "Angelic Potion",
     "type": "Item",
     "durability": 1,
     "cost":12000,
-    "note": "Permanently increases max HP by 5"
+    "note": "Permanently increases max HP by 5",
+    "icon": "Angelic Potion.png"
   },
   "masterypotion": {
     "name": "Mastery Potion",
     "type": "Item",
     "durability": 1,
     "cost":12000,
-    "note": "Permanently increases mastery by 3"
+    "note": "Permanently increases mastery by 3",
+    "icon": "Mastery Potion.png"
   },
   "swiftpotion": {
     "name": "Swift Potion",
     "type": "Item",
     "durability": 1,
     "cost":12000,
-    "note": "Permanently increases movement by 3"
+    "note": "Permanently increases movement by 3",
+    "icon": "Swift Potion.png"
   },
   "goddessshield": {
     "name": "☆Goddess Shield",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Negates effective and critical hits"
+    "note": "Negates effective and critical hits",
+    "icon": "Goddess Shield.png"
   },
   "saliacodex": {
     "name": "☆Salia Codex",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Raises Str, Skl, Spd and Def growths by 10%"
+    "note": "Raises Str, Skl, Spd and Def growths by 10%",
+    "icon": "Salia Codex.png"
   },
   "reevecodex": {
     "name": "☆Reeve Codex",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Raises HP, Luck, Mag and Mst growths by 10%"
+    "note": "Raises HP, Luck, Mag and Mst growths by 10%",
+    "icon": "Reeve Codex.png"
   },
   "dragonscute": {
     "name": "☆Dragon Scute",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Halves recieved damage"
+    "note": "Halves recieved damage",
+    "icon": "Dragon Scute.png"
   },
   "dragonskin": {
     "name": "☆Dragon Skin",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Defense and Resistance +40, negates effectiveness, critical attacks, in combat skills and defense bypass effects"
+    "note": "Defense and Resistance +40, negates effectiveness, critical attacks, in combat skills and defense bypass effects",
+    "icon": "Dragon Skin.png"
   },
   "crest": {
     "name": "Crest",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Unused"
+    "note": "Unused",
+    "icon": "Crest.png"
   },
   "flameshield": {
     "name": "☆Flame Shield",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Raises fire resistance by 12"
+    "note": "Raises fire resistance by 12",
+    "icon": "Flame Shield.png"
   },
   "thundershield": {
     "name": "☆Thunder Shield",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Raises thunder resistance by 12"
+    "note": "Raises thunder resistance by 12",
+    "icon": "Thunder Shield.png"
   },
   "windshield": {
     "name": "☆Wind Shield",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Raises wind resistance by 12"
+    "note": "Raises wind resistance by 12",
+    "icon": "Wind Shield.png"
   },
   "leathershield": {
     "name": "Leather Shield",
     "type": "Item",
     "durability": 4,
     "cost":2000,
-    "note": "Raises defense by 4"
+    "note": "Raises defense by 4",
+    "icon": "Leather Shield.png"
   },
   "ironshield": {
     "name": "Iron Shield",
     "type": "Item",
     "durability": 4,
     "cost":4000,
-    "note": "Raises defense by 7"
+    "note": "Raises defense by 7",
+    "icon": "Iron Shield.png"
   },
   "steelhield": {
     "name": "Steel Shield",
     "type": "Item",
     "durability": 3,
     "cost":6000,
-    "note": "Raises defense by 12"
+    "note": "Raises defense by 12",
+    "icon": "Steel Shield.png"
   },
   "silvershield": {
     "name": "Silver Shield",
     "type": "Item",
     "durability": 2,
     "cost":6000,
-    "note": "Raises defense by 20"
+    "note": "Raises defense by 20",
+    "icon": "Silver Shield.png"
   },
   "magicshield": {
     "name": "Magic Shield",
     "type": "Item",
     "durability": 4,
     "cost":8000,
-    "note": "Raises Resistance by 7"
+    "note": "Raises Resistance by 7",
+    "icon": "Magic Shield.png"
   },
   "moneybag": {
     "name": "Money Bag",
     "type": "Item",
     "durability": 1,
     "cost":4500,
-    "note": "Can be sold for 3000 G or opened for 2000 ~ 4000 G"
+    "note": "Can be sold for 3000 G or opened for 2000 ~ 4000 G",
+    "icon": "Money Bag.png"
   },
   "smithshammer": {
     "name": "Smith's Hammer",
     "type": "Item",
     "durability": 1,
     "cost":8000,
-    "note": "Restores a non ☆ or ★ weapon or staff to full durability"
+    "note": "Restores a non ☆ or ★ weapon or staff to full durability",
+    "icon": "Smith's Hammer.png"
   },
   "dakruon": {
     "name": "☆Dakruon",
     "type": "Item",
     "durability": 3,
     "cost":false,
-    "note": "Can be used at the Tower of Morse to revive fallen allies"
+    "note": "Can be used at the Tower of Morse to revive fallen allies",
+    "icon": "Dakruon.png"
   },
   "azoth": {
     "name": "★Azoth",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Revives the user after defeat"
+    "note": "Revives the user after defeat",
+    "icon": "Azoth.png"
   },
   "pegasusflute": {
     "name": "☆Pegasus Flute",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Use to promote Princess"
+    "note": "Use to promote Princess",
+    "icon": "Pegasus Flute.png"
   },
   "occultbook": {
     "name": "Occult Book",
     "type": "Item",
     "durability": 1,
     "cost":12000,
-    "note": "Use to increase maximum level by 10 (up to 40)"
+    "note": "Use to increase maximum level by 10 (up to 40)",
+    "icon": "Scroll.png"
   },
   "terrascroll": {
     "name": "Terra Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Terra\nUnused"
+    "note": "Teaches the skill: Terra\nUnused",
+    "icon": "Scroll.png"
   },
   "astrascroll": {
     "name": "Astra Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Astra\nUnused"
+    "note": "Teaches the skill: Astra\nUnused",
+    "icon": "Scroll.png"
   },
   "solscroll": {
     "name": "Sol Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Sol\nUnused"
+    "note": "Teaches the skill: Sol\nUnused",
+    "icon": "Scroll.png"
   },
   "lunascroll": {
     "name": "Luna Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Luna\nUnused"
+    "note": "Teaches the skill: Luna\nUnused",
+    "icon": "Scroll.png"
   },
   "vantagescroll": {
     "name": "Vantage Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Vantage\nUnused"
+    "note": "Teaches the skill: Vantage\nUnused",
+    "icon": "Scroll.png"
   },
   "pavisescroll": {
     "name": "Pavise Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Pavise\nUnused"
+    "note": "Teaches the skill: Pavise\nUnused",
+    "icon": "Scroll.png"
   },
   "nihilscroll": {
     "name": "Nihil Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Nihil\nUnused"
+    "note": "Teaches the skill: Nihil\nUnused",
+    "icon": "Scroll.png"
   },
   "warthscroll": {
     "name": "Wrath Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Wrath\nUnused"
+    "note": "Teaches the skill: Wrath\nUnused",
+    "icon": "Scroll.png"
   },
   "adeptscroll": {
     "name": "Adept Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Adept\nUnused"
+    "note": "Teaches the skill: Adept\nUnused",
+    "icon": "Scroll.png"
   },
   "dracoscroll": {
     "name": "Draco Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Draco\nUnused"
+    "note": "Teaches the skill: Draco\nUnused",
+    "icon": "Scroll.png"
   },
   "stealscroll": {
     "name": "Steal Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Steal\nUnused"
+    "note": "Teaches the skill: Steal\nUnused",
+    "icon": "Scroll.png"
   },
   "warpscroll": {
     "name": "Warp Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Warp\nUnused"
+    "note": "Teaches the skill: Warp\nUnused",
+    "icon": "Scroll.png"
   },
   "mugscroll": {
     "name": "Mug Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Mug"
+    "note": "Teaches the skill: Mug",
+    "icon": "Scroll.png"
   },
   "lockpickscroll": {
     "name": "Lockpick Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Lockpick\nUnused"
+    "note": "Teaches the skill: Lockpick\nUnused",
+    "icon": "Scroll.png"
   },
   "flurryscroll": {
     "name": "Flurry Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Flurry\nUnused"
+    "note": "Teaches the skill: Flurry\nUnused",
+    "icon": "Scroll.png"
   },
   "cantoscroll": {
     "name": "Canto Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Canto"
+    "note": "Teaches the skill: Canto",
+    "icon": "Scroll.png"
   },
   "paragonscroll": {
     "name": "Paragon Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Paragon\nUnused"
+    "note": "Teaches the skill: Paragon\nUnused",
+    "icon": "Scroll.png"
   },
   "slayerscroll": {
     "name": "Slayer Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Slayer\nUnused"
+    "note": "Teaches the skill: Slayer\nUnused",
+    "icon": "Scroll.png"
   },
   "foresterscroll": {
     "name": "Forester Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Forester\nUnused"
+    "note": "Teaches the skill: Forester\nUnused",
+    "icon": "Scroll.png"
   },
   "mountaineerscroll": {
     "name": "Mountaineer Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Mountaineer\nUnused"
+    "note": "Teaches the skill: Mountaineer\nUnused",
+    "icon": "Scroll.png"
   },
   "seafarerscroll": {
     "name": "Seafarer Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Seafarer\nUnused"
+    "note": "Teaches the skill: Seafarer\nUnused",
+    "icon": "Scroll.png"
   },
   "frontiersmanscroll": {
     "name": "Frontiersman Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Frontiersman\nUnused"
+    "note": "Teaches the skill: Frontiersman\nUnused",
+    "icon": "Scroll.png"
   },
   "desertdwellerscroll": {
     "name": "Desert-Dweller Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Desert-Dweller\nUnused"
+    "note": "Teaches the skill: Desert-Dweller\nUnused",
+    "icon": "Scroll.png"
   },
   "urbanitescroll": {
     "name": "Urbanite Scroll",
     "type": "Item",
     "durability": 1,
     "cost":false,
-    "note": "Teaches the skill: Urbanite\nUnused"
+    "note": "Teaches the skill: Urbanite\nUnused",
+    "icon": "Scroll.png"
   },
   "lansmirror": {
     "name": "Lan's Mirror",
     "type": "Item",
     "durability": false,
     "cost":false,
-    "note": "Grants +5 Hit and Avoid to allies within 3 squares"
+    "note": "Grants +5 Hit and Avoid to allies within 3 squares",
+    "icon": "Lan's Mirror.png"
   }
 }

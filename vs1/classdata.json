@@ -7,12 +7,25 @@
       "mag": 8,
       "dex": 18,
       "agi": 18,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 15,
       "res": 8,
       "mob": 7
-    }
+    },
+    "weapon": [
+      "Standard Sword"
+    ]
+  },
+  "mercenary": {
+    "name": "Mercenary",
+    "cap": {
+      "mag": 0,
+      "prof": 30
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword"
+    ]
   },
   "meledianprincess": {
     "name": "Meledian Princess",
@@ -27,7 +40,10 @@
       "def": 5,
       "res": 19,
       "mob": 5
-    }
+    },
+    "weapon": [
+      "Staff"
+    ]
   },
   "guardian": {
     "name": "Guardian",
@@ -37,12 +53,14 @@
       "mag": 0,
       "dex": 13,
       "agi": 11,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 16,
-      "res": 4,
-      "mob": false
-    }
+      "res": 4
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ]
   },
   "axefighterm": {
     "name": "Axefighter (Male)",
@@ -52,12 +70,13 @@
       "mag": 5,
       "dex": 14,
       "agi": 16,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 9,
-      "res": 5,
-      "mob": false
-    }
+      "res": 5
+    },
+    "weapon": [
+      "Axe"
+    ]
   },
   "axefighterf": {
     "name": "Axefighter (Female)",
@@ -67,12 +86,13 @@
       "mag": 5,
       "dex": 15,
       "agi": 17,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 8,
-      "res": 6,
-      "mob": false
-    }
+      "res": 6
+    },
+    "weapon": [
+      "Axe"
+    ]
   },
   "goliath": {
     "name": "Goliath",
@@ -82,27 +102,28 @@
       "mag": 5,
       "dex": 14,
       "agi": 16,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 11,
-      "res": 5,
-      "mob": false
-    }
+      "res": 5
+    },
+    "weapon": [
+      "Axe"
+    ]
   },
   "hunterm": {
     "name": "Hunter (Male)",
     "cap": {
       "hp": 29,
       "str": 14,
-      "mag": false,
       "dex": 14,
       "agi": 14,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 8,
-      "res": 6,
-      "mob": false
-    }
+      "res": 6
+    },
+    "weapon": [
+      "Bow"
+    ]
   },
   "hunterf": {
     "name": "Hunter (Female)",
@@ -112,42 +133,43 @@
       "mag": 8,
       "dex": 15,
       "agi": 15,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 7,
       "res": 5,
       "mob": 0
-    }
+    },
+    "weapon": [
+      "Bow"
+    ]
   },
   "thief": {
     "name": "Thief",
     "cap": {
       "hp": 25,
       "str": 3,
-      "mag": false,
       "dex": 20,
       "agi": 22,
-      "luck": false,
-      "prof": false,
-      "def": 3,
-      "res": false,
-      "mob": false
-    }
+      "prof": 30,
+      "def": 3
+    },
+    "weapon": [
+      "Dagger"
+    ]
   },
   "swordfighterm": {
     "name": "Swordfighter (Male)",
     "cap": {
       "hp": 32,
       "str": 14,
-      "mag": false,
       "dex": 17,
       "agi": 15,
-      "luck": false,
-      "prof": false,
-      "def": 8,
-      "res": false,
-      "mob": false
-    }
+      "prof": 30,
+      "def": 8
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword"
+    ]
   },
   "swordfighterf": {
     "name": "Swordfighter (Female)",
@@ -157,12 +179,15 @@
       "mag": 5,
       "dex": 18,
       "agi": 16,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 7,
-      "res": 6,
-      "mob": false
-    }
+      "res": 6
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Greatsword"
+    ]
   },
   "servant": {
     "name": "Servant",
@@ -172,27 +197,29 @@
       "mag": 5,
       "dex": 16,
       "agi": 18,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 4,
       "res": 2,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Dagger"
+    ]
   },
   "knightm": {
     "name": "Knight (Male)",
     "cap": {
       "hp": 34,
       "str": 13,
-      "mag": false,
       "dex": 13,
       "agi": 13,
-      "luck": false,
-      "prof": false,
-      "def": 13,
-      "res": false,
-      "mob": false
-    }
+      "prof": 30,
+      "def": 13
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear"
+    ]
   },
   "knightf": {
     "name": "Knight (Female)",
@@ -202,12 +229,16 @@
       "mag": 12,
       "dex": 14,
       "agi": 14,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 12,
       "res": 6,
       "mob": 10
-    }
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear"
+    ]
   },
   "stepperunner": {
     "name": "Steppe Runner",
@@ -217,27 +248,27 @@
       "mag": 5,
       "dex": 15,
       "agi": 18,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 9,
-      "res": 7,
-      "mob": false
-    }
+      "res": 7
+    },
+    "weapon": [
+      "Bow"
+    ]
   },
   "ranger": {
     "name": "Ranger",
     "cap": {
       "hp": 30,
       "str": 13,
-      "mag": false,
       "dex": 14,
       "agi": 15,
-      "luck": false,
-      "prof": false,
-      "def": 11,
-      "res": false,
-      "mob": false
-    }
+      "prof": 30,
+      "def": 11
+    },
+    "weapon": [
+      "Bow"
+    ]
   },
   "lanceknight": {
     "name": "Lance Knight",
@@ -247,12 +278,13 @@
       "mag": 10,
       "dex": 13,
       "agi": 12,
-      "luck": false,
-      "prof": false,
-      "def": 13,
-      "res": false,
-      "mob": false
-    }
+      "prof": 30,
+      "def": 13
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ]
   },
   "thaumaturge": {
     "name": "Thaumaturge",
@@ -262,12 +294,14 @@
       "mag": 18,
       "dex": 16,
       "agi": 16,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 9,
-      "res": 9,
-      "mob": false
-    }
+      "res": 9
+    },
+    "weapon": [
+      "Bow",
+      "Staff"
+    ]
   },
   "sestra": {
     "name": "Sestra",
@@ -277,12 +311,13 @@
       "mag": 15,
       "dex": 14,
       "agi": 16,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 5,
-      "res": 18,
-      "mob": false
-    }
+      "res": 18
+    },
+    "weapon": [
+      "Staff"
+    ]
   },
   "vestalmagem": {
     "name": "Vestal Mage (Male)",
@@ -292,12 +327,14 @@
       "mag": 11,
       "dex": 15,
       "agi": 16,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 6,
-      "res": 13,
-      "mob": false
-    }
+      "res": 13
+    },
+    "weapon": [
+      "Divine Magic",
+      "Spirit Magic"
+    ]
   },
   "vestalmagef": {
     "name": "Vestal Mage (Female)",
@@ -307,12 +344,13 @@
       "mag": 15,
       "dex": 16,
       "agi": 17,
-      "luck": false,
-      "prof": false,
-      "def": 6,
-      "res": false,
-      "mob": false
-    }
+      "prof": 30,
+      "def": 6
+    },
+    "weapon": [
+      "Divine Magic",
+      "Spirit Magic"
+    ]
   },
   "sphirianmagef": {
     "name": "Sphirian Mage (Female)",
@@ -322,12 +360,14 @@
       "mag": 14,
       "dex": 16,
       "agi": 16,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 7,
-      "res": 12,
-      "mob": false
-    }
+      "res": 12
+    },
+    "weapon": [
+      "Dark Magic",
+      "Spirit Magic"
+    ]
   },
   "priestess": {
     "name": "Priestess",
@@ -337,12 +377,13 @@
       "mag": 14,
       "dex": 13,
       "agi": 13,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 5,
-      "res": 14,
-      "mob": false
-    }
+      "res": 14
+    },
+    "weapon": [
+      "Staff"
+    ]
   },
   "starling": {
     "name": "Starling",
@@ -352,12 +393,13 @@
       "mag": 16,
       "dex": 17,
       "agi": 15,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 5,
-      "res": 10,
-      "mob": false
-    }
+      "res": 10
+    },
+    "weapon": [
+      "Spirit Magic"
+    ]
   },
   "nevesta": {
     "name": "Nevesta",
@@ -368,11 +410,16 @@
       "dex": 24,
       "agi": 30,
       "luck": 30,
-      "prof": false,
+      "prof": 30,
       "def": 3,
       "res": 12,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Dagger"
+    ]
   },
   "eagleriderf": {
     "name": "Eagle Rider (Female)",
@@ -382,34 +429,31 @@
       "mag": 5,
       "dex": 16,
       "agi": 19,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 10,
-      "res": 7,
-      "mob": false
-    }
+      "res": 7
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear"
+    ]
   },
   "eagleriderd": {
     "name": "Eagle Rider (Dismounted)",
     "cap": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": false,
-      "def": false,
-      "res": false,
-      "mob": false
-    }
+      "prof": 30
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword"
+    ]
   },
   "eidolon": {
     "name": "Eidolon",
     "cap": {
       "hp": 40,
       "str": 15,
-      "mag": false,
       "dex": 14,
       "agi": 15,
       "luck": 30,
@@ -417,7 +461,17 @@
       "def": 16,
       "res": 10,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear",
+      "Throwing Spear",
+      "Axe",
+      "Divine Magic",
+      "Spirit Magic",
+      "Staff"
+    ]
   },
   "archliege": {
     "name": "Archliege",
@@ -427,12 +481,14 @@
       "mag": 15,
       "dex": 25,
       "agi": 25,
-      "luck": false,
       "prof": 30,
       "def": 20,
       "res": 15,
       "mob": 10
-    }
+    },
+    "weapon": [
+      "Standard Sword"
+    ]
   },
   "archlieged": {
     "name": "Archliege (Dismounted)",
@@ -442,12 +498,14 @@
       "mag": 15,
       "dex": 25,
       "agi": 25,
-      "luck": false,
       "prof": 30,
       "def": 22,
       "res": 13,
       "mob": 7
-    }
+    },
+    "weapon": [
+      "Standard Sword"
+    ]
   },
   "gladiator": {
     "name": "Gladiator",
@@ -462,10 +520,15 @@
       "def": 15,
       "res": 0,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword",
+      "Axe"
+    ]
   },
-  "grandguardian": {
-    "name": "Grand Guardian",
+  "grandguard": {
+    "name": "Grand Guard",
     "cap": {
       "hp": 50,
       "str": 16,
@@ -477,7 +540,11 @@
       "def": 24,
       "res": 6,
       "mob": 6
-    }
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ]
   },
   "deadshotm": {
     "name": "Deadshot (Male)",
@@ -492,7 +559,10 @@
       "def": 12,
       "res": 7,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Bow"
+    ]
   },
   "deadshotf": {
     "name": "Deadshot (Female)",
@@ -507,7 +577,10 @@
       "def": 11,
       "res": 6,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Bow"
+    ]
   },
   "axemasterm": {
     "name": "Axemaster (Male)",
@@ -522,7 +595,10 @@
       "def": 14,
       "res": 5,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Axe"
+    ]
   },
   "axemasterf": {
     "name": "Axemaster (Female)",
@@ -532,12 +608,13 @@
       "mag": 10,
       "dex": 21,
       "agi": 21,
-      "luck": false,
       "prof": 30,
       "def": 13,
-      "res": 6,
-      "mob": false
-    }
+      "res": 6
+    },
+    "weapon": [
+      "Axe"
+    ]
   },
   "thiefhunter": {
     "name": "Thief Hunter",
@@ -552,7 +629,10 @@
       "def": 4,
       "res": 3,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Dagger"
+    ]
   },
   "swordmasterm": {
     "name": "Swordmaster (Male)",
@@ -567,7 +647,11 @@
       "def": 14,
       "res": 9,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword"
+    ]
   },
   "sworddancer": {
     "name": "Sword Dancer",
@@ -582,7 +666,11 @@
       "def": 7,
       "res": 10,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword"
+    ]
   },
   "truearcher": {
     "name": "True Archer",
@@ -592,12 +680,14 @@
       "mag": 7,
       "dex": 18,
       "agi": 14,
-      "luck": false,
       "prof": 30,
       "def": 20,
-      "res": 6,
-      "mob": false
-    }
+      "res": 6
+    },
+    "weapon": [
+      "Bow",
+      "Greatbow"
+    ]
   },
   "swordlion": {
     "name": "Sword Lion",
@@ -607,12 +697,14 @@
       "mag": 15,
       "dex": 25,
       "agi": 23,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 17,
-      "res": 6,
-      "mob": false
-    }
+      "res": 6
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword"
+    ]
   },
   "paladinm": {
     "name": "Paladin (Male)",
@@ -627,7 +719,12 @@
       "def": 18,
       "res": 12,
       "mob": 10
-    }
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear",
+      "Throwing Spear"
+    ]
   },
   "paladinf": {
     "name": "Paladin (Female)",
@@ -642,7 +739,13 @@
       "def": 16,
       "res": 14,
       "mob": 10
-    }
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear",
+      "Throwing Spear"
+    ]
   },
   "silkenknight": {
     "name": "Silken Knight",
@@ -652,12 +755,17 @@
       "mag": 15,
       "dex": 20,
       "agi": 22,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 16,
       "res": 10,
       "mob": 10
-    }
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear",
+      "Throwing Spear"
+    ]
   },
   "tarkhanm": {
     "name": "Tarkhan (Male)",
@@ -667,12 +775,14 @@
       "mag": 5,
       "dex": 18,
       "agi": 18,
-      "luck": false,
       "prof": 30,
       "def": 16,
-      "res": 10,
-      "mob": false
-    }
+      "res": 10
+    },
+    "weapon": [
+      "Standard Sword",
+      "Bow"
+    ]
   },
   "tarkhanf": {
     "name": "Tarkhan (Female)",
@@ -682,12 +792,15 @@
       "mag": 8,
       "dex": 19,
       "agi": 19,
-      "luck": false,
-      "prof": false,
+      "prof": 30,
       "def": 15,
-      "res": 11,
-      "mob": false
-    }
+      "res": 11
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Bow"
+    ]
   },
   "greatlancer": {
     "name": "Great Lancer",
@@ -697,12 +810,14 @@
       "mag": 8,
       "dex": 18,
       "agi": 18,
-      "luck": false,
       "prof": 30,
       "def": 21,
-      "res": 9,
-      "mob": false
-    }
+      "res": 9
+    },
+    "weapon": [
+      "Standard Spear",
+      "Throwing Spear"
+    ]
   },
   "bravelion": {
     "name": "Lion Knight",
@@ -712,27 +827,26 @@
       "mag": 12,
       "dex": 21,
       "agi": 20,
-      "luck": false,
       "prof": 30,
       "def": 20,
-      "res": 12,
-      "mob": false
-    }
+      "res": 12
+    },
+    "weapon": [
+      "Standard Sword",
+      "Greatsword"
+    ]
   },
   "knightmaster": {
     "name": "Knight Master",
     "cap": {
-      "hp": false,
-      "str": false,
-      "mag": false,
-      "dex": false,
-      "agi": false,
-      "luck": false,
-      "prof": false,
-      "def": false,
-      "res": false,
-      "mob": false
-    }
+      "prof": 30
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear",
+      "Throwing Spear",
+      "Axe"
+    ]
   },
   "archmagem": {
     "name": "Archmage (Male)",
@@ -747,7 +861,11 @@
       "def": 10,
       "res": 14,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Divine Magic",
+      "Spirit Magic"
+    ]
   },
   "archmagef": {
     "name": "Archmage (Female)",
@@ -762,7 +880,11 @@
       "def": 10,
       "res": 15,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Dark Magic",
+      "Spirit Magic"
+    ]
   },
   "highpriest": {
     "name": "High Priest",
@@ -772,12 +894,14 @@
       "mag": 16,
       "dex": 18,
       "agi": 18,
-      "luck": false,
       "prof": 30,
       "def": 9,
-      "res": 20,
-      "mob": false
-    }
+      "res": 20
+    },
+    "weapon": [
+      "Divine Magic",
+      "Staff"
+    ]
   },
   "highpriestess": {
     "name": "High Priestess",
@@ -792,7 +916,11 @@
       "def": 8,
       "res": 21,
       "mob": 8
-    }
+    },
+    "weapon": [
+      "Divine Magic",
+      "Staff"
+    ]
   },
   "raptorknight": {
     "name": "Raptor Knight",
@@ -807,7 +935,26 @@
       "def": 13,
       "res": 9,
       "mob": 10
-    }
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear",
+      "Throwing Spear"
+    ]
+  },
+  "raptorknightd": {
+    "name": "Raptor Knight (Dismounted)",
+    "cap": {
+      "str": 14,
+      "mag": 10,
+      "dex": 20,
+      "prof": 30
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword"
+    ]
   },
   "dragonknightf": {
     "name": "Dragon Knight (Female)",
@@ -820,9 +967,14 @@
       "luck": 30,
       "prof": 30,
       "def": 16,
-      "res": 8,
-      "mob": false
-    }
+      "res": 8
+    },
+    "weapon": [
+      "Standard Sword",
+      "Maidensword",
+      "Standard Spear",
+      "Throwing Spear"
+    ]
   },
   "dragonmaster": {
     "name": "Dragonmaster",
@@ -832,11 +984,14 @@
       "mag": 15,
       "dex": 25,
       "agi": 25,
-      "luck": false,
       "prof": 30,
       "def": 25,
-      "res": 10,
-      "mob": false
-    }
+      "res": 10
+    },
+    "weapon": [
+      "Standard Sword",
+      "Standard Spear",
+      "Throwing Spear"
+    ]
   }
 }

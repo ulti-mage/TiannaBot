@@ -834,7 +834,7 @@
         "misc": {
             "recruit": "**Permanent**: - Talk to her with Reese in Ch. 2-Main and complete Ch. 2-1",
             "promo": "- Deployed in Ch. 3-2, Level 10",
-            "prf": "Tico; When promoted; Horse: +1 Str, +5 Spd, +1 Move, Grants Horse-Lover"
+            "prf": "Tico; When promoted; Horse: +1 Dmg, +5 Spd, +1 Move, Grants Horse-Lover"
         },
         "portrait": "czene.png",
         "class": "Thief",

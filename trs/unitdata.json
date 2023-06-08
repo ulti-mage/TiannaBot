@@ -931,7 +931,7 @@
     "recruit": "Automatically at the start of chapter 2",
     "title": [
       "Lady of Verje",
-      "[Blank] (Promotion)"
+      "[Paladin of Verje] (Promotion)"
     ],
     "givesupport": {
       "Arkis": {
@@ -4031,7 +4031,8 @@
     },
     "skill": [
       "Paragon",
-      "Summon (Lv. 8)"
+      "Summon (Lv. 8)",
+      "+10% Avo to every Player and NPC"
     ],
     "weapon": [
       "Staff"

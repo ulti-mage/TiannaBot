@@ -6,6 +6,8 @@ from discord.ext import commands
 import json
 import bws
 import trs
+import vs1
+import vs2
 
 bot = commands.Bot(command_prefix='/', intents=discord.Intents.default())
 
@@ -19,6 +21,15 @@ trs_unit_data_file = 'trs/unitdata.json'
 trs_class_data_file = 'trs/classdata.json'
 trs_item_data_file = 'trs/itemdata.json'
 trs_skill_data_file = 'trs/skilldata.json'
+
+vs1_unit_data_file = 'vs1/unitdata.json'
+vs1_class_data_file = 'vs1/classdata.json'
+vs1_item_data_file = 'vs1/itemdata.json'
+vs1_skill_data_file = 'vs1/skilldata.json'
+
+vs2_unit_data_file = 'vs2/unitdata.json'
+vs2_item_data_file = 'vs2/itemdata.json'
+vs2_skill_data_file = 'vs2/skilldata.json'
 
 
 def get_name_choices(ctx: str, file: str) -> list[app_commands.Choice]:
@@ -141,6 +152,79 @@ class TearRing(app_commands.Group):
 
 
 bot.tree.add_command(TearRing(name='trs', description='TearRing Data'))
+
+
+class VestariaSagaI(app_commands.Group):
+    @app_commands.command(name='unit', description='Get Vestaria Saga I unit data')
+    async def unitdata(self, interaction: discord.Interaction, name: str,
+                       level: typing.Optional[str] = None,
+                       veldland: typing.Optional[bool] = False,
+                       frallian: typing.Optional[bool] = False,
+                       prison: typing.Optional[bool] = False):
+        await vs1.unit(interaction, name, level, veldland, frallian, prison)
+
+    @unitdata.autocomplete('name')
+    async def unit_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, vs1_unit_data_file)
+
+    @app_commands.command(name='class', description='Get Vestaria Saga I class data')
+    async def classdata(self, interaction: discord.Interaction, name: str):
+        await vs1.classdata(interaction, name)
+
+    @classdata.autocomplete('name')
+    async def class_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, vs1_class_data_file)
+
+    @app_commands.command(name='skill', description='Get Vestaria Saga I skill data')
+    async def skilldata(self, interaction: discord.Interaction, name: str):
+        await vs1.skill(interaction, name)
+
+    @skilldata.autocomplete('name')
+    async def skill_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, vs1_skill_data_file)
+
+    @app_commands.command(name='item', description='Get Vestaria Saga I item data')
+    async def itemdata(self, interaction: discord.Interaction, name: str):
+        await vs1.item(interaction, name)
+
+    @itemdata.autocomplete('name')
+    async def skill_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, vs1_item_data_file)
+
+
+bot.tree.add_command(VestariaSagaI(name='vs1', description='Vestaria Saga I Data'))
+
+
+class VestariaSagaII(app_commands.Group):
+    @app_commands.command(name='unit', description='Get Vestaria Saga II unit data')
+    async def unitdata(self, interaction: discord.Interaction, name: str,
+                       level: typing.Optional[int] = None,
+                       promoted: typing.Optional[bool] = False):
+        await vs2.unit(interaction, name, level, promoted)
+
+    @unitdata.autocomplete('name')
+    async def unit_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, vs2_unit_data_file)
+
+    @app_commands.command(name='skill', description='Get Vestaria Saga II skill data')
+    async def skilldata(self, interaction: discord.Interaction, name: str):
+        await vs2.skill(interaction, name)
+
+    @skilldata.autocomplete('name')
+    async def skill_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, vs2_skill_data_file)
+
+    @app_commands.command(name='item', description='Get Vestaria Saga II item data')
+    async def itemdata(self, interaction: discord.Interaction, name: str):
+        await vs2.item(interaction, name)
+
+    @itemdata.autocomplete('name')
+    async def skill_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, vs2_item_data_file)
+
+
+bot.tree.add_command(VestariaSagaII(name='vs2', description='Vestaria Saga II Data'))
+
 
 
 @bot.event

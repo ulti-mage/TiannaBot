@@ -1,18 +1,17 @@
 {
   "terra": {
     "name": "Terra",
-    "description": "User performs a critical attack that ignores Terrain effects.\nCan't activate with Adept, Draco or Astra.",
+    "description": "User performs a critical attack that ignores Terrain effects.\nCan miss.\nCan't activate with Adept, Draco or Astra.",
     "activation": "(User Skill - Enemy Skill) +3%, min 3%"
   },
   "Sol": {
     "name": "Sol",
-    "description": "User restores HP equal to damage dealt.\nCan't activate with other skills.",
+    "description": "User restores HP equal to damage dealt.\nCan miss (needs verification).\nCan't activate with other skills.",
     "activation": "(User Skill - Enemy Skill) +3%, min 3%"
   },
   "wrath": {
     "name": "Wrath",
-    "description": "As HP decreases, Crit increases.",
-    "activation": "(100-[HP x 100 / MHP])%"
+    "description": "As HP decreases, Crit increases.\nBonus: 100×(1-HP/Max HP)"
   },
   "astra": {
     "name": "Astra",
@@ -21,7 +20,7 @@
   },
   "luna": {
     "name": "Luna",
-    "description": "User negates foe's defence/magical defense.\nCan't activate with other skills.",
+    "description": "User negates foe's defence/magical defense.\nStill damages shields (needs verification).\nCan't activate with other skills.",
     "activation": "(User Skill - Enemy Skill) +3%, min 3%"
   },
   "vantage": {
@@ -41,21 +40,21 @@
   },
   "draco": {
     "name": "Draco",
-    "description": "User does triple damage if using a pysical melee weapon as an infantry unit.\nCan't activate with Adept, Terra or Astra.",
+    "description": "User triples attack if using a physical melee weapon as an infantry unit.\nCan't activate with Adept, Terra or Astra.",
     "activation": "(User Skill - Enemy Skill) +3%, min 3%"
   },
   "pavise": {
     "name": "Pavise",
-    "description": "User gains 20 defense.",
+    "description": "User reduces physical damage taken by 20.",
     "activation": "(User Level)%"
   },
   "mug": {
     "name": "Mug",
-    "description": "User steals all non ☆ weapons and items from defeated foe. Reduces Hit and Avoid of allies within 3 spaces by 50."
+    "description": "User steals all non ☆ weapons and items from defeated foe.\nReduces Hit and Avoid of allies within 3 spaces by 50.\nDoesn't affect other units with mug (needs verification)."
   },
   "steal": {
     "name": "Steal",
-    "description": "User steals a non ☆ weapon or item from foe after combat.",
+    "description": "User steals a non ☆ weapon or item from foe after combat. User does not need to hit foe during combat.",
     "activation": "(User Skill + Speed)%"
   },
   "Nihil": {
@@ -89,7 +88,7 @@
   },
   "summon": {
     "name": "Summon",
-    "description": "User can use special summoning staves."
+    "description": "User can use special summoning staves.\nRange of summoned units: 1~5\nNumber of summoned units: Story Mode: 2+(Mag/5), Versus Mode: 1+(Mag/10). Max 20\nChance for rare summons: Story Mode: 10%, Versus Mode: Lv%\nSummons Level: Unit Level +/-2"
   },
   "lockpick": {
     "name": "Lockpick",
@@ -97,7 +96,7 @@
   },
   "slayer": {
     "name": "Slayer",
-    "description": "User gains +10 Hit and Avoid against monsters."
+    "description": "User gains +20 Hit, Avoid and Crit against monsters.\n(Crit Avoid needs verification)"
   },
   "charisma": {
     "name": "Charisma",
@@ -121,7 +120,7 @@
   },
   "frontiersman": {
     "name": "Frontiersman",
-    "description": "Unit gains +10% Hit and Avoid and +1 Move on Frontier maps."
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Frontier maps. Also take no damage from swamp terrain."
   },
   "desertdweller": {
     "name": "Desert-Dweller",
@@ -134,7 +133,7 @@
   },
   "gladiator": {
     "name": "Gladiator",
-    "description": "Unit gains +10% Hit and Avoid in Arenas."
+    "description": "Unit gains +20% Hit and Avoid in Arenas. Unit gains +10% Hit and Avoid and +1 Move on Versus Mode Arena maps."
   },
   "search": {
     "name": "Search",

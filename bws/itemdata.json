@@ -297,7 +297,7 @@
          "range": "0",
          "durability": "C",
          "prf": "Reese",
-         "effect": "Light damage +15, Dark resistance +15, recovers all durability every Chapter"
+         "effect": "Light damage +15, Dark resistance +15 while in inventory, recovers some durability every Chapter"
       },
    "veriansword": {
          "name": "Verian Sword",
@@ -1114,7 +1114,7 @@
          "range": "0",
          "durability": "E",
          "cost": 800,
-         "effect": "12.5% chance of damaging self"
+         "effect": "13% chance of damaging self"
       },
    "ironaxe": {
          "name": "Iron Axe",
