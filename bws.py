@@ -83,8 +83,8 @@ class UnitButton(discord.ui.View):
     async def stats(self, interaction: discord.Interaction, button: discord.ui.Button):
         name = interaction.message.embeds[0].to_dict()["title"].lower()
         unit_json = get_unit_json(name)
-        embed = get_unit_stats_embed(unit_json[name])
-        embed.set_thumbnail(url='attachment://' + unit_json[name]['portrait'])
+        embed = get_unit_stats_embed(unit_json)
+        embed.set_thumbnail(url='attachment://' + unit_json['portrait'])
         for i in self.children:
             if i.label != 'Stats':
                 i.disabled = False
@@ -95,8 +95,8 @@ class UnitButton(discord.ui.View):
     async def other(self, interaction: discord.Interaction, button: discord.ui.Button):
         name = interaction.message.embeds[0].to_dict()["title"].lower()
         unit_json = get_unit_json(name)
-        embed = get_unit_requirement_embed(unit_json[name])
-        embed.set_thumbnail(url='attachment://' + unit_json[name]['portrait'])
+        embed = get_unit_requirement_embed(unit_json)
+        embed.set_thumbnail(url='attachment://' + unit_json['portrait'])
         for i in self.children:
             if i.label != 'Other':
                 i.disabled = False
