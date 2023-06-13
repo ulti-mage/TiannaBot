@@ -2,143 +2,180 @@
   "terra": {
     "name": "Terra",
     "description": "User performs a critical attack that ignores Terrain effects.\nCan miss.\nCan't activate with Adept, Draco or Astra.",
-    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%",
+    "icon": "terra.png"
   },
   "Sol": {
     "name": "Sol",
     "description": "User restores HP equal to damage dealt.\nCan miss (needs verification).\nCan't activate with other skills.",
-    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%",
+    "icon": "sol.png"
   },
   "wrath": {
     "name": "Wrath",
-    "description": "As HP decreases, Crit increases.\nBonus: 100×(1-HP/Max HP)"
+    "description": "As HP decreases, Crit increases.\nBonus: 100×(1-HP/Max HP)",
+    "icon": "wrath.png"
   },
   "astra": {
     "name": "Astra",
     "description": "User performs a 5-hit attack if using a pysical melee weapon.\nCan't activate with Adept, Draco or Terra.",
-    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%",
+    "icon": "astra.png"
   },
   "luna": {
     "name": "Luna",
     "description": "User negates foe's defence/magical defense.\nStill damages shields (needs verification).\nCan't activate with other skills.",
-    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%",
+    "icon": "luna.png"
   },
   "vantage": {
     "name": "Vantage",
     "description": "User strikes first in combat.",
-    "activation": "Unit Speed > Foe Speed"
+    "activation": "Unit Speed > Foe Speed",
+    "icon": "vantage.png"
   },
   "lethality": {
     "name": "Lethality",
     "description": "User kills foe if using a physical melee weapon and if a critical hit would kill.",
-    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%",
+    "icon": "lethality.png"
   },
   "adept": {
     "name": "Adept",
     "description": "User performs a 2-hit attack.\nCan't activate with Draco, Terra or Astra.",
-    "activation": "(User Speed)%"
+    "activation": "(User Speed)%",
+    "icon": "adept.png"
   },
   "draco": {
     "name": "Draco",
     "description": "User triples attack if using a physical melee weapon as an infantry unit.\nCan't activate with Adept, Terra or Astra.",
-    "activation": "(User Skill - Enemy Skill) +3%, min 3%"
+    "activation": "(User Skill - Enemy Skill) +3%, min 3%",
+    "icon": "draco.png"
   },
   "pavise": {
     "name": "Pavise",
     "description": "User reduces physical damage taken by 20.",
-    "activation": "(User Level)%"
+    "activation": "(User Level)%",
+    "icon": "pavise.png"
   },
   "mug": {
     "name": "Mug",
-    "description": "User steals all non ☆ weapons and items from defeated foe.\nReduces Hit and Avoid of allies within 3 spaces by 50.\nDoesn't affect other units with mug (needs verification)."
+    "description": "User steals all non ☆ weapons and items from defeated foe.\nReduces Hit and Avoid of allies within 3 spaces by 50.\nDoesn't affect other units with mug (needs verification).",
+    "icon": "mug.png"
   },
   "steal": {
     "name": "Steal",
     "description": "User steals a non ☆ weapon or item from foe after combat. User does not need to hit foe during combat.",
-    "activation": "(User Skill + Speed)%"
+    "activation": "(User Skill + Speed)%",
+    "icon": "steal.png"
   },
   "Nihil": {
     "name": "Nihil",
-    "description": "User ignores foe's combat skills."
+    "description": "User ignores foe's combat skills.",
+    "icon": "nihil.png"
   },
   "paragon": {
     "name": "Paragon",
-    "description": "User gains 2x EXP."
+    "description": "User gains 2x EXP.",
+    "icon": "paragon.png"
   },
   "canto": {
     "name": "Canto",
-    "description": "User can use left over move after attacking. Only usable by mounted units."
+    "description": "User can use left over move after attacking. Only usable by mounted units.",
+    "icon": "canto.png"
   },
   "flurry": {
     "name": "Flurry",
     "description": "User gains the Flurry command. Initiates 2~5 rounds of combat.",
-    "activation": "Unit Speed > Foe Speed"
+    "activation": "Unit Speed > Foe Speed",
+    "icon": "flurry.png"
   },
   "dance": {
     "name": "Dance",
-    "description": "User allows an ally to move again.\nCycles between 7 states when used and starts at 0.\nState 2 can grant Ensorcel, State 4 can grant Enarmor, State 6 can grant Empower. \nChances for effects are (Times danced{max 250} - 150)/10"
+    "description": "User allows an ally to move again.\nCycles between 7 states when used and starts at 0.\nState 2 can grant Ensorcel, State 4 can grant Enarmor, State 6 can grant Empower. \nChances for effects are (Times danced{max 250} - 150)/10",
+    "icon": "dance.png"
   },
   "sing": {
     "name": "Sing",
-    "description": "User restores HP of allies and may make them move again.\nS = Times sang so far (max 250), HP restored = (S + 5)/50, min 2, Range = (Level/5) +1, max 4, Refresh chance = (S / 50) + 2* (Recieved Support/5) + 10, excludes Plum"
+    "description": "User restores HP of allies and may make them move again.\nS = Times sang so far (max 250), HP restored = (S + 5)/50, min 2, Range = (Level/5) +1, max 4, Refresh chance = (S / 50) + 2* (Recieved Support/5) + 10, excludes Plum",
+    "icon": "sing.png"
   },
   "warp": {
     "name": "Warp",
-    "description": "User can teleport to a traversable space and act afterwards."
+    "description": "User can teleport to a traversable space and act afterwards.",
+    "icon": "warp.png"
   },
   "summon": {
     "name": "Summon",
-    "description": "User can use special summoning staves.\nRange of summoned units: 1~5\nNumber of summoned units: Story Mode: 2+(Mag/5), Versus Mode: 1+(Mag/10). Max 20\nChance for rare summons: Story Mode: 10%, Versus Mode: Lv%\nSummons Level: Unit Level +/-2"
+    "description": "User can use special summoning staves.\nRange of summoned units: 1~5\nNumber of summoned units: Story Mode: 2+(Mag/5), Versus Mode: 1+(Mag/10). Max 20\nChance for rare summons: Story Mode: 10%, Versus Mode: Lv%\nSummons Level: Unit Level +/-2",
+    "icon": "summon.png"
   },
   "lockpick": {
     "name": "Lockpick",
-    "description": "User can open doors and chests without keys."
+    "description": "User can open doors and chests without keys.",
+    "icon": "lockpick.png"
   },
   "slayer": {
     "name": "Slayer",
-    "description": "User gains +20 Hit, Avoid and Crit against monsters.\n(Crit Avoid needs verification)"
+    "description": "User gains +20 Hit, Avoid and Crit against monsters.\n(Crit Avoid needs verification)",
+    "icon": "slayer.png"
   },
   "charisma": {
     "name": "Charisma",
-    "description": "Grants allies within 3 squares +5% Hit and Avoid."
+    "description": "Grants allies within 3 squares +5% Hit and Avoid.",
+    "icon": "charisma.png"
   },
   "forester": {
     "name": "Forester",
-    "description": "Unit gains +10% Hit and Avoid and +1 Move on Forest maps."
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Forest maps.",
+    "icon": "forester.png"
   },
   "grassrunner": {
     "name": "Grassrunner",
-    "description": "Unit gains +10% Hit and Avoid and +1 Move on Grass maps."
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Grass maps.",
+    "icon": "grassrunner.png"
   },
   "mountaineer": {
     "name": "Mountaineer",
-    "description": "Unit gains +10% Hit and Avoid and +1 Move on Mountain maps."
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Mountain maps.",
+    "icon": "mountaineer.png"
   },
   "seafarer": {
     "name": "Seafarer",
-    "description": "Unit gains +10% Hit and Avoid and +1 Move on Sea maps."
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Sea maps.",
+    "icon": "seafarer.png"
   },
   "frontiersman": {
     "name": "Frontiersman",
-    "description": "Unit gains +10% Hit and Avoid and +1 Move on Frontier maps. Also take no damage from swamp terrain."
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Frontier maps. Also take no damage from swamp terrain.",
+    "icon": "frontiersman.png"
   },
   "desertdweller": {
     "name": "Desert-Dweller",
     "description": "Unknown, Unused",
-    "activation": "Unknown"
+    "activation": "Unknown",
+    "icon": "desertdweller.png"
   },
   "urbanite": {
     "name": "Urbanite",
-    "description": "Unit gains +10% Hit and Avoid and +1 Move on Castle and Indoor maps."
+    "description": "Unit gains +10% Hit and Avoid and +1 Move on Castle and Indoor maps.",
+    "icon": "urbanite.png"
   },
   "gladiator": {
     "name": "Gladiator",
-    "description": "Unit gains +20% Hit and Avoid in Arenas. Unit gains +10% Hit and Avoid and +1 Move on Versus Mode Arena maps."
+    "description": "Unit gains +20% Hit and Avoid in Arenas. Unit gains +10% Hit and Avoid and +1 Move on Versus Mode Arena maps.",
+    "icon": "gladiator.png"
+  },
+  "imitate": {
+    "name": "Imitate",
+    "description": "Transforms into an adjacent unit.\nMaxHP = (Target MaxHP - Narcus MaxHP) /2 + Narcus MaxHP\nOther stats = Narcus stats - Thief class bases + target class bases",
+    "icon": "imitate.png"
   },
   "search": {
     "name": "Search",
     "description": "Unknown, Unused",
-    "activation": "Unknown"
+    "activation": "Unknown",
+    "icon": "search.png"
   }
 
 }
