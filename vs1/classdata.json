@@ -135,8 +135,7 @@
       "agi": 15,
       "prof": 30,
       "def": 7,
-      "res": 5,
-      "mob": 0
+      "res": 5
     },
     "weapon": [
       "Bow"

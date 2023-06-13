@@ -514,7 +514,9 @@ async def skill(interaction: discord.Interaction, name: str):
         await interaction.response.send_message('That skill does not exist', ephemeral=True)
     else:
         embed = get_skill_data_embed(skill_json)
-        await interaction.response.send_message(embed=embed)
+        icon = discord.File('trs/skills/' + skill_json['icon'], filename=skill_json['icon'])
+        embed.set_thumbnail(url='attachment://' + skill_json['icon'])
+        await interaction.response.send_message(embed=embed, file=icon)
 
 
 def get_skill_data_embed(skill_json: json) -> discord.Embed:
@@ -535,9 +537,9 @@ async def item(interaction: discord.Interaction, name: str):
         await interaction.response.send_message('That item does not exist', ephemeral=True)
     else:
         embed = get_item_stats_embed(item_json)
-        # icon = discord.File('trs/items/' + item_json['icon'], filename=item_json['icon'])
-        # embed.set_thumbnail(url='attachment://' + item_json['icon'])
-        await interaction.response.send_message(embed=embed)  # , file=icon
+        icon = discord.File('trs/items/' + item_json['icon'], filename=item_json['icon'])
+        embed.set_thumbnail(url='attachment://' + item_json['icon'])
+        await interaction.response.send_message(embed=embed, file=icon)
 
 
 def get_item_stats_embed(item_json: json):

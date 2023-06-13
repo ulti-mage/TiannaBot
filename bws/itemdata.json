@@ -135,7 +135,8 @@
          "range": "0",
          "durability": "C",
          "cost": 1000,
-         "effect": "Critical +33%, 50% chance of damaging self"
+         "effect": "Critical +33%, 50% chance of damaging self",
+         "footer": "Collectors Item. Capture/Steal required. Only in Kramers paralogue X-3."
       },
    "holysword": {
          "name": "Holy Sword",
@@ -189,7 +190,16 @@
          "range": "0",
          "durability": "C",
          "cost": 5300,
-         "effect": "Critical +24%"
+         "effect": "Critical +24%",
+         "crafting": {
+            "cost": 1060,
+            "material": [
+               "Broadsword: Sold in Navaron",
+               "Eye of Balor: Ch3-M search spot or ChX-4 drop",
+               "Wolf Pelt: Ch6-M search spot or Ch8-M material shop",
+               "Gold Dust: Ch9-1 barracks drop or ChX-1 drop"
+            ]
+         }
       },
    "harperia": {
          "name": "Harperia",
@@ -200,7 +210,16 @@
          "range": "0",
          "durability": "B",
          "cost": 6200,
-         "effect": "+1 strikes, Critical +18%"
+         "effect": "+1 strikes, Critical +18%",
+         "crafting": {
+            "cost": 1240,
+            "material": [
+               "Scimitar: Sold in Navaron",
+               "Zerika Steel: Ch9-1 barracks drop or Ch13 search spot",
+               "Argentum: Ch4-M bag or Ch13 search spot",
+               "Ruby: Ch5 Atelier or Ch11-M drop"
+            ]
+         }
       },
    "flamesword": {
          "name": "Flame Sword",
@@ -222,7 +241,16 @@
          "range": "0",
          "durability": "C",
          "cost": 7400,
-         "effect": "Fire damage +10"
+         "effect": "Fire damage +10",
+         "crafting": {
+            "cost": 1480,
+            "material": [
+               "Longsword: Sold in Navaron",
+               "Sun Shard: Ch2 Atelier or Ch5-M search spot",
+               "Flame Dust: Ch2-M search spot or Ch5-2 bag",
+               "Zerika Steel: Ch9-1 barracks drop or Ch13 search spot"
+            ]
+         }
       },
    "colichemarde": {
          "name": "Colichemarde",
@@ -233,7 +261,16 @@
          "range": "0",
          "durability": "C",
          "cost": 7600,
-         "effect": "x2 strikes, Critical +12%, negates shields"
+         "effect": "x2 strikes, Critical +12%, negates shields",
+         "crafting": {
+            "cost": 1520,
+            "material": [
+               "Rapier: Sold in Navaron",
+               "Mithril Sheet: Ch6-M material shop",
+               "Platinum: Ch9-M drop or Ch11-M drop",
+               "Boar Pelt: Ch4 Atelier or Ch4-M drop"
+            ]
+         }
       },
    "cutlass": {
          "name": "Cutlass",
@@ -401,7 +438,16 @@
          "range": "0",
          "durability": "B",
          "cost": 4700,
-         "effect": "Defense +1"
+         "effect": "Defense +1",
+         "crafting": {
+            "cost": 940,
+            "material": [
+               "Bastard Sword: Sold in Navaron",
+               "Gurras Steel: Ch10-1 search spot or ChX-2 drop",
+               "Lion Pelt: Ch6-1 drop or Ch10-M drop",
+               "Pantaz Steel: Ch4 Atelier or Ch7-2 drop"
+            ]
+         }
       },
    "zweihander": {
          "name": "Zweihander",
@@ -466,7 +512,8 @@
          "range": "0",
          "durability": "E",
          "cost": 800,
-         "effect": "Dark damage +7"
+         "effect": "Dark damage +7",
+         "footer": "Collectors Item. Capture/Steal required. Most common in Ch12-1."
       },
    "poisonmace": {
          "name": "Poison Mace",
@@ -596,7 +643,8 @@
          "range": "0",
          "durability": "F",
          "cost": 500,
-         "effect": "Dark damage +3, absorbs damage dealt"
+         "effect": "Dark damage +3, absorbs damage dealt",
+         "footer": "Collectors Item. Ch5-2 drop."
       },
    "vespa": {
          "name": "Vespa",
@@ -618,7 +666,16 @@
          "range": "0",
          "durability": "D",
          "cost": 4800,
-         "effect": "Wind damage +8"
+         "effect": "Wind damage +8",
+         "crafting": {
+            "cost": 960,
+            "material": [
+               "Dagger: Sold in Navaron",
+               "Gale Shard: Ch3 drop or Ch10-1 search spot",
+               "Mithril Dust: Ch6-M talk or Ch9-2 drop",
+               "Opal: Ch4 Atelier or Ch10-1 search spot"
+            ]
+         }
       },
    "shieldknife": {
          "name": "Shieldknife",
@@ -715,7 +772,8 @@
          "durability": "F",
          "cost": 500,
          "prf": "Assassins",
-         "effect": "Critical +80%"
+         "effect": "Critical +80%",
+         "footer": "Collectors Item. Ch9-2 drop."
       },
    "slimspear": {
          "name": "Slim Spear",
@@ -893,7 +951,16 @@
          "range": "0-1",
          "durability": "C",
          "cost": 5500,
-         "effect": "Critical +9%"
+         "effect": "Critical +9%",
+         "crafting": {
+            "cost": 1100,
+            "material": [
+               "Iron Spear: Sold in Navaron",
+               "Antelope Pelt: Ch3 civilian request or Ch8-M material shop",
+               "Ash Wood: Ch5 Atelier or Ch8 civilian request",
+               "Mithril Sheet: Ch6-M material shop"
+            ]
+         }
       },
    "brionac": {
          "name": "Brionac",
@@ -904,7 +971,16 @@
          "range": "0",
          "durability": "C",
          "cost": 7400,
-         "effect": "Dark resistance +5"
+         "effect": "Dark resistance +5",
+         "crafting": {
+            "cost": 1480,
+            "material": [
+               "Longspear: Sold in Navaron",
+               "Meteoric Iron: Ch9-2 bag or Ch11-M search spot",
+               "Amalgam: Ch7-2 chest or Ch9 Atelier",
+               "Jugud Wood: Ch10-M material shop or Ch13 civilian request"
+            ]
+         }
       },
    "swiftspear": {
          "name": "Swift Spear",
@@ -915,7 +991,16 @@
          "range": "0",
          "durability": "B",
          "cost": 8000,
-         "effect": "+1 strikes"
+         "effect": "+1 strikes",
+         "crafting": {
+            "cost": 1600,
+            "material": [
+               "Mithril Spear: Sold in Navaron",
+               "Pantaz Steel: Ch4 Atelier or Ch7-2 drop",
+               "Lion Pelt: Ch6-1 drop or Ch10-M drop",
+               "Jugud Wood: Ch10-M material shop or Ch13 civilian request"
+            ]
+         }
       },
    "fauchard": {
          "name": "Fauchard",
@@ -1000,7 +1085,16 @@
          "range": "0",
          "durability": "B",
          "cost": 4500,
-         "effect": "Mounted only, cannot counter or be countered"
+         "effect": "Mounted only, cannot counter or be countered",
+         "crafting": {
+            "cost": 900,
+            "material": [
+               "Iron Lance: Sold in Navaron",
+               "Meteoric Iron: Ch9-2 bag or Ch11-M search spot",
+               "Ash Wood: Ch5 Atelier or Ch8 civilian request",
+               "Tiger Pelt: Ch9-M bag or Ch11 civilian request"
+            ]
+         }
       },
    "drakelance": {
          "name": "Drakelance",
@@ -1053,7 +1147,8 @@
          "range": "0",
          "durability": "C",
          "cost": 2400,
-         "effect": "+1 strikes, Cripple +8%"
+         "effect": "+1 strikes, Cripple +8%",
+         "footer": "Collectors Item. Ch10-1 drop."
       },
    "logsplitter": {
          "name": "Log Splitter",
@@ -1114,7 +1209,8 @@
          "range": "0",
          "durability": "E",
          "cost": 800,
-         "effect": "13% chance of damaging self"
+         "effect": "13% chance of damaging self",
+         "footer": "Collectors Item. Ch3-2 and 11-M drop."
       },
    "ironaxe": {
          "name": "Iron Axe",
@@ -1209,7 +1305,8 @@
          "range": "0",
          "durability": "E",
          "cost": 500,
-         "effect": "Dark damage +5"
+         "effect": "Dark damage +5",
+         "footer": "Collectors Item. Ch12-M drop."
       },
    "warpick": {
          "name": "War Pick",
@@ -1317,7 +1414,16 @@
          "range": "0",
          "durability": "B",
          "cost": 3800,
-         "effect": "x2 strikes, Critical +6%"
+         "effect": "x2 strikes, Critical +6%",
+         "crafting": {
+            "cost": 760,
+            "material": [
+               "Broadaxe: Sold in Navaron",
+               "Sinon Steel: Ch2-2 drop or Ch12-M drop",
+               "Antelope Pelt: Ch3 civilian request or Ch8-M material shop",
+               "Gold Dust: Ch9-1 barracks drop or ChX-1 drop"
+            ]
+         }
       },
    "mithrilaxe": {
          "name": "Mithril Axe",
@@ -1337,7 +1443,16 @@
          "rank": 2,
          "range": "0-1",
          "durability": "B",
-         "cost": 4500
+         "cost": 4500,
+         "crafting": {
+            "cost": 900,
+            "material": [
+               "Bandit Axe: Capture/Robbery required",
+               "Platinum: Ch9-M drop or Ch11-M drop",
+               "Wolf Pelt: Ch6-M search spot or Ch8-M material shop",
+               "Gurras Steel: Ch10-1 search spot or ChX-2 drop"
+            ]
+         }
       },
    "mjöllnir": {
          "name": "Mjöllnir",
@@ -1348,7 +1463,16 @@
          "range": "0",
          "durability": "C",
          "cost": 4800,
-         "effect": "Thunder damage +9"
+         "effect": "Thunder damage +9",
+         "crafting": {
+            "cost": 960,
+            "material": [
+               "Iron Axe: Sold in Navaron",
+               "Storm Shard: Ch3 Atelier or Ch4-1 drop",
+               "Bull Pelt: Ch1-1 drop or Ch8 Atelier",
+               "Linden Wood: Ch6 Atelier or Ch10-M material shop"
+            ]
+         }
       },
    "shieldaxe": {
          "name": "Shieldaxe",
@@ -1492,7 +1616,8 @@
          "range": "1-2",
          "durability": "F",
          "cost": 1000,
-         "effect": "x3 strikes"
+         "effect": "x3 strikes",
+         "footer": "Collectors Item. Ch9-1 barrack drop."
       },
    "compositebow": {
          "name": "Composite Bow",
@@ -1554,7 +1679,16 @@
          "range": "1-2",
          "durability": "C",
          "cost": 4500,
-         "effect": "Cripple rate x2"
+         "effect": "Cripple rate x2",
+         "crafting": {
+            "cost": 900,
+            "material": [
+               "Composite Bow: Sold in Navaron",
+               "Yew Wood: Ch1-M village or Ch7 Atelier",
+               "Ariadne Thread: Ch2 Atelier or Ch5-1 chest",
+               "Eye of Balor: Ch3-M search spot or ChX-4 drop"
+            ]
+         }
       },
    "rossweisse": {
          "name": "Rossweisse",
@@ -1565,7 +1699,16 @@
          "range": "1-2",
          "durability": "B",
          "cost": 6000,
-         "effect": "Magic +5"
+         "effect": "Magic +5",
+         "crafting": {
+            "cost": 1200,
+            "material": [
+               "Longbow: Sold in Navaron",
+               "Yew Wood: Ch1-M village or Ch7 Atelier",
+               "Ariadne Thread: Ch2 Atelier or Ch5-1 chest",
+               "Sapphire: Ch6 Atelier or Ch6 civilian request"
+            ]
+         }
       },
    "pascanion": {
          "name": "Pascanion",
@@ -1710,7 +1853,16 @@
          "range": "0-2",
          "durability": "C",
          "cost": 5000,
-         "effect": "Absorbs damage dealt"
+         "effect": "Absorbs damage dealt",
+         "crafting": {
+            "cost": 1000,
+            "material": [
+               "Iron Crossbow: Sold in Navaron",
+               "Winch: Ch5-M drop or Ch11-1 drop",
+               "Steel Wire: Ch4-1 clear or Ch8 civilian request",
+               "Amber: Ch7-M material shop or Ch8-1 drop"
+            ]
+         }
       },
    "rapidcrossbow": {
          "name": "Rapid Crossbow",
@@ -1721,7 +1873,16 @@
          "range": "0-1",
          "durability": "A",
          "cost": 8000,
-         "effect": "x4 strikes"
+         "effect": "x4 strikes",
+         "crafting": {
+            "cost": 1600,
+            "material": [
+               "Chu-ko-nu: Sold in Navaron",
+               "Winch: Ch5-M drop or Ch11-1 drop",
+               "Steel Wire: Ch4-1 clear or Ch8 civilian request",
+               "Argentum: Ch4-M bag or Ch13 search spot"
+            ]
+         }
       },
    "hawkeye": {
          "name": "Hawkeye",
@@ -2028,7 +2189,15 @@
          "rank": 10,
          "range": "1-2",
          "usecount": 18,
-         "cost": 5400
+         "cost": 5400,
+         "crafting": {
+            "cost": 1080,
+            "material": [
+               "Sun Shard: Ch2 Atelier or Ch5-M search spot",
+               "Ancient Amulet: Ch1-2 bag or Ch4-2 drop or Ch12-M drop",
+               "Ruby: Ch5 Atelier or Ch11-M drop"
+            ]
+         }
       },
    "pallasleia": {
          "name": "Pallas Leia",
@@ -2085,7 +2254,15 @@
          "range": "0-1",
          "usecount": 15,
          "cost": 4500,
-         "effect": "Injury +30%"
+         "effect": "Injury +30%",
+         "crafting": {
+            "cost": 900,
+            "material": [
+               "Gale Shard: Ch3 drop or Ch10-1 search spot",
+               "Ancient Amulet: Ch1-2 bag or Ch4-2 drop or Ch12-M drop",
+               "Opal: Ch4 Atelier or Ch10-1 search spot"
+            ]
+         }
       },
    "pallasriana": {
          "name": "Pallas Riana",
@@ -2141,7 +2318,15 @@
          "range": "1-2",
          "usecount": 30,
          "cost": 4500,
-         "effect": "Critical +3%, Attack number +1"
+         "effect": "Critical +3%, Attack number +1",
+         "crafting": {
+            "cost": 900,
+            "material": [
+               "Storm Shard: Ch3 Atelier or Ch4-1 drop",
+               "Ancient Amulet: Ch1-2 bag or Ch4-2 drop or Ch12-M drop",
+               "Lapis Lazuli: Ch7 Atelier or Ch7-M material shop"
+            ]
+         }
       },
    "lightning": {
          "name": "Lightning",
@@ -2228,7 +2413,15 @@
          "range": "1-3",
          "usecount": 30,
          "cost": 6000,
-         "effect": "Heals all allies within three hexes for (Mag+3)x[1+(Light Skill/100)] HP; costs 1 MP per 8 units healed, rounded up"
+         "effect": "Heals all allies within three hexes for (Mag+3)x[1+(Light Skill/100)] HP; costs 1 MP per 8 units healed, rounded up",
+         "crafting": {
+            "cost": 1200,
+            "material": [
+               "Lightstone: Ch2-1 drop or Ch7 civilian request or Ch11 Atelier",
+               "Wyvern Pearl: Ch7-1 drop or Ch10-1 search spot",
+               "Amber: Ch7-M material shop or Ch8-1 drop"
+            ]
+         }
       },
    "escape": {
          "name": "Escape",
@@ -2236,7 +2429,15 @@
          "range": "1",
          "usecount": 6,
          "cost": 3000,
-         "effect": "Allows an ally to escape the map"
+         "effect": "Allows an ally to escape the map",
+         "crafting": {
+            "cost": 600,
+            "material": [
+               "Lightstone: Ch2-1 drop or Ch7 civilian request or Ch11 Atelier",
+               "Simurgh Down: Ch1 Atelier or Ch4-M drop",
+               "Garnet: Ch5 civilian request or Ch10 civilian request"
+            ]
+         }
       },
    "awaken": {
          "name": "Awaken",
@@ -2252,7 +2453,15 @@
          "range": "1",
          "usecount": 12,
          "cost": 3000,
-         "effect": "Cures berserk status"
+         "effect": "Cures berserk status",
+         "crafting": {
+            "cost": 600,
+            "material": [
+               "Lightstone: Ch2-1 drop or Ch7 civilian request or Ch11 Atelier",
+               "Wyvern Pearl: Ch7-1 drop or Ch10-1 search spot",
+               "Lapis Lazuli: Ch7 Atelier or Ch7-M material shop"
+            ]
+         }
       },
    "detoxify": {
          "name": "Detoxify",
@@ -2297,7 +2506,8 @@
          "range": "0-2",
          "usecount": 20,
          "cost": 1600,
-         "effect": "Adds enemy's level to attack power"
+         "effect": "Adds enemy's level to attack power",
+         "footer": "Collectors Item. Ch6-M drop."
       },
    "swarm": {
          "name": "Swarm",
@@ -2307,7 +2517,8 @@
          "range": "1-3",
          "usecount": 20,
          "cost": 800,
-         "effect": "33% chance of inflicting poison"
+         "effect": "33% chance of inflicting poison",
+         "footer": "Collectors Item. Ch4-M drop."
       },
    "tumahann": {
          "name": "Tumahann",
@@ -2337,7 +2548,8 @@
          "range": "All",
          "usecount": 8,
          "cost": 2400,
-         "effect": "Cannot counter or be countered, leaves enemy with minimum of 1 HP"
+         "effect": "Cannot counter or be countered, leaves enemy with minimum of 1 HP",
+         "footer": "Collectors Item. Ch4-2 and 12-1 drop."
       },
    "darkmend": {
          "name": "Darkmend",
@@ -2345,7 +2557,8 @@
          "range": "1-5",
          "usecount": 20,
          "cost": 1000,
-         "effect": "Heals one ally within five hexes for (Mag+10)x[1+(Dark Skill/100)] HP"
+         "effect": "Heals one ally within five hexes for (Mag+10)x[1+(Dark Skill/100)] HP",
+         "footer": "Collectors Item. Ch.3-M drop."
       },
    "sleep": {
          "name": "Sleep",
@@ -2353,7 +2566,8 @@
          "range": "1-3",
          "usecount": 12,
          "cost": 1200,
-         "effect": "Inflicts sleep on an enemy with lower Mag for 2-5 turns"
+         "effect": "Inflicts sleep on an enemy with lower Mag for 2-5 turns",
+         "footer": "Collectors Item. Ch9-M and X-4 drop."
       },
    "berserk": {
          "name": "Berserk",
@@ -2456,7 +2670,16 @@
          "rank": 10,
          "durability": "D",
          "cost": 2200,
-         "effect": "Dark resistance +5"
+         "effect": "Dark resistance +5",
+         "crafting": {
+            "cost": 440,
+            "material": [
+               "Aspis: Sold in Navaron",
+               "Obsidian: Ch6-2 drop or Ch12-1 drop",
+               "Boar Pelt: Ch4 Atelier or Ch4-M drop",
+               "Nottos Iron: Ch4-2 bag or Ch9-M search spot"
+            ]
+         }
       },
    "metalshield": {
          "name": "Metal Shield",
@@ -2484,7 +2707,16 @@
          "rank": 6,
          "durability": "C",
          "cost": 6000,
-         "effect": "100% accuracy against bows, crossbows, and ballistae"
+         "effect": "100% accuracy against bows, crossbows, and ballistae",
+         "crafting": {
+            "cost": 1200,
+            "material": [
+               "Kiteshield: Sold in Navaron",
+               "Nottos Iron: Ch4-2 bag or Ch9-M search spot",
+               "Tiger Pelt: Ch9-M bag or Ch11 civilian request",
+               "Garnet: Ch5 civilian request or Ch10 civilian request"
+            ]
+         }
       },
    "shiningshield": {
          "name": "Shining Shield",
@@ -2575,7 +2807,8 @@
          "weight": 6,
          "rank": 10,
          "durability": "E",
-         "cost": 1200
+         "cost": 1200,
+         "footer": "Collectors Item. Capture/Steal required. Many locations starting with Ch4-M."
       },
    "leathermshd": {
          "name": "Leather MShd",
@@ -2680,7 +2913,16 @@
          "rank": 11,
          "durability": "B",
          "cost": 8000,
-         "effect": "Fire resistance +7, does 7 Fire damage when blocking"
+         "effect": "Fire resistance +7, does 7 Fire damage when blocking",
+         "crafting": {
+            "cost": 1600,
+            "material": [
+               "Square Shield: Sold in Navaron",
+               "Flame Dust: Ch2-M search spot or Ch5-2 bag",
+               "Sinon Steel: Ch2-2 drop or Ch12-M drop",
+               "Bull Pelt: Ch1-1 drop or Ch8 Atelier"
+            ]
+         }
       },
    "wyrmskinshield": {
          "name": "Wyrmskin Shield",
@@ -2843,7 +3085,8 @@
          "durability": "D",
          "cost": 3800,
          "prf": "Generals",
-         "effect": "Mag +3"
+         "effect": "Mag +3",
+         "footer": "Collectors Item. Capture/Steal required. In Ch5-M, 6-M, 8-M, 11-M, 11-1, 13"
       },
    "verianlshd": {
          "name": "Verian LShd",
@@ -2943,12 +3186,14 @@
    "divinebrace": {
          "name": "Divine Brace",
          "cost": 3600,
-         "effect": "Mag +3, Defense -2, Speed -2"
+         "effect": "Mag +3, Defense -2, Speed -2",
+         "footer": "Collectors Item. Ch8-M drop."
       },
    "gamblersbrace": {
          "name": "Gambler's Brace",
          "cost": 3600,
-         "effect": "Strength +2, Defense +2, Accuracy -10, Avoid -10"
+         "effect": "Strength +2, Defense +2, Accuracy -10, Avoid -10",
+         "footer": "Collectors Item. Capture/Robbery required. In Ch4-M and 7-1."
       },
    "peerlessbrace": {
          "name": "Peerless Brace",
@@ -3030,7 +3275,8 @@
       },
    "wyvernscale": {
          "name": "Wyvern Scale",
-         "effect": "Wind resistance +20, Fire resistance +5, Thunder resistance -5, Critical vulnerability +18%"
+         "effect": "Wind resistance +20, Fire resistance +5, Thunder resistance -5, Critical vulnerability +18%",
+         "footer": "Collectors Item. Ch10-1 drop."
       },
    "thunderscale": {
          "name": "Thunder Scale",
@@ -3083,7 +3329,15 @@
    "strpotion": {
          "name": "STR Potion",
          "cost": 2400,
-         "effect": "Grants +2 Str when used"
+         "effect": "Grants +2 Str when used",
+         "crafting": {
+            "cost": 480,
+            "material": [
+               "Soma: Ch5-M drop or Ch9 civilian request",
+               "Surab Fluid: Ch2 bag or Ch8 Atelier",
+               "Simurgh Down: Ch1 Atelier or Ch4-M drop"
+            ]
+         }
       },
    "spdpotion": {
          "name": "SPD Potion",
@@ -3093,12 +3347,28 @@
    "defpotion": {
          "name": "DEF Potion",
          "cost": 3000,
-         "effect": "Grants +2 Def when used"
+         "effect": "Grants +2 Def when used",
+         "crafting": {
+            "cost": 600,
+            "material": [
+               "Surab Fluid: Ch2 bag or Ch8 Atelier",
+               "Pajuta Grass: Ch2 civilian request or Ch10 Atelier",
+               "Linden Wood: Ch6 Atelier or Ch10-M material shop"
+            ]
+         }
       },
    "magpotion": {
          "name": "MAG Potion",
          "cost": 4000,
-         "effect": "Grants +1 Mag when used"
+         "effect": "Grants +1 Mag when used",
+         "crafting": {
+            "cost": 800,
+            "material": [
+               "Soma: Ch5-M drop or Ch9 civilian request",
+               "Pajuta Grass: Ch2 civilian request or Ch10 Atelier",
+               "Sapphire: Ch6 Atelier or Ch6 civilian request"
+            ]
+         }
       },
    "escapestone": {
          "name": "Escapestone",
@@ -3113,7 +3383,15 @@
    "repairstone": {
          "name": "Repairstone",
          "cost": 8000,
-         "effect": "Repairs weapons and shields; consumes uses depending on weapon's Repair cost and remaining durability"
+         "effect": "Repairs weapons and shields; consumes uses depending on weapon's Repair cost and remaining durability",
+         "crafting": {
+            "cost": 1600,
+            "material": [
+               "Obsidian: Ch6-2 drop or Ch12-1 drop",
+               "Mithril Dust: Ch6-M talk or Ch9-2 drop",
+               "Amalgam: Ch7-2 chest or Ch9 Atelier"
+            ]
+         }
       },
    "armsthriftguide": {
          "name": "Elixir",
@@ -3139,5 +3417,284 @@
    "tulsacirclet": {
          "name": "Tulsa Circlet",
          "effect": "Reese only, grants Fortune"
+      },
+   "thinhorse": {
+         "name": "Thin Horse",
+         "cost": 1000,
+         "effect": "HP: 30"
+      },
+   "plainhorse": {
+         "name": "Plain Horse",
+         "cost": 2500,
+         "effect": "HP: 50"
+      },
+   "spryhorse": {
+         "name": "Spry Horse",
+         "cost": 5000,
+         "effect": "HP: 80"
+      },
+   "sturdyhorse": {
+         "name": "Sturdy Horse",
+         "cost": 8000,
+         "effect": "HP: 120"
+      },
+   "robusthorse": {
+         "name": "Robust Horse",
+         "cost": 15000,
+         "effect": "HP: 180"
+      },
+   "sinonstallion": {
+         "name": "Sinon Stallion",
+         "cost": 12000,
+         "effect": "HP: 120\nGrants Spd +2"
+      },
+   "ligadestrier": {
+         "name": "Liga Destier",
+         "cost": 18000,
+         "effect": "HP: 150\nGrants Dmg +1"
+      },
+   "ligacourser": {
+         "name": "Liga Courser",
+         "cost": 20000,
+         "effect": "HP: 150\nGrants Move +1"
+      },
+   "ishsstallion": {
+         "name": "Ishs Stallion",
+         "cost": 15000,
+         "effect": "HP: 100\nGrants Spd +5"
+      },
+   "ishscourser": {
+         "name": "Ishs Courser",
+         "cost": 10000,
+         "effect": "HP: 80\nGrants Move +1"
+      },
+   "morachianhorse": {
+         "name": "Morachian Horse",
+         "cost": 24000,
+         "effect": "HP: 150\nGrants Def +3"
+      },
+   "tico": {
+         "name": "Tico",
+         "effect": "HP: 80\nGrants Dmg +1, Spd +5, Move +1 and Horse-Lover skill"
+      },
+   "sapphire": {
+         "name": "Sapphire",
+         "cost": 1900,
+         "effect": "Used for Rossweisse and MAG Potion.\nObtained via Ch6 Atelier and Ch6 civilian request"
+      },
+   "opal": {
+         "name": "Opal",
+         "cost": 800,
+         "effect": "Used for Tempest Knife and Blizzard.\nObtained via Ch4 Atelier and Ch10-1 search spot"
+      },
+   "amber": {
+         "name": "Amber",
+         "cost": 800,
+         "effect": "Used for Ollerus and Fortify.\nObtained via Ch7-M material shop and Ch8-1 drop"
+      },
+   "wyvernpearl": {
+         "name": "Wyvern Pearl",
+         "cost": 800,
+         "effect": "Used for Fortify and Pacify.\nObtained via Ch7-1 drop and Ch10-1 search spot"
+      },
+   "eyeofbalor": {
+         "name": "Eye of Balor",
+         "cost": 3000,
+         "effect": "Used for Grimhild and Apeiron.\nObtained via Ch3-M search spot and ChX-4 drop"
+      },
+   "garnet": {
+         "name": "Garnet",
+         "cost": 2100,
+         "effect": "Used for Aiantos and Escape.\nObtained via Ch5 civilian request and Ch10 civilian request"
+      },
+   "lapislazuli": {
+         "name": "Lapis Lazuli",
+         "cost": 700,
+         "effect": "Used for Dire Thunder and Pacify.\nObtained via Ch7 Atelier and Ch7-M material shop"
+      },
+   "ruby": {
+         "name": "Ruby",
+         "cost": 700,
+         "effect": "Used for Harperia and Earthblaze.\nObtained via Ch5 Atelier and Ch11-M drop"
+      },
+   "golddust": {
+         "name": "Gold Dust",
+         "cost": 1150,
+         "effect": "Used for Grimhild and Tabarzin.\nObtained via Ch9-1 barracks drop and ChX-1 drop"
+      },
+   "mithrildust": {
+         "name": "Mithril Dust",
+         "cost": 1100,
+         "effect": "Used for Tempest Knife and Repairstone.\nObtained via Ch6-M talk and Ch9-2 drop"
+      },
+   "flamedust": {
+         "name": "Flame Dust",
+         "cost": 1300,
+         "effect": "Used for Infernal Edge and Hestia.\nObtained via Ch2-M search spot and Ch5-2 bag"
+      },
+   "amalgam": {
+         "name": "Amalgam",
+         "cost": 1100,
+         "effect": "Used for Brionac and Repairstone.\nObtained via Ch7-2 chest and Ch9 Atelier"
+      },
+   "argentum": {
+         "name": "Argentum",
+         "cost": 1000,
+         "effect": "Used for Harperia and Rapid Crossbow.\nObtained via Ch4-M search spot and Ch13 search spot"
+      },
+   "platinum": {
+         "name": "Platinum",
+         "cost": 3250,
+         "effect": "Used for Colichemarde and Gullveig.\nObtained via Ch9-M drop or Ch11-M drop"
+      },
+   "mithrilsheet": {
+         "name": "Mithril Sheet",
+         "cost": 1200,
+         "effect": "Used for Colichemarde and Angon.\nBoth obtained via Ch6-M material shop"
+      },
+   "meteoriciron": {
+         "name": "Meteoric Iron",
+         "cost": 2000,
+         "effect": "Used for Greatlance and Brionac.\nObtained via Ch9-2 bag and Ch11-M search spot"
+      },
+   "gurrassteel": {
+         "name": "Gurras Steel",
+         "cost": 3000,
+         "effect": "Used for Adrasteia and Gullveig.\nObtained via Ch10-1 search spot and ChX-2 drop"
+      },
+   "sinonsteel": {
+         "name": "Sinon Steel",
+         "cost": 2000,
+         "effect": "Used for Tabarzin and Hestia.\nObtained via Ch2-2 drop and Ch12-M drop"
+      },
+   "zerkiasteel": {
+         "name": "Zerika Steel",
+         "cost": 900,
+         "effect": "Used for Infernal Edge and Harperia.\nObtained via Ch9-1 barracks drop and Ch13 search spot"
+      },
+   "nottosiron": {
+         "name": "Nottos Iron",
+         "cost": 1300,
+         "effect": "Used for Aiantos and Dark Shield.\nObtained via Ch4-2 bag and Ch9-M search spot"
+      },
+   "pantazsteel": {
+         "name": "Pantaz Steel",
+         "cost": 1500,
+         "effect": "Used for Adrasteia and Swift Spear.\nObtained via Ch4 Atelier and Ch7-2 drop"
+      },
+   "ariadnethread": {
+         "name": "Ariadne Thread",
+         "cost": 2100,
+         "effect": "Used for Apeiron and Rossweisse.\nObtained via Ch2 Atelier and Ch5-1 chest"
+      },
+   "steelwire": {
+         "name": "Steel Wire",
+         "cost": 1000,
+         "effect": "Used for Ollerus and Rapid Crossbow.\nObtained via Ch4-1 clear and Ch8 civilian request"
+      },
+   "lightstone": {
+         "name": "Lightstone",
+         "cost": 3000,
+         "effect": "Used for Fortify, Escape and Pacify.\nObtained via Ch2-1 drop, Ch7 civilian request and Ch11 Atelier"
+      },
+   "obsidian": {
+         "name": "Obsidian",
+         "cost": 1000,
+         "effect": "Used for Dark Shield and Repairstone.\nObtained via Ch6-2 drop and Ch12-1 drop"
+      },
+   "sunshard": {
+         "name": "Sun Shard",
+         "cost": 2500,
+         "effect": "Used for Infernal Edge and Earthblaze.\nObtained via Ch2 Atelier and Ch5-M search spot"
+      },
+   "galeshard": {
+         "name": "Gale Shard",
+         "cost": 2400,
+         "effect": "Used for Tempest Knife and Blizzard.\nObtained via Ch3-M drop and Ch10-1 search spot"
+      },
+   "stormshard": {
+         "name": "Storm Shard",
+         "cost": 1200,
+         "effect": "Used for Mjöllnir and Dire Thunder.\nObtained via Ch3 Atelier and Ch4-1 drop"
+      },
+   "yewwood": {
+         "name": "Yew Wood",
+         "cost": 1800,
+         "effect": "Used for Apeiron and Rossweisse.\nObtained via Ch1-M village and Ch7 Atelier"
+      },
+   "lindenwood": {
+         "name": "Linden Wood",
+         "cost": 2000,
+         "effect": "Used for Mjöllnir and DEF Potion.\nObtained via Ch6 Atelier and Ch10-M material shop"
+      },
+   "ashwood": {
+         "name": "Ash Wood",
+         "cost": 1200,
+         "effect": "Used for Greatlance and Angon.\nObtained via Ch5 Atelier and Ch8 civilian request"
+      },
+   "jugudwood": {
+         "name": "Jugud Wood",
+         "cost": 2000,
+         "effect": "Used for Brionac and Swift Spear.\nObtained via Ch10-M material shop and Ch13 civilian request"
+      },
+   "pajutagrass": {
+         "name": "Pajuta Grass",
+         "cost": 600,
+         "effect": "Used for MAG Potion and DEF Potion.\nObtained via Ch2 civilian request and Ch10 Atelier"
+      },
+   "antelopepelt": {
+         "name": "Antelope Pelt",
+         "cost": 800,
+         "effect": "Used for Angon and Tabarzin.\nObtained via Ch3 civilian request and Ch8-M material shop"
+      },
+   "bullpelt": {
+         "name": "Bull Pelt",
+         "cost": 900,
+         "effect": "Used for Mjöllnir and Hestia.\nObtained via Ch1-1 drop and Ch8 Atelier"
+      },
+   "boarpelt": {
+         "name": "Boar Pelt",
+         "cost": 500,
+         "effect": "Used for Colichemarde and Dark Shield.\nObtained via Ch4 Atelier and Ch4-M drop"
+      },
+   "tigerpelt": {
+         "name": "Tiger Pelt",
+         "cost": 1000,
+         "effect": "Used for Greatlance and Aiantos.\nObtained via Ch9-M bag and Ch11 civilian request"
+      },
+   "wolfpelt": {
+         "name": "Wolf Pelt",
+         "cost": 450,
+         "effect": "Used for Grimhild and Gullveig.\nObtained via Ch6-M search spot and Ch8-M material shop"
+      },
+   "lionpelt": {
+         "name": "Lion Pelt",
+         "cost": 1500,
+         "effect": "Used for Adrasteia and Swift Spear.\nObtained via Ch6-1 drop and Ch10-M drop"
+      },
+   "simurghdown": {
+         "name": "Simurgh Down",
+         "cost": 800,
+         "effect": "Used for Escape and STR Potion.\nObtained via Ch1 Atelier and Ch4-M drop"
+      },
+   "surabfluid": {
+         "name": "Surab Fluid",
+         "cost": 2000,
+         "effect": "Used for STR Potion and DEF Potion.\nObtained via Ch2-M bag and Ch8 Atelier"
+      },
+   "soma": {
+         "name": "Soma",
+         "cost": 1000,
+         "effect": "Used for STR Potion and MAG Potion.\nObtained via Ch5-M drop and Ch9 civilian request"
+      },
+   "ancientamulet": {
+         "name": "Ancient Amulet",
+         "cost": 1300,
+         "effect": "Used for Earthblaze, Blizzard and Dire Thunder.\nObtained via Ch1-2 bag, Ch4-2 drop and Ch12-M drop"
+      },
+   "winch": {
+         "name": "Winch",
+         "cost": 3200,
+         "effect": "Used for Ollerus and Rapid Crossbow.\nObtained via Ch5-M drop and Ch11-1 drop"
       }
 }

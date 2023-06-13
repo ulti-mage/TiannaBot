@@ -262,34 +262,69 @@ def get_unit_level_embed(unit_json: json, level: int, promoted: bool):
         levelstr += ' -> ' + unit_json['promo']['promo']
     embed.add_field(name='', value=levelstr, inline=False)
     lvlinc = level - unit_json['lvl']
-    stats = ''
+    stats = minstats = maxstats = ''
     for stat in unit_json['base']:
         match stat:
             case 'hp':
                 if unit_json['growth']:
                     val = round((unit_json['growth'][stat] / 100), 2) * lvlinc + unit_json['base'][stat]
 
-                    val = round(val, 2)
-
                     if promoted and unit_json['promo']:
                         if stat in unit_json['promo']['bonus']:
                             val += unit_json['promo']['bonus'][stat]
+
+                    val = round(val, 2)
+
                 else:
                     val = unit_json['base'][stat]
                 stats += 'HP ' + str(val) + ' | '
+
+                if unit_json['bracket']:
+                    if stat in unit_json['bracket']:
+                        bracket = int(unit_json['bracket'][stat][-1:])
+                        if val - bracket < 0:
+                            minstats += 'HP 0 | '
+                        elif val - bracket < unit_json['base'][stat]:
+                            minstats += 'HP ' + str(unit_json['base'][stat]) + ' | '
+                        else:
+                            minstats += 'HP ' + str(int(val) - bracket) + ' | '
+                        maxstats += 'HP ' + str(int(val) + bracket) + ' | '
+                    else:
+                        minstats += 'HP ' + str(int(val)) + ' | '
+                        maxstats += 'HP ' + str(int(val)) + ' | '
             case _:
                 if unit_json['growth']:
                     val = round((unit_json['growth'][stat] / 100), 2) * lvlinc + unit_json['base'][stat]
 
-                    val = round(val, 2)
-
                     if promoted and unit_json['promo']:
                         if stat in unit_json['promo']['bonus']:
                             val += unit_json['promo']['bonus'][stat]
+
+                    val = round(val, 2)
+
                 else:
                     val = unit_json['base'][stat]
                 stats += stat.title() + ' ' + str(val) + ' | '
+
+                if unit_json['bracket']:
+                    if stat in unit_json['bracket']:
+                        bracket = int(unit_json['bracket'][stat][-1:])
+                        if val - bracket < 0 :
+                            minstats += stat.title() + ' 0 | '
+                        elif val - bracket < unit_json['base'][stat]:
+                            minstats += 'HP ' + str(unit_json['base'][stat]) + ' | '
+                        else:
+                            minstats += stat.title() + ' ' + str(int(val) - bracket) + ' | '
+                        maxstats += stat.title() + ' ' + str(int(val) + bracket) + ' | '
+                    else:
+                        minstats += stat.title() + ' ' + str(int(val)) + ' | '
+                        maxstats += stat.title() + ' ' + str(int(val)) + ' | '
+
     stats = stats[:-3]
+
+    if unit_json['bracket']:
+        stats += '\n\nMin:\n' + minstats[:-3] + '\nMax:\n' + maxstats[:-3]
+
     embed.add_field(name='Stats', value=stats, inline=False)
     return embed
 
@@ -333,9 +368,17 @@ def get_item_stats_embed(item_json: json):
                 stats += item_json['prf'] + ' Prf | '
     stats = stats[:-3]
     embed.add_field(name='', value=stats, inline=False)
+
     if 'effect' in item_json:
         effect = item_json['effect']
         embed.add_field(name='Notes:', value=effect, inline=False)
+
+    if 'crafting' in item_json:
+        crafttxt = 'Cost: ' + str(item_json['crafting']['cost']) + '\n'
+        for l in item_json['crafting']['material']:
+            crafttxt += l + '\n'
+        embed.add_field(name='Crafting:', value=crafttxt, inline=False)
+
     return embed
 
 
