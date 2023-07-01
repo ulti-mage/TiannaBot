@@ -312,7 +312,7 @@ def get_unit_level_embed(unit_json: json, level: int, promoted: bool):
                         if val - bracket < 0 :
                             minstats += stat.title() + ' 0 | '
                         elif val - bracket < unit_json['base'][stat]:
-                            minstats += 'HP ' + str(unit_json['base'][stat]) + ' | '
+                            minstats += stat.title() + ' ' + str(unit_json['base'][stat]) + ' | '
                         else:
                             minstats += stat.title() + ' ' + str(int(val) - bracket) + ' | '
                         maxstats += stat.title() + ' ' + str(int(val) + bracket) + ' | '

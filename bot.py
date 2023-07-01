@@ -47,7 +47,7 @@ class General(app_commands.Group):
     @app_commands.command(name='help', description="This is the Help Command")
     async def tiannahelp(self, interaction: discord.Interaction):
         helpembed = discord.Embed(title="TiannaBot")
-        helpembed.add_field(name='', value='This bot displays information for Berwick Saga and TearRing Saga.\n\n'
+        helpembed.add_field(name='', value='This bot displays information for Berwick, TearRing and Vestaria Saga I and II.\n\n'
                                            'It only supports slash commands and you can see all avaiable ones '
                                            'by typing `/`.', inline=False)
         links = '[GitHub](https://github.com/ulti-mage/TiannaBot)\n' \

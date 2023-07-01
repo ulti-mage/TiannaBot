@@ -3378,6 +3378,7 @@
     },
     "skill": [
       "Wrath",
+      "Flurry (only Mounted)",
       "Flurry (Lv. 20 Dismounted)"
     ],
     "weapon": [
@@ -4040,7 +4041,7 @@
     "portrait": "letena.png",
     "class": "cleric",
     "lvl": 3,
-    "recruit": "With Holmes' team, visit Verje before chapter 13 with both Kreiss and Arkis in the team, after chapter 13 and before chapter 15, visit Verje with Kreiss holding an Elixir, after chapter 15 and before chapter 16, visit Verje with Kreiss holding a Miracle Charm, after chapter 16 and before the Forbidden Bridge, visit Verje, in chapter 25, kill Mark with Kreiss, then visit the blue house with Kreiss to recruit Letena, at the third split, she will leave the team (and bring Kreiss with her if you choose the second option), except if you have Ezekiel in the team (choose option 2) and if either Letena or Kreiss is dead",
+    "recruit": "With Holmes' team, visit Verje before chapter 13 with both Kreiss and Arkis in the team, after chapter 13 and before chapter 15, visit Verje with Kreiss holding an Elixir, after chapter 15 and before chapter 16, visit Verje with Kreiss holding a Miracle Charm, after chapter 16 and before the Forbidden Bridge, visit Verje, in chapter 25, kill Mark with Kreiss, then visit the blue house with Kreiss to recruit Letena, at the third split, she will leave the team (and bring Kreiss with her if you choose the second option), except if you have Ezekiel in the team (choose option 2) or if either Letena or Kreiss is dead",
     "title": [
       "Pure Light"
     ],

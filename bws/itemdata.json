@@ -2538,7 +2538,7 @@
          "range": "1-3",
          "usecount": 8,
          "cost": 1600,
-         "effect": "Cannot counter or be countered, no effect on flying foes"
+         "effect": "Cannot counter, cannot target flying foes"
       },
    "wormwood": {
          "name": "Wormwood",
@@ -2548,7 +2548,7 @@
          "range": "All",
          "usecount": 8,
          "cost": 2400,
-         "effect": "Cannot counter or be countered, leaves enemy with minimum of 1 HP",
+         "effect": "Cannot counter, leaves enemy with minimum of 1 HP",
          "footer": "Collectors Item. Ch4-2 and 12-1 drop."
       },
    "darkmend": {
