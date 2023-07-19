@@ -565,7 +565,7 @@
     "mst": 1,
     "range": "1",
     "durability": 73,
-    "cost":7300,
+    "cost": 730,
     "note": "(31-Luck)% backfire chance, doesn't apply to Shadow Knights, Riders or Lancers",
     "icon": "devillance.png"
   },
@@ -621,7 +621,7 @@
     "mst": 1,
     "range": "1-2",
     "durability": 60,
-    "cost":1200,
+    "cost":600,
     "icon": "handaxe.png"
   },
   "ironaxe": {
@@ -877,7 +877,7 @@
     "mst": 14,
     "range": "2-3",
     "durability": 30,
-    "cost":false,
+    "cost":9000,
     "note": "Effective against monsters, can be used to recover HP",
     "icon": "blessedbow.png"
   },
@@ -1080,7 +1080,7 @@
     "mst": 15,
     "range": "2-3",
     "durability": 12,
-    "cost":2400,
+    "cost":3600,
     "note": "Deaks damage in a 3x3 square area, can only be used on even-numbered turns",
     "icon": "ifrit.png"
   },
@@ -1666,7 +1666,7 @@
     "name": "Knight Crest",
     "type": "Item",
     "durability": 1,
-    "cost":11700,
+    "cost":7800,
     "note": "Use to promote knight-type units",
     "icon": "knightcrest.png"
   },
@@ -1674,7 +1674,7 @@
     "name": "Hero Crest",
     "type": "Item",
     "durability": 1,
-    "cost":11700,
+    "cost":7800,
     "note": "Use to promote fighter-type units",
     "icon": "herocrest.png"
   },
@@ -1682,7 +1682,7 @@
     "name": "Sage's Cloak",
     "type": "Item",
     "durability": 1,
-    "cost":11700,
+    "cost":7800,
     "note": "Use to promote magic units",
     "icon": "sagescloak.png"
   },
@@ -1794,7 +1794,7 @@
     "name": "Energy Potion",
     "type": "Item",
     "durability": 1,
-    "cost":12000,
+    "cost":8000,
     "note": "Permanently increases strength by 3",
     "icon": "energypotion.png"
   },
@@ -1802,7 +1802,7 @@
     "name": "Secret Potion",
     "type": "Item",
     "durability": 1,
-    "cost":12000,
+    "cost":8000,
     "note": "Permanently increases skill by 3",
     "icon": "secretpotion.png"
   },
@@ -1810,7 +1810,7 @@
     "name": "Wing Potion",
     "type": "Item",
     "durability": 1,
-    "cost":12000,
+    "cost":8000,
     "note": "Permanently increases speed by 3",
     "icon": "wingpotion.png"
   },
@@ -1818,7 +1818,7 @@
     "name": "Goddess Potion",
     "type": "Item",
     "durability": 1,
-    "cost":12000,
+    "cost":8000,
     "note": "Permanently increases luck by 3",
     "icon": "goddesspotion.png"
   },
@@ -1826,7 +1826,7 @@
     "name": "Dragon Potion",
     "type": "Item",
     "durability": 1,
-    "cost":12000,
+    "cost":8000,
     "note": "Permanently increases defense by 3",
     "icon": "dragonpotion.png"
   },
@@ -1834,7 +1834,7 @@
     "name": "Spirit Potion",
     "type": "Item",
     "durability": 1,
-    "cost":12000,
+    "cost":8000,
     "note": "Permanently increases magic by 3",
     "icon": "spiritpotion.png"
   },
@@ -1842,7 +1842,7 @@
     "name": "Angelic Potion",
     "type": "Item",
     "durability": 1,
-    "cost":12000,
+    "cost":8000,
     "note": "Permanently increases max HP by 5",
     "icon": "angelicpotion.png"
   },
@@ -1850,7 +1850,7 @@
     "name": "Mastery Potion",
     "type": "Item",
     "durability": 1,
-    "cost":12000,
+    "cost":8000,
     "note": "Permanently increases mastery by 3",
     "icon": "masterypotion.png"
   },
@@ -1858,7 +1858,7 @@
     "name": "Swift Potion",
     "type": "Item",
     "durability": 1,
-    "cost":12000,
+    "cost":8000,
     "note": "Permanently increases movement by 3",
     "icon": "swiftpotion.png"
   },
@@ -1962,7 +1962,7 @@
     "name": "Silver Shield",
     "type": "Item",
     "durability": 2,
-    "cost":6000,
+    "cost": 8000,
     "note": "Raises defense by 20",
     "icon": "silvershield.png"
   },
