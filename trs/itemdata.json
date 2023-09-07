@@ -987,7 +987,7 @@
     "durability": 60,
     "cost":3600,
     "note": "Quadruples number of attacks",
-    "icon": "chukono.png"
+    "icon": "chukonu.png"
   },
   "arrowspate": {
     "name": "Arrowspate",

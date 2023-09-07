@@ -31,7 +31,7 @@ def get_class_json(ctx: str) -> json:
         return None
 
 
-def get_item_json(ctx: str) -> json:
+def get_item_json(ctx: str) -> json:#
     with open(trs_item_data_file, 'r') as f:
         item_json = json.load(f)
         for k in item_json:

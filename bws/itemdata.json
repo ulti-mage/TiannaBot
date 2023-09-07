@@ -1,6 +1,7 @@
 {
    "bronzesword": {
          "name": "Bronze Sword",
+         "type": "Sword",
          "might": "6",
          "hit": 5,
          "weight": 5,
@@ -11,6 +12,7 @@
       },
    "shortsword": {
          "name": "Shortsword",
+         "type": "Sword",
          "might": "4",
          "hit": 6,
          "weight": 3,
@@ -21,6 +23,7 @@
       },
    "scimitar": {
          "name": "Scimitar",
+         "type": "Sword",
          "might": "9",
          "hit": 5,
          "weight": 4,
@@ -31,6 +34,7 @@
       },
    "longsword": {
          "name": "Longsword",
+         "type": "Sword",
          "might": "9",
          "hit": 6,
          "weight": 5,
@@ -41,6 +45,7 @@
       },
    "windedge": {
          "name": "Wind Edge",
+         "type": "Sword",
          "might": "6",
          "hit": 5,
          "weight": 5,
@@ -52,6 +57,7 @@
       },
    "broadsword": {
          "name": "Broadsword",
+         "type": "Sword",
          "might": "11",
          "hit": 6,
          "weight": 6,
@@ -63,6 +69,7 @@
       },
    "scimitar+": {
          "name": "Scimitar+",
+         "type": "Sword",
          "might": "7",
          "hit": 4,
          "weight": 7,
@@ -74,6 +81,7 @@
       },
    "killingedge": {
          "name": "Killing Edge",
+         "type": "Sword",
          "might": "10",
          "hit": 6,
          "weight": 5,
@@ -85,6 +93,7 @@
       },
    "saber": {
          "name": "Saber",
+         "type": "Sword",
          "might": "8",
          "hit": 6,
          "weight": 3,
@@ -96,6 +105,7 @@
       },
    "altiumsword": {
          "name": "Altium Sword",
+         "type": "Sword",
          "might": "10",
          "hit": 5,
          "weight": 7,
@@ -106,6 +116,7 @@
       },
    "levinsword": {
          "name": "Levin Sword",
+         "type": "Sword",
          "might": "5",
          "hit": 4,
          "weight": 5,
@@ -117,6 +128,7 @@
       },
    "rapier": {
          "name": "Rapier",
+         "type": "Sword",
          "might": "7",
          "hit": 7,
          "weight": 3,
@@ -128,6 +140,7 @@
       },
    "albatross": {
          "name": "Albatross",
+         "type": "Sword",
          "might": "12",
          "hit": 4,
          "weight": 12,
@@ -140,6 +153,7 @@
       },
    "holysword": {
          "name": "Holy Sword",
+         "type": "Sword",
          "might": "10",
          "hit": 5,
          "weight": 5,
@@ -151,6 +165,7 @@
       },
    "mithrilsword": {
          "name": "Mithril Sword",
+         "type": "Sword",
          "might": "13",
          "hit": 6,
          "weight": 4,
@@ -161,6 +176,7 @@
       },
    "knightsword": {
          "name": "Knight Sword",
+         "type": "Sword",
          "might": "8",
          "hit": 5,
          "weight": 6,
@@ -172,6 +188,7 @@
       },
    "estoc": {
          "name": "Estoc",
+         "type": "Sword",
          "might": "3",
          "hit": 8,
          "weight": 2,
@@ -183,6 +200,7 @@
       },
    "grimhild": {
          "name": "Grimhild",
+         "type": "Sword",
          "might": "14",
          "hit": 8,
          "weight": 7,
@@ -203,6 +221,7 @@
       },
    "harperia": {
          "name": "Harperia",
+         "type": "Sword",
          "might": "9",
          "hit": 7,
          "weight": 3,
@@ -223,6 +242,7 @@
       },
    "flamesword": {
          "name": "Flame Sword",
+         "type": "Sword",
          "might": "8",
          "hit": 5,
          "weight": 4,
@@ -234,6 +254,7 @@
       },
    "infernaledge": {
          "name": "Infernal Edge",
+         "type": "Sword",
          "might": "6",
          "hit": 6,
          "weight": 4,
@@ -254,6 +275,7 @@
       },
    "colichemarde": {
          "name": "Colichemarde",
+         "type": "Sword",
          "might": "7",
          "hit": 7,
          "weight": 4,
@@ -274,6 +296,7 @@
       },
    "cutlass": {
          "name": "Cutlass",
+         "type": "Sword",
          "might": "8",
          "hit": 6,
          "weight": 3,
@@ -285,6 +308,7 @@
       },
    "cutlass+": {
          "name": "Cutlass+",
+         "type": "Sword",
          "might": "12",
          "hit": 6,
          "weight": 4,
@@ -296,6 +320,7 @@
       },
    "razeetoile": {
          "name": "Raze Étoile",
+         "type": "Sword",
          "might": "13",
          "hit": 5,
          "weight": 3,
@@ -307,6 +332,7 @@
       },
    "ladysword": {
          "name": "Lady Sword",
+         "type": "Sword",
          "might": "10",
          "hit": 8,
          "weight": 3,
@@ -318,6 +344,7 @@
       },
    "gram": {
          "name": "Gram",
+         "type": "Sword",
          "might": "13",
          "hit": 8,
          "weight": 4,
@@ -328,6 +355,7 @@
       },
    "nothung": {
          "name": "Nothung",
+         "type": "Sword",
          "might": "15",
          "hit": 6,
          "weight": 5,
@@ -338,6 +366,7 @@
       },
    "veriansword": {
          "name": "Verian Sword",
+         "type": "Sword",
          "might": "8",
          "hit": 6,
          "weight": 4,
@@ -348,6 +377,7 @@
       },
    "oldimpsword": {
          "name": "Old Imp. Sword",
+         "type": "Sword",
          "might": "7",
          "hit": 4,
          "weight": 8,
@@ -359,6 +389,7 @@
       },
    "imperialsword": {
          "name": "Imperial Sword",
+         "type": "Sword",
          "might": "9",
          "hit": 5,
          "weight": 6,
@@ -369,6 +400,7 @@
       },
    "vajra": {
          "name": "Vajra",
+         "type": "Sword",
          "might": "8",
          "hit": 5,
          "weight": 10,
@@ -379,6 +411,7 @@
       },
    "vritra": {
          "name": "Vritra",
+         "type": "Sword",
          "might": "16",
          "hit": 8,
          "weight": 5,
@@ -389,6 +422,7 @@
       },
    "bastardsword": {
          "name": "Bastard Sword",
+         "type": "Blade",
          "might": "16",
          "hit": 5,
          "weight": 8,
@@ -399,6 +433,7 @@
       },
    "zanbato": {
          "name": "Zanbato",
+         "type": "Blade",
          "might": "15",
          "hit": 3,
          "weight": 18,
@@ -410,6 +445,7 @@
       },
    "shamshir": {
          "name": "Shamshir",
+         "type": "Blade",
          "might": "14",
          "hit": 5,
          "weight": 7,
@@ -421,6 +457,7 @@
       },
    "greatsword": {
          "name": "Greatsword",
+         "type": "Blade",
          "might": "21",
          "hit": 4,
          "weight": 10,
@@ -431,6 +468,7 @@
       },
    "adrasteia": {
          "name": "Adrasteia",
+         "type": "Blade",
          "might": "20",
          "hit": 6,
          "weight": 9,
@@ -451,6 +489,7 @@
       },
    "zweihander": {
          "name": "Zweihander",
+         "type": "Blade",
          "might": "17",
          "hit": 5,
          "weight": 9,
@@ -462,6 +501,7 @@
       },
    "balmung": {
          "name": "Balmung",
+         "type": "Blade",
          "might": "16",
          "hit": 7,
          "weight": 8,
@@ -473,6 +513,7 @@
       },
    "brymranger": {
          "name": "Brymranger",
+         "type": "Blade",
          "might": "16",
          "hit": 5,
          "weight": 9,
@@ -484,6 +525,7 @@
       },
    "ironclub": {
          "name": "Iron Club",
+         "type": "Mace",
          "might": "2",
          "hit": 5,
          "weight": 2,
@@ -494,6 +536,7 @@
       },
    "holymace": {
          "name": "Holy Mace",
+         "type": "Mace",
          "might": "7",
          "hit": 5,
          "weight": 4,
@@ -505,6 +548,7 @@
       },
    "darkmace": {
          "name": "Dark Mace",
+         "type": "Mace",
          "might": "9",
          "hit": 5,
          "weight": 4,
@@ -517,6 +561,7 @@
       },
    "poisonmace": {
          "name": "Poison Mace",
+         "type": "Mace",
          "might": "7",
          "hit": 5,
          "weight": 4,
@@ -527,6 +572,7 @@
       },
    "dagger": {
          "name": "Dagger",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 6,
          "weight": 1,
@@ -538,6 +584,7 @@
       },
    "letteropener": {
          "name": "Letter Opener",
+         "type": "Knife",
          "might": "0+\u03B1",
          "hit": 6,
          "weight": 1,
@@ -548,6 +595,7 @@
       },
    "boltknife": {
          "name": "Bolt Knife",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 6,
          "weight": 1,
@@ -559,6 +607,7 @@
       },
    "dart": {
          "name": "Dart",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 5,
          "weight": 1,
@@ -570,6 +619,7 @@
       },
    "airknife": {
          "name": "Air Knife",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 6,
          "weight": 1,
@@ -581,6 +631,7 @@
       },
    "thiefsknife": {
          "name": "Thief's Knife",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 4,
          "weight": 1,
@@ -592,6 +643,7 @@
       },
    "seax": {
          "name": "Seax",
+         "type": "Knife",
          "might": "3+\u03B1",
          "hit": 5,
          "weight": 3,
@@ -603,6 +655,7 @@
       },
    "carnwenhau": {
          "name": "Carnwenhau",
+         "type": "Knife",
          "might": "2+\u03B1",
          "hit": 7,
          "weight": 1,
@@ -614,6 +667,7 @@
       },
    "stunknife": {
          "name": "Stun Knife",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 5,
          "weight": 2,
@@ -625,6 +679,7 @@
       },
    "killerknife": {
          "name": "Killer Knife",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 8,
          "weight": 2,
@@ -636,6 +691,7 @@
       },
    "bloodknife": {
          "name": "Blood Knife",
+         "type": "Knife",
          "might": "0+\u03B1",
          "hit": 6,
          "weight": 2,
@@ -648,6 +704,7 @@
       },
    "vespa": {
          "name": "Vespa",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 6,
          "weight": 2,
@@ -659,6 +716,7 @@
       },
    "tempestknife": {
          "name": "Tempest Knife",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 6,
          "weight": 1,
@@ -679,6 +737,7 @@
       },
    "shieldknife": {
          "name": "Shieldknife",
+         "type": "Knife",
          "might": "0+\u03B1",
          "hit": 4,
          "weight": 1,
@@ -690,6 +749,7 @@
       },
    "crotalus": {
          "name": "Crotalus",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 5,
          "weight": 2,
@@ -701,6 +761,7 @@
       },
    "kris": {
          "name": "Kris",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 1,
          "weight": 1,
@@ -712,6 +773,7 @@
       },
    "maingauche": {
          "name": "Main Gauche",
+         "type": "Knife",
          "might": "0+\u03B1",
          "hit": 4,
          "weight": 1,
@@ -723,6 +785,7 @@
       },
    "throwingknife": {
          "name": "Throwing Knife",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 5,
          "weight": 2,
@@ -734,6 +797,7 @@
       },
    "swordbreaker": {
          "name": "Swordbreaker",
+         "type": "Knife",
          "might": "0+\u03B1",
          "hit": 5,
          "weight": 2,
@@ -745,6 +809,7 @@
       },
    "poisonknife": {
          "name": "Poison Knife",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 6,
          "weight": 1,
@@ -755,6 +820,7 @@
       },
    "sleepknife": {
          "name": "Sleep Knife",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 5,
          "weight": 2,
@@ -765,6 +831,7 @@
       },
    "assassinsknife": {
          "name": "Assassin's Knife",
+         "type": "Knife",
          "might": "1+\u03B1",
          "hit": 9,
          "weight": 1,
@@ -777,6 +844,7 @@
       },
    "slimspear": {
          "name": "Slim Spear",
+         "type": "Spear",
          "might": "5+1H",
          "hit": 5,
          "weight": 5,
@@ -787,6 +855,7 @@
       },
    "ironspear": {
          "name": "Iron Spear",
+         "type": "Spear",
          "might": "8+1H",
          "hit": 6,
          "weight": 6,
@@ -797,6 +866,7 @@
       },
    "pilum": {
          "name": "Pilum",
+         "type": "Spear",
          "might": "12",
          "hit": 5,
          "weight": 8,
@@ -807,6 +877,7 @@
       },
    "steelspear": {
          "name": "Steel Spear",
+         "type": "Spear",
          "might": "10+1H",
          "hit": 5,
          "weight": 7,
@@ -817,6 +888,7 @@
       },
    "harpoon": {
          "name": "Harpoon",
+         "type": "Spear",
          "might": "9",
          "hit": 5,
          "weight": 10,
@@ -828,6 +900,7 @@
       },
    "prototypespear": {
          "name": "Prototype Spear",
+         "type": "Spear",
          "might": "12+1H",
          "hit": 6,
          "weight": 7,
@@ -838,6 +911,7 @@
       },
    "killerspear": {
          "name": "Killer Spear",
+         "type": "Spear",
          "might": "8+1H",
          "hit": 6,
          "weight": 7,
@@ -849,6 +923,7 @@
       },
    "pike": {
          "name": "Pike",
+         "type": "Spear",
          "might": "6+2H",
          "hit": 4,
          "weight": 8,
@@ -860,6 +935,7 @@
       },
    "longspear": {
          "name": "Longspear",
+         "type": "Spear",
          "might": "12+1H",
          "hit": 4,
          "weight": 8,
@@ -870,6 +946,7 @@
       },
    "verutum": {
          "name": "Verutum",
+         "type": "Spear",
          "might": "11",
          "hit": 5,
          "weight": 8,
@@ -880,6 +957,7 @@
       },
    "doru": {
          "name": "Doru",
+         "type": "Spear",
          "might": "13",
          "hit": 4,
          "weight": 9,
@@ -891,6 +969,7 @@
       },
    "mithrilspear": {
          "name": "Mithril Spear",
+         "type": "Spear",
          "might": "13+1H",
          "hit": 5,
          "weight": 6,
@@ -901,6 +980,7 @@
       },
    "windspear": {
          "name": "Wind Spear",
+         "type": "Spear",
          "might": "10+1H",
          "hit": 5,
          "weight": 6,
@@ -912,6 +992,7 @@
       },
    "euthyphro": {
          "name": "Euthyphro",
+         "type": "Spear",
          "might": "7+1H",
          "hit": 7,
          "weight": 6,
@@ -923,6 +1004,7 @@
       },
    "javelin": {
          "name": "Javelin",
+         "type": "Spear",
          "might": "17",
          "hit": 5,
          "weight": 8,
@@ -933,6 +1015,7 @@
       },
    "partisan": {
          "name": "Partisan",
+         "type": "Spear",
          "might": "22",
          "hit": 3,
          "weight": 10,
@@ -944,6 +1027,7 @@
       },
    "angon": {
          "name": "Angon",
+         "type": "Spear",
          "might": "13",
          "hit": 6,
          "weight": 6,
@@ -964,6 +1048,7 @@
       },
    "brionac": {
          "name": "Brionac",
+         "type": "Spear",
          "might": "12+1H",
          "hit": 5,
          "weight": 8,
@@ -984,6 +1069,7 @@
       },
    "swiftspear": {
          "name": "Swift Spear",
+         "type": "Spear",
          "might": "12+1H",
          "hit": 5,
          "weight": 10,
@@ -1004,6 +1090,7 @@
       },
    "fauchard": {
          "name": "Fauchard",
+         "type": "Spear",
          "might": "13",
          "hit": 5,
          "weight": 7,
@@ -1015,6 +1102,7 @@
       },
    "verianspear": {
          "name": "Verian Spear",
+         "type": "Spear",
          "might": "8+1H",
          "hit": 5,
          "weight": 7,
@@ -1025,6 +1113,7 @@
       },
    "oldimpspear": {
          "name": "Old Imp. Spear",
+         "type": "Spear",
          "might": "6+1H",
          "hit": 4,
          "weight": 12,
@@ -1035,6 +1124,7 @@
       },
    "imperialspear": {
          "name": "Imperial Spear",
+         "type": "Spear",
          "might": "9+1H",
          "hit": 4,
          "weight": 8,
@@ -1045,6 +1135,7 @@
       },
    "ironlance": {
          "name": "Iron Lance",
+         "type": "Lance",
          "might": "5+3H",
          "hit": 4,
          "weight": 17,
@@ -1056,6 +1147,7 @@
       },
    "oxtongue": {
          "name": "Oxtongue",
+         "type": "Lance",
          "might": "2+4H",
          "hit": 4,
          "weight": 20,
@@ -1067,6 +1159,7 @@
       },
    "xyston": {
          "name": "Xyston",
+         "type": "Lance",
          "might": "5+3H",
          "hit": 5,
          "weight": 15,
@@ -1078,6 +1171,7 @@
       },
    "greatlance": {
          "name": "Greatlance",
+         "type": "Lance",
          "might": "1+5H",
          "hit": 5,
          "weight": 16,
@@ -1098,6 +1192,7 @@
       },
    "drakelance": {
          "name": "Drakelance",
+         "type": "Lance",
          "might": "5+4H",
          "hit": 6,
          "weight": 18,
@@ -1109,6 +1204,7 @@
       },
    "pitchfork": {
          "name": "Pitchfork",
+         "type": "Fork",
          "might": "6",
          "hit": 4,
          "weight": 7,
@@ -1119,6 +1215,7 @@
       },
    "militaryfork": {
          "name": "Military Fork",
+         "type": "Fork",
          "might": "11",
          "hit": 4,
          "weight": 9,
@@ -1129,6 +1226,7 @@
       },
    "firebrand": {
          "name": "Firebrand",
+         "type": "Fork",
          "might": "7",
          "hit": 4,
          "weight": 9,
@@ -1140,6 +1238,7 @@
       },
    "gorefork": {
          "name": "Gore Fork",
+         "type": "Fork",
          "might": "8",
          "hit": 5,
          "weight": 8,
@@ -1152,6 +1251,7 @@
       },
    "logsplitter": {
          "name": "Log Splitter",
+         "type": "Axe",
          "might": "11",
          "hit": 4,
          "weight": 8,
@@ -1162,6 +1262,7 @@
       },
    "pickaxe": {
          "name": "Pickaxe",
+         "type": "Axe",
          "might": "4",
          "hit": 2,
          "weight": 4,
@@ -1172,6 +1273,7 @@
       },
    "battlesaw": {
          "name": "Battle Saw",
+         "type": "Axe",
          "might": "9",
          "hit": 6,
          "weight": 7,
@@ -1182,6 +1284,7 @@
       },
    "handaxe": {
          "name": "Hand Axe",
+         "type": "Axe",
          "might": "8",
          "hit": 4,
          "weight": 7,
@@ -1192,6 +1295,7 @@
       },
    "barbaricaxe": {
          "name": "Barbaric Axe",
+         "type": "Axe",
          "might": "20",
          "hit": 2,
          "weight": 20,
@@ -1202,6 +1306,7 @@
       },
    "crookedaxe": {
          "name": "Crooked Axe",
+         "type": "Axe",
          "might": "30",
          "hit": 1,
          "weight": 15,
@@ -1214,6 +1319,7 @@
       },
    "ironaxe": {
          "name": "Iron Axe",
+         "type": "Axe",
          "might": "10",
          "hit": 5,
          "weight": 6,
@@ -1224,6 +1330,7 @@
       },
    "banditaxe": {
          "name": "Bandit Axe",
+         "type": "Axe",
          "might": "12",
          "hit": 3,
          "weight": 12,
@@ -1234,6 +1341,7 @@
       },
    "francisca": {
          "name": "Francisca",
+         "type": "Axe",
          "might": "10",
          "hit": 4,
          "weight": 8,
@@ -1244,6 +1352,7 @@
       },
    "battleaxe": {
          "name": "Battleaxe",
+         "type": "Axe",
          "might": "14",
          "hit": 4,
          "weight": 10,
@@ -1254,6 +1363,7 @@
       },
    "broadaxe": {
          "name": "Broadaxe",
+         "type": "Axe",
          "might": "12",
          "hit": 5,
          "weight": 8,
@@ -1265,6 +1375,7 @@
       },
    "volcanoaxe": {
          "name": "Volcano Axe",
+         "type": "Axe",
          "might": "5",
          "hit": 3,
          "weight": 10,
@@ -1276,6 +1387,7 @@
       },
    "glacieraxe": {
          "name": "Glacier Axe",
+         "type": "Axe",
          "might": "5",
          "hit": 3,
          "weight": 10,
@@ -1287,6 +1399,7 @@
       },
    "nimbusaxe": {
          "name": "Nimbus Axe",
+         "type": "Axe",
          "might": "5",
          "hit": 3,
          "weight": 10,
@@ -1298,6 +1411,7 @@
       },
    "darkaxe": {
          "name": "Dark Axe",
+         "type": "Axe",
          "might": "7",
          "hit": 3,
          "weight": 12,
@@ -1310,6 +1424,7 @@
       },
    "warpick": {
          "name": "War Pick",
+         "type": "Axe",
          "might": "10",
          "hit": 5,
          "weight": 7,
@@ -1321,6 +1436,7 @@
       },
    "hatchet": {
          "name": "Hatchet",
+         "type": "Axe",
          "might": "9",
          "hit": 5,
          "weight": 6,
@@ -1332,6 +1448,7 @@
       },
    "breakeraxe": {
          "name": "Breaker Axe",
+         "type": "Axe",
          "might": "13",
          "hit": 3,
          "weight": 15,
@@ -1343,6 +1460,7 @@
       },
    "poleax": {
          "name": "Poleax",
+         "type": "Axe",
          "might": "12",
          "hit": 3,
          "weight": 12,
@@ -1354,6 +1472,7 @@
       },
    "tomahawk": {
          "name": "Tomahawk",
+         "type": "Axe",
          "might": "10",
          "hit": 4,
          "weight": 9,
@@ -1364,6 +1483,7 @@
       },
    "boltaxe": {
          "name": "Bolt Axe",
+         "type": "Axe",
          "might": "9",
          "hit": 5,
          "weight": 7,
@@ -1375,6 +1495,7 @@
       },
    "killeraxe": {
          "name": "Killer Axe",
+         "type": "Axe",
          "might": "9",
          "hit": 6,
          "weight": 6,
@@ -1386,6 +1507,7 @@
       },
    "hammer": {
          "name": "Hammer",
+         "type": "Axe",
          "might": "15",
          "hit": 4,
          "weight": 14,
@@ -1397,6 +1519,7 @@
       },
    "greataxe": {
          "name": "Greataxe",
+         "type": "Axe",
          "might": "24",
          "hit": 4,
          "weight": 16,
@@ -1407,6 +1530,7 @@
       },
    "tabarzin": {
          "name": "Tabarzin",
+         "type": "Axe",
          "might": "12",
          "hit": 5,
          "weight": 8,
@@ -1427,6 +1551,7 @@
       },
    "mithrilaxe": {
          "name": "Mithril Axe",
+         "type": "Axe",
          "might": "17",
          "hit": 5,
          "weight": 8,
@@ -1437,6 +1562,7 @@
       },
    "gullveig": {
          "name": "Gullveig",
+         "type": "Axe",
          "might": "12",
          "hit": 5,
          "weight": 10,
@@ -1456,6 +1582,7 @@
       },
    "mjöllnir": {
          "name": "Mjöllnir",
+         "type": "Axe",
          "might": "9",
          "hit": 6,
          "weight": 9,
@@ -1476,6 +1603,7 @@
       },
    "shieldaxe": {
          "name": "Shieldaxe",
+         "type": "Axe",
          "might": "10",
          "hit": 3,
          "weight": 12,
@@ -1487,6 +1615,7 @@
       },
    "pulverizer": {
          "name": "Pulverizer",
+         "type": "Axe",
          "might": "40",
          "hit": 1,
          "weight": 20,
@@ -1496,6 +1625,7 @@
       },
    "königswolf": {
          "name": "Königswolf",
+         "type": "Axe",
          "might": "20",
          "hit": 6,
          "weight": 8,
@@ -1506,6 +1636,7 @@
       },
    "bhuj": {
          "name": "Bhuj",
+         "type": "Axe",
          "might": "11",
          "hit": 5,
          "weight": 10,
@@ -1517,6 +1648,7 @@
       },
    "gigasaxe": {
          "name": "Gigas Axe",
+         "type": "Axe",
          "might": "19",
          "hit": 3,
          "weight": 15,
@@ -1528,6 +1660,7 @@
       },
    "verianaxe": {
          "name": "Verian Axe",
+         "type": "Axe",
          "might": "10",
          "hit": 5,
          "weight": 8,
@@ -1538,6 +1671,7 @@
       },
    "oldimpaxe": {
          "name": "Old Imp. Axe",
+         "type": "Axe",
          "might": "8",
          "hit": 4,
          "weight": 13,
@@ -1548,6 +1682,7 @@
       },
    "imperialaxe": {
          "name": "Imperial Axe",
+         "type": "Axe",
          "might": "13",
          "hit": 4,
          "weight": 10,
@@ -1558,6 +1693,7 @@
       },
    "bronzebow": {
          "name": "Bronze Bow",
+         "type": "Bow",
          "might": "1",
          "hit": 4,
          "weight": 7,
@@ -1568,6 +1704,7 @@
       },
    "ironbow": {
          "name": "Iron Bow",
+         "type": "Bow",
          "might": "1",
          "hit": 5,
          "weight": 3,
@@ -1578,6 +1715,7 @@
       },
    "shortbow": {
          "name": "Shortbow",
+         "type": "Bow",
          "might": "3",
          "hit": 4,
          "weight": 4,
@@ -1588,6 +1726,7 @@
       },
    "swiftbow": {
          "name": "Swift Bow",
+         "type": "Bow",
          "might": "1",
          "hit": 4,
          "weight": 4,
@@ -1599,6 +1738,7 @@
       },
    "longbow": {
          "name": "Longbow",
+         "type": "Bow",
          "might": "5",
          "hit": 5,
          "weight": 7,
@@ -1609,6 +1749,7 @@
       },
    "triplefirebow": {
          "name": "Triple-Fire Bow",
+         "type": "Bow",
          "might": "1",
          "hit": 2,
          "weight": 10,
@@ -1621,6 +1762,7 @@
       },
    "compositebow": {
          "name": "Composite Bow",
+         "type": "Bow",
          "might": "7",
          "hit": 5,
          "weight": 8,
@@ -1631,6 +1773,7 @@
       },
    "apollyon": {
          "name": "Apollyon",
+         "type": "Bow",
          "might": "5",
          "hit": 6,
          "weight": 5,
@@ -1641,6 +1784,7 @@
       },
    "strongbow": {
          "name": "Strongbow",
+         "type": "Bow",
          "might": "9",
          "hit": 4,
          "weight": 9,
@@ -1651,6 +1795,7 @@
       },
    "greatbow": {
          "name": "Greatbow",
+         "type": "Bow",
          "might": "11",
          "hit": 4,
          "weight": 10,
@@ -1661,6 +1806,7 @@
       },
    "killerbow": {
          "name": "Killer Bow",
+         "type": "Bow",
          "might": "8",
          "hit": 6,
          "weight": 6,
@@ -1672,6 +1818,7 @@
       },
    "apeiron": {
          "name": "Apeiron",
+         "type": "Bow",
          "might": "8",
          "hit": 5,
          "weight": 7,
@@ -1692,6 +1839,7 @@
       },
    "rossweisse": {
          "name": "Rossweisse",
+         "type": "Bow",
          "might": "10",
          "hit": 7,
          "weight": 5,
@@ -1712,6 +1860,7 @@
       },
    "pascanion": {
          "name": "Pascanion",
+         "type": "Bow",
          "might": "10",
          "hit": 9,
          "weight": 7,
@@ -1723,6 +1872,7 @@
       },
    "sereniabow": {
          "name": "Serenia Bow",
+         "type": "Bow",
          "might": "9",
          "hit": 7,
          "weight": 3,
@@ -1733,6 +1883,7 @@
       },
    "verianbow": {
          "name": "Verian Bow",
+         "type": "Bow",
          "might": "5",
          "hit": 4,
          "weight": 7,
@@ -1743,6 +1894,7 @@
       },
    "oldimpbow": {
          "name": "Old Imp. Bow",
+         "type": "Bow",
          "might": "3",
          "hit": 4,
          "weight": 10,
@@ -1753,6 +1905,7 @@
       },
    "imperialbow": {
          "name": "Imperial Bow",
+         "type": "Bow",
          "might": "4",
          "hit": 4,
          "weight": 6,
@@ -1763,6 +1916,7 @@
       },
    "bowgun": {
          "name": "Bowgun",
+         "type": "Crossbow",
          "might": "6",
          "hit": 5,
          "weight": 11,
@@ -1773,6 +1927,7 @@
       },
    "ironcrossbow": {
          "name": "Iron Crossbow",
+         "type": "Crossbow",
          "might": "10",
          "hit": 7,
          "weight": 8,
@@ -1783,6 +1938,7 @@
       },
    "gastraphetes": {
          "name": "Gastraphetes",
+         "type": "Crossbow",
          "might": "14",
          "hit": 6,
          "weight": 14,
@@ -1793,6 +1949,7 @@
       },
    "heavycrossbow": {
          "name": "Heavy Crossbow",
+         "type": "Crossbow",
          "might": "17",
          "hit": 5,
          "weight": 18,
@@ -1803,6 +1960,7 @@
       },
    "bravecrossbow": {
          "name": "Brave Crossbow",
+         "type": "Crossbow",
          "might": "12",
          "hit": 5,
          "weight": 18,
@@ -1814,6 +1972,7 @@
       },
    "chukonu": {
          "name": "Chu-ko-nu",
+         "type": "Crossbow",
          "might": "8",
          "hit": 4,
          "weight": 20,
@@ -1825,6 +1984,7 @@
       },
    "arbalest": {
          "name": "Arbalest",
+         "type": "Crossbow",
          "might": "22",
          "hit": 4,
          "weight": 20,
@@ -1835,6 +1995,7 @@
       },
    "killercrossbow": {
          "name": "Killer Crossbow",
+         "type": "Crossbow",
          "might": "16",
          "hit": 8,
          "weight": 8,
@@ -1846,6 +2007,7 @@
       },
    "ollerus": {
          "name": "Ollerus",
+         "type": "Crossbow",
          "might": "13",
          "hit": 6,
          "weight": 14,
@@ -1866,6 +2028,7 @@
       },
    "rapidcrossbow": {
          "name": "Rapid Crossbow",
+         "type": "Crossbow",
          "might": "12",
          "hit": 5,
          "weight": 20,
@@ -1886,6 +2049,7 @@
       },
    "hawkeye": {
          "name": "Hawkeye",
+         "type": "Crossbow",
          "might": "20",
          "hit": 7,
          "weight": 13,
@@ -1897,6 +2061,7 @@
       },
    "veriancrossbow": {
          "name": "Verian Crossbow",
+         "type": "Crossbow",
          "might": "12",
          "hit": 5,
          "weight": 14,
@@ -1907,6 +2072,7 @@
       },
    "oldimpcrossbow": {
          "name": "Old Imp. Crossbow",
+         "type": "Crossbow",
          "might": "9",
          "hit": 4,
          "weight": 18,
@@ -1917,6 +2083,7 @@
       },
    "imperialcrossbow": {
          "name": "Imperial Crossbow",
+         "type": "Crossbow",
          "might": "13",
          "hit": 5,
          "weight": 15,
@@ -1927,6 +2094,7 @@
       },
    "oldballista": {
          "name": "Old Ballista",
+         "type": "Ballista",
          "might": "10",
          "hit": 4,
          "weight": 20,
@@ -1937,6 +2105,7 @@
       },
    "bronzeballista": {
          "name": "Bronze Ballista",
+         "type": "Ballista",
          "might": "10",
          "hit": 6,
          "weight": 20,
@@ -1947,6 +2116,7 @@
       },
    "ironballista": {
          "name": "Iron Ballista",
+         "type": "Ballista",
          "might": "15",
          "hit": 6,
          "weight": 20,
@@ -1957,6 +2127,7 @@
       },
    "steelballista": {
          "name": "Steel Ballista",
+         "type": "Ballista",
          "might": "18",
          "hit": 5,
          "weight": 20,
@@ -1967,6 +2138,7 @@
       },
    "prototypespringald": {
          "name": "Prototype Springald",
+         "type": "Ballista",
          "might": "10",
          "hit": 8,
          "weight": 20,
@@ -1976,6 +2148,7 @@
       },
    "springald": {
          "name": "Springald",
+         "type": "Ballista",
          "might": "21",
          "hit": 8,
          "weight": 20,
@@ -1986,6 +2159,7 @@
       },
    "prototypescorpio": {
          "name": "Prototype Scorpio",
+         "type": "Ballista",
          "might": "11",
          "hit": 5,
          "weight": 15,
@@ -1996,6 +2170,7 @@
       },
    "scorpio": {
          "name": "Scorpio",
+         "type": "Ballista",
          "might": "11",
          "hit": 7,
          "weight": 15,
@@ -2007,24 +2182,28 @@
       },
    "woodenarrow": {
          "name": "Wooden Arrow",
+         "type": "Arrow",
          "might": "1",
          "usecount": 20,
          "cost": 100
       },
    "stonearrow": {
          "name": "Stone Arrow",
+         "type": "Arrow",
          "might": "3",
          "usecount": 20,
          "cost": 200
       },
    "bronzearrow": {
          "name": "Bronze Arrow",
+         "type": "Arrow",
          "might": "5",
          "usecount": 20,
          "cost": 300
       },
    "bronzearrow+": {
          "name": "Bronze Arrow+",
+         "type": "Arrow",
          "might": "5",
          "usecount": 20,
          "cost": 450,
@@ -2032,12 +2211,14 @@
       },
    "ironarrow": {
          "name": "Iron Arrow",
+         "type": "Arrow",
          "might": "8",
          "usecount": 20,
          "cost": 500
       },
    "ironarrow+": {
          "name": "Iron Arrow+",
+         "type": "Arrow",
          "might": "8",
          "usecount": 20,
          "cost": 750,
@@ -2045,12 +2226,14 @@
       },
    "steelarrow": {
          "name": "Steel Arrow",
+         "type": "Arrow",
          "might": "11",
          "usecount": 20,
          "cost": 1000
       },
    "steelarrow+": {
          "name": "Steel Arrow+",
+         "type": "Arrow",
          "might": "11",
          "usecount": 20,
          "cost": 1500,
@@ -2058,18 +2241,21 @@
       },
    "mithrilarrow": {
          "name": "Mithril Arrow",
+         "type": "Arrow",
          "might": "14",
          "usecount": 20,
          "cost": 1600
       },
    "imperialarrow": {
          "name": "Imperial Arrow",
+         "type": "Arrow",
          "might": "7",
          "usecount": 10,
          "cost": 200
       },
    "imperialarrow+": {
          "name": "Imperial Arrow+",
+         "type": "Arrow",
          "might": "7",
          "usecount": 10,
          "cost": 300,
@@ -2077,6 +2263,7 @@
       },
    "sniperarrow": {
          "name": "Sniper Arrow",
+         "type": "Arrow",
          "might": "5",
          "usecount": 10,
          "cost": 1200,
@@ -2084,6 +2271,7 @@
       },
    "emberarrow": {
          "name": "Ember Arrow",
+         "type": "Arrow",
          "might": "3",
          "usecount": 20,
          "cost": 500,
@@ -2091,6 +2279,7 @@
       },
    "freezearrow": {
          "name": "Freeze Arrow",
+         "type": "Arrow",
          "might": "3",
          "usecount": 20,
          "cost": 500,
@@ -2098,6 +2287,7 @@
       },
    "raijinarrow": {
          "name": "Raijin Arrow",
+         "type": "Arrow",
          "might": "5",
          "usecount": 20,
          "cost": 2000,
@@ -2105,6 +2295,7 @@
       },
    "killerarrow": {
          "name": "Killer Arrow",
+         "type": "Arrow",
          "might": "1",
          "usecount": 20,
          "cost": 1800,
@@ -2112,6 +2303,7 @@
       },
    "bodkinarrow": {
          "name": "Bodkin Arrow",
+         "type": "Arrow",
          "might": "1",
          "usecount": 20,
          "cost": 1800,
@@ -2119,6 +2311,7 @@
       },
    "broadheadarrow": {
          "name": "Broadhead Arrow",
+         "type": "Arrow",
          "might": "1",
          "usecount": 10,
          "cost": 1500,
@@ -2126,6 +2319,7 @@
       },
    "breakerarrow": {
          "name": "Breaker Arrow",
+         "type": "Arrow",
          "might": "1",
          "usecount": 10,
          "cost": 2000,
@@ -2133,18 +2327,21 @@
       },
    "poisonarrow": {
          "name": "Poison Arrow",
+         "type": "Arrow",
          "might": "1",
          "usecount": 10,
          "effect": "Inflicts poison, becomes Wood Arrow if taken"
       },
    "sleeparrow": {
          "name": "Sleep Arrow",
+         "type": "Arrow",
          "might": "1",
          "usecount": 10,
          "effect": "Inflicts sleep, becomes Wood Arrow if taken"
       },
    "oldbolt": {
          "name": "Old Bolt",
+         "type": "Arrow",
          "might": "8",
          "usecount": 20,
          "cost": 800,
@@ -2152,6 +2349,7 @@
       },
    "standardbolt": {
          "name": "Standard Bolt",
+         "type": "Arrow",
          "might": "15",
          "usecount": 20,
          "cost": 2000,
@@ -2159,6 +2357,7 @@
       },
    "newtypebolt": {
          "name": "New-Type Bolt",
+         "type": "Arrow",
          "might": "18",
          "usecount": 10,
          "cost": 2200,
@@ -2166,6 +2365,7 @@
       },
    "fire": {
          "name": "Fire",
+         "type": "Fire",
          "might": "12",
          "hit": 8,
          "rank": 1,
@@ -2175,6 +2375,7 @@
       },
    "hellfire": {
          "name": "Hellfire",
+         "type": "Fire",
          "might": "20",
          "hit": 7,
          "rank": 6,
@@ -2184,6 +2385,7 @@
       },
    "earthblaze": {
          "name": "Earthblaze",
+         "type": "Fire",
          "might": "20",
          "hit": 6,
          "rank": 10,
@@ -2201,6 +2403,7 @@
       },
    "pallasleia": {
          "name": "Pallas Leia",
+         "type": "Fire",
          "might": "32",
          "hit": 9,
          "range": "0-1",
@@ -2210,6 +2413,7 @@
       },
    "flametongue": {
          "name": "Flametongue",
+         "type": "Fire",
          "might": "21",
          "hit": 10,
          "rank": 1,
@@ -2219,6 +2423,7 @@
       },
    "blazetongue": {
          "name": "Blazetongue",
+         "type": "Fire",
          "might": "28",
          "hit": 10,
          "rank": 1,
@@ -2228,6 +2433,7 @@
       },
    "airblade": {
          "name": "Airblade",
+         "type": "Wind",
          "might": "3",
          "hit": 7,
          "rank": 1,
@@ -2238,6 +2444,7 @@
       },
    "windstorm": {
          "name": "Windstorm",
+         "type": "Wind",
          "might": "3",
          "hit": 6,
          "rank": 8,
@@ -2248,6 +2455,7 @@
       },
    "blizzard": {
          "name": "Blizzard",
+         "type": "Wind",
          "might": "8",
          "hit": 7,
          "rank": 3,
@@ -2266,6 +2474,7 @@
       },
    "pallasriana": {
          "name": "Pallas Riana",
+         "type": "Wind",
          "might": "3",
          "hit": 6,
          "range": "1-2",
@@ -2275,6 +2484,7 @@
       },
    "sandstorm": {
          "name": "Sandstorm",
+         "type": "Wind",
          "might": "9",
          "hit": 10,
          "rank": 1,
@@ -2284,6 +2494,7 @@
       },
    "windtongue": {
          "name": "Windtongue",
+         "type": "Wind",
          "might": "18",
          "hit": 10,
          "rank": 1,
@@ -2293,6 +2504,7 @@
       },
    "icetongue": {
          "name": "Icetongue",
+         "type": "Wind",
          "might": "22",
          "hit": 10,
          "rank": 1,
@@ -2302,6 +2514,7 @@
       },
    "thunder": {
          "name": "Thunder",
+         "type": "Thunder",
          "might": "8",
          "hit": 6,
          "rank": 2,
@@ -2312,6 +2525,7 @@
       },
    "direthunder": {
          "name": "Dire Thunder",
+         "type": "Thunder",
          "might": "8",
          "hit": 6,
          "rank": 2,
@@ -2330,6 +2544,7 @@
       },
    "lightning": {
          "name": "Lightning",
+         "type": "Thunder",
          "might": "10",
          "hit": 7,
          "rank": 7,
@@ -2340,6 +2555,7 @@
       },
    "pallasserenia": {
          "name": "Pallas Serenia",
+         "type": "Thunder",
          "might": "24",
          "hit": 9,
          "range": "0-2",
@@ -2349,6 +2565,7 @@
       },
    "stormtongue": {
          "name": "Stormtongue",
+         "type": "Thunder",
          "might": "25",
          "hit": 12,
          "rank": 1,
@@ -2358,6 +2575,7 @@
       },
    "holy": {
          "name": "Holy",
+         "type": "Holy",
          "might": "1",
          "hit": 7,
          "rank": 3,
@@ -2368,6 +2586,7 @@
       },
    "starlight": {
          "name": "Starlight",
+         "type": "Holy",
          "might": "23",
          "hit": 6,
          "range": "0-1",
@@ -2377,6 +2596,7 @@
       },
    "soothe": {
          "name": "Soothe",
+         "type": "Holy",
          "rank": 1,
          "range": "1",
          "usecount": 20,
@@ -2385,6 +2605,7 @@
       },
    "heal": {
          "name": "Heal",
+         "type": "Holy",
          "rank": 1,
          "range": "1",
          "usecount": 20,
@@ -2393,6 +2614,7 @@
       },
    "mend": {
          "name": "Mend",
+         "type": "Holy",
          "rank": 5,
          "range": "1",
          "usecount": 20,
@@ -2401,6 +2623,7 @@
       },
    "physic": {
          "name": "Physic",
+         "type": "Holy",
          "rank": 7,
          "range": "1-3",
          "usecount": 15,
@@ -2409,6 +2632,7 @@
       },
    "fortify": {
          "name": "Fortify",
+         "type": "Holy",
          "rank": 18,
          "range": "1-3",
          "usecount": 30,
@@ -2425,6 +2649,7 @@
       },
    "escape": {
          "name": "Escape",
+         "type": "Holy",
          "rank": 10,
          "range": "1",
          "usecount": 6,
@@ -2441,6 +2666,7 @@
       },
    "awaken": {
          "name": "Awaken",
+         "type": "Holy",
          "rank": 9,
          "range": "1",
          "usecount": 12,
@@ -2449,6 +2675,7 @@
       },
    "pacify": {
          "name": "Pacify",
+         "type": "Holy",
          "rank": 11,
          "range": "1",
          "usecount": 12,
@@ -2465,6 +2692,7 @@
       },
    "detoxify": {
          "name": "Detoxify",
+         "type": "Holy",
          "rank": 13,
          "range": "1",
          "usecount": 12,
@@ -2473,6 +2701,7 @@
       },
    "rehabilitate": {
          "name": "Rehabilitate",
+         "type": "Holy",
          "rank": 30,
          "range": "1",
          "usecount": 12,
@@ -2481,6 +2710,7 @@
       },
    "nosferatu": {
          "name": "Nosferatu",
+         "type": "Dark",
          "might": "15",
          "hit": 5,
          "rank": 3,
@@ -2491,6 +2721,7 @@
       },
    "nosferatu+": {
          "name": "Nosferatu+",
+         "type": "Dark",
          "might": "15",
          "hit": 5,
          "rank": 3,
@@ -2500,6 +2731,7 @@
       },
    "scylla": {
          "name": "Scylla",
+         "type": "Dark",
          "might": "3",
          "hit": 8,
          "rank": 4,
@@ -2511,6 +2743,7 @@
       },
    "swarm": {
          "name": "Swarm",
+         "type": "Dark",
          "might": "10",
          "hit": 6,
          "rank": 4,
@@ -2522,6 +2755,7 @@
       },
    "tumahann": {
          "name": "Tumahann",
+         "type": "Dark",
          "might": "13",
          "hit": 7,
          "rank": 6,
@@ -2532,6 +2766,7 @@
       },
    "kisharswrath": {
          "name": "Kishar's Wrath",
+         "type": "Dark",
          "might": "15",
          "hit": 3,
          "rank": 12,
@@ -2542,6 +2777,7 @@
       },
    "wormwood": {
          "name": "Wormwood",
+         "type": "Dark",
          "might": "16",
          "hit": 4,
          "rank": 18,
@@ -2553,6 +2789,7 @@
       },
    "darkmend": {
          "name": "Darkmend",
+         "type": "Dark",
          "rank": 3,
          "range": "1-5",
          "usecount": 20,
@@ -2562,6 +2799,7 @@
       },
    "sleep": {
          "name": "Sleep",
+         "type": "Dark",
          "rank": 7,
          "range": "1-3",
          "usecount": 12,
@@ -2571,6 +2809,7 @@
       },
    "berserk": {
          "name": "Berserk",
+         "type": "Dark",
          "rank": 12,
          "range": "1-5",
          "usecount": 20,
@@ -2579,6 +2818,7 @@
       },
    "leathersshd": {
          "name": "Leather SShd",
+         "type": "S Shield",
          "def": 1,
          "hit": 4,
          "weight": 2,
@@ -2588,6 +2828,7 @@
       },
    "buckler": {
          "name": "Buckler",
+         "type": "S Shield",
          "def": 3,
          "hit": 4,
          "weight": 3,
@@ -2597,6 +2838,7 @@
       },
    "prototypesshd": {
          "name": "Prototype SShd",
+         "type": "S Shield",
          "def": 4,
          "hit": 5,
          "weight": 4,
@@ -2606,6 +2848,7 @@
       },
    "aspis": {
          "name": "Aspis",
+         "type": "S Shield",
          "def": 5,
          "hit": 4,
          "weight": 4,
@@ -2615,6 +2858,7 @@
       },
    "roundshield": {
          "name": "Round Shield",
+         "type": "S Shield",
          "def": 5,
          "hit": 5,
          "weight": 4,
@@ -2624,6 +2868,7 @@
       },
    "fireshield": {
          "name": "Fire Shield",
+         "type": "S Shield",
          "def": 5,
          "hit": 4,
          "weight": 4,
@@ -2634,6 +2879,7 @@
       },
    "windshield": {
          "name": "Wind Shield",
+         "type": "S Shield",
          "def": 5,
          "hit": 4,
          "weight": 4,
@@ -2644,6 +2890,7 @@
       },
    "thundershield": {
          "name": "Thunder Shield",
+         "type": "S Shield",
          "def": 5,
          "hit": 4,
          "weight": 4,
@@ -2654,6 +2901,7 @@
       },
    "lightshield": {
          "name": "Light Shield",
+         "type": "S Shield",
          "def": 5,
          "hit": 4,
          "weight": 4,
@@ -2664,6 +2912,7 @@
       },
    "darkshield": {
          "name": "Dark Shield",
+         "type": "S Shield",
          "def": 5,
          "hit": 4,
          "weight": 4,
@@ -2683,6 +2932,7 @@
       },
    "metalshield": {
          "name": "Metal Shield",
+         "type": "S Shield",
          "def": 6,
          "hit": 4,
          "weight": 6,
@@ -2692,6 +2942,7 @@
       },
    "mithrilshield": {
          "name": "Mithril Shield",
+         "type": "S Shield",
          "def": 7,
          "hit": 4,
          "weight": 4,
@@ -2701,6 +2952,7 @@
       },
    "aiantos": {
          "name": "Aiantos",
+         "type": "S Shield",
          "def": 7,
          "hit": 4,
          "weight": 4,
@@ -2720,6 +2972,7 @@
       },
    "shiningshield": {
          "name": "Shining Shield",
+         "type": "S Shield",
          "def": 7,
          "hit": 5,
          "weight": 3,
@@ -2730,6 +2983,7 @@
       },
    "vollenden": {
          "name": "Vollenden",
+         "type": "S Shield",
          "def": 8,
          "hit": 8,
          "weight": 5,
@@ -2740,6 +2994,7 @@
       },
    "ladyshield": {
          "name": "Lady Shield",
+         "type": "S Shield",
          "def": 6,
          "hit": 5,
          "weight": 2,
@@ -2749,6 +3004,7 @@
       },
    "perseid": {
          "name": "Perseid",
+         "type": "S Shield",
          "def": 7,
          "hit": 5,
          "weight": 2,
@@ -2757,6 +3013,7 @@
       },
    "veriansshd": {
          "name": "Verian SShd",
+         "type": "S Shield",
          "def": 4,
          "hit": 3,
          "weight": 4,
@@ -2766,6 +3023,7 @@
       },
    "oldimpsshd": {
          "name": "Old Imp. SShd",
+         "type": "S Shield",
          "def": 3,
          "hit": 3,
          "weight": 6,
@@ -2775,6 +3033,7 @@
       },
    "impsoldiersshd": {
          "name": "Imp. Soldier SShd",
+         "type": "S Shield",
          "def": 4,
          "hit": 3,
          "weight": 4,
@@ -2784,6 +3043,7 @@
       },
    "impsoldiersshd+": {
          "name": "Imp. Soldier SShd+",
+         "type": "S Shield",
          "def": 4,
          "hit": 4,
          "weight": 4,
@@ -2793,6 +3053,7 @@
       },
    "impofficersshd": {
          "name": "Imp. Officer SShd",
+         "type": "S Shield",
          "def": 5,
          "hit": 4,
          "weight": 5,
@@ -2802,6 +3063,7 @@
       },
    "impknightsshd": {
          "name": "Imp. Knight SShd",
+         "type": "S Shield",
          "def": 7,
          "hit": 4,
          "weight": 6,
@@ -2812,6 +3074,7 @@
       },
    "leathermshd": {
          "name": "Leather MShd",
+         "type": "M Shield",
          "def": 4,
          "hit": 4,
          "weight": 5,
@@ -2821,6 +3084,7 @@
       },
    "kiteshield": {
          "name": "Kiteshield",
+         "type": "M Shield",
          "def": 9,
          "hit": 4,
          "weight": 7,
@@ -2830,6 +3094,7 @@
       },
    "squareshield": {
          "name": "Square Shield",
+         "type": "M Shield",
          "def": 10,
          "hit": 4,
          "weight": 10,
@@ -2839,6 +3104,7 @@
       },
    "knightshield": {
          "name": "Knight Shield",
+         "type": "M Shield",
          "def": 12,
          "hit": 4,
          "weight": 8,
@@ -2848,6 +3114,7 @@
       },
    "blazingshield": {
          "name": "Blazing Shield",
+         "type": "M Shield",
          "def": 10,
          "hit": 4,
          "weight": 8,
@@ -2858,6 +3125,7 @@
       },
    "galeshield": {
          "name": "Gale Shield",
+         "type": "M Shield",
          "def": 10,
          "hit": 4,
          "weight": 8,
@@ -2868,6 +3136,7 @@
       },
    "lightningshield": {
          "name": "Lightning Shield",
+         "type": "M Shield",
          "def": 10,
          "hit": 4,
          "weight": 8,
@@ -2878,6 +3147,7 @@
       },
    "radiantshield": {
          "name": "Radiant Shield",
+         "type": "M Shield",
          "def": 10,
          "hit": 4,
          "weight": 8,
@@ -2888,6 +3158,7 @@
       },
    "shadowshield": {
          "name": "Shadow Shield",
+         "type": "M Shield",
          "def": 10,
          "hit": 4,
          "weight": 8,
@@ -2898,6 +3169,7 @@
       },
    "limitshield": {
          "name": "Limit Shield",
+         "type": "M Shield",
          "def": 11,
          "hit": 5,
          "weight": 7,
@@ -2907,6 +3179,7 @@
       },
    "hestia": {
          "name": "Hestia",
+         "type": "M Shield",
          "def": 10,
          "hit": 5,
          "weight": 8,
@@ -2926,6 +3199,7 @@
       },
    "wyrmskinshield": {
          "name": "Wyrmskin Shield",
+         "type": "M Shield",
          "def": 14,
          "hit": 4,
          "weight": 7,
@@ -2935,6 +3209,7 @@
       },
    "paladinshield": {
          "name": "Paladin Shield",
+         "type": "M Shield",
          "def": 13,
          "hit": 4,
          "weight": 8,
@@ -2946,6 +3221,7 @@
       },
    "blackshield": {
          "name": "Black Shield",
+         "type": "M Shield",
          "def": 13,
          "hit": 4,
          "weight": 9,
@@ -2957,6 +3233,7 @@
       },
    "verianmshd": {
          "name": "Verian MShd",
+         "type": "M Shield",
          "def": 7,
          "hit": 4,
          "weight": 6,
@@ -2966,6 +3243,7 @@
       },
    "impsoldiermshd": {
          "name": "Imp. Soldier MShd",
+         "type": "M Shield",
          "def": 7,
          "hit": 4,
          "weight": 6,
@@ -2975,6 +3253,7 @@
       },
    "impsoldiermshd+": {
          "name": "Imp. Soldier MShd+",
+         "type": "M Shield",
          "def": 7,
          "hit": 5,
          "weight": 6,
@@ -2984,6 +3263,7 @@
       },
    "impofficermshd": {
          "name": "Imp. Officer MShd",
+         "type": "M Shield",
          "def": 9,
          "hit": 4,
          "weight": 8,
@@ -2993,6 +3273,7 @@
       },
    "impknightmshd": {
          "name": "Imp. Knight MShd",
+         "type": "M Shield",
          "def": 11,
          "hit": 4,
          "weight": 9,
@@ -3002,6 +3283,7 @@
       },
    "leatherlshd": {
          "name": "Leather LShd",
+         "type": "L Shield",
          "def": 8,
          "hit": 4,
          "weight": 8,
@@ -3011,6 +3293,7 @@
       },
    "wideshield": {
          "name": "Wide Shield",
+         "type": "L Shield",
          "def": 14,
          "hit": 5,
          "weight": 11,
@@ -3020,6 +3303,7 @@
       },
    "ironshield": {
          "name": "Iron Shield",
+         "type": "L Shield",
          "def": 16,
          "hit": 4,
          "weight": 14,
@@ -3029,6 +3313,7 @@
       },
    "greatshield": {
          "name": "Greatshield",
+         "type": "L Shield",
          "def": 19,
          "hit": 4,
          "weight": 16,
@@ -3038,6 +3323,7 @@
       },
    "kojinshield": {
          "name": "Kojin Shield",
+         "type": "L Shield",
          "def": 15,
          "hit": 4,
          "weight": 10,
@@ -3048,6 +3334,7 @@
       },
    "fujinshield": {
          "name": "Fujin Shield",
+         "type": "L Shield",
          "def": 15,
          "hit": 4,
          "weight": 10,
@@ -3058,6 +3345,7 @@
       },
    "raijinshield": {
          "name": "Raijin Shield",
+         "type": "L Shield",
          "def": 15,
          "hit": 4,
          "weight": 10,
@@ -3068,6 +3356,7 @@
       },
    "amaterasushield": {
          "name": "Amaterasu Shield",
+         "type": "L Shield",
          "def": 15,
          "hit": 4,
          "weight": 10,
@@ -3078,6 +3367,7 @@
       },
    "generalshield": {
          "name": "General Shield",
+         "type": "L Shield",
          "def": 20,
          "hit": 5,
          "weight": 15,
@@ -3090,6 +3380,7 @@
       },
    "verianlshd": {
          "name": "Verian LShd",
+         "type": "L Shield",
          "def": 14,
          "hit": 4,
          "weight": 9,
@@ -3099,6 +3390,7 @@
       },
    "impsoldierlshd": {
          "name": "Imp. Soldier LShd",
+         "type": "L Shield",
          "def": 15,
          "hit": 4,
          "weight": 10,
@@ -3108,6 +3400,7 @@
       },
    "impsoldierlshd+": {
          "name": "Imp, Soldier LShd+",
+         "type": "L Shield",
          "def": 14,
          "hit": 5,
          "weight": 10,
@@ -3117,6 +3410,7 @@
       },
    "impofficerlshd": {
          "name": "Imp. Officer LShd",
+         "type": "L Shield",
          "def": 16,
          "hit": 4,
          "weight": 13,
@@ -3126,6 +3420,7 @@
       },
    "impknightlshd": {
          "name": "Imp. Knight LShd",
+         "type": "L Shield",
          "def": 18,
          "hit": 4,
          "weight": 15,
@@ -3135,199 +3430,241 @@
       },
    "musclebrace": {
          "name": "Muscle Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Strength +1"
       },
    "guardbrace": {
          "name": "Guard Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Defense +1"
       },
    "featherbrace": {
          "name": "Feather Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Speed +1"
       },
    "spiritbrace": {
          "name": "Spirit Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Mag +1"
       },
    "eaglebrace": {
          "name": "Eagle Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Accuracy +5"
       },
    "giantsbrace": {
          "name": "Giant's Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Strength +2, Speed -2"
       },
    "phoenixbrace": {
          "name": "Phoenix Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Defense +2, Strength -2"
       },
    "pegasusbrace": {
          "name": "Pegasus Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Speed +2, Strength -2"
       },
    "blessedbrace": {
          "name": "Blessed Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Mag +2, Speed -2"
       },
    "tigerbrace": {
          "name": "Tiger Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Accuracy +10, Avoid -10"
       },
    "divinebrace": {
          "name": "Divine Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Mag +3, Defense -2, Speed -2",
          "footer": "Collectors Item. Ch8-M drop."
       },
    "gamblersbrace": {
          "name": "Gambler's Brace",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Strength +2, Defense +2, Accuracy -10, Avoid -10",
          "footer": "Collectors Item. Capture/Robbery required. In Ch4-M and 7-1."
       },
    "peerlessbrace": {
          "name": "Peerless Brace",
+         "type": "Accessory",
          "cost": 36000,
          "effect": "Strength +1, Defense +1, Speed +1, Mag +1, Accuracy +5, Avoid +5"
       },
    "healthcharm": {
          "name": "Health Charm",
+         "type": "Accessory",
          "effect": "Recovers 1-5 HP per turn"
       },
    "thiefscharm": {
          "name": "Thief's Charm",
+         "type": "Accessory",
          "effect": "Mug activation rate +15%"
       },
    "fortunecharm": {
          "name": "Fortune Charm",
+         "type": "Accessory",
          "effect": "50% chance of negating fatal attacks (but breaks after the battle)"
       },
    "miraclecharm": {
          "name": "Miracle Charm",
+         "type": "Accessory",
          "effect": "Negates fatal attacks (but breaks after the battle)"
       },
    "duskcharm": {
          "name": "Dusk Charm",
+         "type": "Accessory",
          "effect": "Avoid +17"
       },
    "dawncharm": {
          "name": "Dawn Charm",
+         "type": "Accessory",
          "effect": "Accuracy +17"
       },
    "vanishcharm": {
          "name": "Vanish Charm",
+         "type": "Accessory",
          "effect": "Adds Hide skill"
       },
    "firering": {
          "name": "Fire Ring",
+         "type": "Accessory",
          "cost": 3000,
          "effect": "(unused) Fire resistance +10, Wind resistance -10"
       },
    "windring": {
          "name": "Wind Ring",
+         "type": "Accessory",
          "cost": 3000,
          "effect": "Wind resistance +10, Thunder resistance -10"
       },
    "thunderring": {
          "name": "Thunder Ring",
+         "type": "Accessory",
          "cost": 3000,
          "effect": "Thunder resistance +10, Fire resistance -10"
       },
    "lightring": {
          "name": "Light Ring",
+         "type": "Accessory",
          "cost": 3600,
          "effect": "Dark resistance +10, Avoid -10"
       },
    "darkring": {
          "name": "Dark Ring",
+         "type": "Accessory",
          "effect": "Defense +15, Light resistance -10"
       },
    "djinnring": {
          "name": "Djinn Ring",
+         "type": "Accessory",
          "effect": "Mag +10, Defense -10"
       },
    "lullabylyre": {
          "name": "Lullaby Lyre",
+         "type": "Accessory",
          "effect": "In battle, automatically inflicts sleep"
       },
    "brokenlyre": {
          "name": "Broken Lyre",
+         "type": "Accessory",
          "effect": "Broken Sleep Harp, cannot be used"
       },
    "firescale": {
          "name": "Fire Scale",
+         "type": "Accessory",
          "effect": "Fire resistance +30, Wind resistance -8, does 5 Fire damage when hit, Critical vulnerability +12%"
       },
    "icescale": {
          "name": "Ice Scale",
+         "type": "Accessory",
          "cost": 4800,
          "effect": "Wind resistance +30, Thunder resistance +10, Fire resistance -10, Critical vulnerability +12%"
       },
    "wyvernscale": {
          "name": "Wyvern Scale",
+         "type": "Accessory",
          "effect": "Wind resistance +20, Fire resistance +5, Thunder resistance -5, Critical vulnerability +18%",
          "footer": "Collectors Item. Ch10-1 drop."
       },
    "thunderscale": {
          "name": "Thunder Scale",
+         "type": "Accessory",
          "effect": "(unused) Thunder resistance +30, Wind resistance +8, Fire resistance +5, does 6 Thunder damage when hit, Critical vulnerability +12%"
       },
    "thorsscale": {
          "name": "Thor's Scale",
+         "type": "Accessory",
          "effect": "Thunder resistance +30, Wind resistance +15, Fire resistance +10, does 7 Thunder damage when hit, Critical vulnerability +6%"
       },
    "vulnerary": {
          "name": "Vulnerary",
+         "type": "Item",
          "cost": 500,
          "effect": "Heals 20 HP"
       },
    "concoction": {
          "name": "Concoction",
+         "type": "Item",
          "cost": 1000,
          "effect": "Heals 40 HP"
       },
    "elixir": {
          "name": "Elixir",
+         "type": "Item",
          "cost": 2000,
          "effect": "Heals all HP"
       },
    "painkiller": {
          "name": "Painkiller",
+         "type": "Item",
          "cost": 4000,
          "effect": "Cures an adjacent ally's Crippled status"
       },
    "smellingsalts": {
          "name": "Smelling Salts",
+         "type": "Item",
          "cost": 800,
          "effect": "Cures an adjacent ally's Sleep status"
       },
    "sedative": {
          "name": "Sedative",
+         "type": "Item",
          "cost": 1500,
          "effect": "Cures an adjacent ally's Berserk status"
       },
    "antitoxin": {
          "name": "Antitoxin",
+         "type": "Item",
          "cost": 500,
          "effect": "Cures Poison status"
       },
    "hppotion": {
          "name": "HP Potion",
+         "type": "Item",
          "cost": 2000,
          "effect": "Grants +3 Max HP when used"
       },
    "strpotion": {
          "name": "STR Potion",
+         "type": "Item",
          "cost": 2400,
          "effect": "Grants +2 Str when used",
          "crafting": {
@@ -3341,11 +3678,13 @@
       },
    "spdpotion": {
          "name": "SPD Potion",
+         "type": "Item",
          "cost": 2200,
          "effect": "Grants +2 Spd when used"
       },
    "defpotion": {
          "name": "DEF Potion",
+         "type": "Item",
          "cost": 3000,
          "effect": "Grants +2 Def when used",
          "crafting": {
@@ -3359,6 +3698,7 @@
       },
    "magpotion": {
          "name": "MAG Potion",
+         "type": "Item",
          "cost": 4000,
          "effect": "Grants +1 Mag when used",
          "crafting": {
@@ -3372,16 +3712,19 @@
       },
    "escapestone": {
          "name": "Escapestone",
+         "type": "Item",
          "cost": 2400,
          "effect": "Use to escape the map"
       },
    "vanishstone": {
          "name": "Vanishstone",
+         "type": "Item",
          "cost": 3000,
          "effect": "Use to become hidden until spotted"
       },
    "repairstone": {
          "name": "Repairstone",
+         "type": "Item",
          "cost": 8000,
          "effect": "Repairs weapons and shields; consumes uses depending on weapon's Repair cost and remaining durability",
          "crafting": {
@@ -3394,306 +3737,368 @@
          }
       },
    "armsthriftguide": {
-         "name": "Elixir",
+         "name": "Armsthrift Guide",
+         "type": "Item",
          "effect": "Grants Armsthrift when used"
       },
    "bag": {
          "name": "Bag",
+         "type": "Item",
          "cost": 4000,
          "effect": "Can carry up to eight additional items"
       },
    "treasure": {
          "name": "Treasure",
+         "type": "Item",
          "effect": "Sells for 5000 D."
       },
    "goldcoin": {
          "name": "Gold Coin",
+         "type": "Item",
          "effect": "Grants 1000 D. when aquired"
       },
    "silvercoin": {
          "name": "Silver Coin",
+         "type": "Item",
          "effect": "Grants 250 D. when aquired"
       },
    "tulsacirclet": {
          "name": "Tulsa Circlet",
+         "type": "Item",
          "effect": "Reese only, grants Fortune"
       },
    "thinhorse": {
          "name": "Thin Horse",
+         "type": "Horse",
          "cost": 1000,
          "effect": "HP: 30"
       },
    "plainhorse": {
          "name": "Plain Horse",
+         "type": "Horse",
          "cost": 2500,
          "effect": "HP: 50"
       },
    "spryhorse": {
          "name": "Spry Horse",
+         "type": "Horse",
          "cost": 5000,
          "effect": "HP: 80"
       },
    "sturdyhorse": {
          "name": "Sturdy Horse",
+         "type": "Horse",
          "cost": 8000,
          "effect": "HP: 120"
       },
    "robusthorse": {
          "name": "Robust Horse",
+         "type": "Horse",
          "cost": 15000,
          "effect": "HP: 180"
       },
    "sinonstallion": {
          "name": "Sinon Stallion",
+         "type": "Horse",
          "cost": 12000,
          "effect": "HP: 120\nGrants Spd +2"
       },
    "ligadestrier": {
          "name": "Liga Destier",
+         "type": "Horse",
          "cost": 18000,
          "effect": "HP: 150\nGrants Dmg +1"
       },
    "ligacourser": {
          "name": "Liga Courser",
+         "type": "Horse",
          "cost": 20000,
          "effect": "HP: 150\nGrants Move +1"
       },
    "ishsstallion": {
          "name": "Ishs Stallion",
+         "type": "Horse",
          "cost": 15000,
          "effect": "HP: 100\nGrants Spd +5"
       },
    "ishscourser": {
          "name": "Ishs Courser",
+         "type": "Horse",
          "cost": 10000,
          "effect": "HP: 80\nGrants Move +1"
       },
    "morachianhorse": {
          "name": "Morachian Horse",
+         "type": "Horse",
          "cost": 24000,
          "effect": "HP: 150\nGrants Def +3"
       },
    "tico": {
          "name": "Tico",
+         "type": "Horse",
          "effect": "HP: 80\nGrants Dmg +1, Spd +5, Move +1 and Horse-Lover skill"
       },
    "sapphire": {
          "name": "Sapphire",
+         "type": "Material",
          "cost": 1900,
          "effect": "Used for Rossweisse and MAG Potion.\nObtained via Ch6 Atelier and Ch6 civilian request"
       },
    "opal": {
          "name": "Opal",
+         "type": "Material",
          "cost": 800,
          "effect": "Used for Tempest Knife and Blizzard.\nObtained via Ch4 Atelier and Ch10-1 search spot"
       },
    "amber": {
          "name": "Amber",
+         "type": "Material",
          "cost": 800,
          "effect": "Used for Ollerus and Fortify.\nObtained via Ch7-M material shop and Ch8-1 drop"
       },
    "wyvernpearl": {
          "name": "Wyvern Pearl",
+         "type": "Material",
          "cost": 800,
          "effect": "Used for Fortify and Pacify.\nObtained via Ch7-1 drop and Ch10-1 search spot"
       },
    "eyeofbalor": {
          "name": "Eye of Balor",
+         "type": "Material",
          "cost": 3000,
          "effect": "Used for Grimhild and Apeiron.\nObtained via Ch3-M search spot and ChX-4 drop"
       },
    "garnet": {
          "name": "Garnet",
+         "type": "Material",
          "cost": 2100,
          "effect": "Used for Aiantos and Escape.\nObtained via Ch5 civilian request and Ch10 civilian request"
       },
    "lapislazuli": {
          "name": "Lapis Lazuli",
+         "type": "Material",
          "cost": 700,
          "effect": "Used for Dire Thunder and Pacify.\nObtained via Ch7 Atelier and Ch7-M material shop"
       },
    "ruby": {
          "name": "Ruby",
+         "type": "Material",
          "cost": 700,
          "effect": "Used for Harperia and Earthblaze.\nObtained via Ch5 Atelier and Ch11-M drop"
       },
    "golddust": {
          "name": "Gold Dust",
+         "type": "Material",
          "cost": 1150,
          "effect": "Used for Grimhild and Tabarzin.\nObtained via Ch9-1 barracks drop and ChX-1 drop"
       },
    "mithrildust": {
          "name": "Mithril Dust",
+         "type": "Material",
          "cost": 1100,
          "effect": "Used for Tempest Knife and Repairstone.\nObtained via Ch6-M talk and Ch9-2 drop"
       },
    "flamedust": {
          "name": "Flame Dust",
+         "type": "Material",
          "cost": 1300,
          "effect": "Used for Infernal Edge and Hestia.\nObtained via Ch2-M search spot and Ch5-2 bag"
       },
    "amalgam": {
          "name": "Amalgam",
+         "type": "Material",
          "cost": 1100,
          "effect": "Used for Brionac and Repairstone.\nObtained via Ch7-2 chest and Ch9 Atelier"
       },
    "argentum": {
          "name": "Argentum",
+         "type": "Material",
          "cost": 1000,
          "effect": "Used for Harperia and Rapid Crossbow.\nObtained via Ch4-M search spot and Ch13 search spot"
       },
    "platinum": {
          "name": "Platinum",
+         "type": "Material",
          "cost": 3250,
          "effect": "Used for Colichemarde and Gullveig.\nObtained via Ch9-M drop or Ch11-M drop"
       },
    "mithrilsheet": {
          "name": "Mithril Sheet",
+         "type": "Material",
          "cost": 1200,
          "effect": "Used for Colichemarde and Angon.\nBoth obtained via Ch6-M material shop"
       },
    "meteoriciron": {
          "name": "Meteoric Iron",
+         "type": "Material",
          "cost": 2000,
          "effect": "Used for Greatlance and Brionac.\nObtained via Ch9-2 bag and Ch11-M search spot"
       },
    "gurrassteel": {
          "name": "Gurras Steel",
+         "type": "Material",
          "cost": 3000,
          "effect": "Used for Adrasteia and Gullveig.\nObtained via Ch10-1 search spot and ChX-2 drop"
       },
    "sinonsteel": {
          "name": "Sinon Steel",
+         "type": "Material",
          "cost": 2000,
          "effect": "Used for Tabarzin and Hestia.\nObtained via Ch2-2 drop and Ch12-M drop"
       },
    "zerkiasteel": {
          "name": "Zerika Steel",
+         "type": "Material",
          "cost": 900,
          "effect": "Used for Infernal Edge and Harperia.\nObtained via Ch9-1 barracks drop and Ch13 search spot"
       },
    "nottosiron": {
          "name": "Nottos Iron",
+         "type": "Material",
          "cost": 1300,
          "effect": "Used for Aiantos and Dark Shield.\nObtained via Ch4-2 bag and Ch9-M search spot"
       },
    "pantazsteel": {
          "name": "Pantaz Steel",
+         "type": "Material",
          "cost": 1500,
          "effect": "Used for Adrasteia and Swift Spear.\nObtained via Ch4 Atelier and Ch7-2 drop"
       },
    "ariadnethread": {
          "name": "Ariadne Thread",
+         "type": "Material",
          "cost": 2100,
          "effect": "Used for Apeiron and Rossweisse.\nObtained via Ch2 Atelier and Ch5-1 chest"
       },
    "steelwire": {
          "name": "Steel Wire",
+         "type": "Material",
          "cost": 1000,
          "effect": "Used for Ollerus and Rapid Crossbow.\nObtained via Ch4-1 clear and Ch8 civilian request"
       },
    "lightstone": {
          "name": "Lightstone",
+         "type": "Material",
          "cost": 3000,
          "effect": "Used for Fortify, Escape and Pacify.\nObtained via Ch2-1 drop, Ch7 civilian request and Ch11 Atelier"
       },
    "obsidian": {
          "name": "Obsidian",
+         "type": "Material",
          "cost": 1000,
          "effect": "Used for Dark Shield and Repairstone.\nObtained via Ch6-2 drop and Ch12-1 drop"
       },
    "sunshard": {
          "name": "Sun Shard",
+         "type": "Material",
          "cost": 2500,
          "effect": "Used for Infernal Edge and Earthblaze.\nObtained via Ch2 Atelier and Ch5-M search spot"
       },
    "galeshard": {
          "name": "Gale Shard",
+         "type": "Material",
          "cost": 2400,
          "effect": "Used for Tempest Knife and Blizzard.\nObtained via Ch3-M drop and Ch10-1 search spot"
       },
    "stormshard": {
          "name": "Storm Shard",
+         "type": "Material",
          "cost": 1200,
          "effect": "Used for Mjöllnir and Dire Thunder.\nObtained via Ch3 Atelier and Ch4-1 drop"
       },
    "yewwood": {
          "name": "Yew Wood",
+         "type": "Material",
          "cost": 1800,
          "effect": "Used for Apeiron and Rossweisse.\nObtained via Ch1-M village and Ch7 Atelier"
       },
    "lindenwood": {
          "name": "Linden Wood",
+         "type": "Material",
          "cost": 2000,
          "effect": "Used for Mjöllnir and DEF Potion.\nObtained via Ch6 Atelier and Ch10-M material shop"
       },
    "ashwood": {
          "name": "Ash Wood",
+         "type": "Material",
          "cost": 1200,
          "effect": "Used for Greatlance and Angon.\nObtained via Ch5 Atelier and Ch8 civilian request"
       },
    "jugudwood": {
          "name": "Jugud Wood",
+         "type": "Material",
          "cost": 2000,
          "effect": "Used for Brionac and Swift Spear.\nObtained via Ch10-M material shop and Ch13 civilian request"
       },
    "pajutagrass": {
          "name": "Pajuta Grass",
+         "type": "Material",
          "cost": 600,
          "effect": "Used for MAG Potion and DEF Potion.\nObtained via Ch2 civilian request and Ch10 Atelier"
       },
    "antelopepelt": {
          "name": "Antelope Pelt",
+         "type": "Material",
          "cost": 800,
          "effect": "Used for Angon and Tabarzin.\nObtained via Ch3 civilian request and Ch8-M material shop"
       },
    "bullpelt": {
          "name": "Bull Pelt",
+         "type": "Material",
          "cost": 900,
          "effect": "Used for Mjöllnir and Hestia.\nObtained via Ch1-1 drop and Ch8 Atelier"
       },
    "boarpelt": {
          "name": "Boar Pelt",
+         "type": "Material",
          "cost": 500,
          "effect": "Used for Colichemarde and Dark Shield.\nObtained via Ch4 Atelier and Ch4-M drop"
       },
    "tigerpelt": {
          "name": "Tiger Pelt",
+         "type": "Material",
          "cost": 1000,
          "effect": "Used for Greatlance and Aiantos.\nObtained via Ch9-M bag and Ch11 civilian request"
       },
    "wolfpelt": {
          "name": "Wolf Pelt",
+         "type": "Material",
          "cost": 450,
          "effect": "Used for Grimhild and Gullveig.\nObtained via Ch6-M search spot and Ch8-M material shop"
       },
    "lionpelt": {
          "name": "Lion Pelt",
+         "type": "Material",
          "cost": 1500,
          "effect": "Used for Adrasteia and Swift Spear.\nObtained via Ch6-1 drop and Ch10-M drop"
       },
    "simurghdown": {
          "name": "Simurgh Down",
+         "type": "Material",
          "cost": 800,
          "effect": "Used for Escape and STR Potion.\nObtained via Ch1 Atelier and Ch4-M drop"
       },
    "surabfluid": {
          "name": "Surab Fluid",
+         "type": "Material",
          "cost": 2000,
          "effect": "Used for STR Potion and DEF Potion.\nObtained via Ch2-M bag and Ch8 Atelier"
       },
    "soma": {
          "name": "Soma",
+         "type": "Material",
          "cost": 1000,
          "effect": "Used for STR Potion and MAG Potion.\nObtained via Ch5-M drop and Ch9 civilian request"
       },
    "ancientamulet": {
          "name": "Ancient Amulet",
+         "type": "Material",
          "cost": 1300,
          "effect": "Used for Earthblaze, Blizzard and Dire Thunder.\nObtained via Ch1-2 bag, Ch4-2 drop and Ch12-M drop"
       },
    "winch": {
          "name": "Winch",
+         "type": "Material",
          "cost": 3200,
          "effect": "Used for Ollerus and Rapid Crossbow.\nObtained via Ch5-M drop and Ch11-1 drop"
       }

@@ -340,7 +340,7 @@ async def item(interaction: discord.Interaction, name: str):
 
 def get_item_stats_embed(item_json: json):
     embed = discord.Embed(title=item_json['name'], color=0x8a428a)
-    stats = ''
+    stats = item_json['type'] + '  \n'
     for value in item_json:
         match value:
             case 'might':
@@ -355,7 +355,7 @@ def get_item_stats_embed(item_json: json):
                 stats += 'Rank ' + str(item_json['rank']) + ' | '
             case 'range':
                 stats += 'Rng ' + item_json['range'] + ' | '
-    stats = stats[:-3] + '\n'
+    stats = stats[:-3] + '  \n'
     for value in item_json:
         match value:
             case 'durability':
@@ -378,6 +378,9 @@ def get_item_stats_embed(item_json: json):
         for l in item_json['crafting']['material']:
             crafttxt += l + '\n'
         embed.add_field(name='Crafting:', value=crafttxt, inline=False)
+
+    if 'footer' in item_json:
+        embed.set_footer(text=item_json['footer'])
 
     return embed
 
