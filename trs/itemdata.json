@@ -324,7 +324,8 @@
     "durability": 30,
     "cost":6000,
     "note": "Effective against monsters",
-    "icon": "slayersword.png"
+    "icon": "slayersword.png",
+    "drop": "Wight"
   },
   "luna": {
     "name": "Luna",
@@ -338,7 +339,8 @@
     "durability": 30,
     "cost":6000,
     "note": "Ignores non-dragon defense, can be used to recover HP",
-    "icon": "luna.png"
+    "icon": "luna.png",
+    "drop": "Shadow Rider"
   },
   "paragon": {
     "name": "Paragon",
@@ -352,7 +354,8 @@
     "durability": 30,
     "cost":6000,
     "note": "Gains double EXP",
-    "icon": "paragon.png"
+    "icon": "paragon.png",
+    "drop": "Stoneborn"
   },
   "varunastra": {
     "name": "☆Varunastra",
@@ -581,7 +584,8 @@
     "durability": 30,
     "cost":9000,
     "note": "Effective against monsters, can be used to recover HP",
-    "icon": "blessedlance.png"
+    "icon": "blessedlance.png",
+    "drop": "Shadow Lancer"
   },
   "saliaspear": {
     "name": "☆Salia Spear",
@@ -799,16 +803,17 @@
     "durability": 40,
     "cost":8000,
     "note": "Effective against monsters, can be used to recover HP",
-    "icon": "blessedaxe.png"
+    "icon": "blessedaxe.png",
+    "drop": "Greatogre"
   },
   "braveaxe": {
     "name": "Brave Axe",
     "type": "Axe",
-    "might": 12,
+    "might": 14,
     "hit": 70,
     "crit": 0,
     "weight": 11,
-    "mst": 14,
+    "mst": 12,
     "range": "1",
     "durability": 90,
     "cost":4500,
@@ -879,7 +884,8 @@
     "durability": 30,
     "cost":9000,
     "note": "Effective against monsters, can be used to recover HP",
-    "icon": "blessedbow.png"
+    "icon": "blessedbow.png",
+    "drop": "Dracozombie"
   },
   "harpybow": {
     "name": "★Harpy Bow",
@@ -1246,7 +1252,8 @@
     "durability": 18,
     "cost":5400,
     "note": "Recover HP equal to damage dealt, effective against monsters",
-    "icon": "moonlight.png"
+    "icon": "moonlight.png",
+    "drop": "Earthborn"
   },
   "starlight": {
     "name": "☆Starlight",
@@ -1567,7 +1574,7 @@
     "range": "1",
     "durability": 12,
     "cost":3600,
-    "note": "Story Mode: Summon NPC Revenants and entombed\nVersus Mode: Summons NPC Revenants and Dracozombies.",
+    "note": "Story Mode: Summon NPC Revenants and Entombed.\nVersus Mode: Summons NPC Revenants and Dracozombies.",
     "icon": "zombie.png"
   },
   "skeleton": {
@@ -1636,7 +1643,8 @@
     "durability": 3,
     "cost":1200,
     "note": "Restore 10 HP",
-    "icon": "herb.png"
+    "icon": "herb.png",
+    "drop": "Revenant, Entombed"
   },
   "fruit": {
     "name": "Fruit",
@@ -1644,7 +1652,8 @@
     "durability": 3,
     "cost":2100,
     "note": "Restore 20 HP",
-    "icon": "fruit.png"
+    "icon": "fruit.png",
+    "drop": "Mogall"
   },
   "elixir": {
     "name": "Elixir",
@@ -1660,7 +1669,8 @@
     "durability": 1,
     "cost":5000,
     "note": "Negates one fatal attack",
-    "icon": "miraclecharm.png"
+    "icon": "miraclecharm.png",
+    "drop": "Harpy"
   },
   "knightcrest": {
     "name": "Knight Crest",
@@ -1948,7 +1958,8 @@
     "durability": 4,
     "cost":4000,
     "note": "Raises defense by 7",
-    "icon": "ironshield.png"
+    "icon": "ironshield.png",
+    "drop": "Bonewalker"
   },
   "steelhield": {
     "name": "Steel Shield",
@@ -1980,7 +1991,8 @@
     "durability": 1,
     "cost":4500,
     "note": "Can be sold for 3000 G or opened for 2000 ~ 4000 G",
-    "icon": "moneybag.png"
+    "icon": "moneybag.png",
+    "drop": "Gargoyle"
   },
   "smithshammer": {
     "name": "Smith's Hammer",
@@ -1988,7 +2000,8 @@
     "durability": 1,
     "cost":8000,
     "note": "Restores a non ☆ or ★ weapon or staff to full durability",
-    "icon": "smithshammer.png"
+    "icon": "smithshammer.png",
+    "drop": "Ogre"
   },
   "dakruon": {
     "name": "☆Dakruon",

@@ -8,6 +8,8 @@ import bws
 import trs
 import vs1
 import vs2
+import fe3
+
 
 bot = commands.Bot(command_prefix='/', intents=discord.Intents.default())
 
@@ -30,6 +32,13 @@ vs1_skill_data_file = 'vs1/skilldata.json'
 vs2_unit_data_file = 'vs2/unitdata.json'
 vs2_item_data_file = 'vs2/itemdata.json'
 vs2_skill_data_file = 'vs2/skilldata.json'
+
+fe3b1_unit_data_file = 'fe3/b1.json'
+fe3b2_unit_data_file = 'fe3/b2.json'
+bsfe_unit_data_file = 'fe3/bsfe.json'
+
+fe3_item_data_file = 'fe3/item.json'
+fe3_class_data_file = 'fe3/job.json'
 
 
 def get_name_choices(ctx: str, file: str) -> list[app_commands.Choice]:
@@ -224,6 +233,76 @@ class VestariaSagaII(app_commands.Group):
 
 
 bot.tree.add_command(VestariaSagaII(name='vs2', description='Vestaria Saga II Data'))
+
+
+class FE3B1(app_commands.Group):
+    @app_commands.command(name='unit', description='Get FE3 Book 1 unit data')
+    async def unitdata(self, interaction: discord.Interaction, name: str,
+                       level: typing.Optional[str] = None,
+                       personal: typing.Optional[bool] = False,
+                       shards: typing.Optional[str] = None):
+        await fe3.unit(interaction, name, level, personal, 'b1', shards)
+
+    @unitdata.autocomplete('name')
+    async def unit_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, fe3b1_unit_data_file)
+
+
+bot.tree.add_command(FE3B1(name='fe3b1', description='FE3 Book 1 Data'))
+
+
+class FE3B2(app_commands.Group):
+    @app_commands.command(name='unit', description='Get FE3 Book 2 unit data')
+    async def unitdata(self, interaction: discord.Interaction, name: str,
+                       level: typing.Optional[str] = None,
+                       personal: typing.Optional[bool] = False,
+                       shards: typing.Optional[str] = None):
+        await fe3.unit(interaction, name, level, personal, 'b2', shards)
+
+    @unitdata.autocomplete('name')
+    async def unit_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, fe3b2_unit_data_file)
+
+
+bot.tree.add_command(FE3B2(name='fe3b2', description='FE3 Book 2 Data'))
+
+
+class BSFE(app_commands.Group):
+    @app_commands.command(name='unit', description='Get BSFE unit data')
+    async def unitdata(self, interaction: discord.Interaction, name: str,
+                       level: typing.Optional[str] = None,
+                       personal: typing.Optional[bool] = False):
+        await fe3.unit(interaction, name, level, personal, 'bsfe')
+
+    @unitdata.autocomplete('name')
+    async def unit_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, bsfe_unit_data_file)
+
+
+bot.tree.add_command(BSFE(name='bsfe', description='BSFE Data'))
+
+
+class FE3(app_commands.Group):
+    @app_commands.command(name='item', description='Get FE3 item data')
+    async def itemdata(self, interaction: discord.Interaction, name: str):
+        await fe3.item(interaction, name)
+
+    @itemdata.autocomplete('name')
+    async def skill_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, fe3_item_data_file)
+
+    @app_commands.command(name='class', description='Get FE3 class data')
+    async def classdata(self, interaction: discord.Interaction, name: str):
+        await fe3.classdata(interaction, name)
+
+    @classdata.autocomplete('name')
+    async def class_autocomplete(self, interaction: discord.Interaction, current: str) -> list[app_commands.Choice]:
+        return get_name_choices(current, fe3_class_data_file)
+
+
+bot.tree.add_command(FE3(name='fe3', description='FE3 Data'))
+
+
 
 
 

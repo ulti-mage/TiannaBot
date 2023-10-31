@@ -18,7 +18,7 @@
   },
   "astra": {
     "name": "Astra",
-    "description": "User performs a 5-hit attack if using a pysical melee weapon.\nCan't activate with Adept, Draco or Terra.",
+    "description": "User performs a 5-hit attack if using a physical melee weapon.\nCan't activate with Adept, Draco or Terra.",
     "activation": "(User Skill - Enemy Skill) +3%, min 3%",
     "icon": "astra.png"
   },
@@ -97,7 +97,7 @@
   },
   "sing": {
     "name": "Sing",
-    "description": "User restores HP of allies and may make them move again.\nS = Times sang so far (max 250), HP restored = (S + 5)/50, min 2, Range = (Level/5) +1, max 4, Refresh chance = (S / 50) + 2* (Recieved Support/5) + 10, excludes Plum",
+    "description": "User restores HP of allies and may make them move again.\nS = Times sang so far (max 250)\nHP restored = (S + 5)/50, min 2\nRange = (Level/5) +1, max 4\nRefresh chance = (S / 50) + 2* (Recieved Support/5) + 10, excludes Plum",
     "icon": "sing.png"
   },
   "warp": {

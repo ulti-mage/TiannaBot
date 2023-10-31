@@ -582,4 +582,8 @@ def get_item_stats_embed(item_json: json):
         note += item_json['note']
     if note != '':
         embed.add_field(name='Notes:', value=note, inline=False)
+
+    if 'drop' in item_json:
+        embed.set_footer(text='0.5% chance drop from: ' + item_json['drop'])
+
     return embed
