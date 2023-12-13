@@ -131,7 +131,7 @@
     },
     "levinsword": {
         "name": "Levin Sword",
-        "desc": "Hits Res, does not scale with Str.",
+        "desc": "Hits Res, does not scale with Atk.",
         "stats": {
             "wlv": 8,
             "mt": 10,
@@ -432,7 +432,7 @@
     },
     "devilaxe": {
         "name": "Devil Axe",
-        "desc": "21 -Lck % chance to injure wielder.",
+        "desc": "(21-Lck)% chance to injure wielder.",
         "stats": {
             "wlv": 1,
             "mt": 20,
@@ -599,7 +599,7 @@
     },
     "thunderbolt": {
         "name": "Thunderbolt",
-        "desc": "Hits enemy Res and does not scale with Str.",
+        "desc": "Hits enemy Res and does not scale with Atk.",
         "stats": {
             "wlv": 6,
             "mt": 10,
@@ -970,7 +970,7 @@
     },
     "powerring": {
         "name": "Power Ring",
-        "desc": "Increases user's Str by 4.",
+        "desc": "Increases user's Atk by 4.",
         "stats": {},
         "type": "item",
         "weapon": false
@@ -1131,7 +1131,7 @@
     },
     "geosphere": {
         "name": "Geosphere",
-        "desc": "Allies within 3 tiles of wielder get +10 to hit and crit, and when used as an item, 5-15 damage is dealt to all units.",
+        "desc": "Book 1: When used, 5-15 damage is dealt to all units.\n Book 2: Check 'Broken Geosphere'.",
         "stats": {},
         "type": "item",
         "weapon": false
@@ -1208,7 +1208,7 @@
     },
     "mendstaff": {
         "name": "Mend Staff",
-        "desc": "Restores Str +20 HP to an adjacent ally.",
+        "desc": "Restores Atk +20 HP to an adjacent ally.",
         "stats": {
             "wlv": 2,
             "rng": 1,
@@ -1222,7 +1222,7 @@
     },
     "healstaff": {
         "name": "Heal Staff",
-        "desc": "Restores Str +10 HP to an adjacent ally.",
+        "desc": "Restores Atk +10 HP to an adjacent ally.",
         "stats": {
             "wlv": 1,
             "rng": 1,
@@ -1250,7 +1250,7 @@
     },
     "physicstaff": {
         "name": "Physic Staff",
-        "desc": "Restores Str +10 HP to an ally.",
+        "desc": "Restores Atk +10 HP to an ally.",
         "stats": {
             "wlv": 7,
             "rng": "All",
@@ -1278,7 +1278,7 @@
     },
     "fortifystaff": {
         "name": "Fortify Staff",
-        "desc": "Restores Str +10 to all allies except for the user.",
+        "desc": "Restores Atk +10 to all allies except for the user.",
         "stats": {
             "wlv": 8,
             "rng": "All",
@@ -1320,7 +1320,7 @@
     },
     "silencestaff": {
         "name": "Silence Staff",
-        "desc": "Prevents every unit on the map from using magic, friend or foe.",
+        "desc": "Prevents every unit on the map from using magic for one turn, friend or foe alike.",
         "stats": {
             "wlv": 10,
             "rng": "All",

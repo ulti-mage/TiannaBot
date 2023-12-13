@@ -3521,7 +3521,7 @@
    "fortunecharm": {
          "name": "Fortune Charm",
          "type": "Accessory",
-         "effect": "50% chance of negating fatal attacks (but breaks after the battle)"
+         "effect": "50% chance of negating critical attacks. Might break after use"
       },
    "miraclecharm": {
          "name": "Miracle Charm",

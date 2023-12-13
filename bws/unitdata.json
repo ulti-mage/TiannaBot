@@ -53,8 +53,8 @@
             }
         },
         "misc": {
-            "recruit": "**Permanent**: - Joins in Chapter 1-Main, Turn 1",
-            "promo": "- Achieve a Tactics Rank of 18 OR at the start of Chapter 10",
+            "recruit": "**Permanent**: - Joins in Map 1-M: \"A Reason to Fight\", Turn 1.",
+            "promo": "- Achieve a Tactics Rank of 18 OR at the start of Chapter 10.",
             "prf": "**1.** Perseid; In starting inventory\n**2.** Gram; In Ch. 5 Letter\n**3.** Tulsa Circlet; In Ch. 9 Letter\n**4.** Nothung; Start of Ch. 13"
         },
         "portrait": "reese.png",
@@ -103,7 +103,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Permanent**: - Joins in Chapter 1-Main, Turn 1",
+            "recruit": "**Permanent**: - Joins in Map 1-M: \"A Reason to Fight\", Turn 1.",
             "promo": false,
             "prf": false
         },
@@ -161,7 +161,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Permanent**: - Joins in Chapter 1-Main, Turn 1",
+            "recruit": "**Permanent**: - Joins in Map 1-M: \"A Reason to Fight\", Turn 1.",
             "promo": "- Level 10, 30 Spear, 20 S Shield",
             "prf": false
         },
@@ -220,7 +220,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Permanent**: - Joins in Chapter 1-Main, Turn 1",
+            "recruit": "**Permanent**: - Joins in Map 1-M: \"A Reason to Fight\", Turn 1.",
             "promo": "- Level 10, 30 Spear, 20 S Shield",
             "prf": false
         },
@@ -273,7 +273,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Permanent**: - Joins in Chapter 1-Main, Turn 1",
+            "recruit": "**Permanent**: - Joins in Map 1-M: \"A Reason to Fight\", Turn 1.",
             "promo": "- Level 15, 30 Bow",
             "prf": false
         },
@@ -338,7 +338,7 @@
             }
         },
         "misc": {
-            "recruit": "**Permanent**: - Joins in Chapter 1-Main, Turn 4",
+            "recruit": "**Permanent**: - Joins in Map 1-M: \"A Reason to Fight\", Turn 4.",
             "promo": "- Level 10, 20 Sword, 20 Spear, 20 S Shield",
             "prf": false
         },
@@ -401,9 +401,9 @@
             }
         },
         "misc": {
-            "recruit": "**Permanent**: - Joins in Chapter 1-Main, Turn 4",
-            "promo": "- Level 15, 20 Bow, 20 Crossbow, Complete Chaper 10-Main, Elbert is alive",
-            "prf": "Hawkeye; After completing Ch. 8-1"
+            "recruit": "**Permanent**: - Joins in Map 1-M: \"A Reason to Fight\", Turn 4.",
+            "promo": "- Level 15, 20 Bow, 20 Crossbow, Complete Chaper 10-Main",
+            "prf": "Hawkeye; After completing Map 8-1: \"The Veterans\"."
         },
         "portrait": "christine.png",
         "class": "Lady Knight",
@@ -455,7 +455,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Mercenary**: - Complete Chapter 1-Main\n**Permanent**: - Let him kill 60 enemies and have Izerna alive and recruited permanently",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-M: \"A Reason to Fight.\"\n**Permanent**: - After he has killed 60+ enemies, view the city event \"Scars of War.\" Izerna must be alive and recruited.",
             "promo": "- Level 15, 30 Axe",
             "prf": "Bhuj; When permanently recruited"
         },
@@ -505,7 +505,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Permanent**: - Complete Chapter 1-1",
+            "recruit": "**Permanent**: - After completing or declining Map 1-1: \"Cruel Brothers.\"",
             "promo": "- Level 10, 30 Light",
             "prf": "Rehabilitate; When promoted"
         },
@@ -550,7 +550,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - Complete Chapter 1-Main\n**Permanent**: **Method A**: - Raise his Happiness to 12\n**Method B**: - Kill Faye in Ch. 3-Main before facing Chaos OR have Faye captured during Ch. 3-Main OR kill Chaos in Ch. 3-Main; Raise his Happiness to 5; Let him enter the Church in Ch. 7-Main (makes him leave); He rejoins permanently at the end of Ch. 9-Main",
+            "recruit": "**Mercenary**: - [Tavern] After completing Map 1-M: \"A Reason to Fight.\"\n**Permanent**: **Method A**: - Raise Volo's Happiness to 12+, then view the city event \"Aloof Swordsman.\"\n**Method B**: If (A) Faye is killed before talking to Chaos in Map 3-M: \"The Three Priests\" or (B) Chaos was defeated in \"The Three Priests\": view the event involving Leticia during the map by allowing NPC Sakhalin to visit the building on the east. \nThen, raise Volo's Happiness to 5+ and view the city event \"Wanted Man\" at the start of Chapter 7. \nDuring Map 7-M: \"Rescue Mission,\" have Volo enter the church; he will leave the battlefield and become unavailable, then rejoin permanently after completing Map 9-M: \"Breaking Bridges.\"",
             "promo": false,
             "prf": false
         },
@@ -594,7 +594,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - Complete Chapter 1-Main\n**Permanent**: - Raise his Happiness to 5 and visit the leftmost house in Ch. 9-Main with him",
+            "recruit": "**Mercenary**: - [Abbey] After completing Map 1-M: \"A Reason to Fight.\"\n**Permanent**: - Raise his Happiness to 5+, then have him visit the house on the left side of the map in Map 9-M: \"Breaking Bridges\". \nAfter concluding \"Breaking Bridges,\" view the city event \"Old Wounds.\"",
             "promo": false,
             "prf": false
         },
@@ -644,7 +644,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - Complete Chapter 1-1\n**Permanent**: - Complete Chapter X-1 (Unlocked by raising her Happiness to 12 and Level to 10 after Ch. 5-Main)",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-1: \"Cruel Brothers.\"\n**Permanent**: - After completing Map X-1: \"Hero of the Seas.\"\n(To unlock Map X-1: after completing Map 5-M: \"Hold the Fort,\" view the city event \"Bounty Hunter\"; then, after raising Sylvis's Happiness to 12+ and her Level to 10+, view the city event \"Her Circumstances.\")",
             "promo": false,
             "prf": false
         },
@@ -711,7 +711,7 @@
             }
         },
         "misc": {
-            "recruit": "**Mercenary**: - Complete Chapter 1-2\n**Permanent**: - Complete Chapter X-3 (Unlocked by raising her Happiness to 11 and Level to 10 and Clifford is alive)",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-2: \"Fledgling Knights.\"\n**Permanent**: - After completing Map X-3: \"A Knight's Pride.\"\n(To unlock Map X-3: Raise Ruby's Happiness to 11+ and her Level to 10+, and keep Clifford alive.)",
             "promo": "- Level 10, 20 Sword, 20 Spear, 20 S Shield, got a level up after being permanently recruited",
             "prf": false
         },
@@ -777,7 +777,7 @@
             }
         },
         "misc": {
-            "recruit": "**Mercenary**: - Complete Chapter 1-2\n**Permanent**: **Method A**: - Raise his Happiness to 10\n**Method B**: - Has at least 1 Happiness at the start of Ch. 8",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-2: \"Fledgling Knights.\"\n**Permanent**: **Method A**: - View the city event \"Dishonor\" after Map 1-2: \"Fledgling Knights,\" raise his Happiness to 10+, then view the city event \"Exile.\"\n**Method B**: - Automatic, if his Happiness is 1+ at the start of Chapter 8.",
             "promo": "- Level 10, 20 Sword, 20 S Shield, 10 M Shield, got a level up after being permanently recruited",
             "prf": false
         },
@@ -832,8 +832,8 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Permanent**: - Talk to her with Reese in Ch. 2-Main and complete Ch. 2-1",
-            "promo": "- Deployed in Ch. 3-2, Level 10",
+            "recruit": "**Permanent**: - Talk to her with Reese in Map 2-M: \"Bandit Suppression,\" then complete Map 2-1: \"In Pursuit of Thieves.\"",
+            "promo": "- Deployed in Map 3-2: \"Ponies and Thieves\", Level 10",
             "prf": "Tico; When promoted; Horse: +1 Dmg, +5 Spd, +1 Move, Grants Horse-Lover"
         },
         "portrait": "czene.png",
@@ -885,7 +885,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Mercenary**: - Complete Chapter 2-Main\n**Permanent**: - Complete Chapter X-2 and choose to give him the Balmung (Unlocked by raising his Happiness to 9 and Level to 10)",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 2-M: \"Bandit Suppression.\"\n**Permanent**: - After completing Map X-2: \"Stolen Sword\" and giving him the sword Balmung. (Raise Kramer's Happiness to 9+ and his Level to 10+.)",
             "promo": "- Level 15, 30 Sword",
             "prf": "Balmung: When given to him after X-2"
         },
@@ -941,7 +941,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Mercenary**: - Complete Chapter 2-Main\n**Permanent**: - At the start of the next Chapter after completing Ch. X-4 (Unlocked by raising her Happiness to 12 (6 Happiness after Ch. 11) and Level to 10 and Faramir is alive)",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 2: \"Bandit Suppression.\"\n**Permanent**: - After completing Map X-4: \"The Altar of Raze,\" she will become temporarily unavailable; then, at the start of the next chapter, view the city event \"Newfound Power.\" (o unlock Map X-4: After raising Faye's Happiness to 6+, view the city event \"Warrior of Izmil.\" Then, raise Faye's Happiness to 12+ and her Level to 10+ while keeping Faramir alive. (After the conclusion of Chapter 11, the 12+ Happiness requirement is no longer needed.))",
             "promo": "- Level 10, Permanently recruited",
             "prf": "**1.** Cutlass; In starting inventory\n**2.** Vritra; Talk to Theodore in Ch15"
         },
@@ -987,7 +987,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - Let him survive in Ch. 2-2\n**Permanent**: - Raise his Happiness to 3 and promote Enid",
+            "recruit": "**Mercenary**: - [Mercenary Guild] Let him survive in Map 2-2: \"Combat Training.\"\n**Permanent**: - After Enid has class changed and Derrick's Happiness is 3+, view the city event \"Seek the Truth.\"",
             "promo": false,
             "prf": false
         },
@@ -1043,7 +1043,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - Start Chapter 3\n**Permanent**: - Promote Ruby and have watched all of her events",
+            "recruit": "**Mercenary**: - [Tavern] Start Chapter 3\n**Permanent**: - After Ruby's promotion, view the city event \"Fake Contest.\" (City events relating to Ruby, such as \"Father and Daughter\" in Chapter 1, must also have been viewed.)",
             "promo": false,
             "prf": false
         },
@@ -1093,7 +1093,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - Complete Chapter 3-Main\n**Permanent**: - Raise his Happiness to 3 and recruit Faye",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 3-M: \"The Three Priests.\"\n**Permanent**: - After Faye has been permanently recruited and Faramir's Happiness is 3+, view the city event \"The Wanderer.\"",
             "promo": false,
             "prf": "Cutlass+; In starting inventory"
         },
@@ -1157,9 +1157,9 @@
             }
         },
         "misc": {
-            "recruit": "**Mercenary**: - Talk to him in Ch. 3-Main with Christine\n**Permanent**: - Deploy and let him escape in Ch. 6-Main; Open the Gate in Ch.9-Main; Raise his Happiness to 5 by Ch. 9-Main",
+            "recruit": "**Mercenary**: - [Mercenary Guild] Talk to him with Christine in Map 3-M: \"The Three Priests\" (appears on turn 20).\n**Permanent**: - View the city event \"Arina's Wish\" in Chapter 3, then have Esteban participate in Map 6-M: \"On the Front Lines\" without being captured.\nDuring Map 9-M: \"Breaking Bridges,\" the castle gate must be opened and the subsequent event viewed.\nAfter completing Map 9-M, Esteban's happiness must be 5+. (Esteban need not have been deployed in \"Breaking Bridges.\") Finally view the city event \"A Man's Naïveté.\"",
             "promo": "- Level 15, 30 Bow",
-            "prf": "Pascanion; Recruit him permanently, talk to or defeat Sophie in Ch. 9-Main, Deploy him in Ch. 10-2 and capture Luveil"
+            "prf": "Pascanion; Recruit him permanently, talk to or defeat Sophie in Map 9-Main: \"Breaking Bridges\", Deploy him in Map 10-2: \"Scorpion's Sting\" and capture Luveil."
         },
         "portrait": "esteban.png",
         "class": "Hunter",
@@ -1210,9 +1210,9 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Permanent**: - Complete Chapter 3-1",
+            "recruit": "**Permanent**: - After completing Map 3-1: \"Maiden and Mercenary.\"",
             "promo": "- Level 15, 30 Wind",
-            "prf": "Pallas Riana; Complete Ch. 3-1"
+            "prf": "Pallas Riana; Complete Map 3-1: \"Maiden and Mercenary\"."
         },
         "portrait": "aegina.png",
         "class": "Wind Mage",
@@ -1255,7 +1255,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - Complete Chapter 3-1\n**Permanent**: - Let him talk to Kay in Ch. 8-Main and raise his Happiness to 1",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 3-1: \"Maiden and Mercenary.\"\n**Permanent**: - View the city event \"Traitor\" after Map 4-M: \"Covering the Retreat\".\nBefore Map 8-M: \"The Wooden Cavalry,\" view the city event \"Letter\".\nDuring \"The Wooden Cavalry\", have Sherpa talk to Kay.\nThen, once his Happiness has been raised to 1+, view the city event \"Highlander\".",
             "promo": false,
             "prf": "Brymranger; In starting Inventory"
         },
@@ -1308,9 +1308,9 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Mercenary**: - Start Chapter 4\n**Permanent**: - Has at least 1 Happiness when completing Ch. 12-1",
-            "promo": "- Save all the women in Chapter 12-1",
-            "prf": "Starlight (usable after promotion); After completing Ch. 7-1"
+            "recruit": "**Mercenary**: - [Abbey] Start Chapter 4\n**Permanent**: - After completing Map 12-1: \"The Heathen God\", if her Happiness is 1+.",
+            "promo": "- Save all the women in Map 12-1: \"The Heathen God\"",
+            "prf": "Starlight (usable after promotion); After completing Map 7-1: \"Ancient Treasure\"."
         },
         "portrait": "saphira.png",
         "class": "Acolyte",
@@ -1364,7 +1364,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - Available at the start of Chapter 4 if Grimm reached his house in Ch. 3-Main\n**Permanent**: - Raise his Happiness to 5 by Ch. 11-1 and complete Ch. 12-1",
+            "recruit": "**Mercenary**: - [Veria Temple] Start Chapter 4, if Grimm reached the church in Map 3-M: \"The Three Priests.\"\n**Permanent**: - After completing Map 11-1: \"Island of Exile\", view the city event \"Boundary\".\nBy the completion of \"Island of Exile\", Owen's happiness must have been raised to 5+.\nThen, complete Map 12-1: \"The Heathen God\" (during which he will be an essential unit).\nAt the conclusion of \"The Heathen God\", view the city event \"The True God\".",
             "promo": false,
             "prf": false
         },
@@ -1420,7 +1420,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Permanent**: - Complete Chapter 4-Main and have all NPCs escape",
+            "recruit": "**Permanent**: - After completing Map 4: \"Covering the Retreat\", if all allied soldiers survived and escaped.",
             "promo": "- Level 15, 30 Axe, 20 S Shield, 10 M Shield",
             "prf": false
         },
@@ -1473,7 +1473,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - Talk to her with Reese or let her talk to him in Ch. 4-Main\n**Permanent**: - Promote Reese",
+            "recruit": "**Mercenary**: - [Dungeon] In Map 4: \"Covering the Retreat\", talk to her with Reese, or let her talk to him (she appears on turn 13 as an enemy).\n**Permanent**: - Promote Reese",
             "promo": false,
             "prf": false
         },
@@ -1520,7 +1520,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - Complete Chapter 4-2\n**Permanent**: - Spend 5000 Denarii on him by hiring him several times",
+            "recruit": "**Mercenary**: - [Lower Streets] After completing Map 4-2: \"Hero of the Streets\".\n**Permanent**: - Spend 5000 Denarii on him by hiring him several times",
             "promo": false,
             "prf": false
         },
@@ -1568,9 +1568,9 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Permanent**: - Complete Chapter 5-Main and have all green units survive",
+            "recruit": "**Permanent**: - After completing Map 5: \"Hold the Fort\", if all civilians survived.",
             "promo": false,
-            "prf": "Zweihander; Complete Ch. 8-2"
+            "prf": "Zweihander; Complete Map 8-2: \"Situation in the Armory\"."
         },
         "portrait": "marcel.png",
         "class": "Guardian",
@@ -1628,7 +1628,7 @@
             }
         },
         "misc": {
-            "recruit": "**Permanent**: - Complete Chapter 6-Main",
+            "recruit": "**Permanent**: - After completing Map 6-M: \"On the Front Lines,\" view the city event \"Staring Eyes\".",
             "promo": "- 5 Magic after the start of Chapter 8, Perceval is alive",
             "prf": "Pallas Leia; When Promoted"
         },
@@ -1683,7 +1683,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Mercenary**: - Talk to him with Enid in Ch. 6-Main and complete the map\n**Permanent**: - Raise his Happiness to 2 and have him kill the person holding Izerna hostage in Ch. 12-1",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 6-M: \"On the Front Lines,\" if Perceval was recruited by Enid.\n**Permanent**: - After raising his Happiness to 2+, have Perceval attack the enemy who has captured Izerna in Map 12-1: \"The Heathen God\"; Perceval will leave the battlefield, and he will be recruited permanently at the conclusion of \"The Heathen God\".",
             "promo": "- Level 15, 30 Thunder",
             "prf": false
         },
@@ -1726,7 +1726,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Permanent**: - At the start of Ch. 9 if he and all ballisticians escaped in Ch. 8-Main",
+            "recruit": "**Permanent**: - At the start of Chapter 9, if Burroughs and all other NPC ballisticians successfully escaped in Map 8-M: \"The Wooden Cavalry\".",
             "promo": false,
             "prf": false
         },
@@ -1783,7 +1783,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Permanent**: - Complete Chapter 10-Main",
+            "recruit": "**Permanent**: - After completing Map 10-M: \"The Holy Knight\".",
             "promo": false,
             "prf": "Fauchard; In starting inventory"
         },
@@ -1834,7 +1834,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Permanent**: - Complete Chapter 12-1 and have Saphira alive and recruited",
+            "recruit": "**Permanent**: - After completing Map 12-1: \"The Heathen God\", if Saphira is alive and has been permanently recruited.",
             "promo": false,
             "prf": false
         },
@@ -1883,7 +1883,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Permanent**: - Complete Chapter 14",
+            "recruit": "**Permanent**: - After completing Map 14: \"The Gathering\".",
             "promo": false,
             "prf": "**1.** Pallas Serenia; In starting Inventory\n**2.** Serenia Bow; In starting inventory"
         },
@@ -1935,7 +1935,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "Playable for half of Chapter 12-Main, talk to him with Alvina or Reese if Alvina is dead",
+            "recruit": "Playable for half of Map 12-M: \"The Dark Cardinal\", talk to him with Alvina or Reese if Alvina is dead.",
             "promo": false,
             "prf": false
         },

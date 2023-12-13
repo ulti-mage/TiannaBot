@@ -267,9 +267,9 @@
       "name": "Narvia Salad",
       "rank": "C",
       "price": 360,
-      "likedbonus": "Recovers 50% of HP mount has lost",
-      "neutralbonus": "Recovers 30% of HP mount has lost",
-      "dislikedbonus": "Recovers 10% of HP mount has lost",
+      "likedbonus": "Reduces damage taken by mount by 50%",
+      "neutralbonus": "Reduces damage taken by mount by 30%",
+      "dislikedbonus": "Reduces damage taken by mount by 10%",
       "likedunits": "Reese, Sherlock, Izerna, Ruby, Saphira, Alvina",
       "neutralunits": "Leon, Elbert, Christine, Dean, Axel, Sylvis, Czene, Kramer, Faye, Derrick, Faramir, Esteban, Aegina, Owen, Daoud, Larentia, Thaddy, Enid, Perceval, Burroughs, Paramythis",
       "dislikedunits": "Ward, Adel, Volo, Arthur, Clifford, Sherpa, Marcel"
