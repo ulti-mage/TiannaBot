@@ -455,7 +455,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-M: \"A Reason to Fight.\"\n**Permanent**: - After he has killed 60+ enemies, view the city event \"Scars of War.\" Izerna must be alive and recruited.",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-M: \"A Reason to Fight\".\n**Permanent**: - After he has killed 60+ enemies, view the city event \"Scars of War\".\nIzerna must be alive and recruited.",
             "promo": "- Level 15, 30 Axe",
             "prf": "Bhuj; When permanently recruited"
         },
@@ -505,7 +505,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Permanent**: - After completing or declining Map 1-1: \"Cruel Brothers.\"",
+            "recruit": "**Permanent**: - After completing or declining Map 1-1: \"Cruel Brothers\".",
             "promo": "- Level 10, 30 Light",
             "prf": "Rehabilitate; When promoted"
         },
@@ -550,7 +550,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - [Tavern] After completing Map 1-M: \"A Reason to Fight.\"\n**Permanent**: **Method A**: - Raise Volo's Happiness to 12+, then view the city event \"Aloof Swordsman.\"\n**Method B**: If (A) Faye is killed before talking to Chaos in Map 3-M: \"The Three Priests\" or (B) Chaos was defeated in \"The Three Priests\": view the event involving Leticia during the map by allowing NPC Sakhalin to visit the building on the east. \nThen, raise Volo's Happiness to 5+ and view the city event \"Wanted Man\" at the start of Chapter 7. \nDuring Map 7-M: \"Rescue Mission,\" have Volo enter the church; he will leave the battlefield and become unavailable, then rejoin permanently after completing Map 9-M: \"Breaking Bridges.\"",
+            "recruit": "**Mercenary**: - [Tavern] After completing Map 1-M: \"A Reason to Fight\".\n**Permanent**: **Method A**: - Raise Volo's Happiness to 12+, then view the city event \"Aloof Swordsman\".\n**Method B**: If (A) Faye is killed before talking to Chaos in Map 3-M: \"The Three Priests\" or (B) Chaos was defeated in \"The Three Priests\": view the event involving Leticia during the map by allowing NPC Sakhalin to visit the building on the east. \nThen, raise Volo's Happiness to 5+ and view the city event \"Wanted Man\" at the start of Chapter 7. \nDuring Map 7-M: \"Rescue Mission\", have Volo enter the church; he will leave the battlefield and become unavailable, then rejoin permanently after completing Map 9-M: \"Breaking Bridges\".",
             "promo": false,
             "prf": false
         },
@@ -594,7 +594,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - [Abbey] After completing Map 1-M: \"A Reason to Fight.\"\n**Permanent**: - Raise his Happiness to 5+, then have him visit the house on the left side of the map in Map 9-M: \"Breaking Bridges\". \nAfter concluding \"Breaking Bridges,\" view the city event \"Old Wounds.\"",
+            "recruit": "**Mercenary**: - [Abbey] After completing Map 1-M: \"A Reason to Fight\".\n**Permanent**: - Raise his Happiness to 5+, then have him visit the house on the left side of the map in Map 9-M: \"Breaking Bridges\".\nAfter concluding \"Breaking Bridges\", view the city event \"Old Wounds\".",
             "promo": false,
             "prf": false
         },
@@ -644,7 +644,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-1: \"Cruel Brothers.\"\n**Permanent**: - After completing Map X-1: \"Hero of the Seas.\"\n(To unlock Map X-1: after completing Map 5-M: \"Hold the Fort,\" view the city event \"Bounty Hunter\"; then, after raising Sylvis's Happiness to 12+ and her Level to 10+, view the city event \"Her Circumstances.\")",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-1: \"Cruel Brothers\".\n**Permanent**: - After completing Map X-1: \"Hero of the Seas\".\n(To unlock Map X-1: after completing Map 5-M: \"Hold the Fort\", view the city event \"Bounty Hunter\"; then, after raising Sylvis's Happiness to 12+ and her Level to 10+, view the city event \"Her Circumstances\".)",
             "promo": false,
             "prf": false
         },
@@ -711,7 +711,7 @@
             }
         },
         "misc": {
-            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-2: \"Fledgling Knights.\"\n**Permanent**: - After completing Map X-3: \"A Knight's Pride.\"\n(To unlock Map X-3: Raise Ruby's Happiness to 11+ and her Level to 10+, and keep Clifford alive.)",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-2: \"Fledgling Knights\".\n**Permanent**: - After completing Map X-3: \"A Knight's Pride\".\n(To unlock Map X-3: Raise Ruby's Happiness to 11+ and her Level to 10+, and keep Clifford alive.)",
             "promo": "- Level 10, 20 Sword, 20 Spear, 20 S Shield, got a level up after being permanently recruited",
             "prf": false
         },
@@ -777,7 +777,7 @@
             }
         },
         "misc": {
-            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-2: \"Fledgling Knights.\"\n**Permanent**: **Method A**: - View the city event \"Dishonor\" after Map 1-2: \"Fledgling Knights,\" raise his Happiness to 10+, then view the city event \"Exile.\"\n**Method B**: - Automatic, if his Happiness is 1+ at the start of Chapter 8.",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 1-2: \"Fledgling Knights\".\n**Permanent**: **Method A**: - View the city event \"Dishonor\" after Map 1-2: \"Fledgling Knights\", raise his Happiness to 10+, then view the city event \"Exile\".\n**Method B**: - Automatic, if his Happiness is 1+ at the start of Chapter 8.",
             "promo": "- Level 10, 20 Sword, 20 S Shield, 10 M Shield, got a level up after being permanently recruited",
             "prf": false
         },
@@ -832,7 +832,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Permanent**: - Talk to her with Reese in Map 2-M: \"Bandit Suppression,\" then complete Map 2-1: \"In Pursuit of Thieves.\"",
+            "recruit": "**Permanent**: - Talk to her with Reese in Map 2-M: \"Bandit Suppression\", then complete Map 2-1: \"In Pursuit of Thieves\".",
             "promo": "- Deployed in Map 3-2: \"Ponies and Thieves\", Level 10",
             "prf": "Tico; When promoted; Horse: +1 Dmg, +5 Spd, +1 Move, Grants Horse-Lover"
         },
@@ -885,7 +885,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 2-M: \"Bandit Suppression.\"\n**Permanent**: - After completing Map X-2: \"Stolen Sword\" and giving him the sword Balmung. (Raise Kramer's Happiness to 9+ and his Level to 10+.)",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 2-M: \"Bandit Suppression\".\n**Permanent**: - After completing Map X-2: \"Stolen Sword\" and giving him the sword Balmung.\n (To unlock Map X-2: Raise Kramer's Happiness to 9+ and his Level to 10+.)",
             "promo": "- Level 15, 30 Sword",
             "prf": "Balmung: When given to him after X-2"
         },
@@ -941,7 +941,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 2: \"Bandit Suppression.\"\n**Permanent**: - After completing Map X-4: \"The Altar of Raze,\" she will become temporarily unavailable; then, at the start of the next chapter, view the city event \"Newfound Power.\" (o unlock Map X-4: After raising Faye's Happiness to 6+, view the city event \"Warrior of Izmil.\" Then, raise Faye's Happiness to 12+ and her Level to 10+ while keeping Faramir alive. (After the conclusion of Chapter 11, the 12+ Happiness requirement is no longer needed.))",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 2: \"Bandit Suppression\".\n**Permanent**: - After completing Map X-4: \"The Altar of Raze\", she will become temporarily unavailable; then, at the start of the next chapter, view the city event \"Newfound Power\".\n (To unlock Map X-4: After raising Faye's Happiness to 6+, view the city event \"Warrior of Izmil\".\n Then, raise Faye's Happiness to 12+ and her Level to 10+ while keeping Faramir alive.\n (After the conclusion of Chapter 11, the 12+ Happiness requirement is no longer needed.))",
             "promo": "- Level 10, Permanently recruited",
             "prf": "**1.** Cutlass; In starting inventory\n**2.** Vritra; Talk to Theodore in Ch15"
         },
@@ -987,7 +987,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - [Mercenary Guild] Let him survive in Map 2-2: \"Combat Training.\"\n**Permanent**: - After Enid has class changed and Derrick's Happiness is 3+, view the city event \"Seek the Truth.\"",
+            "recruit": "**Mercenary**: - [Mercenary Guild] Let him survive in Map 2-2: \"Combat Training\".\n**Permanent**: - After Enid has class changed and Derrick's Happiness is 3+, view the city event \"Seek the Truth\".",
             "promo": false,
             "prf": false
         },
@@ -1043,7 +1043,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - [Tavern] Start Chapter 3\n**Permanent**: - After Ruby's promotion, view the city event \"Fake Contest.\" (City events relating to Ruby, such as \"Father and Daughter\" in Chapter 1, must also have been viewed.)",
+            "recruit": "**Mercenary**: - [Tavern] Start Chapter 3.\n**Permanent**: - After Ruby's promotion, view the city event \"Fake Contest\".\n(City events relating to Ruby, such as \"Father and Daughter\" in Chapter 1, must also have been viewed.)",
             "promo": false,
             "prf": false
         },
@@ -1093,7 +1093,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 3-M: \"The Three Priests.\"\n**Permanent**: - After Faye has been permanently recruited and Faramir's Happiness is 3+, view the city event \"The Wanderer.\"",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 3-M: \"The Three Priests\".\n**Permanent**: - After Faye has been permanently recruited and Faramir's Happiness is 3+, view the city event \"The Wanderer\".",
             "promo": false,
             "prf": "Cutlass+; In starting inventory"
         },
@@ -1157,7 +1157,7 @@
             }
         },
         "misc": {
-            "recruit": "**Mercenary**: - [Mercenary Guild] Talk to him with Christine in Map 3-M: \"The Three Priests\" (appears on turn 20).\n**Permanent**: - View the city event \"Arina's Wish\" in Chapter 3, then have Esteban participate in Map 6-M: \"On the Front Lines\" without being captured.\nDuring Map 9-M: \"Breaking Bridges,\" the castle gate must be opened and the subsequent event viewed.\nAfter completing Map 9-M, Esteban's happiness must be 5+. (Esteban need not have been deployed in \"Breaking Bridges.\") Finally view the city event \"A Man's Naïveté.\"",
+            "recruit": "**Mercenary**: - [Mercenary Guild] Talk to him with Christine in Map 3-M: \"The Three Priests\" (appears on turn 20).\n**Permanent**: - View the city event \"Arina's Wish\" in Chapter 3, then have Esteban participate in Map 6-M: \"On the Front Lines\" without being captured.\nDuring Map 9-M: \"Breaking Bridges\", the castle gate must be opened and the subsequent event viewed.\nAfter completing Map 9-M, Esteban's happiness must be 5+. (Esteban need not have been deployed in \"Breaking Bridges\".) Finally view the city event \"A Man's Naïveté\".",
             "promo": "- Level 15, 30 Bow",
             "prf": "Pascanion; Recruit him permanently, talk to or defeat Sophie in Map 9-Main: \"Breaking Bridges\", Deploy him in Map 10-2: \"Scorpion's Sting\" and capture Luveil."
         },
@@ -1210,7 +1210,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Permanent**: - After completing Map 3-1: \"Maiden and Mercenary.\"",
+            "recruit": "**Permanent**: - After completing Map 3-1: \"Maiden and Mercenary\".",
             "promo": "- Level 15, 30 Wind",
             "prf": "Pallas Riana; Complete Map 3-1: \"Maiden and Mercenary\"."
         },
@@ -1255,7 +1255,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 3-1: \"Maiden and Mercenary.\"\n**Permanent**: - View the city event \"Traitor\" after Map 4-M: \"Covering the Retreat\".\nBefore Map 8-M: \"The Wooden Cavalry,\" view the city event \"Letter\".\nDuring \"The Wooden Cavalry\", have Sherpa talk to Kay.\nThen, once his Happiness has been raised to 1+, view the city event \"Highlander\".",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 3-1: \"Maiden and Mercenary\".\n**Permanent**: - View the city event \"Traitor\" after Map 4-M: \"Covering the Retreat\".\nBefore Map 8-M: \"The Wooden Cavalry\", view the city event \"Letter\".\nDuring \"The Wooden Cavalry\", have Sherpa talk to Kay.\nThen, once his Happiness has been raised to 1+, view the city event \"Highlander\".",
             "promo": false,
             "prf": "Brymranger; In starting Inventory"
         },
@@ -1309,7 +1309,7 @@
         },
         "misc": {
             "recruit": "**Mercenary**: - [Abbey] Start Chapter 4\n**Permanent**: - After completing Map 12-1: \"The Heathen God\", if her Happiness is 1+.",
-            "promo": "- Save all the women in Map 12-1: \"The Heathen God\"",
+            "promo": "- Save all the women in Map 12-1: \"The Heathen God\".",
             "prf": "Starlight (usable after promotion); After completing Map 7-1: \"Ancient Treasure\"."
         },
         "portrait": "saphira.png",
@@ -1364,7 +1364,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - [Veria Temple] Start Chapter 4, if Grimm reached the church in Map 3-M: \"The Three Priests.\"\n**Permanent**: - After completing Map 11-1: \"Island of Exile\", view the city event \"Boundary\".\nBy the completion of \"Island of Exile\", Owen's happiness must have been raised to 5+.\nThen, complete Map 12-1: \"The Heathen God\" (during which he will be an essential unit).\nAt the conclusion of \"The Heathen God\", view the city event \"The True God\".",
+            "recruit": "**Mercenary**: - [Veria Temple] Start Chapter 4, if Grimm reached the church in Map 3-M: \"The Three Priests\".\n**Permanent**: - After completing Map 11-1: \"Island of Exile\", view the city event \"Boundary\".\nBy the completion of \"Island of Exile\", Owen's happiness must have been raised to 5+.\nThen, complete Map 12-1: \"The Heathen God\" (during which he will be an essential unit).\nAt the conclusion of \"The Heathen God\", view the city event \"The True God\".",
             "promo": false,
             "prf": false
         },
@@ -1473,7 +1473,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - [Dungeon] In Map 4: \"Covering the Retreat\", talk to her with Reese, or let her talk to him (she appears on turn 13 as an enemy).\n**Permanent**: - Promote Reese",
+            "recruit": "**Mercenary**: - [Dungeon] In Map 4: \"Covering the Retreat\", talk to her with Reese, or let her talk to him (she appears on turn 13 as an enemy).\n**Permanent**: - Promote Reese.",
             "promo": false,
             "prf": false
         },
@@ -1520,7 +1520,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - [Lower Streets] After completing Map 4-2: \"Hero of the Streets\".\n**Permanent**: - Spend 5000 Denarii on him by hiring him several times",
+            "recruit": "**Mercenary**: - [Lower Streets] After completing Map 4-2: \"Hero of the Streets\".\n**Permanent**: - Spend 5000 Denarii on him by hiring him several times.",
             "promo": false,
             "prf": false
         },
@@ -1628,8 +1628,8 @@
             }
         },
         "misc": {
-            "recruit": "**Permanent**: - After completing Map 6-M: \"On the Front Lines,\" view the city event \"Staring Eyes\".",
-            "promo": "- 5 Magic after the start of Chapter 8, Perceval is alive",
+            "recruit": "**Permanent**: - After completing Map 6-M: \"On the Front Lines\", view the city event \"Staring Eyes\".",
+            "promo": "- 5 Magic after the start of Chapter 8, Perceval is alive.",
             "prf": "Pallas Leia; When Promoted"
         },
         "portrait": "enid.png",
@@ -1683,7 +1683,7 @@
             "weapon": {}
         },
         "misc": {
-            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 6-M: \"On the Front Lines,\" if Perceval was recruited by Enid.\n**Permanent**: - After raising his Happiness to 2+, have Perceval attack the enemy who has captured Izerna in Map 12-1: \"The Heathen God\"; Perceval will leave the battlefield, and he will be recruited permanently at the conclusion of \"The Heathen God\".",
+            "recruit": "**Mercenary**: - [Mercenary Guild] After completing Map 6-M: \"On the Front Lines\", if Perceval was recruited by Enid.\n**Permanent**: - After raising his Happiness to 2+, have Perceval attack the enemy who has captured Izerna in Map 12-1: \"The Heathen God\"; Perceval will leave the battlefield, and he will be recruited permanently at the conclusion of \"The Heathen God\".",
             "promo": "- Level 15, 30 Thunder",
             "prf": false
         },

@@ -20,7 +20,7 @@ shard_info = [['Aquarius', 0, 10, 10, 10, 0, 10, 0, 0],
               ['Scorpio', 0, 20, 20, 10, -10, 0, 0, 0],
               ['Sagittarius', -10, 0, 40, 10, 0, 0, 0, 0],
               ['Capricorn', -20, 0, -10, -10, 0, 30, 10, 0],
-              ['Star Sphere', 30, 30, 30, 30, 30, 30, 30, 30]]
+              ['Starsphere', 30, 30, 30, 30, 30, 30, 30, 30]]
 
 
 def get_b1_unit_json(ctx: str) -> json:

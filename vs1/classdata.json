@@ -818,7 +818,7 @@
       "Throwing Spear"
     ]
   },
-  "bravelion": {
+  "lionknight": {
     "name": "Lion Knight",
     "cap": {
       "hp": 46,
@@ -833,6 +833,22 @@
     "weapon": [
       "Standard Sword",
       "Greatsword"
+    ]
+  },
+  "axelion": {
+    "name": "Axe Lion",
+    "cap": {
+      "hp": 50,
+      "str": 22,
+      "mag": 7,
+      "dex": 17,
+      "agi": 17,
+      "prof": 30,
+      "def": 22,
+      "res": 8
+    },
+    "weapon": [
+      "Axe"
     ]
   },
   "knightmaster": {
