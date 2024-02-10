@@ -272,7 +272,7 @@
       "name": "Vengeful",
       "type": "Always",
       "chance": "(3xDamage taken)%",
-      "description": "When attacked and damaged while an axe is equipped and able to counterattack, may counterattack with Hit x2 and enemy damage added to Mt."
+      "description": "When enemy initiates attack and damages unit while an axe is equipped and able to counterattack, may counterattack with Hit x2 and enemy damage added to Mt."
    },
    "Counter": {
       "name": "Counter",
@@ -417,7 +417,7 @@
    "Silence": {
       "name": "Silence",
       "type": "Command (self)",
-      "description": "Prevents use of all dark magic unil the next action of the unit or until the next turn. Only usable before moving and every 10 turns."
+      "description": "Prevents use of all dark magic until the next action of the unit. Only usable before moving and every 10 turns."
    },
    "Paragon": {
       "name": "Paragon",
