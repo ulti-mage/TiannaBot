@@ -550,7 +550,7 @@
         ],
         "promo": false,
         "misc": {
-            "recruit": "**Mercenary**: - [Tavern] After completing Map 1-M: \"A Reason to Fight\".\n**Permanent**: **Method A**: - Raise Volo's Happiness to 12+, then view the city event \"Aloof Swordsman\".\n**Method B**: If (A) Faye is killed before talking to Chaos in Map 3-M: \"The Three Priests\" or (B) Chaos was defeated in \"The Three Priests\": view the event involving Leticia during the map by allowing NPC Sakhalin to visit the building on the east. \nThen, raise Volo's Happiness to 5+ and view the city event \"Wanted Man\" at the start of Chapter 7. \nDuring Map 7-M: \"Rescue Mission\", have Volo enter the church; he will leave the battlefield and become unavailable, then rejoin permanently after completing Map 9-M: \"Breaking Bridges\".",
+            "recruit": "**Mercenary**: - [Tavern] After completing Map 1-M: \"A Reason to Fight\".\n**Permanent**: **Method A**: - Raise Volo's Happiness to 12+, then view the city event \"Aloof Swordsman\" (Occurs only after Map 7-M).\n**Method B**: If (A) Faye is killed before talking to Chaos in Map 3-M: \"The Three Priests\" or (B) Chaos was defeated in \"The Three Priests\": view the event involving Leticia during the map by allowing NPC Sakhalin to visit the building on the east. \nThen, raise Volo's Happiness to 5+ and view the city event \"Wanted Man\" at the start of Chapter 7. \nDuring Map 7-M: \"Rescue Mission\", have Volo enter the church; he will leave the battlefield and become unavailable, then rejoin permanently after completing Map 9-M: \"Breaking Bridges\".",
             "promo": false,
             "prf": false
         },
@@ -933,7 +933,7 @@
         "promo": {
             "promo": "Swordmaster",
             "bonus": {
-                "hp": 1,
+                "hp": 2,
                 "str": 1,
                 "def": 1,
                 "spd": 3

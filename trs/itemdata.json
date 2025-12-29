@@ -1168,7 +1168,7 @@
     "range": "2-3",
     "durability": 14,
     "cost":4200,
-    "note": "Deaks damage in a 3x3 square area, can only be used on even-numbered turns",
+    "note": "Deals damage in a 3x3 square area, can only be used on even-numbered turns",
     "icon": "darkthunder.png"
   },
   "wind": {
@@ -1554,7 +1554,7 @@
     "range": "1",
     "durability": 14,
     "cost":false,
-    "note": "Lyria only, Grants +10 Power to an ally for a chapter",
+    "note": "Lyria only, Grants +10 Strength to an ally for a chapter",
     "icon": "empower.png"
   },
   "Ensorcel": {

@@ -1269,7 +1269,7 @@
     "recruit": "Visit the bottom right house in chapter 2 with Enteh",
     "title": [
       "Girl from Taurus",
-      "Dancing Girl (leanrs Dance)",
+      "Dancing Girl (learns Dance)",
       "Rainbow-Clad (250 dance count)"
     ],
     "prf": "☆Enarmor",
@@ -3398,7 +3398,7 @@
         "increase": {
           "1": {
             "bonus": 5,
-            "note": "If Mintz rescued Leonie in chapter 9"
+            "note": "If Mintz rescued Leonie in chapter 10"
           }
         }
       },
@@ -3412,7 +3412,7 @@
         "increase": {
           "1": {
             "bonus": 5,
-            "note": "If Mintz rescued Leonie in chapter 9"
+            "note": "If Mintz rescued Leonie in chapter 10"
           }
         }
       },
@@ -3472,7 +3472,7 @@
         "increase": {
           "1": {
             "bonus": 5,
-            "note": "If Mintz rescued Leonie in chapter 9"
+            "note": "If Mintz rescued Leonie in chapter 10"
           }
         }
       }
@@ -3483,7 +3483,7 @@
         "increase": {
           "1": {
             "bonus": 5,
-            "note": "If Mintz rescued Leonie in chapter 9"
+            "note": "If Mintz rescued Leonie in chapter 10"
           }
         }
       },
@@ -3951,7 +3951,7 @@
     "portrait": "sierra.png",
     "class": "witch",
     "lvl": 8,
-    "recruit": "Get Shigen killed at or before the Forbidden Bridge (he will be back in Holmes team after the second split) or visit the house with Shigen in chapter 31 (she will join after the map is cleared)",
+    "recruit": "Get Shigen killed at or before the Forbidden Bridge (he will be back in Holmes team after the second split) or visit the house in chapter 31 (she will join after the map is cleared)",
     "title": [
       "Zoan Witch"
     ],

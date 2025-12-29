@@ -93,7 +93,7 @@
     ]
   },
   "lancesoldier": {
-    "name": "Lance Soldier",
+    "name": "Spear Soldier",
     "base": {
       "hp": 22,
       "str": 5,
@@ -1397,7 +1397,7 @@
       "mag": 5,
       "luck": 0,
       "mst": 5,
-      "move": 5
+      "move": 3
     },
     "skill": [
       "Warp"

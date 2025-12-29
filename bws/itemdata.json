@@ -1515,7 +1515,7 @@
          "range": "0",
          "durability": "D",
          "cost": 2000,
-         "effect": "Negates defenses of Armor classes"
+         "effect": "Negates defenses and shields of Armor classes"
       },
    "greataxe": {
          "name": "Greataxe",
@@ -3804,7 +3804,7 @@
          "effect": "HP: 120\nGrants Spd +2"
       },
    "ligadestrier": {
-         "name": "Liga Destier",
+         "name": "Liga Destrier",
          "type": "Horse",
          "cost": 18000,
          "effect": "HP: 150\nGrants Dmg +1"

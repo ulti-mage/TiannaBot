@@ -7,7 +7,7 @@
   },
   "Sol": {
     "name": "Sol",
-    "description": "User restores HP equal to damage dealt.\nCan miss (needs verification).\nCan't activate with other skills.",
+    "description": "User restores HP equal to damage dealt.\nCan miss (needs verification).",
     "activation": "(User Skill - Enemy Skill) +3%, min 3%",
     "icon": "sol.png"
   },
@@ -24,14 +24,14 @@
   },
   "luna": {
     "name": "Luna",
-    "description": "User negates foe's defence/magical defense.\nStill damages shields (needs verification).\nCan't activate with other skills.",
+    "description": "User negates foe's defence/magical defense.\nStill damages shields (needs verification).",
     "activation": "(User Skill - Enemy Skill) +3%, min 3%",
     "icon": "luna.png"
   },
   "vantage": {
     "name": "Vantage",
     "description": "User strikes first in combat.",
-    "activation": "Unit Speed > Foe Speed",
+    "activation": "Unit Attack Speed > Foe Attack Speed",
     "icon": "vantage.png"
   },
   "lethality": {
@@ -43,7 +43,7 @@
   "adept": {
     "name": "Adept",
     "description": "User performs a 2-hit attack.\nCan't activate with Draco, Terra or Astra.",
-    "activation": "(User Speed)%",
+    "activation": "(Attack speed)%",
     "icon": "adept.png"
   },
   "draco": {
@@ -60,13 +60,13 @@
   },
   "mug": {
     "name": "Mug",
-    "description": "User steals all non ☆ weapons and items from defeated foe.\nReduces Hit and Avoid of allies within 3 spaces by 50.\nDoesn't affect other units with mug (needs verification).",
+    "description": "User steals all non ☆ weapons and items from defeated foe.\nReduces Hit and Avoid of allies within 3 spaces by 50.",
     "icon": "mug.png"
   },
   "steal": {
     "name": "Steal",
     "description": "User steals a non ☆ weapon or item from foe after combat. User does not need to hit foe during combat.",
-    "activation": "(User Skill + Speed)%",
+    "activation": "(User Skill + Attack Speed)%",
     "icon": "steal.png"
   },
   "Nihil": {
@@ -87,17 +87,17 @@
   "flurry": {
     "name": "Flurry",
     "description": "User gains the Flurry command. Initiates 2~5 rounds of combat.",
-    "activation": "Unit Speed > Foe Speed",
+    "activation": "Unit Attack Speed > Foe Attack Speed",
     "icon": "flurry.png"
   },
   "dance": {
     "name": "Dance",
-    "description": "User allows an ally to move again.\nCycles between 7 states when used and starts at 0.\nState 2 can grant Ensorcel, State 4 can grant Enarmor, State 6 can grant Empower. \nChances for effects are (Times danced{max 250} - 150)/10",
+    "description": "User allows an ally to move again, excludes Dragons.\nCycles between 7 states when used and starts at 0.\nState 2 can grant Ensorcel, State 4 can grant Enarmor, State 6 can grant Empower. \nChances for effects are (Times danced{max 250} - 150)/10",
     "icon": "dance.png"
   },
   "sing": {
     "name": "Sing",
-    "description": "User restores HP of allies and may make them move again.\nS = Times sang so far (max 250)\nHP restored = (S + 5)/50, min 2\nRange = (Level/5) +1, max 4\nRefresh chance = (S / 50) + 2* (Recieved Support/5) + 10, excludes Plum",
+    "description": "User restores HP of allies and may make them move again.\nS = Times sang so far (max 250)\nHP restored = (S + 5)/50, min 2\nRange = (Level/5) +1, max 4\nRefresh chance = (S / 50) + 2* (Recieved Support/5) + 10, excludes Plum and Dragons",
     "icon": "sing.png"
   },
   "warp": {
@@ -117,7 +117,7 @@
   },
   "slayer": {
     "name": "Slayer",
-    "description": "User gains +20 Hit, Avoid and Crit against monsters.\n(Crit Avoid needs verification)",
+    "description": "User gains +20 Hit, Avoid, Crit and Crit Avoid against monsters.",
     "icon": "slayer.png"
   },
   "charisma": {
